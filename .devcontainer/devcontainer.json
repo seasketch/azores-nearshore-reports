@@ -1,0 +1,9 @@
+{
+  "name": "azores-nearshore-reports devcontainer",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "workspace",
+	"workspaceFolder": "/workspaces",
+  "shutdownAction": "stopCompose",
+	"remoteUser": "root",
+	"containerUser": "root"
+}
