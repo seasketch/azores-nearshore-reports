@@ -1,0 +1,20 @@
+{
+    "metrics": [
+        {
+            "metricId": "sum",
+            "value": 417,
+            "classId": "PA_Bulweria_bulwerii_baseline",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 34,
+            "classId": "PA_Bulweria_bulwerii_baseline",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        }
+    ]
+}

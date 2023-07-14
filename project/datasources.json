@@ -243,8 +243,8 @@
     "keyStats": {
       "total": {
         "total": {
-          "sum": 0.06460664409917172,
           "count": null,
+          "sum": 0.06460664409917172,
           "area": null
         }
       }
@@ -1793,6 +1793,28 @@
     "created": "2023-06-22T18:19:14.943Z",
     "lastUpdated": "2023-07-10T23:06:32.179Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Slope.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/santa-maria.shp",
+    "layerName": "santa-maria",
+    "geo_type": "vector",
+    "datasourceId": "santa-maria",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-07-13T20:08:15.926Z",
+    "lastUpdated": "2023-07-13T20:08:15.926Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 878955088.8515884
+        }
+      }
+    },
     "propertiesToKeep": []
   }
 ]

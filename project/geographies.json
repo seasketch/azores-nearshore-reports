@@ -1,0 +1,12 @@
+[
+    {
+        "geographyId": "nearshore",
+        "datasourceId": "6nm_boundary",
+        "display": "Nearshore"
+    },
+    {
+        "geographyId": "santa-maria",
+        "datasourceId": "santa-maria",
+        "display": "Santa Maria"
+    }
+]
