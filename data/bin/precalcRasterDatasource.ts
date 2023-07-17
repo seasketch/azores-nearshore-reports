@@ -4,11 +4,9 @@ import {
   Histogram,
   Polygon,
   FeatureCollection,
-  KeyStats,
   InternalRasterDatasource,
   ImportRasterDatasourceOptions,
   ImportRasterDatasourceConfig,
-  ClassStats,
   ProjectClientBase,
   getSum,
   getHistogram,
@@ -18,21 +16,19 @@ import {
   getJsonFilename,
   getCogFilename,
   isInternalVectorDatasource,
-  isPolygonFeature,
-  getDatasetBucketName,
   Datasource,
 } from "@seasketch/geoprocessing";
 import { Stat } from "./precalc";
 
 import projectClient from "../../project";
 
-import dissolve from "@turf/dissolve";
 import { Geography } from "./precalc";
 import bbox from "@turf/bbox";
 // @ts-ignore
 import geoblaze from "geoblaze";
 import { isFeatureCollection } from "@seasketch/geoprocessing/client-core";
 
+//
 export async function precalcRasterDatasource(
   datasource: InternalRasterDatasource,
   geography: Geography
@@ -48,8 +44,6 @@ export async function precalcRasterDatasource(
     projectClient.getDatasourceById(geography.datasourceId),
     config
   );
-  console.log("raster key stats calculated");
-  console.log(JSON.stringify(classStatsByProperty));
 
   return classStatsByProperty;
 }
@@ -93,38 +87,35 @@ export function genRasterConfig<C extends ProjectClientBase>(
 /** Returns classes for datasource.  If classKeys not defined then will return a single class with datasourceID */
 export async function genRasterKeyStats(
   raster: any,
-  ds: Datasource,
+  geography: Datasource,
   options: ImportRasterDatasourceConfig
 ): Promise<Stat[]> {
   const poly = await (async () => {
-    if (!ds) throw new Error(`Expected geography`);
-    else if (!isInternalVectorDatasource(ds))
+    if (!geography) throw new Error(`Expected geography`);
+    else if (!isInternalVectorDatasource(geography))
       throw new Error(
-        `Expected ${ds.datasourceId} to be an internal vector datasource`
+        `Expected ${geography.datasourceId} to be an internal vector datasource`
       );
     else {
-      const jsonFilename = path.join("./data/dist", getJsonFilename(ds));
+      const jsonFilename = path.join("./data/dist", getJsonFilename(geography));
       const polys = fs.readJsonSync(jsonFilename) as FeatureCollection<Polygon>;
       return polys;
     }
   })();
 
   console.log(
-    `Calculating keyStats, ${options.measurementType}, for raster ${options.dstPath} and geography ${ds.datasourceId} this may take a while...`
+    `Calculating keyStats, ${options.measurementType}, for raster ${options.datasourceId} and geography ${geography.datasourceId} this may take a while...`
   );
 
   // continous - sum
   const stats: Stat[] = [];
-  const sum = await (async () => {
-    if (options.measurementType !== "quantitative") {
-      return null;
-    }
+  if (options.measurementType === "quantitative") {
     stats.push({
       class: null,
       type: "sum",
       value: await getSum(raster, poly),
     });
-  })();
+  }
 
   // categorical - histogram, count by class
   if (options.measurementType === "categorical") {
