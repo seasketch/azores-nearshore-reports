@@ -13,18 +13,22 @@ import {
   toNullSketchArray,
   flattenBySketchAllClass,
   metricsWithSketchId,
-  toPercentMetric,
   valueFormatter,
   sortMetrics,
+  Metric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
+import {
+  getPrecalcMetrics,
+  toPercentMetric,
+} from "../../data/bin/getPrecalcMetrics";
 
 const metricGroup = project.getMetricGroup("sdmValueOverlap");
-const precalcMetrics = project.getPrecalcMetrics(
+const precalcMetrics: Metric[] = getPrecalcMetrics(
   metricGroup,
   "sum",
-  metricGroup.classKey
+  "nearshore"
 );
 
 export const SDMCard = () => {

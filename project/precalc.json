@@ -1,1 +1,268 @@
-{"metrics":[{"metricId":"count","value":17,"classId":null,"groupId":null,"geographyId":"nearshore","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"area","value":1329998506.1770935,"classId":null,"groupId":null,"geographyId":"nearshore","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"count","value":8,"classId":"high","groupId":null,"geographyId":"nearshore","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"area","value":1298556879.259007,"classId":"high","groupId":null,"geographyId":"nearshore","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"count","value":1,"classId":"low","groupId":null,"geographyId":"nearshore","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"area","value":11968168.508894622,"classId":"low","groupId":null,"geographyId":"nearshore","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"count","value":8,"classId":"medium","groupId":null,"geographyId":"nearshore","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"area","value":19473458.409191433,"classId":"medium","groupId":null,"geographyId":"nearshore","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"count","value":2,"classId":null,"groupId":null,"geographyId":"santa-maria","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"area","value":80300252.90448315,"classId":null,"groupId":null,"geographyId":"santa-maria","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"count","value":1,"classId":"high","groupId":null,"geographyId":"santa-maria","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"area","value":68332084.39558853,"classId":"high","groupId":null,"geographyId":"santa-maria","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"count","value":1,"classId":"low","groupId":null,"geographyId":"santa-maria","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"area","value":11968168.508894622,"classId":"low","groupId":null,"geographyId":"santa-maria","sketchId":null,"extra":{"datasourceId":"shelf_class"}},{"metricId":"sum","value":417,"classId":null,"groupId":null,"geographyId":"nearshore","sketchId":null,"extra":{"datasourceId":"PA_Bulweria_bulwerii_baseline"}},{"metricId":"sum","value":34,"classId":null,"groupId":null,"geographyId":"santa-maria","sketchId":null,"extra":{"datasourceId":"PA_Bulweria_bulwerii_baseline"}}]}
+{
+    "metrics": [
+        {
+            "metricId": "sum",
+            "value": 417,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Bulweria_bulwerii_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 34,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Bulweria_bulwerii_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 418,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Sterna_hirundo_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 34,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Sterna_hirundo_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 412,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Sterna_dougallii_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Sterna_dougallii_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 418,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Larus_michahellis_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 34,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Larus_michahellis_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 414,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Calonectris_borealis_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 34,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Calonectris_borealis_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 360,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Onychoprion_fuscatus_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 34,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Onychoprion_fuscatus_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 401,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Oceanodroma_castro_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 34,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Oceanodroma_castro_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 418,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Chelonia_mydas_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 34,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Chelonia_mydas_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 382,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Dermochelys_coriacea_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Dermochelys_coriacea_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 307,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Puffinus_puffinus_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 17,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Puffinus_puffinus_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 418,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Caretta_caretta_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 34,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Caretta_caretta_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 418,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Puffinus_baroli_baseline"
+            }
+        },
+        {
+            "metricId": "sum",
+            "value": 34,
+            "classId": null,
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null,
+            "extra": {
+                "datasourceId": "PA_Puffinus_baroli_baseline"
+            }
+        }
+    ]
+}
