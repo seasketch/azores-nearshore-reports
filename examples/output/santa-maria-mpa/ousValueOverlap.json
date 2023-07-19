@@ -1,0 +1,172 @@
+{
+  "metrics": [
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "15881",
+      "classId": "all_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "15881",
+      "classId": "all_commercial_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.032032622144747336,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "15881",
+      "classId": "all_energy_development_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "15881",
+      "classId": "all_recreation_sports_and_tourism_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.1963503481023391,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "15881",
+      "classId": "all_recreational_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.21379767904935676,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "15881",
+      "classId": "all_science_tech_monitoring_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0006483619352808945,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "15881",
+      "classId": "all_security_and_defense_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "15881",
+      "classId": "all_touristic_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.1384036999058016,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "15881",
+      "classId": "all_underwater_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 15881,
+    "bbox": [
+      -25.07484,
+      36.907795,
+      -24.888811,
+      37.115704
+    ],
+    "type": "Feature",
+    "properties": {
+      "2987": "FULLY_PROTECTED",
+      "2988": "santa-maria-mpa",
+      "2990": [
+        "SANTA_MARIA"
+      ],
+      "id": "15881",
+      "name": "santa-maria-mpa",
+      "island": [
+        "SANTA_MARIA"
+      ],
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-07-19T23:08:04.767237+00:00",
+      "updatedAt": "2023-07-19T23:08:04.767237+00:00",
+      "designation": "FULLY_PROTECTED",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "212",
+      "userAttributes": [
+        {
+          "label": "Designation",
+          "value": "FULLY_PROTECTED",
+          "exportId": "designation",
+          "fieldType": "ComboBox",
+          "valueLabel": "Fully Protected",
+          "formElementId": 2987,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Designação",
+              "valueLabel": "Totalmente Protegido"
+            }
+          }
+        },
+        {
+          "label": "Island",
+          "value": [
+            "SANTA_MARIA"
+          ],
+          "exportId": "island",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Santa Maria"
+          ],
+          "formElementId": 2990,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Ilha",
+              "valueLabel": [
+                "Santa Maria"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

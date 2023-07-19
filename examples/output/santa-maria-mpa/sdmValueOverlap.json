@@ -1,0 +1,205 @@
+{
+  "metrics": [
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "birds_PA_Bulweria_bulwerii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "birds_PA_Calonectris_borealis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "birds_PA_Larus_michahellis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "birds_PA_Oceanodroma_castro_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "birds_PA_Onychoprion_fuscatus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "birds_PA_Puffinus_baroli_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "birds_PA_Puffinus_puffinus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "birds_PA_Sterna_dougallii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "birds_PA_Sterna_hirundo_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "turtles_PA_Caretta_caretta_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "turtles_PA_Chelonia_mydas_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "15881",
+      "classId": "turtles_PA_Dermochelys_coriacea_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 15881,
+    "bbox": [
+      -25.07484,
+      36.907795,
+      -24.888811,
+      37.115704
+    ],
+    "type": "Feature",
+    "properties": {
+      "2987": "FULLY_PROTECTED",
+      "2988": "santa-maria-mpa",
+      "2990": [
+        "SANTA_MARIA"
+      ],
+      "id": "15881",
+      "name": "santa-maria-mpa",
+      "island": [
+        "SANTA_MARIA"
+      ],
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-07-19T23:08:04.767237+00:00",
+      "updatedAt": "2023-07-19T23:08:04.767237+00:00",
+      "designation": "FULLY_PROTECTED",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "212",
+      "userAttributes": [
+        {
+          "label": "Designation",
+          "value": "FULLY_PROTECTED",
+          "exportId": "designation",
+          "fieldType": "ComboBox",
+          "valueLabel": "Fully Protected",
+          "formElementId": 2987,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Designação",
+              "valueLabel": "Totalmente Protegido"
+            }
+          }
+        },
+        {
+          "label": "Island",
+          "value": [
+            "SANTA_MARIA"
+          ],
+          "exportId": "island",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Santa Maria"
+          ],
+          "formElementId": 2990,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Ilha",
+              "valueLabel": [
+                "Santa Maria"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

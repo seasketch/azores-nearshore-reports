@@ -1,0 +1,161 @@
+{
+  "metrics": [
+    {
+      "metricId": "geomorphAreaOverlap",
+      "sketchId": "15881",
+      "classId": "basins",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "geomorphAreaOverlap",
+      "sketchId": "15881",
+      "classId": "canyons",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "geomorphAreaOverlap",
+      "sketchId": "15881",
+      "classId": "escarpments",
+      "groupId": null,
+      "geographyId": null,
+      "value": 172088262.52744308,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "geomorphAreaOverlap",
+      "sketchId": "15881",
+      "classId": "plateaus",
+      "groupId": null,
+      "geographyId": null,
+      "value": 206787541.51501244,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "geomorphAreaOverlap",
+      "sketchId": "15881",
+      "classId": "ridges",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "geomorphAreaOverlap",
+      "sketchId": "15881",
+      "classId": "high",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6212716.026881896,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "geomorphAreaOverlap",
+      "sketchId": "15881",
+      "classId": "medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "geomorphAreaOverlap",
+      "sketchId": "15881",
+      "classId": "slope",
+      "groupId": null,
+      "geographyId": null,
+      "value": 185029490.55929545,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 15881,
+    "bbox": [
+      -25.07484,
+      36.907795,
+      -24.888811,
+      37.115704
+    ],
+    "type": "Feature",
+    "properties": {
+      "2987": "FULLY_PROTECTED",
+      "2988": "santa-maria-mpa",
+      "2990": [
+        "SANTA_MARIA"
+      ],
+      "id": "15881",
+      "name": "santa-maria-mpa",
+      "island": [
+        "SANTA_MARIA"
+      ],
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-07-19T23:08:04.767237+00:00",
+      "updatedAt": "2023-07-19T23:08:04.767237+00:00",
+      "designation": "FULLY_PROTECTED",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "212",
+      "userAttributes": [
+        {
+          "label": "Designation",
+          "value": "FULLY_PROTECTED",
+          "exportId": "designation",
+          "fieldType": "ComboBox",
+          "valueLabel": "Fully Protected",
+          "formElementId": 2987,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Designação",
+              "valueLabel": "Totalmente Protegido"
+            }
+          }
+        },
+        {
+          "label": "Island",
+          "value": [
+            "SANTA_MARIA"
+          ],
+          "exportId": "island",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Santa Maria"
+          ],
+          "formElementId": 2990,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Ilha",
+              "valueLabel": [
+                "Santa Maria"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}
