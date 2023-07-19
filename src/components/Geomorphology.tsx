@@ -15,6 +15,8 @@ import {
   metricsWithSketchId,
   squareMeterToKilometer,
   valueFormatter,
+  Metric,
+  MetricGroup,
 } from "@seasketch/geoprocessing/client-core";
 import {
   getPrecalcMetrics,
@@ -24,15 +26,20 @@ import {
 import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
-
-const metricGroup = project.getMetricGroup("geomorphAreaOverlap");
-const precalcMetrics = getPrecalcMetrics(metricGroup, "area", "nearshore");
+import { GeoProp } from "../clients/MpaTabReport";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const Geomorphology = () => {
+export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
+
+  const metricGroup = project.getMetricGroup("geomorphAreaOverlap");
+  const precalcMetrics = getPrecalcMetrics(
+    metricGroup,
+    "area",
+    props.geography
+  );
 
   const mapLabel = t("Map");
   const benthicLabel = t("Habitat Type");
@@ -144,7 +151,7 @@ export const Geomorphology = () => {
 
               {isCollection && (
                 <Collapse title={t("Show by MPA")}>
-                  {genSketchTable(data)}
+                  {genSketchTable(data, precalcMetrics, metricGroup)}
                 </Collapse>
               )}
 
@@ -191,7 +198,11 @@ export const Geomorphology = () => {
   );
 };
 
-const genSketchTable = (data: ReportResult) => {
+const genSketchTable = (
+  data: ReportResult,
+  precalcMetrics: Metric[],
+  metricGroup: MetricGroup
+) => {
   // Build agg metric objects for each child sketch in collection with percValue for each class
   const childSketches = toNullSketchArray(data.sketch);
   const childSketchIds = childSketches.map((sk) => sk.properties.id);

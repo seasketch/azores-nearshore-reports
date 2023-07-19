@@ -16,9 +16,7 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
-
-const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
-const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", "nearshore");
+import { GeoProp } from "../clients/MpaTabReport";
 
 // Mapping island ids to display names for report
 const islands: { [id: string]: string } = {};
@@ -32,9 +30,11 @@ islands["faial"] = "Faial";
 islands["santamaria"] = "Santa Maria";
 islands["graciosa"] = "Graciosa";
 
-export const OUSByIslandCard = () => {
+export const OUSByIslandCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
+  const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
+  const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", props.geography);
   const mapLabel = t("Map");
   const sectorLabel = t("Sector");
   const percValueLabel = t("% Value Found Within Plan");

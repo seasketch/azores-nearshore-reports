@@ -11,6 +11,8 @@ import {
   toNullSketchArray,
   flattenBySketchAllClass,
   metricsWithSketchId,
+  Metric,
+  MetricGroup,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
@@ -18,13 +20,13 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
+import { GeoProp } from "../clients/MpaTabReport";
 
-const metricGroup = project.getMetricGroup("ousValueOverlap");
-const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", "nearshore");
-
-export const OUSCard = () => {
+export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
+  const metricGroup = project.getMetricGroup("ousValueOverlap");
+  const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", props.geography);
   const mapLabel = t("Map");
   const sectorLabel = t("Sector");
   const percValueLabel = t("% Value Found Within Plan");
@@ -83,7 +85,7 @@ export const OUSCard = () => {
               />
               {isCollection && (
                 <Collapse title={t("Show by MPA")}>
-                  {genSketchTable(data)}
+                  {genSketchTable(data, precalcMetrics, metricGroup)}
                 </Collapse>
               )}
 
@@ -149,7 +151,11 @@ export const OUSCard = () => {
   );
 };
 
-const genSketchTable = (data: ReportResult) => {
+const genSketchTable = (
+  data: ReportResult,
+  precalcMetrics: Metric[],
+  metricGroup: MetricGroup
+) => {
   const childSketches = toNullSketchArray(data.sketch);
   const childSketchIds = childSketches.map((sk) => sk.properties.id);
   const childSketchMetrics = toPercentMetric(

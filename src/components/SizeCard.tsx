@@ -21,6 +21,7 @@ import {
   ToolbarCard,
   DataDownload,
   WatersDiagram,
+  Card,
 } from "@seasketch/geoprocessing/client-ui";
 import styled from "styled-components";
 import project from "../../project";
@@ -32,6 +33,7 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
+import { GeoProp } from "../clients/MpaTabReport";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
@@ -68,7 +70,7 @@ const TableStyled = styled(ReportTableStyled)`
   }
 `;
 
-export const SizeCard = () => {
+export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
   const metricGroup = project.getMetricGroup("boundaryAreaOverlap", t);
@@ -112,10 +114,10 @@ export const SizeCard = () => {
                   targets.
                 </Trans>
               </p>
-              {genSingleSizeTable(data, metricGroup, t)}
+              {genSingleSizeTable(data, metricGroup, t, props.geography)}
               {isCollection && (
                 <Collapse title={t("Show by MPA")}>
-                  {genNetworkSizeTable(data, metricGroup, t)}
+                  {genNetworkSizeTable(data, metricGroup, t, props.geography)}
                 </Collapse>
               )}
               <Collapse title={t("Learn more")}>
@@ -164,7 +166,8 @@ export const SizeCard = () => {
 const genSingleSizeTable = (
   data: ReportResult,
   mg: MetricGroup,
-  t: TFunction
+  t: TFunction,
+  geography: string
 ) => {
   const boundaryLabel = t("Boundary");
   const foundWithinLabel = t("Found Within Plan");
@@ -177,7 +180,7 @@ const genSingleSizeTable = (
   let singleMetrics = data.metrics.filter(
     (m) => m.sketchId === data.sketch.properties.id
   );
-  const boundaryTotalMetrics = getPrecalcMetrics(mg, "area", "nearshore");
+  const boundaryTotalMetrics = getPrecalcMetrics(mg, "area", geography);
 
   const finalMetrics = sortMetricsDisplayOrder(
     [
@@ -262,7 +265,8 @@ const genSingleSizeTable = (
 const genNetworkSizeTable = (
   data: ReportResult,
   mg: MetricGroup,
-  t: TFunction
+  t: TFunction,
+  geography: string
 ) => {
   const sketches = toNullSketchArray(data.sketch);
   const sketchesById = keyBy(sketches, (sk) => sk.properties.id);
@@ -270,7 +274,7 @@ const genNetworkSizeTable = (
   const sketchMetrics = data.metrics.filter(
     (m) => m.sketchId && sketchIds.includes(m.sketchId)
   );
-  const boundaryTotalMetrics = getPrecalcMetrics(mg, "area", "nearshore");
+  const boundaryTotalMetrics = getPrecalcMetrics(mg, "area", geography);
   const finalMetrics = [
     ...sketchMetrics,
     ...toPercentMetric(
@@ -341,13 +345,34 @@ const genNetworkSizeTable = (
   );
 };
 
-/**
- * SizeCard as a top-level report client
- */
-export const SizeCardReportClient = () => {
-  return (
-    <Translator>
-      <SizeCard />
-    </Translator>
-  );
-};
+// /**
+//  * SizeCard as a top-level report client
+//  */
+// export const SizeCardReportClient = () => {
+//   const [geography, setGeography] = useState("nearshore");
+
+//   const geographySwitcher = (e: any) => {
+//     setGeography(e.target.value);
+//   };
+
+//   return (
+//     <Translator>
+//       <Card>
+//         <p>
+//           Generate reports for the{" "}
+//           <select onChange={geographySwitcher}>
+//             {geographies.map((geography) => {
+//               return (
+//                 <option value={geography.geographyId}>
+//                   {geography.display}
+//                 </option>
+//               );
+//             })}
+//           </select>{" "}
+//           planning area.
+//         </p>
+//       </Card>
+//       <SizeCard geography={props.geography} />
+//     </Translator>
+//   );
+// };

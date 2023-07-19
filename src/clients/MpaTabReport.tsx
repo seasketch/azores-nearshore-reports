@@ -12,6 +12,10 @@ import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync";
 import geographies from "../../project/geographies.json";
 
+export interface GeoProp {
+  geography: string;
+}
+
 const enableAllTabs = false;
 
 const MpaTabReport = () => {
@@ -42,7 +46,7 @@ const MpaTabReport = () => {
               );
             })}
           </select>{" "}
-          {geography} planning area.
+          planning area.
         </p>
       </Card>
       <div style={{ marginTop: 5 }}>
@@ -53,7 +57,7 @@ const MpaTabReport = () => {
         />
       </div>
       <ReportPage hidden={!enableAllTabs && tab !== viabilityId}>
-        <ViabilityPage />
+        <ViabilityPage geography={geography} />
       </ReportPage>
       <ReportPage hidden={!enableAllTabs && tab !== representationId}>
         <RepresentationPage geography={geography} />
