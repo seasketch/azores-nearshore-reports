@@ -16,6 +16,7 @@ import {
   valueFormatter,
   sortMetrics,
   Metric,
+  MetricGroup,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
@@ -23,17 +24,17 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
+import { GeoProp } from "./RepresentationPage";
 
-const metricGroup = project.getMetricGroup("sdmValueOverlap");
-const precalcMetrics: Metric[] = getPrecalcMetrics(
-  metricGroup,
-  "sum",
-  "nearshore"
-);
-
-export const SDMCard = () => {
+export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
+  const metricGroup = project.getMetricGroup("sdmValueOverlap");
+  const precalcMetrics: Metric[] = getPrecalcMetrics(
+    metricGroup,
+    "sum",
+    props.geography
+  );
   const mapLabel = t("Map");
   const breedingBirdsLabel = t("Breeding Birds");
   const turtlesLabel = t("Turtles");
@@ -196,7 +197,7 @@ export const SDMCard = () => {
 
               {isCollection && (
                 <Collapse title={t("Show by MPA")}>
-                  {genSketchTable(data)}
+                  {genSketchTable(data, precalcMetrics, metricGroup)}
                 </Collapse>
               )}
 
@@ -238,7 +239,11 @@ export const SDMCard = () => {
   );
 };
 
-const genSketchTable = (data: ReportResult) => {
+const genSketchTable = (
+  data: ReportResult,
+  precalcMetrics: Metric[],
+  metricGroup: MetricGroup
+) => {
   const childSketches = toNullSketchArray(data.sketch);
   const childSketchIds = childSketches.map((sk) => sk.properties.id);
   const childSketchMetrics = toPercentMetric(

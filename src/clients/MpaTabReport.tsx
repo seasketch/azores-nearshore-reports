@@ -1,9 +1,16 @@
 import React, { useState } from "react";
-import { SegmentControl, ReportPage } from "@seasketch/geoprocessing/client-ui";
+import {
+  SegmentControl,
+  ReportPage,
+  ToolbarCard,
+  Card,
+  Toolbar,
+} from "@seasketch/geoprocessing/client-ui";
 import ViabilityPage from "../components/ViabilityPage";
 import RepresentationPage from "../components/RepresentationPage";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync";
+import geographies from "../../project/geographies.json";
 
 const enableAllTabs = false;
 
@@ -16,8 +23,28 @@ const MpaTabReport = () => {
     { id: representationId, label: t("Representation") },
   ];
   const [tab, setTab] = useState<string>(viabilityId);
+  const [geography, setGeography] = useState("nearshore");
+
+  const geographySwitcher = (e: any) => {
+    setGeography(e.target.value);
+  };
   return (
     <>
+      <Card>
+        <p>
+          Generate reports for the{" "}
+          <select onChange={geographySwitcher}>
+            {geographies.map((geography) => {
+              return (
+                <option value={geography.geographyId}>
+                  {geography.display}
+                </option>
+              );
+            })}
+          </select>{" "}
+          {geography} planning area.
+        </p>
+      </Card>
       <div style={{ marginTop: 5 }}>
         <SegmentControl
           value={tab}
@@ -29,7 +56,7 @@ const MpaTabReport = () => {
         <ViabilityPage />
       </ReportPage>
       <ReportPage hidden={!enableAllTabs && tab !== representationId}>
-        <RepresentationPage />
+        <RepresentationPage geography={geography} />
       </ReportPage>
     </>
   );

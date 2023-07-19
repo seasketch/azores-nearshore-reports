@@ -3,10 +3,15 @@ import { SDMCard } from "./SDMCard";
 import { Geomorphology } from "./Geomorphology";
 import Translator from "./TranslatorAsync";
 
-const ReportPage = () => {
+export interface GeoProp {
+  geography: string;
+}
+
+const ReportPage: React.FunctionComponent<GeoProp> = (props) => {
   return (
     <>
-      <SDMCard />
+      {props.geography}
+      <SDMCard geography={props.geography} />
       <Geomorphology />
     </>
   );
