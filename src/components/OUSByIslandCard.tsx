@@ -2,29 +2,23 @@ import React, { useState } from "react";
 import {
   Collapse,
   ResultsCard,
-  SketchClassTable,
   ClassTable,
   useSketchProperties,
-  Dropdown,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
-  toNullSketchArray,
-  flattenBySketchAllClass,
   metricsWithSketchId,
-  toPercentMetric,
   sortMetrics,
-  Metric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
+import {
+  getPrecalcMetrics,
+  toPercentMetric,
+} from "../../data/bin/getPrecalcMetrics";
 
 const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
-const precalcMetrics = project.getPrecalcMetrics(
-  metricGroup,
-  "sum",
-  metricGroup.classKey
-);
+const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", "nearshore");
 
 // Mapping island ids to display names for report
 const islands: { [id: string]: string } = {};

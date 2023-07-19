@@ -6,7 +6,6 @@ import {
   toNullSketchArray,
   nestMetrics,
   valueFormatter,
-  toPercentMetric,
   sortMetricsDisplayOrder,
   isSketchCollection,
   MetricGroup,
@@ -29,15 +28,10 @@ import { Metric, squareMeterToKilometer } from "@seasketch/geoprocessing";
 import Translator from "../components/TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 import { TFunction } from "i18next";
-const boundaryMetricGroup = project.getMetricGroup("boundaryAreaOverlap");
-
-const boundaryTotalMetrics = project.getPrecalcMetrics(
-  boundaryMetricGroup,
-  "area"
-);
-
-const METRIC_ID = boundaryMetricGroup.metricId;
-const PERC_METRIC_ID = `${boundaryMetricGroup.metricId}Perc`;
+import {
+  getPrecalcMetrics,
+  toPercentMetric,
+} from "../../data/bin/getPrecalcMetrics";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
@@ -183,7 +177,7 @@ const genSingleSizeTable = (
   let singleMetrics = data.metrics.filter(
     (m) => m.sketchId === data.sketch.properties.id
   );
-  const boundaryTotalMetrics = project.getPrecalcMetrics(mg, "area");
+  const boundaryTotalMetrics = getPrecalcMetrics(mg, "area", "nearshore");
 
   const finalMetrics = sortMetricsDisplayOrder(
     [
@@ -276,7 +270,7 @@ const genNetworkSizeTable = (
   const sketchMetrics = data.metrics.filter(
     (m) => m.sketchId && sketchIds.includes(m.sketchId)
   );
-  const boundaryTotalMetrics = project.getPrecalcMetrics(mg, "area");
+  const boundaryTotalMetrics = getPrecalcMetrics(mg, "area", "nearshore");
   const finalMetrics = [
     ...sketchMetrics,
     ...toPercentMetric(

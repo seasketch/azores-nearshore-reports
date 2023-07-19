@@ -5,26 +5,22 @@ import {
   SketchClassTable,
   ClassTable,
   useSketchProperties,
-  Dropdown,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
   toNullSketchArray,
   flattenBySketchAllClass,
   metricsWithSketchId,
-  toPercentMetric,
-  sortMetrics,
-  Metric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
+import {
+  getPrecalcMetrics,
+  toPercentMetric,
+} from "../../data/bin/getPrecalcMetrics";
 
 const metricGroup = project.getMetricGroup("ousValueOverlap");
-const precalcMetrics = project.getPrecalcMetrics(
-  metricGroup,
-  "sum",
-  metricGroup.classKey
-);
+const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", "nearshore");
 
 export const OUSCard = () => {
   const [{ isCollection }] = useSketchProperties();

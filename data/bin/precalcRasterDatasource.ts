@@ -7,38 +7,45 @@ import {
   InternalRasterDatasource,
   ImportRasterDatasourceOptions,
   ImportRasterDatasourceConfig,
-  ProjectClientBase,
-  getSum,
-  getHistogram,
-} from "@seasketch/geoprocessing";
+  Datasource,
+  MultiPolygon,
+} from "@seasketch/geoprocessing/client-core";
 import {
   datasourceConfig,
   getJsonFilename,
   getCogFilename,
   isInternalVectorDatasource,
-  Datasource,
+  ProjectClientBase,
+  getSum,
+  getHistogram,
+  bboxOverlap,
+  BBox,
 } from "@seasketch/geoprocessing";
-import { Stat } from "./precalc";
+import { Stat, Geography } from "./precalc";
 
 import projectClient from "../../project";
 
-import { Geography } from "./precalc";
 import bbox from "@turf/bbox";
 // @ts-ignore
 import geoblaze from "geoblaze";
-import { isFeatureCollection } from "@seasketch/geoprocessing/client-core";
 
-//
+/**
+ *
+ * @param datasource InternalRasterDatasource from datasources.json
+ * @param geography Geography from geographies.json
+ * @returns Stat array
+ */
 export async function precalcRasterDatasource(
   datasource: InternalRasterDatasource,
   geography: Geography
-) {
+): Promise<Stat[]> {
   const config = genRasterConfig(projectClient, datasource, undefined);
   const tempPort = 8080;
   const url = `${projectClient.dataBucketUrl(true, tempPort)}${getCogFilename(
     config.datasourceId
   )}`;
   const raster = await geoblaze.parse(url);
+
   const classStatsByProperty = await genRasterKeyStats(
     raster,
     projectClient.getDatasourceById(geography.datasourceId),
@@ -98,7 +105,9 @@ export async function genRasterKeyStats(
       );
     else {
       const jsonFilename = path.join("./data/dist", getJsonFilename(geography));
-      const polys = fs.readJsonSync(jsonFilename) as FeatureCollection<Polygon>;
+      const polys = fs.readJsonSync(jsonFilename) as FeatureCollection<
+        Polygon | MultiPolygon
+      >;
       return polys;
     }
   })();
@@ -107,18 +116,31 @@ export async function genRasterKeyStats(
     `Calculating keyStats, ${options.measurementType}, for raster ${options.datasourceId} and geography ${geography.datasourceId} this may take a while...`
   );
 
-  // continous - sum
+  const rasterBbox: BBox = [raster.xmin, raster.ymin, raster.xmax, raster.ymax];
+
   const stats: Stat[] = [];
-  if (options.measurementType === "quantitative") {
+  // No overlap
+  if (!bboxOverlap(bbox(poly), rasterBbox)) {
+    console.log("No overlap -- returning 0 sum");
+
     stats.push({
-      class: null,
+      class: "total",
+      type: "sum",
+      value: 0,
+    });
+  }
+
+  // continous - sum
+  else if (options.measurementType === "quantitative") {
+    stats.push({
+      class: "total",
       type: "sum",
       value: await getSum(raster, poly),
     });
   }
 
   // categorical - histogram, count by class
-  if (options.measurementType === "categorical") {
+  else if (options.measurementType === "categorical") {
     const histogram = (await getHistogram(raster)) as Histogram;
     if (!histogram) throw new Error("Histogram not returned");
 
@@ -129,7 +151,10 @@ export async function genRasterKeyStats(
         value: histogram[curClass],
       });
     });
-  }
+  } else
+    console.log(
+      `Something is malformed, check raster ${options.datasourceId} and geography ${geography.datasourceId}]`
+    );
 
   return stats;
 }

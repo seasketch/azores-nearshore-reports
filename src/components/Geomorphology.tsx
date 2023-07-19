@@ -13,21 +13,20 @@ import {
   toNullSketchArray,
   flattenBySketchAllClass,
   metricsWithSketchId,
-  toPercentMetric,
   squareMeterToKilometer,
   valueFormatter,
 } from "@seasketch/geoprocessing/client-core";
+import {
+  getPrecalcMetrics,
+  toPercentMetric,
+} from "../../data/bin/getPrecalcMetrics";
 
 import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 
 const metricGroup = project.getMetricGroup("geomorphAreaOverlap");
-const precalcMetrics = project.getPrecalcMetrics(
-  metricGroup,
-  "area",
-  metricGroup.classKey
-);
+const precalcMetrics = getPrecalcMetrics(metricGroup, "area", "nearshore");
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 

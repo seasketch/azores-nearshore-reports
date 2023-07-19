@@ -9,8 +9,8 @@ import { precalcRasterDatasource } from "./precalcRasterDatasource";
 import {
   Metric,
   createMetric,
-  datasourcesSchema,
-  statsSchema,
+  isInternalRasterDatasource,
+  isInternalVectorDatasource,
 } from "@seasketch/geoprocessing";
 
 export interface Geography {
@@ -25,51 +25,50 @@ export interface Stat {
   value: number;
 }
 
-async function precalc() {
+async function precalcAll() {
   const geographies = fs.readJSONSync(
     "project/geographies.json"
   ) as Geography[];
 
-  let datasources = ["PA_Bulweria_bulwerii_baseline", "shelf_class"];
+  const datasources = project.datasources.filter(
+    (ds) => isInternalRasterDatasource(ds) || isInternalVectorDatasource(ds)
+  );
 
   let metrics: Metric[] = [];
 
-  await Promise.all(
-    geographies.map(async (geography: Geography) => {
-      await Promise.all(
-        datasources.map(async (datasourceId: string) => {
-          const keyStats: Stat[] =
-            project.getDatasourceById(datasourceId).geo_type === "vector"
-              ? await precalcVectorDatasource(
-                  project.getDatasourceById(
-                    datasourceId
-                  ) as InternalVectorDatasource,
-                  geography
-                )
-              : await precalcRasterDatasource(
-                  project.getDatasourceById(
-                    datasourceId
-                  ) as InternalRasterDatasource,
-                  geography
-                );
+  for (let geography of geographies) {
+    for (let datasource of datasources) {
+      const keyStats: Stat[] =
+        datasource.geo_type === "vector"
+          ? await precalcVectorDatasource(
+              datasource as InternalVectorDatasource,
+              geography
+            )
+          : await precalcRasterDatasource(
+              datasource as InternalRasterDatasource,
+              geography
+            );
 
-          console.log("key stats", JSON.stringify(keyStats));
+      console.log(
+        "key stats",
+        datasource.datasourceId,
+        geography.geographyId,
+        JSON.stringify(keyStats)
+      );
 
-          metrics = metrics.concat(
-            keyStats.map((keyStat) => {
-              return createMetric({
-                geographyId: geography.geographyId,
-                classId: keyStat.class,
-                metricId: keyStat.type,
-                value: keyStat.value,
-                extra: { datasourceId: datasourceId },
-              });
-            })
-          );
+      metrics = metrics.concat(
+        keyStats.map((keyStat) => {
+          return createMetric({
+            geographyId: geography.geographyId,
+            classId: datasource.datasourceId + "-" + keyStat.class,
+            metricId: keyStat.type,
+            value: keyStat.value,
+          });
         })
       );
-    })
-  );
+    }
+  }
+  console.log("Writing to project/precalc.json");
 
   fs.writeFileSync(
     "project/precalc.json",
@@ -77,4 +76,4 @@ async function precalc() {
   );
 }
 
-precalc();
+precalcAll();

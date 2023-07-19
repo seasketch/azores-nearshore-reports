@@ -1,34 +1,14 @@
 import path from "path";
-// import { FeatureCollection, Polygon } from "../../../src/types";
 import fs from "fs-extra";
-import { $ } from "zx";
-//   ClassStats,
-//   KeyStats,
-//   InternalVectorDatasource,
-//   ImportVectorDatasourceOptions,
-//   Stats,
-
-// import {
-//   datasourceConfig,
-//   getDatasetBucketName,
-// } from "../../../src/datasources";
-// import { ProjectClientBase } from "../../../src";
-// import { createOrUpdateDatasource } from "./datasources";
 import area from "@turf/area";
-import intersect from "@turf/intersect";
 
-// import { publishDatasource } from "./publishDatasource";
 import {
   ClassStats,
-  Datasource,
   FeatureCollection,
   ImportVectorDatasourceConfig,
   ImportVectorDatasourceOptions,
   InternalVectorDatasource,
-  KeyStats,
   Polygon,
-  createMetrics,
-  toSketchArray,
 } from "@seasketch/geoprocessing/client-core";
 import { Geography, Stat } from "./precalc";
 import projectClient from "../../project";
@@ -36,23 +16,15 @@ import {
   Feature,
   MultiPolygon,
   ProjectClientBase,
-  Properties,
-  clip,
   clipMultiMerge,
-  createMetric,
   datasourceConfig,
-  genFeatureCollection,
-  objectiveAnswerMapSchema,
-  overlapFeatures,
-  statsSchema,
 } from "@seasketch/geoprocessing";
-import flatten from "@turf/flatten";
 
 export async function precalcVectorDatasource(
   datasource: InternalVectorDatasource,
   geography: Geography
 ) {
-  const config = await genVectorConfig(projectClient, datasource);
+  const config = genVectorConfig(projectClient, datasource);
 
   console.log(
     `Calculating keyStats for vector ${datasource.datasourceId} and geography ${geography.datasourceId} this may take a while...`
@@ -135,21 +107,29 @@ export function genVectorKeyStats(
 
   if (!config.classKeys || config.classKeys.length === 0)
     return [
-      { class: null, type: "count", value: clippedFeatureColl.features.length },
-      { class: null, type: "area", value: area(clippedFeatureColl) },
+      {
+        class: "total",
+        type: "count",
+        value: clippedFeatureColl.features.length,
+      },
+      { class: "total", type: "area", value: area(clippedFeatureColl) },
     ];
 
   const totalStats = clippedFeatureColl.features.reduce<Stat[]>(
     (statsSoFar, feat) => {
       const featArea = area(feat);
       return [
-        { class: null, type: "count", value: statsSoFar[0].value! + 1 },
-        { class: null, type: "area", value: statsSoFar[1].value! + featArea },
+        { class: "total", type: "count", value: statsSoFar[0].value! + 1 },
+        {
+          class: "total",
+          type: "area",
+          value: statsSoFar[1].value! + featArea,
+        },
       ];
     },
     [
-      { class: null, type: "count", value: 0 },
-      { class: null, type: "area", value: 0 },
+      { class: "total", type: "count", value: 0 },
+      { class: "total", type: "area", value: 0 },
     ]
   );
 
