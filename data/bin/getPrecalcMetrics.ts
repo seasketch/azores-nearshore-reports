@@ -32,8 +32,18 @@ export function getPrecalcMetrics(
         );
       });
       if (!metric) throw new Error(`Can't find metric for ${datasourceId}`);
-      if (metric.length !== 1)
-        throw new Error(`Returned multiple precalc metrics ${datasourceId}`);
+      if (metric.length !== 1) {
+        throw new Error(
+          "Reports are unable to find matching total metric for " +
+            datasourceId +
+            "-" +
+            curClass.classId +
+            ", " +
+            stat +
+            ", " +
+            geography
+        );
+      }
 
       // Returns metric, overwriting classId for easy match in report
       return { ...metric[0], classId: curClass.classId };

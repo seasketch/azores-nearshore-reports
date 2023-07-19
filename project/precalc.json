@@ -1490,6 +1490,22 @@
         },
         {
             "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
             "value": 1,
             "classId": "slope-total",
             "groupId": null,

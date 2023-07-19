@@ -85,6 +85,25 @@ export function genVectorKeyStats(
   );
   const featureColl = rawJsonDs as FeatureCollection<Polygon | MultiPolygon>;
 
+  // Creates record of all class keys present in OG features
+  // to avoid missing a class after cropping
+  let featureCollClasses: Record<string, string[]> = {};
+  config.classKeys.forEach((classProperty) => {
+    featureColl.features.forEach((feat) => {
+      if (!feat.properties) throw new Error("Missing properties");
+      if (!featureCollClasses[classProperty]) {
+        featureCollClasses[classProperty] = [];
+      }
+      if (
+        !featureCollClasses[classProperty].includes(
+          feat.properties[classProperty]
+        )
+      ) {
+        featureCollClasses[classProperty].push(feat.properties[classProperty]);
+      }
+    });
+  });
+
   const rawJsonGeo = fs.readJsonSync(
     getJsonPath(config.dstPath, geography.datasourceId)
   );
@@ -164,6 +183,22 @@ export function genVectorKeyStats(
         type: "area",
         value: metrics[curClass].area as number,
       });
+    });
+
+    // Creates metrics for features classes lost during clipping
+    featureCollClasses[classProperty].forEach((curClass) => {
+      if (!Object.keys(metrics).includes(curClass)) {
+        totalStats.push({
+          class: curClass,
+          type: "count",
+          value: 0,
+        });
+        totalStats.push({
+          class: curClass,
+          type: "area",
+          value: 0,
+        });
+      }
     });
   });
 
