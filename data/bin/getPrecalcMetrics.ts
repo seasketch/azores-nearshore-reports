@@ -4,7 +4,7 @@ import {
   createMetrics,
   keyBy,
 } from "@seasketch/geoprocessing/client-core";
-import project from "../../project";
+import geographies from "../../project/geographies.json";
 import precalc from "../../project/precalc.json";
 import cloneDeep from "lodash/cloneDeep";
 
@@ -94,9 +94,9 @@ export const toPercentMetric = (
     }
     if (!totalMetric.value) {
       console.log(
-        `${curMetric.classId} has no value within this planing area, replacing with NA`
+        `${curMetric.classId} has no value within this planing area, replacing with .0001`
       );
-      totalMetric.value = NaN;
+      totalMetric.value = 0.0001;
     }
 
     // Returns percentage metric and adds new metricId if requested
@@ -106,4 +106,14 @@ export const toPercentMetric = (
       ...(percMetricId ? { metricId: percMetricId } : {}),
     };
   });
+};
+
+/**
+ * Takes geographyId and returns display name for report UI
+ * @param geography: geographyId
+ * @returns display name of geography
+ */
+export const getGeographyDisplay = (geography: string): string => {
+  const geo = geographies.find((g) => g.geographyId === geography);
+  return geo ? geo.display : "Unknown";
 };

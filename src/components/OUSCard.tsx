@@ -17,6 +17,7 @@ import {
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import {
+  getGeographyDisplay,
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
@@ -34,7 +35,13 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
   return (
     <>
       <ResultsCard
-        title={t("Ocean Use - Nearshore")}
+        title={
+          t("Ocean Use Within") +
+          " " +
+          getGeographyDisplay(props.geography) +
+          " " +
+          t("Planning Area")
+        }
         functionName="ousValueOverlap"
       >
         {(data: ReportResult) => {
@@ -49,14 +56,21 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
 
           return (
             <>
-              <Trans i18nKey="OUS Card">
-                <p>
-                  This report summarizes the percentage of ocean use activities
-                  that overlap with this nearshore plan, as reported in the
-                  Ocean Use Survey. Plans should consider the potential impact
-                  to sectors if access or activities are restricted.
-                </p>
-              </Trans>
+              <p>
+                <Trans i18nKey="OUS Card 1">
+                  This report summarizes the percentage of ocean use value
+                  within the
+                </Trans>{" "}
+                <b>{getGeographyDisplay(props.geography)}</b>{" "}
+                <Trans i18nKey="OUS Card 2">
+                  <b>planning area</b> that overlaps with this plan, as reported
+                  in the Ocean Use Survey. This report includes ocean use by
+                  inhabitants of <b>all</b> islands. Plans should consider the
+                  potential impact to sectors if access or activities are
+                  restricted.
+                </Trans>
+              </p>
+
               <ClassTable
                 rows={parentMetrics}
                 metricGroup={metricGroup}
@@ -118,7 +132,7 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
                   </p>
                   <p>
                     🎯 Planning Objective: there is no specific objective/target
-                    for limiting the potential impact to fishing activities.
+                    for limiting the potential impact of ocean use activities.
                   </p>
                   <p>🗺️ Methods:</p>
                   <ul>
@@ -138,8 +152,8 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
                     overlap, the overlap is only counted once.
                   </p>
                   <p>
-                    This report shows the percentage of EEZ-wide value that is
-                    contained by the nearshore plan.
+                    This report shows the percentage of regional ocean use value
+                    that is contained by the proposed plan.
                   </p>
                 </Trans>
               </Collapse>

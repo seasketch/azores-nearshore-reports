@@ -194,5 +194,13 @@
   "OUS Demographics - breakdown by gear type": "<p>A seguir está uma análise dos tipos de equipamentos usados ​​pelos pescadores comerciais e como o uso de um tipo específico de equipamento pode ser afetado pelo plano.</p><1>Observe que os pescadores comerciais podem relatar vários tipos de equipamentos em cada um de seus áreas, portanto, esses totais de tipo de equipamento<i> não</i> somam o número total de entrevistados acima.</1>",
   "OUS Demographics - breakdown by island": "A seguir está uma análise do número de pessoas representadas que usam o oceano dentro deste plano costeiro <2>por ilha</2>.",
   " inhabitants represented in Ocean Use Survey.": " habitantes representados no Pesquisa de Uso do Oceano.",
-  "Ocean use by ": "Uso do oceano por "
+  "Ocean use by ": "Uso do oceano por ",
+  "Inhabitants": "Habitantes",
+  "Ocean Use By": "Uso do Oceano Por",
+  "Ocean Use Within": "Uso do Oceano Dentro",
+  "OUS By Island Card 1": "Este relatório resume a porcentagem do valor total de uso do oceano <1>perto da costa</1> de",
+  "OUS By Island Card 2": "<0>habitantes</0> que se sobrepõe ao plano proposto, conforme relatado no Pesquisa de Uso do Oceano. Os planos devem considerar o impacto potencial para os setores se o acesso ou as atividades forem restritos.",
+  "OUS Card 1": "Este relatório resume a porcentagem do valor de uso do oceano dentro do",
+  "OUS Card 2": "<0>área de planejamento</0> que se sobrepõe a este plano, conforme relatado no Ocean Use Survey. Este relatório inclui o uso do oceano pelos habitantes de <2>todas</2> as ilhas. Os planos devem considerar o impacto potencial para os setores se o acesso ou as atividades forem restritos.",
+  "Planning Area": "Área de planejamento"
 }

@@ -13,42 +13,41 @@ import {
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import {
+  getGeographyDisplay,
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../clients/MpaTabReport";
 
-// Mapping island ids to display names for report
-const islands: { [id: string]: string } = {};
-islands["corvo"] = "Corvo";
-islands["pico"] = "Pico";
-islands["saojorge"] = "São Jorge";
-islands["saomiguel"] = "São Miguel";
-islands["terceira"] = "Terceira";
-islands["flores"] = "Flores";
-islands["faial"] = "Faial";
-islands["santamaria"] = "Santa Maria";
-islands["graciosa"] = "Graciosa";
+interface ByIslandProp extends GeoProp {
+  hidden: boolean;
+}
 
-export const OUSByIslandCard: React.FunctionComponent<GeoProp> = (props) => {
+export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
+  props
+) => {
+  // Only displays if looking at subregion
+  if (props.hidden) return null;
+
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
   const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
-  const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", props.geography);
+  const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", "nearshore");
+
   const mapLabel = t("Map");
   const sectorLabel = t("Sector");
   const percValueLabel = t("% Value Found Within Plan");
 
-  const [island, setIslandVisible] = useState("corvo");
-
-  const islandSwitcher = (e: any) => {
-    setIslandVisible(e.target.value);
-  };
-
   return (
     <>
       <ResultsCard
-        title={t("Ocean Use - By Island")}
+        title={
+          t("Ocean Use By") +
+          " " +
+          getGeographyDisplay(props.geography) +
+          " " +
+          t("Inhabitants")
+        }
         functionName="ousByIslandValueOverlap"
       >
         {(data: ReportResult) => {
@@ -78,7 +77,12 @@ export const OUSByIslandCard: React.FunctionComponent<GeoProp> = (props) => {
               }
 
               // adds metric to the island's metric array
-              groups[island] = [...(groups[island] || []), metric];
+              if (island === "santamaria")
+                groups["santa-maria"] = [
+                  ...(groups["santa-maria"] || []),
+                  metric,
+                ];
+              else groups[island] = [...(groups[island] || []), metric];
               return groups;
             },
             {}
@@ -86,25 +90,22 @@ export const OUSByIslandCard: React.FunctionComponent<GeoProp> = (props) => {
 
           return (
             <>
-              <Trans i18nKey="OUS By Island Card">
-                <p>
-                  This report summarizes the percentage of activities that
-                  overlap with ocean use by island inhabitants, as reported in
-                  the Ocean Use Survey. Plans should consider the potential
-                  impact to sectors if access or activities are restricted.
-                </p>
-              </Trans>
-
-              {t("Ocean use by ")}
-              <select onChange={islandSwitcher}>
-                {Object.keys(islands).map((island: string) => {
-                  return <option value={island}>{islands[island]}</option>;
-                })}
-              </select>
-              {t(" inhabitants represented in Ocean Use Survey.")}
+              <p>
+                <Trans i18nKey="OUS By Island Card 1">
+                  This report summarizes the percent of total <b>nearshore</b>{" "}
+                  ocean use value of
+                </Trans>{" "}
+                <b>{getGeographyDisplay(props.geography)}</b>{" "}
+                <Trans i18nKey="OUS By Island Card 2">
+                  <b>inhabitants</b> that overlaps with the proposed plan, as
+                  reported in the Ocean Use Survey. Plans should consider the
+                  potential impact to sectors if access or activities are
+                  restricted.
+                </Trans>
+              </p>
 
               <ClassTable
-                rows={groupedMetrics[island]}
+                rows={groupedMetrics[props.geography]}
                 metricGroup={metricGroup}
                 columnConfig={[
                   {
