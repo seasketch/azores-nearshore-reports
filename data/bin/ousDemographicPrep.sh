@@ -5,7 +5,7 @@
 #    ./data/bin/ousDemographicPrep.sh
 # 2. cd data
 # 3. Run this script from data folder: 
-#    bin/runGenFgb.sh dist dist ous_demographics.json ous_demographics 'SELECT * FROM azoresAnonymizedShapes' -explodeCollections
+#    bin/genFgb.sh dist/ous_demographics.json dist ous_demographics 'SELECT * FROM azoresAnonymizedShapes' -explodeCollections
 # 4. cd ..
 # 5. Run this script to publish json and fgb to aws:
 #    ./data/bin/ousDemographicPublish.sh

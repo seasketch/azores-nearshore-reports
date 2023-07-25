@@ -115,54 +115,6 @@
     {
       "metricId": "ousPeopleCount",
       "sketchId": null,
-      "classId": "Security and defense",
-      "groupId": null,
-      "geographyId": null,
-      "value": 20
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": null,
-      "classId": "Security and defense",
-      "groupId": null,
-      "geographyId": null,
-      "value": 2
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": null,
-      "classId": "Energy Development",
-      "groupId": null,
-      "geographyId": null,
-      "value": 3
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": null,
-      "classId": "Energy Development",
-      "groupId": null,
-      "geographyId": null,
-      "value": 3
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": null,
-      "classId": "Aquaculture",
-      "groupId": null,
-      "geographyId": null,
-      "value": 19
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": null,
-      "classId": "Aquaculture",
-      "groupId": null,
-      "geographyId": null,
-      "value": 12
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": null,
       "classId": "flores",
       "groupId": null,
       "geographyId": null,
@@ -207,102 +159,6 @@
       "groupId": null,
       "geographyId": null,
       "value": 73
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": null,
-      "classId": "graciosa",
-      "groupId": null,
-      "geographyId": null,
-      "value": 196
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": null,
-      "classId": "graciosa",
-      "groupId": null,
-      "geographyId": null,
-      "value": 131
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": null,
-      "classId": "pico",
-      "groupId": null,
-      "geographyId": null,
-      "value": 815
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": null,
-      "classId": "pico",
-      "groupId": null,
-      "geographyId": null,
-      "value": 333
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": null,
-      "classId": "faial",
-      "groupId": null,
-      "geographyId": null,
-      "value": 401
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": null,
-      "classId": "faial",
-      "groupId": null,
-      "geographyId": null,
-      "value": 111
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": null,
-      "classId": "saomiguel",
-      "groupId": null,
-      "geographyId": null,
-      "value": 1483
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": null,
-      "classId": "saomiguel",
-      "groupId": null,
-      "geographyId": null,
-      "value": 586
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": null,
-      "classId": "saojorge",
-      "groupId": null,
-      "geographyId": null,
-      "value": 389
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": null,
-      "classId": "saojorge",
-      "groupId": null,
-      "geographyId": null,
-      "value": 174
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": null,
-      "classId": "terceira",
-      "groupId": null,
-      "geographyId": null,
-      "value": 365
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": null,
-      "classId": "terceira",
-      "groupId": null,
-      "geographyId": null,
-      "value": 247
     },
     {
       "metricId": "ousPeopleCount",
@@ -467,6 +323,118 @@
     {
       "metricId": "ousPeopleCount",
       "sketchId": null,
+      "classId": "Security and defense",
+      "groupId": null,
+      "geographyId": null,
+      "value": 20
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Security and defense",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Energy Development",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Energy Development",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Aquaculture",
+      "groupId": null,
+      "geographyId": null,
+      "value": 19
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Aquaculture",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "graciosa",
+      "groupId": null,
+      "geographyId": null,
+      "value": 196
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "graciosa",
+      "groupId": null,
+      "geographyId": null,
+      "value": 131
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "pico",
+      "groupId": null,
+      "geographyId": null,
+      "value": 815
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "pico",
+      "groupId": null,
+      "geographyId": null,
+      "value": 333
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "faial",
+      "groupId": null,
+      "geographyId": null,
+      "value": 401
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "faial",
+      "groupId": null,
+      "geographyId": null,
+      "value": 111
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "saomiguel",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1483
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "saomiguel",
+      "groupId": null,
+      "geographyId": null,
+      "value": 586
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
       "classId": "Pots and traps",
       "groupId": null,
       "geographyId": null,
@@ -495,6 +463,38 @@
       "groupId": null,
       "geographyId": null,
       "value": 2
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "saojorge",
+      "groupId": null,
+      "geographyId": null,
+      "value": 389
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "saojorge",
+      "groupId": null,
+      "geographyId": null,
+      "value": 174
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "terceira",
+      "groupId": null,
+      "geographyId": null,
+      "value": 365
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "terceira",
+      "groupId": null,
+      "geographyId": null,
+      "value": 247
     }
   ]
 }
