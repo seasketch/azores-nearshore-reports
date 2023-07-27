@@ -267,7 +267,7 @@
     ],
     "type": "Feature",
     "properties": {
-      "2987": "FULLY_PROTECTED",
+      "2987": "HIGHLY_PROTECTED",
       "2988": "santa-maria-mpa",
       "2990": [
         "SANTA_MARIA"
@@ -281,8 +281,8 @@
       "userId": "531",
       "userSlug": "Abby",
       "createdAt": "2023-07-19T23:08:04.767237+00:00",
-      "updatedAt": "2023-07-19T23:08:04.767237+00:00",
-      "designation": "FULLY_PROTECTED",
+      "updatedAt": "2023-07-27T18:18:38.175581+00:00",
+      "designation": "HIGHLY_PROTECTED",
       "collectionId": null,
       "isCollection": false,
       "sharedInForum": false,
@@ -290,15 +290,15 @@
       "userAttributes": [
         {
           "label": "Designation",
-          "value": "FULLY_PROTECTED",
+          "value": "HIGHLY_PROTECTED",
           "exportId": "designation",
           "fieldType": "ComboBox",
-          "valueLabel": "Fully Protected",
+          "valueLabel": "Highly Protected",
           "formElementId": 2987,
           "alternateLanguages": {
             "pt": {
               "label": "Designação",
-              "valueLabel": "Totalmente Protegido"
+              "valueLabel": "Altamente Protegido"
             }
           }
         },

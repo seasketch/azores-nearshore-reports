@@ -1,43 +1,40 @@
 {
   "metrics": [
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "15881",
-      "classId": "nearshore",
-      "groupId": null,
+      "metricId": "protectionCountOverlap",
+      "sketchId": null,
+      "classId": "FULLY_PROTECTED",
+      "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 206787541.51501244,
-      "extra": {
-        "sketchName": "santa-maria-mpa"
-      }
+      "value": 1
     }
   ],
   "sketch": {
-    "id": 15881,
+    "id": 14455,
     "bbox": [
-      -25.07484,
-      36.907795,
-      -24.888811,
-      37.115704
+      -25.241573,
+      37.00977,
+      -25.165365,
+      37.07506
     ],
     "type": "Feature",
     "properties": {
-      "2987": "HIGHLY_PROTECTED",
-      "2988": "santa-maria-mpa",
+      "2987": "FULLY_PROTECTED",
+      "2988": "nearshore test",
       "2990": [
         "SANTA_MARIA"
       ],
-      "id": "15881",
-      "name": "santa-maria-mpa",
+      "id": "14455",
+      "name": "nearshore test",
       "island": [
         "SANTA_MARIA"
       ],
       "postId": null,
       "userId": "531",
       "userSlug": "Abby",
-      "createdAt": "2023-07-19T23:08:04.767237+00:00",
-      "updatedAt": "2023-07-27T18:18:38.175581+00:00",
-      "designation": "HIGHLY_PROTECTED",
+      "createdAt": "2023-05-02T21:57:25.62649+00:00",
+      "updatedAt": "2023-05-02T21:57:25.62649+00:00",
+      "designation": "FULLY_PROTECTED",
       "collectionId": null,
       "isCollection": false,
       "sharedInForum": false,
@@ -45,15 +42,15 @@
       "userAttributes": [
         {
           "label": "Designation",
-          "value": "HIGHLY_PROTECTED",
+          "value": "FULLY_PROTECTED",
           "exportId": "designation",
           "fieldType": "ComboBox",
-          "valueLabel": "Highly Protected",
+          "valueLabel": "Fully Protected",
           "formElementId": 2987,
           "alternateLanguages": {
             "pt": {
               "label": "Designação",
-              "valueLabel": "Altamente Protegido"
+              "valueLabel": "Totalmente Protegido"
             }
           }
         },
@@ -78,7 +75,6 @@
           }
         }
       ]
-    },
-    "geometry": null
+    }
   }
 }

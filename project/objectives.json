@@ -13,6 +13,7 @@
   "target": 0.3,
   "countsToward": {
     "Fully Protected Area": "yes",
-    "Highly Protected Area": "yes"
+    "Highly Protected Area": "yes",
+    "No Protected Area": "no"
   }
 }]

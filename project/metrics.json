@@ -1,5 +1,21 @@
 [
     {
+        "metricId": "protectionCountOverlap",
+        "type": "countOverlap",
+        "classes": [
+            {
+                "classId": "fully_protected",
+                "display": "Fully Protected",
+                "objectiveId":"nearshore_fully_protected"
+            },
+            {
+                "classId": "highly_protected",
+                "display": "Highly Protected",
+                "objectiveId":"nearshore_protected"
+            }
+        ]
+    },
+    {
         "metricId": "boundaryAreaOverlap",
         "type": "areaOverlap",
         "classes": [

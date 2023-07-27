@@ -487,7 +487,7 @@
         ],
         "type": "Feature",
         "properties": {
-          "2987": "FULLY_PROTECTED",
+          "2987": "HIGHLY_PROTECTED",
           "2988": "sketch1",
           "2990": [
             "SANTA_MARIA"
@@ -502,7 +502,7 @@
           "userSlug": "Abby",
           "createdAt": "2023-05-02T21:57:25.62649+00:00",
           "updatedAt": "2023-05-03T18:45:37.112788+00:00",
-          "designation": "FULLY_PROTECTED",
+          "designation": "HIGHLY_PROTECTED",
           "collectionId": "14453",
           "isCollection": false,
           "sharedInForum": false,
@@ -510,10 +510,10 @@
           "userAttributes": [
             {
               "label": "Designation",
-              "value": "FULLY_PROTECTED",
+              "value": "HIGHLY_PROTECTED",
               "exportId": "designation",
               "fieldType": "ComboBox",
-              "valueLabel": "Fully Protected",
+              "valueLabel": "Highly Protected",
               "alternateLanguages": {
                 "pt": {
                   "label": "Designação",

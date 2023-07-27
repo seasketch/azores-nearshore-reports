@@ -1,82 +1,45 @@
 {
   "metrics": [
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14453",
-      "classId": "nearshore",
-      "groupId": null,
+      "metricId": "protectionCountOverlap",
+      "sketchId": null,
+      "classId": "FULLY_PROTECTED",
+      "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 123257284.1119115,
-      "extra": {
-        "sketchName": "overlap test collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14455",
-      "classId": "nearshore",
-      "groupId": null,
-      "geographyId": null,
-      "value": 30364568.282603703,
-      "extra": {
-        "sketchName": "sketch1"
-      }
-    },
-    {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14456",
-      "classId": "nearshore",
-      "groupId": null,
-      "geographyId": null,
-      "value": 62706295.10724613,
-      "extra": {
-        "sketchName": "sketch3"
-      }
-    },
-    {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14457",
-      "classId": "nearshore",
-      "groupId": null,
-      "geographyId": null,
-      "value": 34987934.32451831,
-      "extra": {
-        "sketchName": "sketch2"
-      }
+      "value": 3
     }
   ],
   "sketch": {
-    "id": 14453,
+    "id": 14458,
     "type": "FeatureCollection",
     "features": [
       {
-        "id": 14456,
+        "id": 14459,
         "bbox": [
-          -25.001762,
-          36.88405,
-          -24.932547,
-          37.05609
+          -25.36634,
+          37.89637,
+          -25.222507,
+          37.934505
         ],
         "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
-          "2988": "sketch3",
+          "2988": "sketch1",
           "2990": [
-            "SAO_JORGE"
+            "PICO"
           ],
-          "id": "14456",
-          "name": "sketch3",
+          "id": "14459",
+          "name": "sketch1",
           "island": [
-            "SAO_JORGE"
+            "PICO"
           ],
           "postId": null,
           "userId": "531",
           "userSlug": "Abby",
-          "createdAt": "2023-05-03T18:28:40.831805+00:00",
-          "updatedAt": "2023-05-03T18:45:52.198728+00:00",
+          "createdAt": "2023-05-03T18:42:16.929883+00:00",
+          "updatedAt": "2023-05-03T18:43:05.14248+00:00",
           "designation": "FULLY_PROTECTED",
-          "collectionId": "14453",
+          "collectionId": "14458",
           "isCollection": false,
           "sharedInForum": false,
           "sketchClassId": "212",
@@ -97,120 +60,52 @@
             {
               "label": "Island",
               "value": [
-                "SAO_JORGE"
+                "PICO"
               ],
               "exportId": "island",
               "fieldType": "MultipleChoice",
               "valueLabel": [
-                "São Jorge"
+                "Pico"
               ],
               "alternateLanguages": {
                 "pt": {
                   "label": "Ilha",
                   "valueLabel": [
-                    "São Jorge"
+                    "Pico"
                   ]
                 }
               }
             }
           ]
-        },
-        "geometry": null
+        }
       },
       {
-        "id": 14455,
+        "id": 14461,
         "bbox": [
-          -25.241573,
-          37.00977,
-          -25.165365,
-          37.07506
-        ],
-        "type": "Feature",
-        "properties": {
-          "2987": "HIGHLY_PROTECTED",
-          "2988": "sketch1",
-          "2990": [
-            "SANTA_MARIA"
-          ],
-          "id": "14455",
-          "name": "sketch1",
-          "island": [
-            "SANTA_MARIA"
-          ],
-          "postId": null,
-          "userId": "531",
-          "userSlug": "Abby",
-          "createdAt": "2023-05-02T21:57:25.62649+00:00",
-          "updatedAt": "2023-05-03T18:45:37.112788+00:00",
-          "designation": "HIGHLY_PROTECTED",
-          "collectionId": "14453",
-          "isCollection": false,
-          "sharedInForum": false,
-          "sketchClassId": "212",
-          "userAttributes": [
-            {
-              "label": "Designation",
-              "value": "HIGHLY_PROTECTED",
-              "exportId": "designation",
-              "fieldType": "ComboBox",
-              "valueLabel": "Highly Protected",
-              "alternateLanguages": {
-                "pt": {
-                  "label": "Designação",
-                  "valueLabel": "Totalmente Protegido"
-                }
-              }
-            },
-            {
-              "label": "Island",
-              "value": [
-                "SANTA_MARIA"
-              ],
-              "exportId": "island",
-              "fieldType": "MultipleChoice",
-              "valueLabel": [
-                "Santa Maria"
-              ],
-              "alternateLanguages": {
-                "pt": {
-                  "label": "Ilha",
-                  "valueLabel": [
-                    "Santa Maria"
-                  ]
-                }
-              }
-            }
-          ]
-        },
-        "geometry": null
-      },
-      {
-        "id": 14457,
-        "bbox": [
-          -25.188437,
-          37.0254,
-          -25.114326,
-          37.098484
+          -31.05539,
+          39.66012,
+          -30.9983,
+          39.71234
         ],
         "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
-          "2988": "sketch2",
+          "2988": "sketch3",
           "2990": [
             "CORVO"
           ],
-          "id": "14457",
-          "name": "sketch2",
+          "id": "14461",
+          "name": "sketch3",
           "island": [
             "CORVO"
           ],
           "postId": null,
           "userId": "531",
           "userSlug": "Abby",
-          "createdAt": "2023-05-03T18:29:40.515354+00:00",
-          "updatedAt": "2023-05-03T18:45:44.023138+00:00",
+          "createdAt": "2023-05-03T18:43:02.176957+00:00",
+          "updatedAt": "2023-05-03T18:43:07.491219+00:00",
           "designation": "FULLY_PROTECTED",
-          "collectionId": "14453",
+          "collectionId": "14458",
           "isCollection": false,
           "sharedInForum": false,
           "sketchClassId": "212",
@@ -248,19 +143,84 @@
               }
             }
           ]
-        },
-        "geometry": null
+        }
+      },
+      {
+        "id": 14460,
+        "bbox": [
+          -28.452053,
+          38.58172,
+          -28.352833,
+          38.63491
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "sketch2",
+          "2990": [
+            "SAO_JORGE"
+          ],
+          "id": "14460",
+          "name": "sketch2",
+          "island": [
+            "SAO_JORGE"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-05-03T18:42:36.384747+00:00",
+          "updatedAt": "2023-05-03T18:43:06.2998+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "14458",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "SAO_JORGE"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "São Jorge"
+              ],
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "São Jorge"
+                  ]
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "properties": {
-      "2991": "overlap test collection",
-      "id": "14453",
-      "name": "overlap test collection",
+      "2991": "multi island collection",
+      "id": "14458",
+      "name": "multi island collection",
       "postId": null,
       "userId": "531",
       "userSlug": "Abby",
-      "createdAt": "2023-05-02T15:49:36.640108+00:00",
-      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
+      "createdAt": "2023-05-03T18:41:42.162786+00:00",
+      "updatedAt": "2023-05-03T18:46:05.006554+00:00",
       "collectionId": null,
       "isCollection": true,
       "sharedInForum": false,

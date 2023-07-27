@@ -1,0 +1,373 @@
+{
+  "metrics": [
+    {
+      "metricId": "protectionCountOverlap",
+      "sketchId": null,
+      "classId": "FULLY_PROTECTED",
+      "groupId": "FULLY_PROTECTED",
+      "geographyId": null,
+      "value": 5
+    }
+  ],
+  "sketch": {
+    "id": 15057,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 15058,
+        "bbox": [
+          -27.114458,
+          38.68279,
+          -26.915174,
+          38.862495
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "1",
+          "2990": [
+            "FAIAL"
+          ],
+          "id": "15058",
+          "name": "1",
+          "island": [
+            "FAIAL"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-06-15T15:58:03.80655+00:00",
+          "updatedAt": "2023-06-15T15:58:08.489636+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "15057",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "FAIAL"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Faial"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Faial"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 15059,
+        "bbox": [
+          -28.308945,
+          38.488724,
+          -28.076956,
+          38.657593
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "2",
+          "2990": [
+            "FAIAL"
+          ],
+          "id": "15059",
+          "name": "2",
+          "island": [
+            "FAIAL"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-06-15T15:58:22.003675+00:00",
+          "updatedAt": "2023-06-15T18:09:44.146572+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "15057",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "FAIAL"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Faial"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Faial"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 15064,
+        "bbox": [
+          -28.236498,
+          38.450138,
+          -28.083662,
+          38.57472
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "4",
+          "2990": [
+            "GRACIOSA"
+          ],
+          "id": "15064",
+          "name": "4",
+          "island": [
+            "GRACIOSA"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-06-15T16:43:06.791325+00:00",
+          "updatedAt": "2023-06-15T18:09:46.970495+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "15057",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "GRACIOSA"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Graciosa"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Graciosa"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 15065,
+        "bbox": [
+          -28.502361,
+          38.282,
+          -28.200947,
+          38.437996
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "5",
+          "2990": [
+            "FLORES"
+          ],
+          "id": "15065",
+          "name": "5",
+          "island": [
+            "FLORES"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-06-15T16:43:46.17014+00:00",
+          "updatedAt": "2023-06-15T16:43:49.868556+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "15057",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "FLORES"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Flores"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Flores"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 15063,
+        "bbox": [
+          -28.109137,
+          38.48487,
+          -27.934269,
+          38.61561
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "3",
+          "2990": [
+            "FAIAL"
+          ],
+          "id": "15063",
+          "name": "3",
+          "island": [
+            "FAIAL"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-06-15T16:10:56.032612+00:00",
+          "updatedAt": "2023-06-15T18:09:45.666322+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "15057",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "FAIAL"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Faial"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Faial"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "properties": {
+      "2991": "Nearshore collection",
+      "id": "15057",
+      "name": "Nearshore collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-06-15T15:57:41.843214+00:00",
+      "updatedAt": "2023-06-15T18:09:46.970495+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    }
+  }
+}

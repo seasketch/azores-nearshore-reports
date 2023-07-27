@@ -1,15 +1,12 @@
 {
   "metrics": [
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "15881",
-      "classId": "nearshore",
-      "groupId": null,
+      "metricId": "protectionCountOverlap",
+      "sketchId": null,
+      "classId": "HIGHLY_PROTECTED",
+      "groupId": "HIGHLY_PROTECTED",
       "geographyId": null,
-      "value": 206787541.51501244,
-      "extra": {
-        "sketchName": "santa-maria-mpa"
-      }
+      "value": 1
     }
   ],
   "sketch": {
@@ -78,7 +75,6 @@
           }
         }
       ]
-    },
-    "geometry": null
+    }
   }
 }
