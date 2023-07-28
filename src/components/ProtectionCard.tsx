@@ -10,13 +10,13 @@ import {
   RbcsMpaClassPanelProps,
   RbcsIcon,
   GroupPill,
+  useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
   NullSketch,
   NullSketchCollection,
   Metric,
-  isNullSketchCollection,
   keyBy,
   toNullSketchArray,
   getKeys,
@@ -26,7 +26,9 @@ import {
 import styled from "styled-components";
 import project from "../../project";
 import { getMinYesCountMap } from "@seasketch/geoprocessing/src";
+import { useTranslation } from "react-i18next";
 
+// Table styling for Show by MPA table
 export const SmallReportTableStyled = styled(ReportTableStyled)`
   .styled {
     font-size: 13px;
@@ -49,15 +51,17 @@ const groupDisplayMap: Record<string, string> = {
 const mg = project.getMetricGroup("protectionCountOverlap");
 
 /**
- * @returns Protection card JSX.Element
+ * Top level Protection report - JSX.Element
  */
 export const ProtectionCard = () => {
+  const { t, i18n } = useTranslation();
+  const [{ isCollection }] = useSketchProperties();
   return (
-    <ResultsCard title="Protection Level" functionName="protection">
+    <ResultsCard title={t("Protection Level")} functionName="protection">
       {(data: ReportResult) => {
         return (
           <ReportError>
-            {isNullSketchCollection(data.sketch)
+            {isCollection
               ? sketchCollectionReport(data.sketch, data.metrics)
               : sketchReport(data.metrics)}
           </ReportError>
@@ -69,6 +73,7 @@ export const ProtectionCard = () => {
 
 /**
  * Report protection level for single sketch
+ * @param metrics Metric[] passed from ReportResult
  */
 const sketchReport = (metrics: Metric[]) => {
   // Should only have only a single metric
@@ -86,7 +91,7 @@ const sketchReport = (metrics: Metric[]) => {
           alignItems: "center",
         }}
       >
-        <RbcsMpaClassPanel
+        <MpaClassPanel
           value={metrics[0].value}
           size={18}
           displayName={groupDisplayMap[metrics[0].groupId || "none"]}
@@ -105,8 +110,13 @@ const sketchReport = (metrics: Metric[]) => {
   );
 };
 
+/**
+ * Report protection level for sketch collection
+ * @param sketch NullSketchCollection | NullSketch passed from ReportResult
+ * @param metrics Metric[] passed from ReportResult
+ */
 const sketchCollectionReport = (
-  sketch: NullSketchCollection,
+  sketch: NullSketchCollection | NullSketch,
   metrics: Metric[]
 ) => {
   const sketches = toNullSketchArray(sketch);
@@ -115,7 +125,7 @@ const sketchCollectionReport = (
     {
       Header: " ",
       accessor: (row) => (
-        <RbcsMpaClassPanel
+        <MpaClassPanel
           value={row.value}
           size={18}
           displayName={
@@ -147,6 +157,9 @@ const sketchCollectionReport = (
   );
 };
 
+/**
+ * Show by MPA sketch table for sketch collection
+ */
 const genMpaSketchTable = (sketches: NullSketch[]) => {
   const columns: Column<NullSketch>[] = [
     {
@@ -183,17 +196,22 @@ const genMpaSketchTable = (sketches: NullSketch[]) => {
   );
 };
 
+/**
+ * Interface for Learn More function component
+ * @param objectives Objective[]
+ */
 interface LearnMoreProps {
   objectives: Objective[];
 }
 
 /**
- * Describes protection levels in Azores
+ * Protection level learn more
+ * @param objectives Objective[]
  */
 export const ProtectionLearnMore: React.FunctionComponent<LearnMoreProps> = ({
   objectives,
 }) => {
-  const objectiveMap = keyBy(objectives, (obj) => obj.objectiveId);
+  const objectiveMap = keyBy(objectives, (obj: Objective) => obj.objectiveId);
   const minYesCounts = getMinYesCountMap(objectives);
   return (
     <>
@@ -213,7 +231,7 @@ export const ProtectionLearnMore: React.FunctionComponent<LearnMoreProps> = ({
             return (
               <tr key={index}>
                 <td>{objectiveMap[objectiveId].shortDesc}</td>
-                <td>{minYesCounts[objectiveId]}</td>
+                <td>{groupDisplayMap[minYesCounts[objectiveId]]}</td>
               </tr>
             );
           })}
@@ -224,9 +242,9 @@ export const ProtectionLearnMore: React.FunctionComponent<LearnMoreProps> = ({
 };
 
 /**
- * Sketch collection status panel for MPA regulation-based classification
+ * Sketch collection status panel for MPA classification
  */
-const RbcsMpaClassPanel: React.FunctionComponent<RbcsMpaClassPanelProps> = ({
+const MpaClassPanel: React.FunctionComponent<RbcsMpaClassPanelProps> = ({
   value,
   displayName,
   size,

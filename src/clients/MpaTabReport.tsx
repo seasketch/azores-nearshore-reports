@@ -40,7 +40,10 @@ const MpaTabReport = () => {
           <select onChange={geographySwitcher}>
             {geographies.map((geography) => {
               return (
-                <option value={geography.geographyId}>
+                <option
+                  key={geography.geographyId}
+                  value={geography.geographyId}
+                >
                   {geography.display}
                 </option>
               );
