@@ -70,10 +70,7 @@ async function precalcAll() {
   }
   console.log("Writing to project/precalc.json");
 
-  fs.writeFileSync(
-    "project/precalc.json",
-    JSON.stringify({ metrics: metrics })
-  );
+  fs.writeJsonSync("project/precalc.json", { metrics: metrics }, { spaces: 4 });
 }
 
 precalcAll();

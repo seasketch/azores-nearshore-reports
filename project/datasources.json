@@ -1796,7 +1796,7 @@
     "propertiesToKeep": []
   },
   {
-    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/santa-maria.shp",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/santa_maria_6nm_boundary_ws84.shp",
     "layerName": "santa-maria",
     "geo_type": "vector",
     "datasourceId": "santa-maria",

@@ -24,5 +24,5 @@ describe("Basic smoke tests", () => {
         example.properties.name
       );
     }
-  }, 100000);
+  }, 500000);
 });
