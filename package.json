@@ -1,5 +1,5 @@
 {
-  "name": "azores-nearshore-regcha",
+  "name": "azores-nearshore-regional",
   "version": "2.0.0",
   "description": "Reports for Azores nearshore/coastal plan",
   "main": "src/index.js",
