@@ -11,8 +11,8 @@ import {
 import project from "../../project";
 import {
   createMetric,
-  getJsonUserAttribute,
   getSketchFeatures,
+  getUserAttribute,
 } from "@seasketch/geoprocessing/client-core";
 
 export async function protection(
@@ -23,7 +23,8 @@ export async function protection(
 
   const protectionLevels = sketchFeatures.reduce<Record<string, number>>(
     (levels, sketch) => {
-      const designation = getJsonUserAttribute(
+      console.log(sketch.properties);
+      const designation = getUserAttribute(
         sketch.properties,
         "designation",
         ""

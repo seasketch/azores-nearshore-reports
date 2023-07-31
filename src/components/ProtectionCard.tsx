@@ -21,7 +21,7 @@ import {
   toNullSketchArray,
   getKeys,
   Objective,
-  getJsonUserAttribute,
+  getUserAttribute,
 } from "@seasketch/geoprocessing/client-core";
 import styled from "styled-components";
 import project from "../../project";
@@ -171,11 +171,11 @@ const genMpaSketchTable = (sketches: NullSketch[]) => {
       accessor: (row) => (
         <GroupPill
           groupColorMap={groupColorMap}
-          group={getJsonUserAttribute(row.properties, "designation", "")}
+          group={getUserAttribute(row.properties, "designation", "")}
         >
           {
             groupDisplayMap[
-              getJsonUserAttribute(row.properties, "designation", "")
+              getUserAttribute(row.properties, "designation", "")
             ]
           }
         </GroupPill>
