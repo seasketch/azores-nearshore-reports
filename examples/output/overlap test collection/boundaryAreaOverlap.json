@@ -14,9 +14,44 @@
     },
     {
       "metricId": "boundaryAreaOverlap",
+      "sketchId": "14453",
+      "classId": "nearshore",
+      "groupId": "FULLY_PROTECTED",
+      "geographyId": null,
+      "value": 97694229.43176444,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
+      "sketchId": "14453",
+      "classId": "nearshore",
+      "groupId": "HIGHLY_PROTECTED",
+      "geographyId": null,
+      "value": 25563346.614041854,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
       "sketchId": "14455",
       "classId": "nearshore",
       "groupId": null,
+      "geographyId": null,
+      "value": 30364568.282603703,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
+      "sketchId": "14455",
+      "classId": "nearshore",
+      "groupId": "HIGHLY_PROTECTED",
       "geographyId": null,
       "value": 30364568.282603703,
       "extra": {
@@ -29,7 +64,18 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 62706295.10724613,
+      "value": 62706295.10724833,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
+      "sketchId": "14456",
+      "classId": "nearshore",
+      "groupId": "FULLY_PROTECTED",
+      "geographyId": null,
+      "value": 62706295.10724833,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -40,7 +86,18 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 34987934.32451831,
+      "value": 34987934.32451495,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
+      "sketchId": "14457",
+      "classId": "nearshore",
+      "groupId": "FULLY_PROTECTED",
+      "geographyId": null,
+      "value": 34987934.32451495,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -114,8 +171,7 @@
               }
             }
           ]
-        },
-        "geometry": null
+        }
       },
       {
         "id": 14455,
@@ -181,8 +237,7 @@
               }
             }
           ]
-        },
-        "geometry": null
+        }
       },
       {
         "id": 14457,
@@ -248,8 +303,7 @@
               }
             }
           ]
-        },
-        "geometry": null
+        }
       }
     ],
     "properties": {

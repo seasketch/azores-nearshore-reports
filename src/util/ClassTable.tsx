@@ -151,9 +151,6 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
                   colConfig.metricId
                 ][0].value;
               } else {
-                console.log(
-                  `No metric for class ${row.classId}, column ${colConfig.metricId}, replacing with 0`
-                );
                 return 0;
               }
             })();
@@ -181,9 +178,6 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
                   colConfig.metricId
                 ][0].value;
               } else {
-                console.log(
-                  `No metric for class ${row.classId}, column ${colConfig.metricId}, replacing with 0`
-                );
                 return 0;
               }
             })();

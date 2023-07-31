@@ -3,8 +3,8 @@
   "shortDesc": "15% of Nearshore Fully Protected",
   "target": 0.15,
   "countsToward": {
-    "Fully Protected Area": "yes",
-    "Highly Protected Area": "no"
+    "FULLY_PROTECTED": "yes",
+    "HIGHLY_PROTECTED": "no"
   }
 },
 {
@@ -12,8 +12,8 @@
   "shortDesc": "30% of Nearshore Fully or Highly Protected",
   "target": 0.3,
   "countsToward": {
-    "Fully Protected Area": "yes",
-    "Highly Protected Area": "yes",
-    "No Protected Area": "no"
+    "FULLY_PROTECTED": "yes",
+    "HIGHLY_PROTECTED": "yes",
+    "NO_PROTECTION": "no"
   }
 }]

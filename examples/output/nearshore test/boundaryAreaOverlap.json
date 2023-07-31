@@ -10,6 +10,28 @@
       "extra": {
         "sketchName": "nearshore test"
       }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
+      "sketchId": "14455",
+      "classId": "nearshore",
+      "groupId": "FULLY_PROTECTED",
+      "geographyId": null,
+      "value": 30364568.282603703,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
+      "sketchId": "14455",
+      "classId": "nearshore",
+      "groupId": "HIGHLY_PROTECTED",
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
     }
   ],
   "sketch": {
@@ -78,7 +100,6 @@
           }
         }
       ]
-    },
-    "geometry": null
+    }
   }
 }

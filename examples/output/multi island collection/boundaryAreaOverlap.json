@@ -14,11 +14,46 @@
     },
     {
       "metricId": "boundaryAreaOverlap",
+      "sketchId": "14458",
+      "classId": "nearshore",
+      "groupId": "FULLY_PROTECTED",
+      "geographyId": null,
+      "value": 101472270.42217672,
+      "extra": {
+        "sketchName": "multi island collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
+      "sketchId": "14458",
+      "classId": "nearshore",
+      "groupId": "HIGHLY_PROTECTED",
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "multi island collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
       "sketchId": "14459",
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 34906528.08290668,
+      "value": 34906528.082908876,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
+      "sketchId": "14459",
+      "classId": "nearshore",
+      "groupId": "FULLY_PROTECTED",
+      "geographyId": null,
+      "value": 34906528.082908876,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -29,7 +64,18 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 45431702.400463395,
+      "value": 45431702.400467806,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
+      "sketchId": "14460",
+      "classId": "nearshore",
+      "groupId": "FULLY_PROTECTED",
+      "geographyId": null,
+      "value": 45431702.400467806,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -40,7 +86,18 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 21134039.938806646,
+      "value": 21134039.93880444,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "boundaryAreaOverlap",
+      "sketchId": "14461",
+      "classId": "nearshore",
+      "groupId": "FULLY_PROTECTED",
+      "geographyId": null,
+      "value": 21134039.93880444,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -114,8 +171,7 @@
               }
             }
           ]
-        },
-        "geometry": null
+        }
       },
       {
         "id": 14461,
@@ -181,8 +237,7 @@
               }
             }
           ]
-        },
-        "geometry": null
+        }
       },
       {
         "id": 14460,
@@ -248,8 +303,7 @@
               }
             }
           ]
-        },
-        "geometry": null
+        }
       }
     ],
     "properties": {

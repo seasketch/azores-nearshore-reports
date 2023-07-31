@@ -18,6 +18,7 @@
     {
         "metricId": "boundaryAreaOverlap",
         "type": "areaOverlap",
+        "objectiveId": "nearshore_protected",
         "classes": [
             {
                 "classId": "nearshore",
