@@ -26,7 +26,8 @@ import {
 import styled from "styled-components";
 import project from "../../project";
 import { getMinYesCountMap } from "@seasketch/geoprocessing/src";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
+import { MetricGroup } from "@seasketch/geoprocessing";
 
 // Table styling for Show by MPA table
 export const SmallReportTableStyled = styled(ReportTableStyled)`
@@ -47,23 +48,22 @@ const groupDisplayMap: Record<string, string> = {
   HIGHLY_PROTECTED: "Highly Protected Area",
 };
 
-// Get metric group
-const mg = project.getMetricGroup("protectionCountOverlap");
-
 /**
  * Top level Protection report - JSX.Element
  */
 export const ProtectionCard = () => {
   const { t, i18n } = useTranslation();
   const [{ isCollection }] = useSketchProperties();
+
+  const mg = project.getMetricGroup("protectionCountOverlap", t);
   return (
     <ResultsCard title={t("Protection Level")} functionName="protection">
       {(data: ReportResult) => {
         return (
           <ReportError>
             {isCollection
-              ? sketchCollectionReport(data.sketch, data.metrics)
-              : sketchReport(data.metrics)}
+              ? sketchCollectionReport(data.sketch, data.metrics, mg, t)
+              : sketchReport(data.metrics, mg, t)}
           </ReportError>
         );
       }}
@@ -74,8 +74,10 @@ export const ProtectionCard = () => {
 /**
  * Report protection level for single sketch
  * @param metrics Metric[] passed from ReportResult
+ * @param mg MetricGroup
+ * @param t TFunction for translation
  */
-const sketchReport = (metrics: Metric[]) => {
+const sketchReport = (metrics: Metric[], mg: MetricGroup, t: any) => {
   // Should only have only a single metric
   if (metrics.length !== 1)
     throw new Error(
@@ -101,9 +103,10 @@ const sketchReport = (metrics: Metric[]) => {
         />
       </div>
 
-      <Collapse title="Learn More">
+      <Collapse title={t("Learn More")}>
         <ProtectionLearnMore
-          objectives={project.getMetricGroupObjectives(mg) as Objective[]}
+          objectives={project.getMetricGroupObjectives(mg, t) as Objective[]}
+          t={t}
         />
       </Collapse>
     </>
@@ -114,13 +117,21 @@ const sketchReport = (metrics: Metric[]) => {
  * Report protection level for sketch collection
  * @param sketch NullSketchCollection | NullSketch passed from ReportResult
  * @param metrics Metric[] passed from ReportResult
+ * @param mg MetricGroup
+ * @param t TFunction for translation
  */
 const sketchCollectionReport = (
   sketch: NullSketchCollection | NullSketch,
-  metrics: Metric[]
+  metrics: Metric[],
+  mg: MetricGroup,
+  t: any
 ) => {
-  const sketches = toNullSketchArray(sketch);
+  const groupDisplayMap: Record<string, string> = {
+    FULLY_PROTECTED: t("Fully Protected Area(s)"),
+    HIGHLY_PROTECTED: t("Highly Protected Area(s)"),
+  };
 
+  const sketches = toNullSketchArray(sketch);
   const columns: Column<Metric>[] = [
     {
       Header: " ",
@@ -128,11 +139,7 @@ const sketchCollectionReport = (
         <MpaClassPanel
           value={row.value}
           size={18}
-          displayName={
-            row.value === 1
-              ? groupDisplayMap[row.groupId || "none"]
-              : groupDisplayMap[row.groupId || "none"] + "s"
-          }
+          displayName={groupDisplayMap[row.groupId || "none"]}
           group={row.groupId as string | undefined}
           groupColorMap={groupColorMap}
         />
@@ -144,13 +151,18 @@ const sketchCollectionReport = (
     <>
       <Table className="styled" columns={columns} data={metrics} />
       <p>
-        MPAs with less than full protection don't count towards some planning
-        objectives, so take note of the requirements for each.
+        <Trans i18nKey="Protection Card - Intro sketch collection">
+          MPAs with less than full protection don't count towards some planning
+          objectives, so take note of the requirements for each.
+        </Trans>
       </p>
-      <Collapse title="Show by MPA">{genMpaSketchTable(sketches)}</Collapse>
-      <Collapse title="Learn More">
+      <Collapse title={t("Show by MPA")}>
+        {genMpaSketchTable(sketches, t)}
+      </Collapse>
+      <Collapse title={t("Learn More")}>
         <ProtectionLearnMore
-          objectives={project.getMetricGroupObjectives(mg) as Objective[]}
+          objectives={project.getMetricGroupObjectives(mg, t) as Objective[]}
+          t={t}
         />
       </Collapse>
     </>
@@ -160,24 +172,20 @@ const sketchCollectionReport = (
 /**
  * Show by MPA sketch table for sketch collection
  */
-const genMpaSketchTable = (sketches: NullSketch[]) => {
+const genMpaSketchTable = (sketches: NullSketch[], t: any) => {
   const columns: Column<NullSketch>[] = [
     {
-      Header: "MPA",
+      Header: t("MPA"),
       accessor: (row) => row.properties.name,
     },
     {
-      Header: "Protection Level",
+      Header: t("Protection Level"),
       accessor: (row) => (
         <GroupPill
           groupColorMap={groupColorMap}
           group={getUserAttribute(row.properties, "designation", "")}
         >
-          {
-            groupDisplayMap[
-              getUserAttribute(row.properties, "designation", "")
-            ]
-          }
+          {groupDisplayMap[getUserAttribute(row.properties, "designation", "")]}
         </GroupPill>
       ),
     },
@@ -202,6 +210,7 @@ const genMpaSketchTable = (sketches: NullSketch[]) => {
  */
 interface LearnMoreProps {
   objectives: Objective[];
+  t: any;
 }
 
 /**
@@ -210,20 +219,24 @@ interface LearnMoreProps {
  */
 export const ProtectionLearnMore: React.FunctionComponent<LearnMoreProps> = ({
   objectives,
+  t,
 }) => {
   const objectiveMap = keyBy(objectives, (obj: Objective) => obj.objectiveId);
   const minYesCounts = getMinYesCountMap(objectives);
+
   return (
     <>
       <p>
-        An MPA counts toward an objective if it meets the minimum level of
-        protection for that objective.
+        <Trans i18nKey="Protection Card - Learn more">
+          An MPA counts toward an objective if it meets the minimum level of
+          protection for that objective.
+        </Trans>
       </p>
       <table>
         <thead>
           <tr>
-            <th>Objective</th>
-            <th>Minimum MPA Classification Required</th>
+            <th>{t("Objective")}</th>
+            <th>{t("Minimum MPA Classification Required")}</th>
           </tr>
         </thead>
         <tbody>

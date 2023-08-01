@@ -17,10 +17,19 @@ import {
   overlapArea,
   overlapAreaGroupMetrics,
 } from "@seasketch/geoprocessing/src";
-import { getUserAttribute } from "@seasketch/geoprocessing/client-core";
+import { firstMatchingMetric, getUserAttribute } from "@seasketch/geoprocessing/client-core";
+import { getPrecalcMetrics } from "../../data/bin/getPrecalcMetrics";
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
-const STUDY_REGION_AREA_SQ_METERS = 1000000000000000000;
+const boundaryTotalMetrics = getPrecalcMetrics(
+  metricGroup,
+  "area",
+  "nearshore"
+);
+const totalAreaMetric = firstMatchingMetric(
+  boundaryTotalMetrics,
+  (m) => m.groupId === null
+);
 
 export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
@@ -29,7 +38,7 @@ export async function boundaryAreaOverlap(
     await overlapArea(
       metricGroup.metricId,
       sketch,
-      STUDY_REGION_AREA_SQ_METERS,
+      totalAreaMetric.value,
       {
         includePercMetric: false,
       }
@@ -55,7 +64,7 @@ export async function boundaryAreaOverlap(
     metricToGroup: metricToLevel,
     metrics: areaMetrics,
     classId: metricGroup.classes[0].classId,
-    outerArea: STUDY_REGION_AREA_SQ_METERS,
+    outerArea: totalAreaMetric.value,
   });
 
   return {

@@ -29,7 +29,7 @@ import { GeoProp } from "../clients/MpaTabReport";
 export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
-  const metricGroup = project.getMetricGroup("sdmValueOverlap");
+  const metricGroup = project.getMetricGroup("sdmValueOverlap", t);
   const precalcMetrics: Metric[] = getPrecalcMetrics(
     metricGroup,
     "sum",

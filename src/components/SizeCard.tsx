@@ -111,27 +111,29 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
         const percDisplay = percentWithEdge(
           areaMetric.value / totalAreaMetric.value
         );
-        const areaUnitDisplay = "sq. km";
+        const areaUnitDisplay = t("sq. km");
 
         return (
           <ReportError>
             <>
               <KeySection>
-                This plan is{" "}
+                {t("This plan is")}{" "}
                 <b>
                   {areaDisplay} {areaUnitDisplay}
                 </b>
-                , which is <b>{percDisplay}</b> of{" "}
-                {getGeographyDisplay(props.geography)} waters.
+                {", "}
+                {t("which is")} <b>{percDisplay}</b> {t("of")}{" "}
+                {getGeographyDisplay(props.geography)} {t("waters")}.
               </KeySection>
               {isCollection
                 ? collectionReport(
                     data,
                     boundaryTotalMetrics,
                     props.geography,
-                    objectiveIds
+                    objectiveIds,
+                    t
                   )
-                : sketchReport(data, props.geography)}
+                : sketchReport(data, props.geography, t)}
 
               <Collapse title={t("Learn More")}>
                 {genLearnMore(objectives)}
@@ -148,18 +150,18 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
  * Report protection level for single sketch
  * @param data ReportResult
  * @param geography string
+ * @param t TFunction
  * @returns JSX.Element
  */
-const sketchReport = (data: ReportResult, geography: string) => {
+const sketchReport = (data: ReportResult, geography: string, t: any) => {
   const level = getUserAttribute(
     data.sketch.properties,
     "designation",
     "FULLY_PROTECTED"
   );
-
   return (
     <>
-      <SketchObjectives groupId={level} geography={geography} />
+      <SketchObjectives groupId={level} geography={geography} t={t} />
     </>
   );
 };
@@ -169,13 +171,15 @@ const sketchReport = (data: ReportResult, geography: string) => {
  * @param data ReportResult
  * @param precalcMetrics Metric[] from precalc.json
  * @param geography string
+ * @param t TFunction
  * @returns JSX.Element
  */
 const collectionReport = (
   data: ReportResult,
   precalcMetrics: Metric[],
   geography: string,
-  objectiveIds: string[]
+  objectiveIds: string[],
+  t: any
 ) => {
   if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
   const sketches = toNullSketchArray(data.sketch);
@@ -255,16 +259,20 @@ const collectionReport = (
           max: 100,
         };
 
+        const targetLabel = t("Target");
+
         return (
           <React.Fragment key={objectiveId}>
             <CollectionObjectiveStatus
               objective={objective}
               objectiveMet={isMet}
               geography={geography}
+              t={t}
               renderMsg={collectionMsgs[objectiveId](
                 objective,
                 isMet,
-                geography
+                geography,
+                t
               )}
             />
             <ReportChartFigure>
@@ -274,19 +282,21 @@ const collectionReport = (
                 blockGroupStyles={blockGroupStyles}
                 showLegend={true}
                 valueFormatter={valueFormatter}
-                targetValueFormatter={(value) => `Target - ` + value + `%`}
+                targetValueFormatter={(value) =>
+                  targetLabel + ` - ` + value + `%`
+                }
               />
             </ReportChartFigure>
           </React.Fragment>
         );
       })}
 
-      <Collapse title="Show by Protection Level">
-        {genGroupLevelTable(groupLevelAggs, geography)}
+      <Collapse title={t("Show by Protection Level")}>
+        {genGroupLevelTable(groupLevelAggs, geography, t)}
       </Collapse>
 
-      <Collapse title="Show by MPA">
-        {genMpaSketchTable(sketchesById, childAreaPercMetrics, geography)}
+      <Collapse title={t("Show by MPA")}>
+        {genMpaSketchTable(sketchesById, childAreaPercMetrics, geography, t)}
       </Collapse>
     </>
   );
@@ -302,6 +312,7 @@ const collectionReport = (
 interface SketchObjectivesProps {
   groupId: "FULLY_PROTECTED" | "HIGHLY_PROTECTED";
   geography: string;
+  t: any;
 }
 
 /**
@@ -312,6 +323,7 @@ interface SketchObjectivesProps {
 const SketchObjectives: React.FunctionComponent<SketchObjectivesProps> = ({
   groupId,
   geography,
+  t,
 }) => {
   return (
     <>
@@ -325,7 +337,8 @@ const SketchObjectives: React.FunctionComponent<SketchObjectivesProps> = ({
             sketchMsgs[objectiveId](
               project.getObjectiveById(objectiveId),
               groupId,
-              geography
+              geography,
+              t
             )
           }
         />
@@ -377,6 +390,7 @@ interface CollectionObjectiveStatusProps {
   objective: Objective;
   objectiveMet: ObjectiveAnswer;
   geography: string;
+  t: any;
   renderMsg: any;
 }
 
@@ -385,11 +399,12 @@ interface CollectionObjectiveStatusProps {
  * @param CollectionObjectiveStatusProps containing objective, objective and geographyId
  */
 const CollectionObjectiveStatus: React.FunctionComponent<CollectionObjectiveStatusProps> =
-  ({ objective, objectiveMet, geography }) => {
+  ({ objective, objectiveMet, geography, t }) => {
     const msg = collectionMsgs[objective.objectiveId](
       objective,
       objectiveMet,
-      geography
+      geography,
+      t
     );
 
     return <ObjectiveStatus status={objectiveMet} msg={msg} />;
@@ -402,30 +417,23 @@ const sketchMsgs: Record<string, any> = {
   nearshore_protected: (
     objective: Objective,
     level: "FULLY_PROTECTED" | "HIGHLY_PROTECTED",
-    geography: string
+    geography: string,
+    t: any
   ) => {
     if (objective.countsToward[level] === OBJECTIVE_YES) {
       return (
         <>
-          This MPA counts towards protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters.
+          {t("This MPA counts towards protecting")}{" "}
+          <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
+          {getGeographyDisplay(geography)} {t("waters.")}
         </>
       );
     } else if (objective.countsToward[level] === OBJECTIVE_NO) {
       return (
         <>
-          This MPA <b>does not</b> count towards protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters.
-        </>
-      );
-    } else {
-      return (
-        <>
-          This MPA <b>may</b> count towards protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters.
+          {t("This MPA does not count towards protecting")}{" "}
+          <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
+          {getGeographyDisplay(geography)} {t("waters.")}
         </>
       );
     }
@@ -433,30 +441,23 @@ const sketchMsgs: Record<string, any> = {
   nearshore_fully_protected: (
     objective: Objective,
     level: "FULLY_PROTECTED" | "HIGHLY_PROTECTED",
-    geography: string
+    geography: string,
+    t: any
   ) => {
     if (objective.countsToward[level] === OBJECTIVE_YES) {
       return (
         <>
-          This MPA counts towards fully protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters as no-take.
+          {t("This MPA counts towards fully protecting")}{" "}
+          <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
+          {getGeographyDisplay(geography)} {t("waters as no-take.")}
         </>
       );
     } else if (objective.countsToward[level] === OBJECTIVE_NO) {
       return (
         <>
-          This MPA <b>does not</b> count towards fully protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters as no-take.
-        </>
-      );
-    } else {
-      return (
-        <>
-          This MPA <b>may</b> count towards fully protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters as no-take.
+          {t("This MPA does not count towards fully protecting")}{" "}
+          <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
+          {getGeographyDisplay(geography)} {t("waters as no-take.")}
         </>
       );
     }
@@ -470,30 +471,23 @@ const collectionMsgs: Record<string, any> = {
   nearshore_protected: (
     objective: Objective,
     objectiveMet: ObjectiveAnswer,
-    geography: string
+    geography: string,
+    t: any
   ) => {
     if (objectiveMet === OBJECTIVE_YES) {
       return (
         <>
-          This plan meets the objective of protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters.
+          {t("This plan meets the objective of protecting")}{" "}
+          <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
+          {getGeographyDisplay(geography)} {t("waters.")}
         </>
       );
     } else if (objectiveMet === OBJECTIVE_NO) {
       return (
         <>
-          This plan <b>does not</b> meet the objective of protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters.
-        </>
-      );
-    } else {
-      return (
-        <>
-          This plan <b>may</b> meet the objective of protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters.
+          {t("This plan does not meet the objective of protecting")}{" "}
+          <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
+          {getGeographyDisplay(geography)} {t("waters.")}
         </>
       );
     }
@@ -501,30 +495,23 @@ const collectionMsgs: Record<string, any> = {
   nearshore_fully_protected: (
     objective: Objective,
     objectiveMet: ObjectiveAnswer,
-    geography: string
+    geography: string,
+    t: any
   ) => {
     if (objectiveMet === OBJECTIVE_YES) {
       return (
         <>
-          This plan meets the objective of fully protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters as no-take.
+          {t("This plan meets the objective of fully protecting")}{" "}
+          <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
+          {getGeographyDisplay(geography)} {t("waters as no-take.")}
         </>
       );
     } else if (objectiveMet === OBJECTIVE_NO) {
       return (
         <>
-          This plan <b>does not</b> meet the objective of fully protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters as no-take.
-        </>
-      );
-    } else {
-      return (
-        <>
-          This plan <b>may</b> meet the objective of fully protecting{" "}
-          <b>{percentWithEdge(objective.target)}</b> of{" "}
-          {getGeographyDisplay(geography)} waters as no-take.
+          {t("This plan does not meet the objective of fully protecting")}{" "}
+          <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
+          {getGeographyDisplay(geography)} {t("waters as no-take.")}
         </>
       );
     }
@@ -541,20 +528,21 @@ const collectionMsgs: Record<string, any> = {
 const genMpaSketchTable = (
   sketchesById: Record<string, NullSketch>,
   regMetrics: Metric[],
-  geography: string
+  geography: string,
+  t: any
 ) => {
   const columns: Column<Metric>[] = [
     {
-      Header: "MPA",
-      accessor: (row) => sketchesById[row.sketchId!].properties.name,
+      Header: t("MPA"),
+      accessor: (row) => (
+        <GroupPill groupColorMap={groupColorMap} group={row.groupId!}>
+          {sketchesById[row.sketchId!].properties.name}
+        </GroupPill>
+      ),
     },
     {
       Header: "% " + getGeographyDisplay(geography),
-      accessor: (row) => (
-        <GroupPill groupColorMap={groupColorMap} group={row.groupId!}>
-          {percentWithEdge(row.value)}
-        </GroupPill>
-      ),
+      accessor: (row) => percentWithEdge(row.value),
     },
   ];
 
@@ -571,10 +559,19 @@ const genMpaSketchTable = (
   );
 };
 
-const genGroupLevelTable = (levelAggs: GroupMetricAgg[], geography: string) => {
+const genGroupLevelTable = (
+  levelAggs: GroupMetricAgg[],
+  geography: string,
+  t: any
+) => {
+  const groupDisplayMap: Record<string, string> = {
+    FULLY_PROTECTED: t("Fully Protected Area(s)"),
+    HIGHLY_PROTECTED: t("Highly Protected Area(s)"),
+  };
+
   const columns: Column<GroupMetricAgg>[] = [
     {
-      Header: "This plan contains:",
+      Header: t("This plan contains:"),
       accessor: (row) => (
         <GroupCircleRow
           group={row.groupId}
@@ -582,10 +579,7 @@ const genGroupLevelTable = (levelAggs: GroupMetricAgg[], geography: string) => {
           circleText={`${row.numSketches}`}
           rowText={
             <>
-              <b>
-                {capitalize(groupDisplayMap[row.groupId])}
-                {row.numSketches === 1 ? "" : "s"}
-              </b>
+              <b>{groupDisplayMap[row.groupId]}</b>
             </>
           }
         />
@@ -646,6 +640,12 @@ const genLearnMore = (objectives: Objective[]) => {
           })}
         </tbody>
       </table>
+      <p>
+        <Trans i18nKey="Size Card - Learn more">
+          Overlap is only counted once. If MPAs of different protection levels
+          overlap, only the highest protection level is counted.
+        </Trans>
+      </p>
     </>
   );
 };
