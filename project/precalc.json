@@ -769,6 +769,14 @@
             "sketchId": null
         },
         {
+            "metricId": "sum",
+            "value": -47893733,
+            "classId": "bathymetry-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
             "metricId": "count",
             "value": 1,
             "classId": "6nm_boundary-total",
@@ -1532,6 +1540,14 @@
             "metricId": "area",
             "value": 878955088.8516761,
             "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": -5255084,
+            "classId": "bathymetry-total",
             "groupId": null,
             "geographyId": "santa-maria",
             "sketchId": null

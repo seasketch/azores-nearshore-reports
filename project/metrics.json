@@ -30,6 +30,18 @@
         ]
     },
     {
+        "metricId": "bathymetry",
+        "type": "valueOverlap",
+        "classes": [
+            {
+                "classId": "depth",
+                "display": "Depth",
+                "datasourceId": "bathymetry",
+                "layerId": ""
+            }
+        ]
+    },
+    {
         "metricId": "sdmValueOverlap",
         "type": "valueOverlap",
         "classes": [

@@ -233,5 +233,10 @@
   "This plan does not meet the objective of protecting": "Este plano não atende ao objetivo de proteger",
   "This plan meets the objective of fully protecting": "Este plano cumpre o objetivo de proteger integralmente",
   "This plan meets the objective of protecting": "Este plano cumpre o objetivo de proteger",
-  "Size Card - Learn more": "A sobreposição é contada apenas uma vez. Se MPAs de diferentes níveis de proteção se sobrepõem, apenas o nível de proteção mais alto é contado."
+  "Size Card - Learn more": "A sobreposição é contada apenas uma vez. Se MPAs de diferentes níveis de proteção se sobrepõem, apenas o nível de proteção mais alto é contado.",
+  "Avg": "Média",
+  "Depth": "Profundidade da Água",
+  "Max": "Máxima",
+  "Min": "Mínima",
+  "This plan contains": "Este plano contém"
 }

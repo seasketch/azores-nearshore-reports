@@ -1796,16 +1796,8 @@
     "propertiesToKeep": []
   },
   {
-    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/santa_maria_6nm_boundary_ws84.shp",
-    "layerName": "santa-maria",
-    "geo_type": "vector",
     "datasourceId": "santa-maria",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [],
-    "created": "2023-07-13T20:08:15.926Z",
-    "lastUpdated": "2023-07-13T20:08:15.926Z",
+    "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
@@ -1815,6 +1807,36 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "santa-maria",
+    "classKeys": [],
+    "created": "2023-07-13T20:08:15.926Z",
+    "lastUpdated": "2023-07-13T20:08:15.926Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/santa_maria_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Analytics/bathy/gebco_2021.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "bathymetry",
+    "formats": [
+      "tif"
+    ],
+    "created": "2023-08-01T21:34:06.693Z",
+    "lastUpdated": "2023-08-01T21:34:06.693Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "sum": -27325563104,
+          "count": null,
+          "area": null
+        }
+      }
+    },
+    "noDataValue": -32767,
+    "measurementType": "quantitative"
   }
 ]

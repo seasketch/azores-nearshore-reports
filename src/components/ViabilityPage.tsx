@@ -6,12 +6,14 @@ import { OusDemographics } from "./OusDemographic";
 import { OUSByIslandCard } from "./OUSByIslandCard";
 import { GeoProp } from "../clients/MpaTabReport";
 import { ProtectionCard } from "./ProtectionCard";
+import { BathymetryCard } from "./BathymetryCard";
 
 const ReportPage: React.FunctionComponent<GeoProp> = (props) => {
   return (
     <>
       <ProtectionCard />
       <SizeCard geography={props.geography} />
+      <BathymetryCard />
       <OUSCard geography={props.geography} />
       <OUSByIslandCard
         hidden={props.geography === "nearshore"}

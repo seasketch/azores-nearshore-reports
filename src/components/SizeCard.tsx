@@ -571,7 +571,7 @@ const genGroupLevelTable = (
 
   const columns: Column<GroupMetricAgg>[] = [
     {
-      Header: t("This plan contains:"),
+      Header: t("This plan contains") + ":",
       accessor: (row) => (
         <GroupCircleRow
           group={row.groupId}
