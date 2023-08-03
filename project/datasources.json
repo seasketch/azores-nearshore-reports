@@ -1818,25 +1818,335 @@
     "propertiesToKeep": []
   },
   {
-    "src": "data/src/Analytics/bathy/gebco_2021.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "bathymetry",
-    "formats": [
-      "tif"
-    ],
-    "created": "2023-08-01T21:34:06.693Z",
-    "lastUpdated": "2023-08-01T21:34:06.693Z",
+    "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
+          "count": null,
           "sum": -27325563104,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -32767,
+    "created": "2023-08-01T21:34:06.693Z",
+    "lastUpdated": "2023-08-01T21:34:06.693Z",
+    "src": "data/src/Analytics/bathy/gebco_2021.tif"
+  },
+  {
+    "datasourceId": "azores_nearshore",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 9,
+          "sum": null,
+          "area": 10752320707.152864
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "azores_indv_islands_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-02T16:21:35.342Z",
+    "lastUpdated": "2023-08-02T16:21:35.342Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/azores_indv_islands_6nm_boundary_ws84.shp",
+    "propertiesToKeep": [
+      "island"
+    ]
+  },
+  {
+    "datasourceId": "all-fishing",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 105243.27970947977,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:19:23.930Z",
+    "lastUpdated": "2023-08-02T18:19:23.930Z",
+    "src": "data/src/Analytics/gfw/all-fish-19-22.tif"
+  },
+  {
+    "datasourceId": "drifting-longlines",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 48513.311874675564,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:20:16.668Z",
+    "lastUpdated": "2023-08-02T18:20:16.668Z",
+    "src": "data/src/Analytics/gfw/drifting_longlines.tif"
+  },
+  {
+    "datasourceId": "ESP",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 33596.21929679252,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:20:38.176Z",
+    "lastUpdated": "2023-08-02T18:20:38.176Z",
+    "src": "data/src/Analytics/gfw/ESP.tif"
+  },
+  {
+    "datasourceId": "pole-and-line",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 21067.85809814185,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:21:48.308Z",
+    "lastUpdated": "2023-08-02T18:21:48.308Z",
+    "src": "data/src/Analytics/gfw/pole_and_line.tif"
+  },
+  {
+    "datasourceId": "set-longlines",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 9647.449667099863,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:22:15.037Z",
+    "lastUpdated": "2023-08-02T18:22:15.037Z",
+    "src": "data/src/Analytics/gfw/set_longlines.tif"
+  },
+  {
+    "datasourceId": "fixed-gear",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 8269.586501637474,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:22:47.353Z",
+    "lastUpdated": "2023-08-02T18:22:47.353Z",
+    "src": "data/src/Analytics/gfw/fixed_gear.tif"
+  },
+  {
+    "datasourceId": "purse-seines",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 198.52972282469273,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:23:18.229Z",
+    "lastUpdated": "2023-08-02T18:23:18.229Z",
+    "src": "data/src/Analytics/gfw/purse_seines.tif"
+  },
+  {
+    "datasourceId": "other-purse-seines",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 128.65805564820766,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:23:44.108Z",
+    "lastUpdated": "2023-08-02T18:23:44.108Z",
+    "src": "data/src/Analytics/gfw/other_purse_seines.tif"
+  },
+  {
+    "datasourceId": "set-gillnets",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 765.3888857271522,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:24:12.814Z",
+    "lastUpdated": "2023-08-02T18:24:12.814Z",
+    "src": "data/src/Analytics/gfw/set_gillnets.tif"
+  },
+  {
+    "datasourceId": "trawlers",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 76.68111062981188,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:24:37.033Z",
+    "lastUpdated": "2023-08-02T18:24:37.033Z",
+    "src": "data/src/Analytics/gfw/trawlers.tif"
+  },
+  {
+    "datasourceId": "trollers",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 552.8126491680741,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:24:58.908Z",
+    "lastUpdated": "2023-08-02T18:24:58.908Z",
+    "src": "data/src/Analytics/gfw/trollers.tif"
+  },
+  {
+    "datasourceId": "PRT",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 71599.84101833822,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:25:27.379Z",
+    "lastUpdated": "2023-08-02T18:25:27.379Z",
+    "src": "data/src/Analytics/gfw/PRT.tif"
+  },
+  {
+    "src": "data/src/Analytics/gfw/RUS.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "RUS",
+    "formats": [
+      "tif"
+    ],
+    "created": "2023-08-02T18:25:49.722Z",
+    "lastUpdated": "2023-08-02T18:25:49.722Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "sum": 47.05249875038862,
           "count": null,
           "area": null
         }
       }
     },
-    "noDataValue": -32767,
+    "noDataValue": -3.4e+38,
     "measurementType": "quantitative"
   }
 ]

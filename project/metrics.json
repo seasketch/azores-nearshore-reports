@@ -42,6 +42,90 @@
         ]
     },
     {
+        "metricId": "gfwValueOverlap",
+        "type": "valueOverlap",
+        "classes": [
+            {
+                "datasourceId": "all-fishing",
+                "classId": "all-fishing",
+                "display": "All Fishing 2019-2022",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "drifting-longlines",
+                "classId": "gear_type:drifting-longlines",
+                "display": "Drifting Longline",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "pole-and-line",
+                "classId": "gear_type:pole-and-line",
+                "display": "Pole and Line",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "set-longlines",
+                "classId": "gear_type:set-longlines",
+                "display": "Set Longline",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "fixed-gear",
+                "classId": "gear_type:fixed-gear",
+                "display": "Fixed Gear",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "purse-seines",
+                "classId": "gear_type:purse-seines",
+                "display": "Purse Seines",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "other-purse-seines",
+                "classId": "gear_type:other-purse-seines",
+                "display": "Other Purse Seines",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "set-gillnets",
+                "classId": "gear_type:set-gillnets",
+                "display": "Set Gillnet",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "trawlers",
+                "classId": "gear_type:trawlers",
+                "display": "Trawlers",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "trollers",
+                "classId": "gear_type:trollers",
+                "display": "Trollers",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "PRT",
+                "classId": "country:PRT",
+                "display": "Portugal",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "ESP",
+                "classId": "country:ESP",
+                "display": "Spain",
+                "layerId": ""
+            },
+            {
+                "datasourceId": "RUS",
+                "classId": "country:RUS",
+                "display": "Russia",
+                "layerId": ""
+            }
+        ]
+    },
+    {
         "metricId": "sdmValueOverlap",
         "type": "valueOverlap",
         "classes": [

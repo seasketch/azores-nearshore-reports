@@ -778,6 +778,126 @@
         },
         {
             "metricId": "count",
+            "value": 9,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 10723860068.998096,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 7712.122831135988,
+            "classId": "all-fishing-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 437.5913807116449,
+            "classId": "drifting-longlines-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 290.54388163238764,
+            "classId": "ESP-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 3049.287440530956,
+            "classId": "pole-and-line-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 647.4582014232874,
+            "classId": "set-longlines-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1378.0244335979223,
+            "classId": "fixed-gear-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "purse-seines-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "other-purse-seines-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-gillnets-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trawlers-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trollers-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 7421.578916102648,
+            "classId": "PRT-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "RUS-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
             "value": 1,
             "classId": "6nm_boundary-total",
             "groupId": null,
@@ -1548,6 +1668,126 @@
             "metricId": "sum",
             "value": -5255084,
             "classId": "bathymetry-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 874070879.267315,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1022.1172161102295,
+            "classId": "all-fishing-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "drifting-longlines-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "ESP-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 631.3841590881348,
+            "classId": "pole-and-line-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-longlines-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 131.15555572509766,
+            "classId": "fixed-gear-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "purse-seines-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "other-purse-seines-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-gillnets-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trawlers-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trollers-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1022.1172161102295,
+            "classId": "PRT-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "RUS-total",
             "groupId": null,
             "geographyId": "santa-maria",
             "sketchId": null

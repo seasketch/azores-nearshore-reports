@@ -1,0 +1,216 @@
+{
+  "metrics": [
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "all-fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 657.591667175293,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "country:ESP",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "country:PRT",
+      "groupId": null,
+      "geographyId": null,
+      "value": 657.591667175293,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "country:RUS",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "gear_type:drifting-longlines",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "gear_type:fixed-gear",
+      "groupId": null,
+      "geographyId": null,
+      "value": 122.37805557250977,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "gear_type:other-purse-seines",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "gear_type:pole-and-line",
+      "groupId": null,
+      "geographyId": null,
+      "value": 331.2413902282715,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "gear_type:purse-seines",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "gear_type:set-gillnets",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "gear_type:set-longlines",
+      "groupId": null,
+      "geographyId": null,
+      "value": 29.184165954589844,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "gear_type:trawlers",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    },
+    {
+      "metricId": "gfwValueOverlap",
+      "sketchId": "15881",
+      "classId": "gear_type:trollers",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santa-maria-mpa"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 15881,
+    "bbox": [
+      -25.07484,
+      36.907795,
+      -24.888811,
+      37.115704
+    ],
+    "type": "Feature",
+    "properties": {
+      "2987": "HIGHLY_PROTECTED",
+      "2988": "santa-maria-mpa",
+      "2990": [
+        "SANTA_MARIA"
+      ],
+      "id": "15881",
+      "name": "santa-maria-mpa",
+      "island": [
+        "SANTA_MARIA"
+      ],
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-07-19T23:08:04.767237+00:00",
+      "updatedAt": "2023-07-27T18:18:38.175581+00:00",
+      "designation": "HIGHLY_PROTECTED",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "212",
+      "userAttributes": [
+        {
+          "label": "Designation",
+          "value": "HIGHLY_PROTECTED",
+          "exportId": "designation",
+          "fieldType": "ComboBox",
+          "valueLabel": "Highly Protected",
+          "formElementId": 2987,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Designação",
+              "valueLabel": "Altamente Protegido"
+            }
+          }
+        },
+        {
+          "label": "Island",
+          "value": [
+            "SANTA_MARIA"
+          ],
+          "exportId": "island",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Santa Maria"
+          ],
+          "formElementId": 2990,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Ilha",
+              "valueLabel": [
+                "Santa Maria"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}
