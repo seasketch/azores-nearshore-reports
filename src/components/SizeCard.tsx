@@ -26,7 +26,6 @@ import {
   capitalize,
   roundLower,
   squareMeterToKilometer,
-  toPercentMetric,
   OBJECTIVE_NO,
   OBJECTIVE_YES,
   getKeys,
@@ -45,6 +44,7 @@ import styled from "styled-components";
 import {
   getGeographyDisplay,
   getPrecalcMetrics,
+  toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../clients/MpaTabReport";
 
@@ -83,7 +83,11 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
   const objectives = objectiveIds.map((o) => project.getObjectiveById(o));
 
   return (
-    <ResultsCard title={t("Size")} functionName="boundaryAreaOverlap">
+    <ResultsCard
+      title={t("Size")}
+      functionName="boundaryAreaOverlap"
+      extraParams={{ geographies: [props.geography] }}
+    >
       {(data: ReportResult) => {
         // Get overall area of sketch metric
         const areaMetric = firstMatchingMetric(

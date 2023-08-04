@@ -11,14 +11,33 @@ import {
   NullSketchCollection,
   NullSketch,
   getSketchFeatures,
+  getFlatGeobufFilename,
+  clipMultiMerge,
 } from "@seasketch/geoprocessing";
 import project from "../../project";
 import {
   overlapArea,
   overlapAreaGroupMetrics,
 } from "@seasketch/geoprocessing/src";
-import { firstMatchingMetric, getUserAttribute } from "@seasketch/geoprocessing/client-core";
+import {
+  Feature,
+  InternalVectorDatasource,
+  MultiPolygon,
+  firstMatchingMetric,
+  getUserAttribute,
+  toSketchArray,
+} from "@seasketch/geoprocessing/client-core";
 import { getPrecalcMetrics } from "../../data/bin/getPrecalcMetrics";
+import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
+import { featureCollection } from "@turf/helpers";
+import bbox from "@turf/bbox";
+import geographies from "../../project/geographies.json";
+import { clipSketchToSubregion } from "../util/clipSketchToSubregion";
+
+interface ExtraParams {
+  /** Optional ID(s) of geographies to operate on. **/
+  geographies?: string[];
+}
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
 const boundaryTotalMetrics = getPrecalcMetrics(
@@ -31,18 +50,20 @@ const totalAreaMetric = firstMatchingMetric(
   (m) => m.groupId === null
 );
 
+function notEmpty<TValue>(value: TValue | null | undefined): value is TValue {
+  return value !== null && value !== undefined;
+}
+
 export async function boundaryAreaOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
+  extraParams: ExtraParams
 ): Promise<ReportResult> {
+  sketch = await clipSketchToSubregion(sketch, extraParams);
+
   const areaMetrics = (
-    await overlapArea(
-      metricGroup.metricId,
-      sketch,
-      totalAreaMetric.value,
-      {
-        includePercMetric: false,
-      }
-    )
+    await overlapArea(metricGroup.metricId, sketch, totalAreaMetric.value, {
+      includePercMetric: false,
+    })
   ).map(
     (metrics): Metric => ({
       ...metrics,

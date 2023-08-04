@@ -6,7 +6,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 852806212.0354338,
+      "value": 852806210.4305305,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -18,7 +18,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 852806212.0354338,
+      "value": 852806210.4305305,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -42,7 +42,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 197066333.83307806,
+      "value": 197066333.45741352,
       "extra": {
         "sketchName": "1"
       }
@@ -53,7 +53,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 197066333.83307806,
+      "value": 197066333.45741352,
       "extra": {
         "sketchName": "1"
       }
@@ -64,7 +64,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 155513803.23309192,
+      "value": 155513803.00882748,
       "extra": {
         "sketchName": "2"
       }
@@ -75,7 +75,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 155513803.23309192,
+      "value": 155513803.00882748,
       "extra": {
         "sketchName": "2"
       }
@@ -86,7 +86,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 115536808.72436836,
+      "value": 115536808.59200175,
       "extra": {
         "sketchName": "3"
       }
@@ -97,7 +97,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 115536808.72436836,
+      "value": 115536808.59200175,
       "extra": {
         "sketchName": "3"
       }
@@ -108,7 +108,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 102050595.20409991,
+      "value": 102050595.04206333,
       "extra": {
         "sketchName": "4"
       }
@@ -119,7 +119,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 102050595.20409991,
+      "value": 102050595.04206333,
       "extra": {
         "sketchName": "4"
       }
@@ -130,7 +130,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 303350260.45403963,
+      "value": 303350259.73947036,
       "extra": {
         "sketchName": "5"
       }
@@ -141,14 +141,34 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 303350260.45403963,
+      "value": 303350259.73947036,
       "extra": {
         "sketchName": "5"
       }
     }
   ],
   "sketch": {
-    "id": 15057,
+    "properties": {
+      "2991": "Nearshore collection",
+      "id": "15057",
+      "name": "Nearshore collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-06-15T15:57:41.843214+00:00",
+      "updatedAt": "2023-06-15T18:09:46.970495+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    },
+    "bbox": [
+      -28.502361571,
+      38.282002383,
+      -26.915174722,
+      38.862496969
+    ],
     "type": "FeatureCollection",
     "features": [
       {
@@ -491,21 +511,6 @@
           ]
         }
       }
-    ],
-    "properties": {
-      "2991": "Nearshore collection",
-      "id": "15057",
-      "name": "Nearshore collection",
-      "postId": null,
-      "userId": "531",
-      "userSlug": "Abby",
-      "createdAt": "2023-06-15T15:57:41.843214+00:00",
-      "updatedAt": "2023-06-15T18:09:46.970495+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "213",
-      "userAttributes": null
-    }
+    ]
   }
 }

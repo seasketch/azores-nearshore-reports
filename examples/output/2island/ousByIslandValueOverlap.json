@@ -1,0 +1,1897 @@
+{
+  "metrics": [
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "corvo_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "corvo_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "corvo_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "corvo_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "corvo_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "corvo_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "corvo_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "corvo_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "corvo_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "faial_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "faial_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "faial_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "faial_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "faial_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "faial_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "faial_energy_dev_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "faial_energy_dev_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "faial_energy_dev_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "faial_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "faial_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "faial_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "faial_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "faial_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "faial_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "faial_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00001554292236960464,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "faial_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "faial_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00001554292236960464,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "flores_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "flores_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "flores_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "flores_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "flores_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "flores_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "flores_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "flores_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "flores_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "flores_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "flores_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "flores_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "flores_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "flores_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "flores_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "flores_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "flores_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "flores_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "graciosa_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "graciosa_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "graciosa_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "graciosa_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "graciosa_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "graciosa_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "graciosa_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "graciosa_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "graciosa_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "graciosa_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "graciosa_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "graciosa_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "graciosa_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "graciosa_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "graciosa_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "graciosa_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "graciosa_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "graciosa_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "pico_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "pico_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "pico_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "pico_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8.239351695915609e-7,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "pico_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2.615003485625933e-7,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "pico_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5.624348210289676e-7,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "pico_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "pico_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "pico_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "pico_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8.350428501446849e-7,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "pico_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2.646143568707515e-7,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "pico_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5.704284932739334e-7,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "pico_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "pico_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "pico_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "santamaria_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.05722208891360481,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "santamaria_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "santamaria_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.05722208891360481,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "santamaria_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "santamaria_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "santamaria_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "santamaria_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.26691445196519226,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "santamaria_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "santamaria_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.26691445196519226,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "santamaria_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.22239862211381478,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "santamaria_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "santamaria_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.22239862211381478,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "santamaria_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0005671805022871013,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "santamaria_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "santamaria_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0005671805022871013,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "santamaria_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.17847931165795217,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "santamaria_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "santamaria_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.17847931165795217,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saojorge_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saojorge_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saojorge_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saojorge_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saojorge_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saojorge_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saojorge_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saojorge_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saojorge_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saojorge_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saojorge_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saojorge_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saojorge_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saojorge_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saojorge_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saojorge_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saojorge_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saojorge_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saomiguel_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saomiguel_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saomiguel_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saomiguel_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0014795410104815332,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saomiguel_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0013952964150192315,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saomiguel_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00008424459546230167,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saomiguel_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0023216598535642508,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saomiguel_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.002294981873095514,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saomiguel_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.000026677980468736706,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saomiguel_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0015215647014458211,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saomiguel_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0014919442733685173,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saomiguel_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.000029620428077303806,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saomiguel_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saomiguel_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saomiguel_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saomiguel_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saomiguel_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saomiguel_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "saomiguel_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.009521903385044883,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "saomiguel_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.009395612023797018,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "saomiguel_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00012629136124786555,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "terceira_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "terceira_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "terceira_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "terceira_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "terceira_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "terceira_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "terceira_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "terceira_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "terceira_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "terceira_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "terceira_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "terceira_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "terceira_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "terceira_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "terceira_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17851",
+      "classId": "terceira_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2island",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17852",
+      "classId": "terceira_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "saomiguel"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "17853",
+      "classId": "terceira_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "santamaria"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 17851,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 17853,
+        "bbox": [
+          -25.110502,
+          36.93442,
+          -24.901377,
+          37.090153
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "HIGHLY_PROTECTED",
+          "2988": "santamaria",
+          "2990": [
+            "SANTA_MARIA"
+          ],
+          "id": "17853",
+          "name": "santamaria",
+          "island": [
+            "SANTA_MARIA"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-08-03T23:24:22.925443+00:00",
+          "updatedAt": "2023-08-03T23:24:30.60074+00:00",
+          "designation": "HIGHLY_PROTECTED",
+          "collectionId": "17851",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "HIGHLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Highly Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Altamente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "SANTA_MARIA"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Santa Maria"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Santa Maria"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 17852,
+        "bbox": [
+          -25.370367,
+          37.873585,
+          -25.242638,
+          37.932014
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "saomiguel",
+          "2990": [
+            "SAO_MIGUEL"
+          ],
+          "id": "17852",
+          "name": "saomiguel",
+          "island": [
+            "SAO_MIGUEL"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-08-03T23:24:04.132735+00:00",
+          "updatedAt": "2023-08-03T23:24:36.079995+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "17851",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "SAO_MIGUEL"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "São Miguel"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "São Miguel"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "2991": "2island",
+      "id": "17851",
+      "name": "2island",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-08-03T23:23:31.444221+00:00",
+      "updatedAt": "2023-08-03T23:24:36.079995+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    }
+  }
+}

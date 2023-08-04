@@ -1,0 +1,435 @@
+{
+  "metrics": [
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "ousPeopleCount_all",
+      "groupId": null,
+      "geographyId": null,
+      "value": 390
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "ousRespondentCount_all",
+      "groupId": null,
+      "geographyId": null,
+      "value": 96
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Recreational fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 192
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Recreational fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 45
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Touristic fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 148
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Touristic fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 13
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Recreation, sports and tourism",
+      "groupId": null,
+      "geographyId": null,
+      "value": 143
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Recreation, sports and tourism",
+      "groupId": null,
+      "geographyId": null,
+      "value": 15
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Commercial fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 129
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Commercial fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 29
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Scientific Research, Technological Development and Environmental Monitoring",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Scientific Research, Technological Development and Environmental Monitoring",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "santa maria",
+      "groupId": null,
+      "geographyId": null,
+      "value": 261
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "santa maria",
+      "groupId": null,
+      "geographyId": null,
+      "value": 62
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "unknown-gear",
+      "groupId": null,
+      "geographyId": null,
+      "value": 265
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "unknown-gear",
+      "groupId": null,
+      "geographyId": null,
+      "value": 69
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Hook and line - Handline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 34
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Hook and line - Handline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 11
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Pole and line",
+      "groupId": null,
+      "geographyId": null,
+      "value": 94
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Pole and line",
+      "groupId": null,
+      "geographyId": null,
+      "value": 14
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Hook and line - Shoreline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Hook and line - Shoreline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Harvesting",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Harvesting",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "pico",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "pico",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Energy Development",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Energy Development",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "saomiguel",
+      "groupId": null,
+      "geographyId": null,
+      "value": 127
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "saomiguel",
+      "groupId": null,
+      "geographyId": null,
+      "value": 32
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "Hook and line - Bottom longline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "Hook and line - Bottom longline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "17851",
+      "classId": "faial",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "17851",
+      "classId": "faial",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1
+    }
+  ],
+  "sketch": {
+    "id": 17851,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 17853,
+        "bbox": [
+          -25.110502,
+          36.93442,
+          -24.901377,
+          37.090153
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "HIGHLY_PROTECTED",
+          "2988": "santamaria",
+          "2990": [
+            "SANTA_MARIA"
+          ],
+          "id": "17853",
+          "name": "santamaria",
+          "island": [
+            "SANTA_MARIA"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-08-03T23:24:22.925443+00:00",
+          "updatedAt": "2023-08-03T23:24:30.60074+00:00",
+          "designation": "HIGHLY_PROTECTED",
+          "collectionId": "17851",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "HIGHLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Highly Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Altamente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "SANTA_MARIA"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Santa Maria"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Santa Maria"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 17852,
+        "bbox": [
+          -25.370367,
+          37.873585,
+          -25.242638,
+          37.932014
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "saomiguel",
+          "2990": [
+            "SAO_MIGUEL"
+          ],
+          "id": "17852",
+          "name": "saomiguel",
+          "island": [
+            "SAO_MIGUEL"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-08-03T23:24:04.132735+00:00",
+          "updatedAt": "2023-08-03T23:24:36.079995+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "17851",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "SAO_MIGUEL"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "São Miguel"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "São Miguel"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "2991": "2island",
+      "id": "17851",
+      "name": "2island",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-08-03T23:23:31.444221+00:00",
+      "updatedAt": "2023-08-03T23:24:36.079995+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    }
+  }
+}
