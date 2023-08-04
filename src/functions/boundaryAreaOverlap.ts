@@ -44,9 +44,9 @@ const totalAreaMetric = firstMatchingMetric(
 
 export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams: ExtraParams
+  extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  sketch = await clipSketchToSubregion(sketch, extraParams);
+  sketch = await clipSketchToSubregion(sketch, extraParams!);
 
   const areaMetrics = (
     await overlapArea(metricGroup.metricId, sketch, totalAreaMetric.value, {

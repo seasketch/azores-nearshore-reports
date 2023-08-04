@@ -13,6 +13,7 @@ import {
   ReportChartFigure,
   ObjectiveStatus,
   useSketchProperties,
+  VerticalSpacer,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -120,6 +121,7 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
         return (
           <ReportError>
             <>
+              {!areaMetric.value ? genWarning() : null}
               <KeySection>
                 {t("This plan is")}{" "}
                 <b>
@@ -147,6 +149,41 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
         );
       }}
     </ResultsCard>
+  );
+};
+
+// styled-components are needed here to use the ::before pseudo selector
+const ErrorIndicator = styled.div`
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1em;
+  background-color: #ea4848;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin-right: 8px;
+  ::before {
+    position: relative;
+    bottom: -1px;
+    content: "!";
+  }
+`;
+
+const genWarning = () => {
+  return (
+    <>
+      <div role="alert">
+        <ErrorIndicator />
+        <b>
+          This plan does not overlap with the selected subregion, please select
+          a different subregion for useful report metrics.
+        </b>
+      </div>
+      <VerticalSpacer />
+    </>
   );
 };
 

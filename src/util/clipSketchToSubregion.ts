@@ -17,7 +17,7 @@ import {
   getFlatGeobufFilename,
 } from "@seasketch/geoprocessing";
 
-interface ExtraParams {
+export interface ExtraParams {
   /** Optional ID(s) of geographies to operate on. **/
   geographies?: string[];
 }
@@ -34,7 +34,7 @@ export async function clipSketchToSubregion(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams: ExtraParams
 ): Promise<Sketch<Polygon> | SketchCollection<Polygon>> {
-  if (extraParams.geographies && extraParams.geographies[0]) {
+  if (extraParams && extraParams.geographies && extraParams.geographies[0]) {
     const geography = geographies.find(
       (g) =>
         extraParams.geographies &&
