@@ -20,18 +20,10 @@ import {
   overlapAreaGroupMetrics,
 } from "@seasketch/geoprocessing/src";
 import {
-  Feature,
-  InternalVectorDatasource,
-  MultiPolygon,
   firstMatchingMetric,
   getUserAttribute,
-  toSketchArray,
 } from "@seasketch/geoprocessing/client-core";
 import { getPrecalcMetrics } from "../../data/bin/getPrecalcMetrics";
-import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
-import { featureCollection } from "@turf/helpers";
-import bbox from "@turf/bbox";
-import geographies from "../../project/geographies.json";
 import { clipSketchToSubregion } from "../util/clipSketchToSubregion";
 
 interface ExtraParams {
@@ -49,10 +41,6 @@ const totalAreaMetric = firstMatchingMetric(
   boundaryTotalMetrics,
   (m) => m.groupId === null
 );
-
-function notEmpty<TValue>(value: TValue | null | undefined): value is TValue {
-  return value !== null && value !== undefined;
-}
 
 export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
