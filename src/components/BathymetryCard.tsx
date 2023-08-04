@@ -6,6 +6,7 @@ import {
 } from "@seasketch/geoprocessing/client-ui";
 import { BathymetryResults } from "../util/BathymetryResults";
 import { useTranslation } from "react-i18next";
+import { GeoProp } from "../clients/MpaTabReport";
 
 const Percent = new Intl.NumberFormat("en", {
   style: "percent",
@@ -17,10 +18,14 @@ const formatDepth = (val: number) => {
   return val <= 0 ? `-${baseVal}m` : `+${baseVal}m`;
 };
 
-export const BathymetryCard: React.FunctionComponent = () => {
+export const BathymetryCard: React.FunctionComponent<GeoProp> = (props) => {
   const { t, i18n } = useTranslation();
   return (
-    <ResultsCard title={t("Depth")} functionName="bathymetry">
+    <ResultsCard
+      title={t("Depth")}
+      functionName="bathymetry"
+      extraParams={{ geographies: [props.geography] }}
+    >
       {(data: BathymetryResults) => {
         return (
           <>

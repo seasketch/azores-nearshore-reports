@@ -15,7 +15,9 @@ describe("bathymetry smoke tests", () => {
   it("bathymetrySmoke - find bathymetry for all types", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await bathymetry(example);
+      const result = await bathymetry(example, {
+        geographies: ["nearshore"],
+      });
       expect(result).toBeTruthy();
       expect(result.min).toBeTruthy();
       expect(result.max).toBeTruthy();

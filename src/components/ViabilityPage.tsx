@@ -13,7 +13,7 @@ const ReportPage: React.FunctionComponent<GeoProp> = (props) => {
     <>
       <ProtectionCard />
       <SizeCard geography={props.geography} />
-      <BathymetryCard />
+      <BathymetryCard geography={props.geography} />
       <OUSCard geography={props.geography} />
       <OUSByIslandCard
         hidden={props.geography === "nearshore"}

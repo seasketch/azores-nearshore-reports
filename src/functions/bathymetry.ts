@@ -15,10 +15,16 @@ import project from "../../project";
 
 // @ts-ignore
 import geoblaze, { Georaster } from "geoblaze";
+import {
+  ExtraParams,
+  clipSketchToSubregion,
+} from "../util/clipSketchToSubregion";
 
 export async function bathymetry(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
+  extraParams?: ExtraParams
 ): Promise<BathymetryResults> {
+  sketch = await clipSketchToSubregion(sketch, extraParams!);
   const mg = project.getMetricGroup("bathymetry");
   const sketches = toSketchArray(sketch);
   const box = sketch.bbox || bbox(sketch);
@@ -43,6 +49,13 @@ export async function bathyStats(
   raster: Georaster
 ): Promise<BathymetryResults> {
   const sketchStats = features.map((feature, index) => {
+    // If empty sketch (from subregional clipping)
+    if (!feature.geometry.coordinates.length)
+      return {
+        min: null,
+        mean: null,
+        max: null,
+      };
     try {
       // @ts-ignore
       const stats = geoblaze.stats(raster, feature, {
@@ -53,27 +66,35 @@ export async function bathyStats(
       return { min: stats.min, max: stats.max, mean: stats.mean };
     } catch (err) {
       if (err === "No Values were found in the given geometry") {
-        // Temp workaround
-        const firstCoordValue = geoblaze.identify(
-          raster,
-          feature.geometry.coordinates[0][0]
-        )[0];
         return {
-          min: firstCoordValue,
-          mean: firstCoordValue,
-          max: firstCoordValue,
+          min: null,
+          mean: null,
+          max: null,
         };
       } else {
         throw err;
       }
     }
   });
+  const mins = sketchStats.map((s) => s.min).filter(notNull);
+  const maxes = sketchStats.map((s) => s.max).filter(notNull);
+  const means = sketchStats.map((s) => s.mean).filter(notNull);
+
+  if (!sketchStats.map((s) => s.min).filter(notNull).length) {
+    // No sketch overlaps with subregion
+    return { min: 0, max: 0, mean: 0, units: "meters" };
+  }
+
   return {
-    min: min(sketchStats.map((s) => s.min)),
-    max: max(sketchStats.map((s) => s.max)),
-    mean: mean(sketchStats.map((s) => s.mean)),
+    min: min(sketchStats.map((s) => s.min).filter(notNull)),
+    max: max(sketchStats.map((s) => s.max).filter(notNull)),
+    mean: mean(sketchStats.map((s) => s.mean).filter(notNull)),
     units: "meters",
   };
+}
+
+function notNull(value: number): value is number {
+  return value !== null && value !== undefined;
 }
 
 export default new GeoprocessingHandler(bathymetry, {
