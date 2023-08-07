@@ -15,7 +15,9 @@ describe("Basic smoke tests", () => {
   test("ousValueOverlapSmoke - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await ousValueOverlap(example);
+      const result = await ousValueOverlap(example, {
+        geographies: ["nearshore"],
+      });
       expect(result).toBeTruthy();
       writeResultOutput(result, "ousValueOverlap", example.properties.name);
     }

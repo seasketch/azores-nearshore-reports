@@ -63,7 +63,10 @@ export async function clipSketchToSubregion(
       const sketches = toSketchArray(sketch);
       const finalsketches: Sketch<Polygon>[] = [];
       sketches.forEach((sketch) => {
-        sketch.geometry = { type: "Polygon", coordinates: [] };
+        sketch.geometry = {
+          type: "Polygon",
+          coordinates: [[[0.0, 0.0]], [[0.0, 0.0]], [[0.0, 0.0]]],
+        };
         finalsketches.push(sketch);
       });
 
@@ -93,7 +96,10 @@ export async function clipSketchToSubregion(
         if (!intersection) console.log("no intersection");
         intersection
           ? (sketch.geometry = intersection.geometry as Polygon)
-          : (sketch.geometry = { type: "Polygon", coordinates: [] });
+          : (sketch.geometry = {
+              type: "Polygon",
+              coordinates: [[[0.0, 0.0]], [[0.0, 0.0]], [[0.0, 0.0]]],
+            });
         finalsketches.push(sketch);
       });
 

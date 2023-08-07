@@ -14,12 +14,18 @@ import {
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
+import {
+  ExtraParams,
+  clipSketchToSubregion,
+} from "../util/clipSketchToSubregion";
 
 const metricGroup = project.getMetricGroup("ousValueOverlap");
 
 export async function ousValueOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
+  extraParams?: ExtraParams
 ): Promise<ReportResult> {
+  sketch = await clipSketchToSubregion(sketch, extraParams!);
   const box = sketch.bbox || bbox(sketch);
   const metrics: Metric[] = (
     await Promise.all(

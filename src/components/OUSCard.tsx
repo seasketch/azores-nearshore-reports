@@ -43,6 +43,7 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
           t("Planning Area")
         }
         functionName="ousValueOverlap"
+        extraParams={{ geographies: [props.geography] }}
       >
         {(data: ReportResult) => {
           // Single sketch or collection top-level
