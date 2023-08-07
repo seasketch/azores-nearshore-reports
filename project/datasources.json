@@ -18,28 +18,6 @@
     "url": "https://d3muy0hbwp5qkl.cloudfront.net"
   },
   {
-    "datasourceId": "6nm_boundary",
-    "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 6,
-          "sum": null,
-          "area": 10308354077.296452
-        }
-      }
-    },
-    "formats": [
-      "fgb"
-    ],
-    "layerName": "6nm_boundary",
-    "classKeys": [],
-    "created": "2023-05-02T21:42:39.580Z",
-    "lastUpdated": "2023-07-10T18:23:29.877Z",
-    "src": "data/src/Data_Products/shapefiles/6nm_boundary.shp",
-    "propertiesToKeep": []
-  },
-  {
     "datasourceId": "PA_Bulweria_bulwerii_baseline",
     "geo_type": "raster",
     "keyStats": {
@@ -1803,17 +1781,17 @@
         "total": {
           "count": 1,
           "sum": null,
-          "area": 878955088.8515884
+          "area": 877814480.8378626
         }
       }
     },
     "formats": [
       "fgb"
     ],
-    "layerName": "santa-maria",
+    "layerName": "santa_maria_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-07-13T20:08:15.926Z",
-    "lastUpdated": "2023-07-13T20:08:15.926Z",
+    "lastUpdated": "2023-08-07T16:29:33.255Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/santa_maria_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   },
@@ -2128,25 +2106,49 @@
     "src": "data/src/Analytics/gfw/PRT.tif"
   },
   {
-    "src": "data/src/Analytics/gfw/RUS.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "RUS",
-    "formats": [
-      "tif"
-    ],
-    "created": "2023-08-02T18:25:49.722Z",
-    "lastUpdated": "2023-08-02T18:25:49.722Z",
+    "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
-          "sum": 47.05249875038862,
           "count": null,
+          "sum": 47.05249875038862,
           "area": null
         }
       }
     },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
     "noDataValue": -3.4e+38,
-    "measurementType": "quantitative"
+    "created": "2023-08-02T18:25:49.722Z",
+    "lastUpdated": "2023-08-02T18:25:49.722Z",
+    "src": "data/src/Analytics/gfw/RUS.tif"
+  },
+  {
+    "datasourceId": "6nm_boundary",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 9,
+          "sum": null,
+          "area": 10752320707.152864
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "azores_indv_islands_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-07T16:21:59.541Z",
+    "lastUpdated": "2023-08-07T16:21:59.541Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/azores_indv_islands_6nm_boundary_ws84.shp",
+    "propertiesToKeep": [
+      "island"
+    ]
   }
 ]

@@ -1,24 +1,8 @@
 {
     "metrics": [
         {
-            "metricId": "count",
-            "value": 6,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "nearshore",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 10308354077.297215,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "nearshore",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
-            "value": 417,
+            "value": 414,
             "classId": "PA_Bulweria_bulwerii_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -26,7 +10,7 @@
         },
         {
             "metricId": "sum",
-            "value": 414,
+            "value": 411,
             "classId": "PA_Calonectris_borealis_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -34,7 +18,7 @@
         },
         {
             "metricId": "sum",
-            "value": 418,
+            "value": 415,
             "classId": "PA_Larus_michahellis_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -42,7 +26,7 @@
         },
         {
             "metricId": "sum",
-            "value": 401,
+            "value": 398,
             "classId": "PA_Oceanodroma_castro_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -50,7 +34,7 @@
         },
         {
             "metricId": "sum",
-            "value": 360,
+            "value": 358,
             "classId": "PA_Onychoprion_fuscatus_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -58,7 +42,7 @@
         },
         {
             "metricId": "sum",
-            "value": 418,
+            "value": 415,
             "classId": "PA_Puffinus_baroli_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -66,7 +50,7 @@
         },
         {
             "metricId": "sum",
-            "value": 307,
+            "value": 305,
             "classId": "PA_Puffinus_puffinus_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -74,7 +58,7 @@
         },
         {
             "metricId": "sum",
-            "value": 412,
+            "value": 409,
             "classId": "PA_Sterna_dougallii_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -82,7 +66,7 @@
         },
         {
             "metricId": "sum",
-            "value": 418,
+            "value": 415,
             "classId": "PA_Sterna_hirundo_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -122,7 +106,7 @@
         },
         {
             "metricId": "sum",
-            "value": 4.660017927897009,
+            "value": 4.659660539729143,
             "classId": "all_commercial_fishing_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -130,7 +114,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.13830577599830463,
+            "value": 0.13832005103792966,
             "classId": "all_energy_development_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -138,7 +122,7 @@
         },
         {
             "metricId": "sum",
-            "value": 333.90732615844917,
+            "value": 333.90678531649866,
             "classId": "all_recreation_sports_and_tourism_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -146,7 +130,7 @@
         },
         {
             "metricId": "sum",
-            "value": 75.51325312411399,
+            "value": 75.52184514313186,
             "classId": "all_recreational_fishing_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -154,7 +138,7 @@
         },
         {
             "metricId": "sum",
-            "value": 1.6522578516563287,
+            "value": 1.6520699434225417,
             "classId": "all_science_tech_monitoring_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -170,7 +154,7 @@
         },
         {
             "metricId": "sum",
-            "value": 1.4779924636035242,
+            "value": 1.4775226867154538,
             "classId": "all_touristic_fishing_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -194,7 +178,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.6501779624573807,
+            "value": 0.6513380535586002,
             "classId": "faial_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -210,7 +194,7 @@
         },
         {
             "metricId": "sum",
-            "value": 2.0045948388500108,
+            "value": 2.0183088253978383,
             "classId": "faial_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -218,7 +202,7 @@
         },
         {
             "metricId": "sum",
-            "value": 10.797833481042677,
+            "value": 10.804971488639008,
             "classId": "faial_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -226,7 +210,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.15671357905784067,
+            "value": 0.15688919033134852,
             "classId": "faial_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -234,7 +218,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.925329295525458,
+            "value": 0.9253072510484657,
             "classId": "flores_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -250,7 +234,7 @@
         },
         {
             "metricId": "sum",
-            "value": 7.24623846554816,
+            "value": 7.246193388159938,
             "classId": "flores_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -258,7 +242,7 @@
         },
         {
             "metricId": "sum",
-            "value": 57.71236124145295,
+            "value": 57.71228326800353,
             "classId": "flores_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -330,7 +314,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.5827876926922144,
+            "value": 0.5827558535762698,
             "classId": "pico_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -338,7 +322,7 @@
         },
         {
             "metricId": "sum",
-            "value": 24.727463236445768,
+            "value": 24.727458796565028,
             "classId": "pico_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -346,7 +330,7 @@
         },
         {
             "metricId": "sum",
-            "value": 309.89251530502787,
+            "value": 309.8935495721728,
             "classId": "pico_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -354,7 +338,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.06374708550915872,
+            "value": 0.06374221965182852,
             "classId": "pico_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -362,7 +346,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.07509460400692092,
+            "value": 0.07508364681584467,
             "classId": "pico_tour_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -370,7 +354,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.4550902889757964,
+            "value": 0.45523748305248546,
             "classId": "santamaria_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -386,7 +370,7 @@
         },
         {
             "metricId": "sum",
-            "value": 45.45187598168952,
+            "value": 45.45178648866716,
             "classId": "santamaria_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -394,7 +378,7 @@
         },
         {
             "metricId": "sum",
-            "value": 49.02777497763884,
+            "value": 49.027845370331534,
             "classId": "santamaria_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -410,7 +394,7 @@
         },
         {
             "metricId": "sum",
-            "value": 1.2271344230605337,
+            "value": 1.2267258226440845,
             "classId": "santamaria_tour_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -418,7 +402,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.5945521823235893,
+            "value": 0.5945131511382513,
             "classId": "saojorge_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -442,7 +426,7 @@
         },
         {
             "metricId": "sum",
-            "value": 149.90666965382354,
+            "value": 149.90683048786582,
             "classId": "saojorge_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -474,7 +458,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.6121986841788365,
+            "value": 0.6119997780964344,
             "classId": "saomiguel_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -482,7 +466,7 @@
         },
         {
             "metricId": "sum",
-            "value": 15.255695240625576,
+            "value": 15.255613723689352,
             "classId": "saomiguel_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -490,7 +474,7 @@
         },
         {
             "metricId": "sum",
-            "value": 66.6332201833741,
+            "value": 66.63259350066946,
             "classId": "saomiguel_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -498,7 +482,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.30083586951450053,
+            "value": 0.3008291014276576,
             "classId": "saomiguel_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -514,7 +498,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.313685435107957,
+            "value": 0.3134976137001775,
             "classId": "saomiguel_tour_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -522,7 +506,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.6823952990960108,
+            "value": 0.6823129226359514,
             "classId": "terceira_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -538,7 +522,7 @@
         },
         {
             "metricId": "sum",
-            "value": 2.8651567596522227,
+            "value": 2.865156893393035,
             "classId": "terceira_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -546,7 +530,7 @@
         },
         {
             "metricId": "sum",
-            "value": 30.78070306939106,
+            "value": 30.780640386840865,
             "classId": "terceira_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -554,7 +538,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.0033927184192599213,
+            "value": 0.00339032325863009,
             "classId": "terceira_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -570,7 +554,7 @@
         },
         {
             "metricId": "sum",
-            "value": 418,
+            "value": 415,
             "classId": "PA_Caretta_caretta_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -578,7 +562,7 @@
         },
         {
             "metricId": "sum",
-            "value": 418,
+            "value": 415,
             "classId": "PA_Chelonia_mydas_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -586,7 +570,7 @@
         },
         {
             "metricId": "sum",
-            "value": 382,
+            "value": 379,
             "classId": "PA_Dermochelys_coriacea_baseline-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -602,7 +586,7 @@
         },
         {
             "metricId": "area",
-            "value": 118168880.70149882,
+            "value": 115842244.09485526,
             "classId": "basins-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -618,7 +602,7 @@
         },
         {
             "metricId": "area",
-            "value": 855922192.4020222,
+            "value": 849086829.9807374,
             "classId": "canyons-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -634,7 +618,7 @@
         },
         {
             "metricId": "area",
-            "value": 5997774154.832403,
+            "value": 5977449927.779953,
             "classId": "escarpments-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -650,7 +634,7 @@
         },
         {
             "metricId": "area",
-            "value": 8652709801.49938,
+            "value": 8621000625.429207,
             "classId": "plateaus-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -666,7 +650,7 @@
         },
         {
             "metricId": "area",
-            "value": 3959481504.131299,
+            "value": 3953046972.714679,
             "classId": "ridges-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -746,7 +730,7 @@
         },
         {
             "metricId": "area",
-            "value": 6539737263.502173,
+            "value": 6524688087.951603,
             "classId": "slope-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -762,7 +746,7 @@
         },
         {
             "metricId": "area",
-            "value": 878955088.8516761,
+            "value": 877814480.8379073,
             "classId": "santa-maria-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -770,7 +754,7 @@
         },
         {
             "metricId": "sum",
-            "value": -47893733,
+            "value": -47781966,
             "classId": "bathymetry-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -786,7 +770,7 @@
         },
         {
             "metricId": "area",
-            "value": 10723860068.998096,
+            "value": 10752320707.150524,
             "classId": "azores_nearshore-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -794,7 +778,7 @@
         },
         {
             "metricId": "sum",
-            "value": 7712.122831135988,
+            "value": 7766.664495259523,
             "classId": "all-fishing-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -818,7 +802,7 @@
         },
         {
             "metricId": "sum",
-            "value": 3049.287440530956,
+            "value": 3049.674940519035,
             "classId": "pole-and-line-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -826,7 +810,7 @@
         },
         {
             "metricId": "sum",
-            "value": 647.4582014232874,
+            "value": 698.3295889049768,
             "classId": "set-longlines-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -834,7 +818,7 @@
         },
         {
             "metricId": "sum",
-            "value": 1378.0244335979223,
+            "value": 1380.6677665561438,
             "classId": "fixed-gear-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -882,7 +866,7 @@
         },
         {
             "metricId": "sum",
-            "value": 7421.578916102648,
+            "value": 7476.120580226183,
             "classId": "PRT-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -898,18 +882,18 @@
         },
         {
             "metricId": "count",
-            "value": 1,
+            "value": 9,
             "classId": "6nm_boundary-total",
             "groupId": null,
-            "geographyId": "santa-maria",
+            "geographyId": "nearshore",
             "sketchId": null
         },
         {
             "metricId": "area",
-            "value": 878955088.8516761,
+            "value": 10752320707.150524,
             "classId": "6nm_boundary-total",
             "groupId": null,
-            "geographyId": "santa-maria",
+            "geographyId": "nearshore",
             "sketchId": null
         },
         {
@@ -1018,7 +1002,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.3129641507833236,
+            "value": 0.3130703165333877,
             "classId": "all_commercial_fishing_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1034,7 +1018,7 @@
         },
         {
             "metricId": "sum",
-            "value": 29.868947322711918,
+            "value": 29.86901144923258,
             "classId": "all_recreation_sports_and_tourism_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1042,7 +1026,7 @@
         },
         {
             "metricId": "sum",
-            "value": 3.57291354409125,
+            "value": 3.572842662041004,
             "classId": "all_recreational_fishing_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1050,7 +1034,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.028116286261917145,
+            "value": 0.028116302635539422,
             "classId": "all_science_tech_monitoring_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1066,7 +1050,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.8107624687555675,
+            "value": 0.8104746396613605,
             "classId": "all_touristic_fishing_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1234,7 +1218,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.0000037071936253296744,
+            "value": 0.000003701082301070524,
             "classId": "pico_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1250,7 +1234,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.0000037570429868571953,
+            "value": 0.0000037513244054709904,
             "classId": "pico_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1266,7 +1250,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.4550902889757964,
+            "value": 0.45523748305248546,
             "classId": "santamaria_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1282,7 +1266,7 @@
         },
         {
             "metricId": "sum",
-            "value": 45.45187598168952,
+            "value": 45.45178648866716,
             "classId": "santamaria_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1290,7 +1274,7 @@
         },
         {
             "metricId": "sum",
-            "value": 49.02777497763884,
+            "value": 49.027845370331534,
             "classId": "santamaria_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1306,7 +1290,7 @@
         },
         {
             "metricId": "sum",
-            "value": 1.2271344230605337,
+            "value": 1.2267258226440845,
             "classId": "santamaria_tour_fish_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1370,7 +1354,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.0015204989297377125,
+            "value": 0.001519802099105405,
             "classId": "saomiguel_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1378,7 +1362,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.0564814203710462,
+            "value": 0.0564812064865281,
             "classId": "saomiguel_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1386,7 +1370,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.03269979611523244,
+            "value": 0.03270007058643842,
             "classId": "saomiguel_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1394,7 +1378,7 @@
         },
         {
             "metricId": "sum",
-            "value": 4.159187404831344e-7,
+            "value": 4.298718433229376e-7,
             "classId": "saomiguel_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1410,7 +1394,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.0008989824166663052,
+            "value": 0.0008932004511528202,
             "classId": "saomiguel_tour_fish_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1514,7 +1498,7 @@
         },
         {
             "metricId": "area",
-            "value": 18732377.61560879,
+            "value": 18710665.21815671,
             "classId": "canyons-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1530,7 +1514,7 @@
         },
         {
             "metricId": "area",
-            "value": 701804383.4797888,
+            "value": 698472271.0869045,
             "classId": "escarpments-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1546,7 +1530,7 @@
         },
         {
             "metricId": "area",
-            "value": 866287945.7093263,
+            "value": 861403736.1249652,
             "classId": "plateaus-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1642,7 +1626,7 @@
         },
         {
             "metricId": "area",
-            "value": 753334966.7312473,
+            "value": 749050387.8844459,
             "classId": "slope-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1658,7 +1642,7 @@
         },
         {
             "metricId": "area",
-            "value": 878955088.8516761,
+            "value": 877814480.8379073,
             "classId": "santa-maria-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1666,7 +1650,7 @@
         },
         {
             "metricId": "sum",
-            "value": -5255084,
+            "value": -5222592,
             "classId": "bathymetry-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1682,7 +1666,7 @@
         },
         {
             "metricId": "area",
-            "value": 874070879.267315,
+            "value": 877814480.8379073,
             "classId": "azores_nearshore-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -1788,6 +1772,22 @@
             "metricId": "sum",
             "value": 0,
             "classId": "RUS-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 877814480.8379073,
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "santa-maria",
             "sketchId": null
