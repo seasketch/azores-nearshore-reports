@@ -6,7 +6,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 852806210.4305305,
+      "value": 852331522.9727542,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -18,7 +18,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 852806210.4305305,
+      "value": 852331522.9727542,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -42,7 +42,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 197066333.45741352,
+      "value": 197066333.5781935,
       "extra": {
         "sketchName": "1"
       }
@@ -53,7 +53,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 197066333.45741352,
+      "value": 197066333.5781935,
       "extra": {
         "sketchName": "1"
       }
@@ -64,7 +64,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 155513803.00882748,
+      "value": 155535388.24481148,
       "extra": {
         "sketchName": "2"
       }
@@ -75,7 +75,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 155513803.00882748,
+      "value": 155535388.24481148,
       "extra": {
         "sketchName": "2"
       }
@@ -86,7 +86,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 115536808.59200175,
+      "value": 115530851.22519727,
       "extra": {
         "sketchName": "3"
       }
@@ -97,7 +97,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 115536808.59200175,
+      "value": 115530851.22519727,
       "extra": {
         "sketchName": "3"
       }
@@ -130,7 +130,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 303350259.73947036,
+      "value": 302859944.2917168,
       "extra": {
         "sketchName": "5"
       }
@@ -141,7 +141,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 303350259.73947036,
+      "value": 302859944.2917168,
       "extra": {
         "sketchName": "5"
       }
