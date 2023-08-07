@@ -19,7 +19,7 @@ const ReportPage: React.FunctionComponent<GeoProp> = (props) => {
         hidden={props.geography === "nearshore"}
         geography={props.geography}
       />
-      <OusDemographics />
+      <OusDemographics geography={props.geography} />
       <SketchAttributesCard autoHide />
     </>
   );

@@ -69,11 +69,7 @@ export async function overlapOusDemographic(
   /** ous shape polygons */
   shapes: OusFeatureCollection,
   /** optionally calculate stats for OUS shapes that overlap with sketch  */
-  sketch?:
-    | Sketch<Polygon>
-    | SketchCollection<Polygon>
-    | Sketch<MultiPolygon>
-    | SketchCollection<MultiPolygon>
+  sketch?: Sketch<Polygon> | SketchCollection<Polygon>
 ) {
   // Performance testing
   let start = performance.now();
@@ -82,10 +78,6 @@ export async function overlapOusDemographic(
   const sortedShapes = shapes.features.sort(
     (a, b) => a.properties.resp_id - b.properties.resp_id
   );
-
-  // Simplified sketch shapes for use in demographic overlap checks. ~1/6 total vertices
-  const options = { tolerance: 0.00005, highQuality: true };
-  const simplifiedSketch = sketch ? simplify(sketch, options) : undefined;
 
   // Divide shapes into 6 groups (# lambda cores) to be run in
   // worker threads while being respondent-safe
@@ -131,7 +123,7 @@ export async function overlapOusDemographic(
         new Worker("./overlapOusDemographicWorker")
       );
       workers.push(worker);
-      return worker(shapes, simplifiedSketch);
+      return worker(shapes, sketch);
     }
   );
 

@@ -15,13 +15,22 @@ import {
 } from "../util/overlapOusDemographic";
 import { featureCollection } from "@turf/helpers";
 import project from "../../project";
+import {
+  ExtraParams,
+  clipSketchToSubregionSimple,
+} from "../util/clipSketchToSubregion";
 
 const METRIC = project.getMetricGroup("ousSectorDemographicOverlap");
 
 /** Calculate sketch area overlap inside and outside of multiple planning area boundaries */
 export async function ousDemographicOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
+  extraParams?: ExtraParams
 ): Promise<ReportResult> {
+  sketch = await clipSketchToSubregionSimple(sketch, extraParams!, {
+    tolerance: 0.00005,
+    highQuality: true,
+  });
   const box = sketch.bbox || bbox(sketch);
   const url = `${project.dataBucketUrl()}ous_demographics.fgb`;
 
