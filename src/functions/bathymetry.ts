@@ -24,10 +24,10 @@ export async function bathymetry(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams?: ExtraParams
 ): Promise<BathymetryResults> {
-  sketch = await clipSketchToSubregion(sketch, extraParams!);
+  const clippedSketch = await clipSketchToSubregion(sketch, extraParams!);
   const mg = project.getMetricGroup("bathymetry");
-  const sketches = toSketchArray(sketch);
-  const box = sketch.bbox || bbox(sketch);
+  const sketches = toSketchArray(clippedSketch);
+  const box = clippedSketch.bbox || bbox(clippedSketch);
   if (!mg.classes[0].datasourceId)
     throw new Error(`Expected datasourceId for ${mg.classes[0]}`);
   const url = `${project.dataBucketUrl()}${getCogFilename(

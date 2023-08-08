@@ -27,23 +27,27 @@ export async function ousDemographicOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  sketch = await clipSketchToSubregionSimple(sketch, extraParams!, {
-    tolerance: 0.00005,
-    highQuality: true,
-  });
-  const box = sketch.bbox || bbox(sketch);
+  const clippedSketch = await clipSketchToSubregionSimple(
+    sketch,
+    extraParams!,
+    {
+      tolerance: 0.00005,
+      highQuality: true,
+    }
+  );
+  const box = clippedSketch.bbox || bbox(clippedSketch);
   const url = `${project.dataBucketUrl()}ous_demographics.fgb`;
 
   // Fetch the whole nearshore boundary, because we need to calculate its total area
   const shapes = await fgbFetchAll<OusFeature>(url, project.basic.bbox);
 
   const metrics = (
-    await overlapOusDemographic(featureCollection(shapes), sketch)
+    await overlapOusDemographic(featureCollection(shapes), clippedSketch)
   ).metrics;
 
   return {
     metrics: rekeyMetrics(metrics),
-    sketch: toNullSketch(sketch, true),
+    sketch: toNullSketch(clippedSketch, true),
   };
 }
 

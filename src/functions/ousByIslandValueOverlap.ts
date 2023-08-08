@@ -25,8 +25,8 @@ export async function ousByIslandValueOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  sketch = await clipSketchToSubregion(sketch, extraParams!);
-  const box = sketch.bbox || bbox(sketch);
+  const clippedSketch = await clipSketchToSubregion(sketch, extraParams!);
+  const box = clippedSketch.bbox || bbox(clippedSketch);
   const metrics: Metric[] = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
@@ -43,7 +43,7 @@ export async function ousByIslandValueOverlap(
         const overlapResult = await overlapRaster(
           metricGroup.metricId,
           raster,
-          sketch
+          clippedSketch
         );
         return overlapResult.map(
           (metrics): Metric => ({
@@ -61,7 +61,7 @@ export async function ousByIslandValueOverlap(
 
   return {
     metrics: sortMetrics(rekeyMetrics(metrics)),
-    sketch: toNullSketch(sketch, true),
+    sketch: toNullSketch(clippedSketch, true),
   };
 }
 

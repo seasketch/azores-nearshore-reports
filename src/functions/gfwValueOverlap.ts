@@ -14,7 +14,6 @@ import {
 import { loadCog, loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import { geoblazetest } from "../../data/bin/geoblaze";
 
 //@ts-ignore
 import { geoblaze } from "geoblaze";

@@ -46,7 +46,7 @@ export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  sketch = await clipSketchToSubregion(sketch, extraParams!);
+  const clippedSketch = await clipSketchToSubregion(sketch, extraParams!);
 
   const areaMetrics = (
     await overlapArea(metricGroup.metricId, sketch, totalAreaMetric.value, {
@@ -61,7 +61,10 @@ export async function boundaryAreaOverlap(
 
   // Generate area metrics grouped by protection level, with area overlap within protection level removed
   // Each sketch gets one group metric for its protection level, while collection generates one for each protection level
-  const sketchToMpaClass = getSketchToMpaProtectionLevel(sketch, areaMetrics);
+  const sketchToMpaClass = getSketchToMpaProtectionLevel(
+    clippedSketch,
+    areaMetrics
+  );
   const metricToLevel = (sketchMetric: Metric) => {
     return sketchToMpaClass[sketchMetric.sketchId!];
   };
@@ -69,7 +72,7 @@ export async function boundaryAreaOverlap(
   const levelMetrics = await overlapAreaGroupMetrics({
     metricId: metricGroup.metricId,
     groupIds: ["FULLY_PROTECTED", "HIGHLY_PROTECTED"],
-    sketch,
+    sketch: clippedSketch,
     metricToGroup: metricToLevel,
     metrics: areaMetrics,
     classId: metricGroup.classes[0].classId,
@@ -78,7 +81,7 @@ export async function boundaryAreaOverlap(
 
   return {
     metrics: sortMetrics(rekeyMetrics([...areaMetrics, ...levelMetrics])),
-    sketch: toNullSketch(sketch),
+    sketch: toNullSketch(clippedSketch),
   };
 }
 

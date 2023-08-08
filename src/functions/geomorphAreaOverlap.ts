@@ -24,8 +24,8 @@ export async function geomorphAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  sketch = await clipSketchToSubregion(sketch, extraParams!);
-  const box = sketch.bbox || bbox(sketch);
+  const clippedSketch = await clipSketchToSubregion(sketch, extraParams!);
+  const box = clippedSketch.bbox || bbox(clippedSketch);
   const metricGroup = project.getMetricGroup("geomorphAreaOverlap");
 
   let cachedFeatures: Record<string, Feature<Polygon>[]> = {};
@@ -77,7 +77,7 @@ export async function geomorphAreaOverlap(
         const overlapResult = await overlapFeatures(
           metricGroup.metricId,
           polysByBoundary[curClass.classId],
-          sketch
+          clippedSketch
         );
         return overlapResult.map(
           (metric): Metric => ({
@@ -95,7 +95,7 @@ export async function geomorphAreaOverlap(
 
   return {
     metrics: rekeyMetrics(metrics),
-    sketch: toNullSketch(sketch, true),
+    sketch: toNullSketch(clippedSketch, true),
   };
 }
 
