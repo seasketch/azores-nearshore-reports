@@ -15,10 +15,16 @@ import {
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
+import {
+  ExtraParams,
+  clipSketchToSubregion,
+} from "../util/clipSketchToSubregion";
 
 export async function geomorphAreaOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
+  extraParams?: ExtraParams
 ): Promise<ReportResult> {
+  sketch = await clipSketchToSubregion(sketch, extraParams!);
   const box = sketch.bbox || bbox(sketch);
   const metricGroup = project.getMetricGroup("geomorphAreaOverlap");
 

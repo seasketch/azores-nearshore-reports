@@ -52,6 +52,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Benthic Habitat")}
         functionName="geomorphAreaOverlap"
+        extraParams={{ geographies: [props.geography] }}
         useChildCard
       >
         {(data: ReportResult) => {
