@@ -542,7 +542,27 @@
     }
   ],
   "sketch": {
-    "id": 14453,
+    "properties": {
+      "2991": "overlap test collection",
+      "id": "14453",
+      "name": "overlap test collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-05-02T15:49:36.640108+00:00",
+      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    },
+    "bbox": [
+      -25.241573446,
+      36.884046904,
+      -24.932545706,
+      37.098485794
+    ],
     "type": "FeatureCollection",
     "features": [
       {
@@ -746,21 +766,6 @@
         },
         "geometry": null
       }
-    ],
-    "properties": {
-      "2991": "overlap test collection",
-      "id": "14453",
-      "name": "overlap test collection",
-      "postId": null,
-      "userId": "531",
-      "userSlug": "Abby",
-      "createdAt": "2023-05-02T15:49:36.640108+00:00",
-      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "213",
-      "userAttributes": null
-    }
+    ]
   }
 }
