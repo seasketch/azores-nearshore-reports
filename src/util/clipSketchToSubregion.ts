@@ -223,5 +223,5 @@ export async function clipSketchToSubregionSimple(
     }
   }
 
-  return sketch;
+  return simplify(sketch, options);
 }

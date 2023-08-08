@@ -354,6 +354,8 @@
     }
   ],
   "sketch": {
+    "type": "FeatureCollection",
+    "id": 15057,
     "properties": {
       "2991": "Nearshore collection",
       "id": "15057",
@@ -369,15 +371,9 @@
       "sketchClassId": "213",
       "userAttributes": null
     },
-    "bbox": [
-      -28.502361571,
-      38.282002383,
-      -26.915174722,
-      38.862496969
-    ],
-    "type": "FeatureCollection",
     "features": [
       {
+        "type": "Feature",
         "id": 15058,
         "bbox": [
           -27.114458,
@@ -385,7 +381,6 @@
           -26.915174,
           38.862495
         ],
-        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "1",
@@ -447,6 +442,7 @@
         "geometry": null
       },
       {
+        "type": "Feature",
         "id": 15059,
         "bbox": [
           -28.308945,
@@ -454,7 +450,6 @@
           -28.076956,
           38.657593
         ],
-        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "2",
@@ -516,6 +511,7 @@
         "geometry": null
       },
       {
+        "type": "Feature",
         "id": 15064,
         "bbox": [
           -28.236498,
@@ -523,7 +519,6 @@
           -28.083662,
           38.57472
         ],
-        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "4",
@@ -585,6 +580,7 @@
         "geometry": null
       },
       {
+        "type": "Feature",
         "id": 15065,
         "bbox": [
           -28.502361,
@@ -592,7 +588,6 @@
           -28.200947,
           38.437996
         ],
-        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "5",
@@ -654,6 +649,7 @@
         "geometry": null
       },
       {
+        "type": "Feature",
         "id": 15063,
         "bbox": [
           -28.109137,
@@ -661,7 +657,6 @@
           -27.934269,
           38.61561
         ],
-        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "3",

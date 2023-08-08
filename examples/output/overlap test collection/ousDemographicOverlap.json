@@ -258,6 +258,8 @@
     }
   ],
   "sketch": {
+    "type": "FeatureCollection",
+    "id": 14453,
     "properties": {
       "2991": "overlap test collection",
       "id": "14453",
@@ -273,15 +275,9 @@
       "sketchClassId": "213",
       "userAttributes": null
     },
-    "bbox": [
-      -25.241573446,
-      36.884046904,
-      -24.932545706,
-      37.098485794
-    ],
-    "type": "FeatureCollection",
     "features": [
       {
+        "type": "Feature",
         "id": 14456,
         "bbox": [
           -25.001762,
@@ -289,7 +285,6 @@
           -24.932547,
           37.05609
         ],
-        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "sketch3",
@@ -349,6 +344,7 @@
         "geometry": null
       },
       {
+        "type": "Feature",
         "id": 14455,
         "bbox": [
           -25.241573,
@@ -356,7 +352,6 @@
           -25.165365,
           37.07506
         ],
-        "type": "Feature",
         "properties": {
           "2987": "HIGHLY_PROTECTED",
           "2988": "sketch1",
@@ -416,6 +411,7 @@
         "geometry": null
       },
       {
+        "type": "Feature",
         "id": 14457,
         "bbox": [
           -25.188437,
@@ -423,7 +419,6 @@
           -25.114326,
           37.098484
         ],
-        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "sketch2",

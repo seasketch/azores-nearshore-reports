@@ -274,6 +274,8 @@
     }
   ],
   "sketch": {
+    "type": "FeatureCollection",
+    "id": 17851,
     "properties": {
       "2991": "2island",
       "id": "17851",
@@ -289,15 +291,9 @@
       "sketchClassId": "213",
       "userAttributes": null
     },
-    "bbox": [
-      -25.370367244,
-      36.93442097,
-      -24.90137653,
-      37.932012737
-    ],
-    "type": "FeatureCollection",
     "features": [
       {
+        "type": "Feature",
         "id": 17853,
         "bbox": [
           -25.110502,
@@ -305,7 +301,6 @@
           -24.901377,
           37.090153
         ],
-        "type": "Feature",
         "properties": {
           "2987": "HIGHLY_PROTECTED",
           "2988": "santamaria",
@@ -367,6 +362,7 @@
         "geometry": null
       },
       {
+        "type": "Feature",
         "id": 17852,
         "bbox": [
           -25.370367,
@@ -374,7 +370,6 @@
           -25.242638,
           37.932014
         ],
-        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "saomiguel",

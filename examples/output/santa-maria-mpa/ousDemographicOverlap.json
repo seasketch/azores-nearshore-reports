@@ -258,6 +258,7 @@
     }
   ],
   "sketch": {
+    "type": "Feature",
     "id": 15881,
     "bbox": [
       -25.07484,
@@ -265,7 +266,6 @@
       -24.888811,
       37.115704
     ],
-    "type": "Feature",
     "properties": {
       "2987": "HIGHLY_PROTECTED",
       "2988": "santa-maria-mpa",
