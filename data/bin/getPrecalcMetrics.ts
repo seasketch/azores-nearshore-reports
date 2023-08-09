@@ -58,9 +58,14 @@ export function getPrecalcMetrics(
       );
     });
 
-    if (!metric) throw new Error(`Can't find metric for ${datasourceId}`);
-    if (metric.length !== 1)
-      throw new Error(`Returned multiple precalc metrics ${datasourceId}`);
+    if (!metric || !metric.length)
+      throw new Error(
+        `Can't find metric for datasource ${datasourceId}, geography ${geography}, stat ${stat}`
+      );
+    if (metric.length > 1)
+      throw new Error(
+        `Returned multiple precalc metrics for datasource ${datasourceId}, geography ${geography}, stat ${stat}`
+      );
 
     // Returns metric, overwriting classId for easy match in report
     return { ...metric[0], classId: curClass.classId };

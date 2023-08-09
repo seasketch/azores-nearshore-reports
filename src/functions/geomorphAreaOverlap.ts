@@ -7,7 +7,6 @@ import {
   ReportResult,
   SketchCollection,
   toNullSketch,
-  overlapFeatures,
   rekeyMetrics,
   getFlatGeobufFilename,
   isInternalVectorDatasource,
@@ -19,6 +18,7 @@ import {
   ExtraParams,
   clipSketchToSubregion,
 } from "../util/clipSketchToSubregion";
+import { overlapFeatures } from "../util/overlapFeatures";
 
 export async function geomorphAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
