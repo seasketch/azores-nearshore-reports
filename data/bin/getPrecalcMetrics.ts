@@ -8,6 +8,13 @@ import geographies from "../../project/geographies.json";
 import precalc from "../../project/precalc.json";
 import cloneDeep from "lodash/cloneDeep";
 
+/**
+ * Extracts precalc metrics from precalc.json for a MetricGroup
+ * @param mg MetricGroup to get precalculated metrics for
+ * @param metricId string, "area", "count", or "sum"
+ * @param geographyId string, geographyId to get precalculated metrics for
+ * @returns Metric[] of precalculated metrics
+ */
 export function getPrecalcMetrics(
   mg: MetricGroup,
   metricId: string,
@@ -21,8 +28,8 @@ export function getPrecalcMetrics(
     // datasourceId used to find precalc metric
     const datasourceId = mg.datasourceId! || curClass.datasourceId!;
 
-    const classKey = mg.classKey! || curClass.classKey!;
     // If class key (multiclass datasource), find that metric and return
+    const classKey = mg.classKey! || curClass.classKey!;
     if (classKey) {
       const metric = precalc.metrics.filter(function (pMetric) {
         return (
@@ -31,17 +38,11 @@ export function getPrecalcMetrics(
           pMetric.geographyId === geographyId
         );
       });
-      if (!metric) throw new Error(`Can't find metric for ${datasourceId}`);
-      if (metric.length !== 1) {
+
+      // Throw error if metric is unable to be found
+      if (!metric || metric.length !== 1) {
         throw new Error(
-          "Reports are unable to find matching total metric for " +
-            datasourceId +
-            "-" +
-            curClass.classId +
-            ", " +
-            metricId +
-            ", " +
-            geographyId
+          `No matching total metric for ${datasourceId}-${curClass.classId}, ${metricId}, ${geographyId}`
         );
       }
 
@@ -49,7 +50,7 @@ export function getPrecalcMetrics(
       return { ...metric[0], classId: curClass.classId };
     }
 
-    // else find metric for general, aka classId total, and add classId
+    // Else find metric for general, aka classId total, and add classId
     const metric = precalc.metrics.filter(function (pMetric) {
       return (
         pMetric.metricId === metricId &&
@@ -77,6 +78,10 @@ export function getPrecalcMetrics(
  * Returns new metrics with their values transformed to percentage of corresponding totals
  * metrics are paired with total based on classId if present, falling back to metricId
  * Deep copies and maintains all other properties from the original metric
+ * @param metrics Metric[] from sketch overlap, to be used as numerators
+ * @param totals Metric[] from precalc, to be used as denominators
+ * @param percMetricId string, optional, to overwrite metricId in outputted metrics
+ * @returns Metric[] of percent values
  * EDITS:
  * - totalsByKey maps based strictly on classId, because all precalc metrics have classId,
  * and this is checked

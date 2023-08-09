@@ -8,7 +8,6 @@ import { precalcVectorDatasource } from "./precalcVectorDatasource";
 import { precalcRasterDatasource } from "./precalcRasterDatasource";
 import {
   Metric,
-  createMetric,
   isInternalRasterDatasource,
   isInternalVectorDatasource,
 } from "@seasketch/geoprocessing";
@@ -19,12 +18,11 @@ export interface Geography {
   display: string;
 }
 
-export interface Stat {
-  class: string | null;
-  type: string;
-  value: number;
-}
-
+/**
+ * Function called in 'npm run precalc' command
+ * Loops through datasources and geographies to calculate all
+ * precalc metrics. Outputs to precalc.json
+ */
 async function precalcAll() {
   const geographies = fs.readJSONSync(
     "project/geographies.json"
@@ -38,34 +36,19 @@ async function precalcAll() {
 
   for (let geography of geographies) {
     for (let datasource of datasources) {
-      const keyStats: Stat[] =
-        datasource.geo_type === "vector"
-          ? await precalcVectorDatasource(
+      datasource.geo_type === "vector"
+        ? (metrics = metrics.concat(
+            await precalcVectorDatasource(
               datasource as InternalVectorDatasource,
               geography
             )
-          : await precalcRasterDatasource(
+          ))
+        : (metrics = metrics.concat(
+            await precalcRasterDatasource(
               datasource as InternalRasterDatasource,
               geography
-            );
-
-      console.log(
-        "key stats",
-        datasource.datasourceId,
-        geography.geographyId,
-        JSON.stringify(keyStats)
-      );
-
-      metrics = metrics.concat(
-        keyStats.map((keyStat) => {
-          return createMetric({
-            geographyId: geography.geographyId,
-            classId: datasource.datasourceId + "-" + keyStat.class,
-            metricId: keyStat.type,
-            value: keyStat.value,
-          });
-        })
-      );
+            )
+          ));
     }
   }
   console.log("Writing to project/precalc.json");

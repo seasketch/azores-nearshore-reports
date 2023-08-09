@@ -3,14 +3,14 @@ import fs from "fs-extra";
 import area from "@turf/area";
 
 import {
-  ClassStats,
   FeatureCollection,
   ImportVectorDatasourceConfig,
   ImportVectorDatasourceOptions,
   InternalVectorDatasource,
+  Metric,
   Polygon,
-} from "@seasketch/geoprocessing/client-core";
-import { Geography, Stat } from "./precalc";
+} from "@seasketch/geoprocessing";
+import { Geography } from "./precalc";
 import projectClient from "../../project";
 import {
   Feature,
@@ -18,28 +18,34 @@ import {
   ProjectClientBase,
   clipMultiMerge,
   datasourceConfig,
+  createMetric,
 } from "@seasketch/geoprocessing";
 
+/**
+ * Creates precalc metrics for a datasource and geography
+ * @param datasource InternalVectorDatasource that's been imported
+ * @param geography Geography to be calculated for
+ * @returns Metric[] to be added to precalc.json
+ */
 export async function precalcVectorDatasource(
   datasource: InternalVectorDatasource,
   geography: Geography
-) {
-  const config = genVectorConfig(projectClient, datasource);
+): Promise<Metric[]> {
+  // Creates vector config from datasources.json
+  const vectorConfig = genVectorConfig(projectClient, datasource);
 
   console.log(
-    `Calculating keyStats for vector ${datasource.datasourceId} and geography ${geography.datasourceId} this may take a while...`
+    `Precalculating vector ${datasource.datasourceId} and geography ${geography.datasourceId}`
   );
 
-  const classStatsByProperty = genVectorKeyStats(
-    config,
-    projectClient.getDatasourceById(
-      geography.datasourceId
-    ) as InternalVectorDatasource
-  );
-
-  return classStatsByProperty;
+  // Create metrics and return to precalc.ts
+  return genVectorMetrics(vectorConfig, geography);
 }
-/** Takes import options and creates full import config */
+
+/** Takes import options and creates full import config
+ *  This had to be copied over from gp library due to the export not
+ *  being propagated out. It's identical to genVectorConfig in gp library
+ */
 export function genVectorConfig<C extends ProjectClientBase>(
   projectClient: C,
   options: ImportVectorDatasourceOptions,
@@ -75,21 +81,29 @@ export function genVectorConfig<C extends ProjectClientBase>(
   return config;
 }
 
-/** Returns classes for datasource.  If classKeys not defined then will return a single class with datasourceID */
-export function genVectorKeyStats(
-  config: ImportVectorDatasourceConfig,
-  geography: InternalVectorDatasource
-): Stat[] {
+/**
+ * Returns Metric array for vector datasource and geography
+ * @param vectorConfig ImportVectorDatasourceConfig datasource to calculate metrics for
+ * @param geography Geography to calculate metrics for
+ * @returns Metric[]
+ */
+export function genVectorMetrics(
+  vectorConfig: ImportVectorDatasourceConfig,
+  geography: Geography
+): Metric[] {
+  // Read in vector datasource as FeatureCollection
   const rawJsonDs = fs.readJsonSync(
-    getJsonPath(config.dstPath, config.datasourceId)
+    getJsonPath(vectorConfig.dstPath, vectorConfig.datasourceId)
   );
-  const featureColl = rawJsonDs as FeatureCollection<Polygon | MultiPolygon>;
+  const featureCollection = rawJsonDs as FeatureCollection<
+    Polygon | MultiPolygon
+  >;
 
   // Creates record of all class keys present in OG features
   // to avoid missing a class after cropping
   let featureCollClasses: Record<string, string[]> = {};
-  config.classKeys.forEach((classProperty) => {
-    featureColl.features.forEach((feat) => {
+  vectorConfig.classKeys.forEach((classProperty) => {
+    featureCollection.features.forEach((feat) => {
       if (!feat.properties) throw new Error("Missing properties");
       if (!featureCollClasses[classProperty]) {
         featureCollClasses[classProperty] = [];
@@ -105,112 +119,134 @@ export function genVectorKeyStats(
   });
 
   const rawJsonGeo = fs.readJsonSync(
-    getJsonPath(config.dstPath, geography.datasourceId)
+    getJsonPath(vectorConfig.dstPath, geography.datasourceId)
   );
+  const geographyFeatureColl = rawJsonGeo as FeatureCollection<
+    Polygon | MultiPolygon
+  >;
 
-  const geo = rawJsonGeo as FeatureCollection<Polygon | MultiPolygon>;
-
-  const clippedFeatures = featureColl.features
+  const clippedFeatures = featureCollection.features
     .map(
       (feat) =>
-        clipMultiMerge(feat, geo, "intersection", {
+        clipMultiMerge(feat, geographyFeatureColl, "intersection", {
           properties: feat.properties,
         }) as Feature<Polygon | MultiPolygon>
     )
     .filter((e) => e);
 
+  // Keeps metadata imtact but overwrites geometry with clipped features
   const clippedFeatureColl = {
-    ...featureColl,
+    ...featureCollection,
     features: clippedFeatures,
   };
 
-  if (!config.classKeys || config.classKeys.length === 0)
+  // If a simple vector datasource with no classes, return total metrics
+  if (!vectorConfig.classKeys || vectorConfig.classKeys.length === 0)
     return [
-      {
-        class: "total",
-        type: "count",
+      createMetric({
+        geographyId: geography.geographyId,
+        classId: vectorConfig.datasourceId + "-total",
+        metricId: "count",
         value: clippedFeatureColl.features.length,
-      },
-      { class: "total", type: "area", value: area(clippedFeatureColl) },
+      }),
+      createMetric({
+        geographyId: geography.geographyId,
+        classId: vectorConfig.datasourceId + "-total",
+        metricId: "area",
+        value: area(clippedFeatureColl),
+      }),
     ];
 
-  const totalStats = clippedFeatureColl.features.reduce<Stat[]>(
-    (statsSoFar, feat) => {
+  const totals = clippedFeatureColl.features.reduce(
+    (stats, feat) => {
       const featArea = area(feat);
-      return [
-        { class: "total", type: "count", value: statsSoFar[0].value! + 1 },
-        {
-          class: "total",
-          type: "area",
-          value: statsSoFar[1].value! + featArea,
-        },
-      ];
+      return { ...stats, count: stats.count + 1, area: stats.area + featArea };
     },
-    [
-      { class: "total", type: "count", value: 0 },
-      { class: "total", type: "area", value: 0 },
-    ]
+    { count: 0, area: 0 }
   );
 
-  config.classKeys.forEach((classProperty) => {
-    const metrics = clippedFeatureColl.features.reduce<ClassStats>(
-      (classesSoFar, feat) => {
-        if (!feat.properties) throw new Error("Missing properties");
-        if (!config.classKeys) throw new Error("Missing classProperty");
-        const curClass = feat.properties[classProperty];
-        const curCount = classesSoFar[curClass]?.count || 0;
-        const curArea = classesSoFar[curClass]?.area || 0;
-        const featArea = area(feat);
-        return {
-          ...classesSoFar,
-          [curClass]: {
-            count: curCount + 1,
-            area: curArea + featArea,
-          },
-        };
-      },
-      {}
-    );
+  // Create total metrics
+  const totalMetrics: Metric[] = [
+    createMetric({
+      geographyId: geography.geographyId,
+      classId: vectorConfig.datasourceId + "-total",
+      metricId: "count",
+      value: totals.count,
+    }),
+    createMetric({
+      geographyId: geography.geographyId,
+      classId: vectorConfig.datasourceId + "-total",
+      metricId: "area",
+      value: totals.area,
+    }),
+  ];
 
-    Object.keys(metrics).forEach((curClass: string) => {
-      totalStats.push({
-        class: curClass,
-        type: "count",
-        value: metrics[curClass].count as number,
-      });
-      totalStats.push({
-        class: curClass,
-        type: "area",
-        value: metrics[curClass].area as number,
-      });
+  // Create class metrics
+  let classMetrics: Metric[] = [];
+  vectorConfig.classKeys.forEach((classProperty) => {
+    const classes = clippedFeatureColl.features.reduce<
+      Record<string, { count: number; area: number }>
+    >((classesSoFar, feat) => {
+      if (!feat.properties) throw new Error("Missing properties");
+      if (!vectorConfig.classKeys) throw new Error("Missing classProperty");
+      const curClass = feat.properties[classProperty];
+      const curCount = classesSoFar[curClass]?.count || 0;
+      const curArea = classesSoFar[curClass]?.area || 0;
+      const featArea = area(feat);
+      return {
+        ...classesSoFar,
+        [curClass]: {
+          count: curCount + 1,
+          area: curArea + featArea,
+        },
+      };
+    }, {});
+
+    Object.keys(classes).forEach((curClass: string) => {
+      classMetrics.push(
+        createMetric({
+          geographyId: geography.geographyId,
+          classId: vectorConfig.datasourceId + "-" + curClass,
+          metricId: "count",
+          value: classes[curClass].count,
+        })
+      );
+      classMetrics.push(
+        createMetric({
+          geographyId: geography.geographyId,
+          classId: vectorConfig.datasourceId + "-" + curClass,
+          metricId: "area",
+          value: classes[curClass].area,
+        })
+      );
     });
 
-    // Creates metrics for features classes lost during clipping
+    // Creates empty metrics for features classes lost during clipping
     featureCollClasses[classProperty].forEach((curClass) => {
-      if (!Object.keys(metrics).includes(curClass)) {
-        totalStats.push({
-          class: curClass,
-          type: "count",
-          value: 0,
-        });
-        totalStats.push({
-          class: curClass,
-          type: "area",
-          value: 0,
-        });
+      if (!Object.keys(classes).includes(curClass)) {
+        classMetrics.push(
+          createMetric({
+            geographyId: geography.geographyId,
+            classId: vectorConfig.datasourceId + "-" + curClass,
+            metricId: "count",
+            value: 0,
+          })
+        );
+        classMetrics.push(
+          createMetric({
+            geographyId: geography.geographyId,
+            classId: vectorConfig.datasourceId + "-" + curClass,
+            metricId: "area",
+            value: 0,
+          })
+        );
       }
     });
   });
 
-  console.log("key stats", JSON.stringify(totalStats));
-
-  return totalStats;
+  return totalMetrics.concat(classMetrics);
 }
 
 function getJsonPath(dstPath: string, datasourceId: string) {
   return path.join(dstPath, datasourceId) + ".json";
-}
-
-function getFlatGeobufPath(dstPath: string, datasourceId: string) {
-  return path.join(dstPath, datasourceId) + ".fgb";
 }

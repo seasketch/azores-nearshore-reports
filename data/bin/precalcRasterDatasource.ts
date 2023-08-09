@@ -4,58 +4,58 @@ import {
   Histogram,
   Polygon,
   FeatureCollection,
-  InternalRasterDatasource,
-  ImportRasterDatasourceOptions,
-  ImportRasterDatasourceConfig,
-  Datasource,
   MultiPolygon,
+  Georaster,
+  Metric,
 } from "@seasketch/geoprocessing/client-core";
 import {
   datasourceConfig,
-  getJsonFilename,
+  createMetric,
   getCogFilename,
   isInternalVectorDatasource,
+  InternalRasterDatasource,
+  ImportRasterDatasourceOptions,
+  ImportRasterDatasourceConfig,
   ProjectClientBase,
   getSum,
   getHistogram,
   bboxOverlap,
   BBox,
 } from "@seasketch/geoprocessing";
-import { Stat, Geography } from "./precalc";
-
+import { Geography } from "./precalc";
 import projectClient from "../../project";
-
 import bbox from "@turf/bbox";
+
 // @ts-ignore
 import geoblaze from "geoblaze";
 
 /**
- *
- * @param datasource InternalRasterDatasource from datasources.json
- * @param geography Geography from geographies.json
- * @returns Stat array
+ * Returns Metric array for raster datasource and geography
+ * @param datasource InternalRasterDatasource that's been imported
+ * @param geography Geography to be calculated for
+ * @returns Metric[]
  */
 export async function precalcRasterDatasource(
   datasource: InternalRasterDatasource,
   geography: Geography
-): Promise<Stat[]> {
-  const config = genRasterConfig(projectClient, datasource, undefined);
+): Promise<Metric[]> {
+  const rasterConfig = genRasterConfig(projectClient, datasource, undefined);
   const tempPort = 8080;
   const url = `${projectClient.dataBucketUrl(true, tempPort)}${getCogFilename(
-    config.datasourceId
+    rasterConfig.datasourceId
   )}`;
-  const raster = await geoblaze.parse(url);
+  const raster: Georaster = await geoblaze.parse(url);
 
-  const classStatsByProperty = await genRasterKeyStats(
-    raster,
-    projectClient.getDatasourceById(geography.datasourceId),
-    config
-  );
+  const rasterMetrics = await genRasterMetrics(raster, rasterConfig, geography);
 
-  return classStatsByProperty;
+  return rasterMetrics;
 }
 
-/** Takes import options and creates full import config */
+/**
+ *  Takes import options and creates full import config
+ *  This had to be copied over from gp library due to the export not
+ *  being propagated out. It's identical to genVectorConfig in gp library
+ */
 export function genRasterConfig<C extends ProjectClientBase>(
   projectClient: C,
   options: ImportRasterDatasourceOptions,
@@ -92,69 +92,84 @@ export function genRasterConfig<C extends ProjectClientBase>(
 }
 
 /** Returns classes for datasource.  If classKeys not defined then will return a single class with datasourceID */
-export async function genRasterKeyStats(
-  raster: any,
-  geography: Datasource,
-  options: ImportRasterDatasourceConfig
-): Promise<Stat[]> {
-  const poly = await (async () => {
+export async function genRasterMetrics(
+  raster: Georaster,
+  rasterConfig: ImportRasterDatasourceConfig,
+  geography: Geography
+): Promise<Metric[]> {
+  // Reads in geography vector data as FeatureCollection
+  const geographyFeatureColl = await (async () => {
     if (!geography) throw new Error(`Expected geography`);
-    else if (!isInternalVectorDatasource(geography))
+    else if (
+      !isInternalVectorDatasource(
+        projectClient.getDatasourceById(geography.datasourceId)
+      )
+    )
       throw new Error(
         `Expected ${geography.datasourceId} to be an internal vector datasource`
       );
     else {
-      const jsonFilename = path.join("./data/dist", getJsonFilename(geography));
-      const polys = fs.readJsonSync(jsonFilename) as FeatureCollection<
-        Polygon | MultiPolygon
-      >;
+      const polys = fs.readJsonSync(
+        getJsonPath(rasterConfig.dstPath, geography.datasourceId)
+      ) as FeatureCollection<Polygon | MultiPolygon>;
       return polys;
     }
   })();
 
   console.log(
-    `Calculating keyStats, ${options.measurementType}, for raster ${options.datasourceId} and geography ${geography.datasourceId} this may take a while...`
+    `Precalculating ${rasterConfig.measurementType}, for raster ${rasterConfig.datasourceId} and geography ${geography.datasourceId}`
   );
 
   const rasterBbox: BBox = [raster.xmin, raster.ymin, raster.xmax, raster.ymax];
 
-  const stats: Stat[] = [];
-  // No overlap
-  if (!bboxOverlap(bbox(poly), rasterBbox)) {
+  // If there's no overlap between geography and raster, return empty metric
+  if (!bboxOverlap(bbox(geographyFeatureColl), rasterBbox)) {
     console.log("No overlap -- returning 0 sum");
-
-    stats.push({
-      class: "total",
-      type: "sum",
-      value: 0,
-    });
+    return [
+      createMetric({
+        geographyId: geography.geographyId,
+        classId: rasterConfig.datasourceId + "-total",
+        metricId: "sum",
+        value: 0,
+      }),
+    ];
   }
 
-  // continous - sum
-  else if (options.measurementType === "quantitative") {
-    stats.push({
-      class: "total",
-      type: "sum",
-      value: await getSum(raster, poly),
-    });
+  // Creates metric for simple continous raster
+  if (rasterConfig.measurementType === "quantitative") {
+    return [
+      createMetric({
+        geographyId: geography.geographyId,
+        classId: rasterConfig.datasourceId + "-total",
+        metricId: "sum",
+        value: await getSum(raster, geographyFeatureColl),
+      }),
+    ];
   }
 
-  // categorical - histogram, count by class
-  else if (options.measurementType === "categorical") {
+  // Creates metrics for categorical raster (histogram, count by class)
+  if (rasterConfig.measurementType === "categorical") {
+    const metrics: Metric[] = [];
     const histogram = (await getHistogram(raster)) as Histogram;
     if (!histogram) throw new Error("Histogram not returned");
 
     Object.keys(histogram).forEach((curClass) => {
-      stats.push({
-        class: curClass,
-        type: "count",
-        value: histogram[curClass],
-      });
+      metrics.push(
+        createMetric({
+          geographyId: geography.geographyId,
+          classId: rasterConfig.datasourceId + "-" + curClass,
+          metricId: "count",
+          value: histogram[curClass],
+        })
+      );
     });
-  } else
-    console.log(
-      `Something is malformed, check raster ${options.datasourceId} and geography ${geography.datasourceId}]`
-    );
+  }
 
-  return stats;
+  throw new Error(
+    `Something is malformed, check raster ${rasterConfig.datasourceId} and geography ${geography.datasourceId}]`
+  );
+}
+
+function getJsonPath(dstPath: string, datasourceId: string) {
+  return path.join(dstPath, datasourceId) + ".json";
 }
