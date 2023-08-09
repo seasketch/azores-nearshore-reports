@@ -10,8 +10,8 @@ import cloneDeep from "lodash/cloneDeep";
 
 export function getPrecalcMetrics(
   mg: MetricGroup,
-  stat: string,
-  geography: string
+  metricId: string,
+  geographyId: string
 ): Metric[] {
   // For each class in the metric group
   const metrics = mg.classes.map((curClass) => {
@@ -26,9 +26,9 @@ export function getPrecalcMetrics(
     if (classKey) {
       const metric = precalc.metrics.filter(function (pMetric) {
         return (
-          pMetric.metricId === stat &&
+          pMetric.metricId === metricId &&
           pMetric.classId === datasourceId + "-" + curClass.classId &&
-          pMetric.geographyId === geography
+          pMetric.geographyId === geographyId
         );
       });
       if (!metric) throw new Error(`Can't find metric for ${datasourceId}`);
@@ -39,9 +39,9 @@ export function getPrecalcMetrics(
             "-" +
             curClass.classId +
             ", " +
-            stat +
+            metricId +
             ", " +
-            geography
+            geographyId
         );
       }
 
@@ -52,19 +52,19 @@ export function getPrecalcMetrics(
     // else find metric for general, aka classId total, and add classId
     const metric = precalc.metrics.filter(function (pMetric) {
       return (
-        pMetric.metricId === stat &&
+        pMetric.metricId === metricId &&
         pMetric.classId === datasourceId + "-total" &&
-        pMetric.geographyId === geography
+        pMetric.geographyId === geographyId
       );
     });
 
     if (!metric || !metric.length)
       throw new Error(
-        `Can't find metric for datasource ${datasourceId}, geography ${geography}, stat ${stat}`
+        `Can't find metric for datasource ${datasourceId}, geography ${geographyId}, stat ${metricId}`
       );
     if (metric.length > 1)
       throw new Error(
-        `Returned multiple precalc metrics for datasource ${datasourceId}, geography ${geography}, stat ${stat}`
+        `Returned multiple precalc metrics for datasource ${datasourceId}, geography ${geographyId}, stat ${metricId}`
       );
 
     // Returns metric, overwriting classId for easy match in report
@@ -73,6 +73,16 @@ export function getPrecalcMetrics(
   return createMetrics(metrics);
 }
 
+/**
+ * Returns new metrics with their values transformed to percentage of corresponding totals
+ * metrics are paired with total based on classId if present, falling back to metricId
+ * Deep copies and maintains all other properties from the original metric
+ * EDITS:
+ * - totalsByKey maps based strictly on classId, because all precalc metrics have classId,
+ * and this is checked
+ * - subregions were causing some total metric values to be 0, and leading to a
+ * division-by-zero error. Now, toPercentMetric() catches 0 denominators and returns 0% metric
+ */
 export const toPercentMetric = (
   metrics: Metric[],
   totals: Metric[],
@@ -89,6 +99,7 @@ export const toPercentMetric = (
     if (!curMetric || curMetric.value === undefined)
       throw new Error(`Malformed metrics: ${JSON.stringify(curMetric)}`);
 
+    // Adds check that classId != null
     if (!curMetric.classId)
       throw new Error(`No classId: ${JSON.stringify(curMetric)}`);
 
@@ -97,11 +108,16 @@ export const toPercentMetric = (
     if (!totalMetric) {
       throw new Error(`Missing total: ${JSON.stringify(curMetric)}`);
     }
+    // Catches a 0 denominator and returns metric with 0%
     if (!totalMetric.value) {
       console.log(
-        `${curMetric.classId} has no value within this planing area, replacing with .0001`
+        `${curMetric.classId} has no value within this planing area, returning 0%`
       );
-      totalMetric.value = 0.0001;
+      return {
+        ...cloneDeep(curMetric),
+        value: 0,
+        ...(percMetricId ? { metricId: percMetricId } : {}),
+      };
     }
 
     // Returns percentage metric and adds new metricId if requested
@@ -115,10 +131,10 @@ export const toPercentMetric = (
 
 /**
  * Takes geographyId and returns display name for report UI
- * @param geography: geographyId
+ * @param geographyId: geographyId
  * @returns display name of geography
  */
-export const getGeographyDisplay = (geography: string): string => {
-  const geo = geographies.find((g) => g.geographyId === geography);
-  return geo ? geo.display : "Unknown";
+export const getGeographyDisplay = (geographyId: string): string => {
+  const geography = geographies.find((g) => g.geographyId === geographyId);
+  return geography ? geography.display : "Unknown";
 };
