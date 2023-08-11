@@ -7,6 +7,12 @@ export interface GeoProp {
   geography: string;
 }
 
+export interface Geography {
+  geographyId: string;
+  datasourceId: string;
+  display: string;
+}
+
 export interface BathymetryResults {
   /** minimum depth in sketch */
   min: number;

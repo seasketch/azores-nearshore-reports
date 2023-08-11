@@ -1,21 +1,16 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
 import { CheckCircleFill } from "@styled-icons/bootstrap";
-import styled from "styled-components";
 import {
+  ClassTableColumnConfig,
+  ClassTableProps,
+  ClassTableStyled,
   Column,
   HorizontalStackedBar,
-  HorizontalStackedBarProps,
   LayerToggle,
-  ReportTableStyled,
   Table,
 } from "@seasketch/geoprocessing/client-ui";
 import {
-  PercentEdgeOptions,
-  ValueFormatter,
-  Metric,
-  MetricGroup,
-  Objective,
   keyBy,
   nestMetrics,
   valueFormatter,
@@ -25,65 +20,12 @@ import {
   getMetricGroupObjectiveId,
   getObjectiveById,
 } from "@seasketch/geoprocessing";
-import project from "../../project";
-
-export const ClassTableStyled = styled(ReportTableStyled)`
-  .styled {
-    font-size: 13px;
-    td {
-      padding: 6px 5px;
-    }
-  }
-`;
-
-/**
- * Function that given target value for current table row, the table row index, and total number of
- * table rows, returns a function that given target value returns a
- * formatted string or Element.  In other words a function that handles the formatting based on where
- * the row is in the table and returns a function handling the remaining formatting.
- */
-export type TargetFormatter = (
-  value: number,
-  row: number,
-  numRows: number
-) => (value: number) => string | JSX.Element;
-
-export interface ClassTableColumnConfig {
-  /** column display type */
-  type: "class" | "metricValue" | "metricChart" | "metricGoal" | "layerToggle";
-  /** metricId to use for column - metricGoal will access its values via the metricGroup  */
-  metricId?: string;
-  /** column header label */
-  columnLabel?: string;
-  /** unit string to display after value, or a format function that is passed the row value */
-  valueLabel?: string | ((value: number | string) => string);
-  /** column percent width out of 100 */
-  width?: number;
-  /** additional style properties for column */
-  colStyle?: React.CSSProperties;
-  /** formatting to apply to values in column row, defaults to as-is 'value' formatting. */
-  valueFormatter?: ValueFormatter;
-  /** formatting of target value based on the location of the row in the table */
-  targetValueFormatter?: TargetFormatter;
-  /** config options for percent value formatting.  see percentWithEdge function for more details */
-  percentFormatterOptions?: PercentEdgeOptions;
-  /** override options for metricChart column type */
-  chartOptions?: Partial<HorizontalStackedBarProps>;
-}
-
-export interface ClassTableProps {
-  /** Table row objects, each expected to have a classId and value. */
-  rows: Metric[];
-  /** Source for metric class definitions. if group has layerId at top-level, will display one toggle for whole group */
-  metricGroup: MetricGroup;
-  /** Optional objective for metric */
-  objective?: Objective | Objective[];
-  /** configuration of one or more columns to display */
-  columnConfig: ClassTableColumnConfig[];
-}
 
 /**
  * Table displaying class metrics, one class per table row.  Having more than one metric per class may yield unexpected results
+ * ----- DIFFERENCES FROM ClassTable IN GP ------
+ * Returns 0 when faced with a 'missing' metrics instead of erroring, which occurs in OUSDemographics (when 0 people overlap)
+ * This same edit was made in the Maldives offshore reports to account for OUS Demographics
  */
 export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
   rows,

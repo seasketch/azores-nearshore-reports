@@ -14,7 +14,7 @@ import {
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import { clipSketchToSubregion } from "../util/clipSketchToSubregion";
+import { clipSketchToGeography, getParamStringArray } from "../util/geography";
 import { ExtraParams } from "../util/types";
 
 const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
@@ -23,7 +23,10 @@ export async function ousByIslandValueOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  const clippedSketch = await clipSketchToSubregion(sketch, extraParams!);
+  const geographyId = extraParams
+    ? getParamStringArray("geographies", extraParams)[0]
+    : undefined;
+  const clippedSketch = await clipSketchToGeography(sketch, geographyId);
   const box = clippedSketch.bbox || bbox(clippedSketch);
   const metrics: Metric[] = (
     await Promise.all(

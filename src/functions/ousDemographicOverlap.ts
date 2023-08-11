@@ -15,7 +15,7 @@ import {
 } from "../util/overlapOusDemographic";
 import { featureCollection } from "@turf/helpers";
 import project from "../../project";
-import { clipSketchToSubregionSimple } from "../util/clipSketchToSubregion";
+import { clipSketchToGeography, getParamStringArray } from "../util/geography";
 import { ExtraParams } from "../util/types";
 
 const METRIC = project.getMetricGroup("ousSectorDemographicOverlap");
@@ -25,15 +25,13 @@ export async function ousDemographicOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  const clippedSketch = await clipSketchToSubregionSimple(
-    sketch,
-    extraParams!,
-    {
-      tolerance: 0.00005,
-      highQuality: true,
-    }
-  );
-  const box = clippedSketch.bbox || bbox(clippedSketch);
+  const geographyId = extraParams
+    ? getParamStringArray("geographies", extraParams)[0]
+    : undefined;
+  const clippedSketch = await clipSketchToGeography(sketch, geographyId, {
+    tolerance: 0.00005,
+    highQuality: true,
+  });
   const url = `${project.dataBucketUrl()}ous_demographics.fgb`;
 
   // Fetch the whole nearshore boundary, because we need to calculate its total area

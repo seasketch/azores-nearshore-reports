@@ -14,6 +14,8 @@ import {
  * [classId] - a percValue for each classId present in metrics for group
  * value - sum of value across all classIds present in metrics for group
  * percValue - given sum value across all classIds, contains ratio of total sum across all class IDs
+ * ----- DIFFERENCES FROM ClassTable IN GP ------
+ * Previously, groupTotal was identified by a null classId, now with new precalc it is indentified by null groupId
  */
 export const flattenByGroupAllClass = (
   collection: SketchCollection | NullSketchCollection,
@@ -63,6 +65,10 @@ export const flattenByGroupAllClass = (
       },
       { value: 0 }
     );
+
+    console.log(collection.properties.name);
+    console.log(curGroupId);
+    console.log(totalMetrics);
 
     const groupTotal = firstMatchingMetric(
       totalMetrics,

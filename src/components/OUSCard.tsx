@@ -17,11 +17,11 @@ import {
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import {
-  getGeographyDisplay,
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../util/types";
+import { getGeographyById } from "../util/geography";
 
 export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
@@ -38,7 +38,7 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
         title={
           t("Ocean Use Within") +
           " " +
-          getGeographyDisplay(props.geography) +
+          getGeographyById(props.geography).display +
           " " +
           t("Planning Area")
         }
@@ -62,7 +62,7 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
                   This report summarizes the percentage of ocean use value
                   within the
                 </Trans>{" "}
-                <b>{getGeographyDisplay(props.geography)}</b>{" "}
+                <b>{getGeographyById(props.geography).display}</b>{" "}
                 <Trans i18nKey="OUS Card 2">
                   <b>planning area</b> that overlaps with this plan, as reported
                   in the Ocean Use Survey. This report includes ocean use by

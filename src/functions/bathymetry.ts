@@ -14,14 +14,17 @@ import project from "../../project";
 
 // @ts-ignore
 import geoblaze, { Georaster } from "geoblaze";
-import { clipSketchToSubregion } from "../util/clipSketchToSubregion";
+import { clipSketchToGeography, getParamStringArray } from "../util/geography";
 import { BathymetryResults, ExtraParams } from "../util/types";
 
 export async function bathymetry(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams?: ExtraParams
 ): Promise<BathymetryResults> {
-  const clippedSketch = await clipSketchToSubregion(sketch, extraParams!);
+  const geographyId = extraParams
+    ? getParamStringArray("geographies", extraParams)[0]
+    : undefined;
+  const clippedSketch = await clipSketchToGeography(sketch, geographyId);
   const mg = project.getMetricGroup("bathymetry");
   const sketches = toSketchArray(clippedSketch);
   const box = clippedSketch.bbox || bbox(clippedSketch);

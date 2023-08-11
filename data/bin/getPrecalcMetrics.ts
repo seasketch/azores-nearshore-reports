@@ -133,13 +133,3 @@ export const toPercentMetric = (
     };
   });
 };
-
-/**
- * Takes geographyId and returns display name for report UI
- * @param geographyId: geographyId
- * @returns display name of geography
- */
-export const getGeographyDisplay = (geographyId: string): string => {
-  const geography = geographies.find((g) => g.geographyId === geographyId);
-  return geography ? geography.display : "Unknown";
-};

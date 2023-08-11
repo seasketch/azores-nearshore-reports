@@ -15,7 +15,7 @@ import {
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import { clipSketchToSubregion } from "../util/clipSketchToSubregion";
+import { clipSketchToGeography, getParamStringArray } from "../util/geography";
 import { ExtraParams } from "../util/types";
 
 const metricGroup = project.getMetricGroup("sdmValueOverlap");
@@ -24,7 +24,10 @@ export async function sdmValueOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  const finalSketch = await clipSketchToSubregion(sketch, extraParams!);
+  const geographyId = extraParams
+    ? getParamStringArray("geographies", extraParams)[0]
+    : undefined;
+  const finalSketch = await clipSketchToGeography(sketch, geographyId);
   const box = finalSketch.bbox || bbox(finalSketch);
   const metrics: Metric[] = (
     await Promise.all(

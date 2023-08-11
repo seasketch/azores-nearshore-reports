@@ -24,7 +24,6 @@ import {
   toNullSketchArray,
   percentWithEdge,
   GroupMetricAgg,
-  capitalize,
   roundLower,
   squareMeterToKilometer,
   OBJECTIVE_NO,
@@ -43,7 +42,6 @@ import {
 import { Trans, useTranslation } from "react-i18next";
 import styled from "styled-components";
 import {
-  getGeographyDisplay,
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
@@ -51,6 +49,7 @@ import {
 import project from "../../project";
 import { flattenByGroupAllClass } from "../util/flattenByGroupAllClass";
 import { GeoProp } from "../util/types";
+import { getGeographyById } from "../util/geography";
 
 // Mapping groupIds to colors
 const groupColorMap: Record<string, string> = {
@@ -129,7 +128,7 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
                 </b>
                 {", "}
                 {t("which is")} <b>{percDisplay}</b> {t("of")}{" "}
-                {getGeographyDisplay(props.geography)} {t("waters")}.
+                {getGeographyById(props.geography).display} {t("waters")}.
               </KeySection>
               {isCollection
                 ? collectionReport(
@@ -458,7 +457,7 @@ const sketchMsgs: Record<string, any> = {
   nearshore_protected: (
     objective: Objective,
     level: "FULLY_PROTECTED" | "HIGHLY_PROTECTED",
-    geography: string,
+    geographyId: string,
     t: any
   ) => {
     if (objective.countsToward[level] === OBJECTIVE_YES) {
@@ -466,7 +465,7 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA counts towards protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyDisplay(geography)} {t("waters.")}
+          {getGeographyById(geographyId).display} {t("waters.")}
         </>
       );
     } else if (objective.countsToward[level] === OBJECTIVE_NO) {
@@ -474,7 +473,7 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA does not count towards protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyDisplay(geography)} {t("waters.")}
+          {getGeographyById(geographyId).display} {t("waters.")}
         </>
       );
     }
@@ -482,7 +481,7 @@ const sketchMsgs: Record<string, any> = {
   nearshore_fully_protected: (
     objective: Objective,
     level: "FULLY_PROTECTED" | "HIGHLY_PROTECTED",
-    geography: string,
+    geographyId: string,
     t: any
   ) => {
     if (objective.countsToward[level] === OBJECTIVE_YES) {
@@ -490,7 +489,7 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA counts towards fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyDisplay(geography)} {t("waters as no-take.")}
+          {getGeographyById(geographyId).display} {t("waters as no-take.")}
         </>
       );
     } else if (objective.countsToward[level] === OBJECTIVE_NO) {
@@ -498,7 +497,7 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA does not count towards fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyDisplay(geography)} {t("waters as no-take.")}
+          {getGeographyById(geographyId).display} {t("waters as no-take.")}
         </>
       );
     }
@@ -512,7 +511,7 @@ const collectionMsgs: Record<string, any> = {
   nearshore_protected: (
     objective: Objective,
     objectiveMet: ObjectiveAnswer,
-    geography: string,
+    geographyId: string,
     t: any
   ) => {
     if (objectiveMet === OBJECTIVE_YES) {
@@ -520,7 +519,7 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan meets the objective of protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyDisplay(geography)} {t("waters.")}
+          {getGeographyById(geographyId).display} {t("waters.")}
         </>
       );
     } else if (objectiveMet === OBJECTIVE_NO) {
@@ -528,7 +527,7 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan does not meet the objective of protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyDisplay(geography)} {t("waters.")}
+          {getGeographyById(geographyId).display} {t("waters.")}
         </>
       );
     }
@@ -536,7 +535,7 @@ const collectionMsgs: Record<string, any> = {
   nearshore_fully_protected: (
     objective: Objective,
     objectiveMet: ObjectiveAnswer,
-    geography: string,
+    geographyId: string,
     t: any
   ) => {
     if (objectiveMet === OBJECTIVE_YES) {
@@ -544,7 +543,7 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan meets the objective of fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyDisplay(geography)} {t("waters as no-take.")}
+          {getGeographyById(geographyId).display} {t("waters as no-take.")}
         </>
       );
     } else if (objectiveMet === OBJECTIVE_NO) {
@@ -552,7 +551,7 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan does not meet the objective of fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyDisplay(geography)} {t("waters as no-take.")}
+          {getGeographyById(geographyId).display} {t("waters as no-take.")}
         </>
       );
     }
@@ -563,13 +562,13 @@ const collectionMsgs: Record<string, any> = {
  * Generates Show By MPA sketch table
  * @param sketchesById Record<string, NullSketch>
  * @param regMetrics Metric[]
- * @param geography string
+ * @param geographyId string
  * @returns
  */
 const genMpaSketchTable = (
   sketchesById: Record<string, NullSketch>,
   regMetrics: Metric[],
-  geography: string,
+  geographyId: string,
   t: any
 ) => {
   const columns: Column<Metric>[] = [
@@ -582,7 +581,7 @@ const genMpaSketchTable = (
       ),
     },
     {
-      Header: "% " + getGeographyDisplay(geography),
+      Header: "% " + getGeographyById(geographyId).display,
       accessor: (row) => percentWithEdge(row.value),
     },
   ];
@@ -602,7 +601,7 @@ const genMpaSketchTable = (
 
 const genGroupLevelTable = (
   levelAggs: GroupMetricAgg[],
-  geography: string,
+  geographyId: string,
   t: any
 ) => {
   const groupDisplayMap: Record<string, string> = {
@@ -627,7 +626,7 @@ const genGroupLevelTable = (
       ),
     },
     {
-      Header: "% " + getGeographyDisplay(geography),
+      Header: "% " + getGeographyById(geographyId).display,
       accessor: (row) => {
         return (
           <GroupPill groupColorMap={groupColorMap} group={row.groupId}>

@@ -22,12 +22,12 @@ import {
   bboxOverlap,
   BBox,
 } from "@seasketch/geoprocessing";
-import { Geography } from "./precalc";
 import projectClient from "../../project";
 import bbox from "@turf/bbox";
 
 // @ts-ignore
 import geoblaze from "geoblaze";
+import { Geography } from "../../src/util/types";
 
 /**
  * Returns Metric array for raster datasource and geography
@@ -91,7 +91,13 @@ export function genRasterConfig<C extends ProjectClientBase>(
   return config;
 }
 
-/** Returns classes for datasource.  If classKeys not defined then will return a single class with datasourceID */
+/**
+ * Returns Metric array for raster datasource and geography
+ * @param raster Georaster parsed with geoblaze
+ * @param rasterConfig ImportRasterDatasourceConfig, datasource to calculate metrics for
+ * @param geography Geography to calculate metrics for
+ * @returns Metric[]
+ */
 export async function genRasterMetrics(
   raster: Georaster,
   rasterConfig: ImportRasterDatasourceConfig,

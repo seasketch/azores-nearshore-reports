@@ -13,11 +13,11 @@ import {
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import {
-  getGeographyDisplay,
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../util/types";
+import { getGeographyById } from "../util/geography";
 
 interface ByIslandProp extends GeoProp {
   hidden: boolean;
@@ -44,7 +44,7 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
         title={
           t("Ocean Use By") +
           " " +
-          getGeographyDisplay(props.geography) +
+          getGeographyById(props.geography).display +
           " " +
           t("Inhabitants")
         }
@@ -96,7 +96,7 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
                   This report summarizes the percent of total <b>nearshore</b>{" "}
                   ocean use value of
                 </Trans>{" "}
-                <b>{getGeographyDisplay(props.geography)}</b>{" "}
+                <b>{getGeographyById(props.geography).display}</b>{" "}
                 <Trans i18nKey="OUS By Island Card 2">
                   <b>inhabitants</b> that overlaps with the proposed plan, as
                   reported in the Ocean Use Survey. Plans should consider the

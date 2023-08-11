@@ -10,7 +10,6 @@ import {
   Metric,
   Polygon,
 } from "@seasketch/geoprocessing";
-import { Geography } from "./precalc";
 import projectClient from "../../project";
 import {
   Feature,
@@ -20,6 +19,7 @@ import {
   datasourceConfig,
   createMetric,
 } from "@seasketch/geoprocessing";
+import { Geography } from "../../src/util/types";
 
 /**
  * Creates precalc metrics for a datasource and geography
