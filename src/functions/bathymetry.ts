@@ -10,15 +10,12 @@ import {
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import { min, max, mean } from "simple-statistics";
-import { BathymetryResults } from "../util/BathymetryResults";
 import project from "../../project";
 
 // @ts-ignore
 import geoblaze, { Georaster } from "geoblaze";
-import {
-  ExtraParams,
-  clipSketchToSubregion,
-} from "../util/clipSketchToSubregion";
+import { clipSketchToSubregion } from "../util/clipSketchToSubregion";
+import { BathymetryResults, ExtraParams } from "../util/types";
 
 export async function bathymetry(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
@@ -76,9 +73,6 @@ export async function bathyStats(
       }
     }
   });
-  const mins = sketchStats.map((s) => s.min).filter(notNull);
-  const maxes = sketchStats.map((s) => s.max).filter(notNull);
-  const means = sketchStats.map((s) => s.mean).filter(notNull);
 
   if (!sketchStats.map((s) => s.min).filter(notNull).length) {
     // No sketch overlaps with subregion

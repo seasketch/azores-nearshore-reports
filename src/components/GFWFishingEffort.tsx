@@ -18,7 +18,6 @@ import {
   Metric,
   MetricGroup,
 } from "@seasketch/geoprocessing/client-core";
-import { GeoProp } from "../clients/MpaTabReport";
 import cloneDeep from "lodash/cloneDeep";
 import { useTranslation } from "react-i18next";
 import project from "../../project";
@@ -26,6 +25,7 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
+import { GeoProp } from "../util/types";
 
 export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();

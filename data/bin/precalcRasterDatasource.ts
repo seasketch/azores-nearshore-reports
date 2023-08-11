@@ -54,7 +54,7 @@ export async function precalcRasterDatasource(
 /**
  *  Takes import options and creates full import config
  *  This had to be copied over from gp library due to the export not
- *  being propagated out. It's identical to genVectorConfig in gp library
+ *  being propagated out. It's identical to genRasterConfig in gp library
  */
 export function genRasterConfig<C extends ProjectClientBase>(
   projectClient: C,

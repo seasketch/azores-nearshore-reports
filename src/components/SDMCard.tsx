@@ -24,7 +24,7 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
-import { GeoProp } from "../clients/MpaTabReport";
+import { GeoProp } from "../util/types";
 
 export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();

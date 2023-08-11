@@ -1,17 +1,7 @@
 import React from "react";
-import {
-  ResultsCard,
-  KeySection,
-  ToolbarCard,
-} from "@seasketch/geoprocessing/client-ui";
-import { BathymetryResults } from "../util/BathymetryResults";
+import { ResultsCard, KeySection } from "@seasketch/geoprocessing/client-ui";
 import { useTranslation } from "react-i18next";
-import { GeoProp } from "../clients/MpaTabReport";
-
-const Percent = new Intl.NumberFormat("en", {
-  style: "percent",
-  maximumFractionDigits: 1,
-});
+import { BathymetryResults, GeoProp } from "../util/types";
 
 const formatDepth = (val: number) => {
   const baseVal = Math.abs(parseInt(val.toString()));

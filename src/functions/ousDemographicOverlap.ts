@@ -15,10 +15,8 @@ import {
 } from "../util/overlapOusDemographic";
 import { featureCollection } from "@turf/helpers";
 import project from "../../project";
-import {
-  ExtraParams,
-  clipSketchToSubregionSimple,
-} from "../util/clipSketchToSubregion";
+import { clipSketchToSubregionSimple } from "../util/clipSketchToSubregion";
+import { ExtraParams } from "../util/types";
 
 const METRIC = project.getMetricGroup("ousSectorDemographicOverlap");
 

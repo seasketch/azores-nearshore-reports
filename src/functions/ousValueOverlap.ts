@@ -14,10 +14,8 @@ import {
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import {
-  ExtraParams,
-  clipSketchToSubregion,
-} from "../util/clipSketchToSubregion";
+import { clipSketchToSubregion } from "../util/clipSketchToSubregion";
+import { ExtraParams } from "../util/types";
 
 const metricGroup = project.getMetricGroup("ousValueOverlap");
 

@@ -17,11 +17,7 @@ import {
   getFlatGeobufFilename,
 } from "@seasketch/geoprocessing";
 import simplify from "@turf/simplify";
-
-export interface ExtraParams {
-  /** Optional ID(s) of geographies to operate on. **/
-  geographies?: string[];
-}
+import { ExtraParams } from "./types";
 
 /**
  * Returns one aggregate object for every groupId present in metrics

@@ -1,3 +1,12 @@
+export interface ExtraParams {
+  /** Optional ID(s) of geographies to operate on. **/
+  geographies?: string[];
+}
+
+export interface GeoProp {
+  geography: string;
+}
+
 export interface BathymetryResults {
   /** minimum depth in sketch */
   min: number;

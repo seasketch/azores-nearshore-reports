@@ -2,19 +2,13 @@ import React, { useState } from "react";
 import {
   SegmentControl,
   ReportPage,
-  ToolbarCard,
   Card,
-  Toolbar,
 } from "@seasketch/geoprocessing/client-ui";
 import ViabilityPage from "../components/ViabilityPage";
 import RepresentationPage from "../components/RepresentationPage";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync";
 import geographies from "../../project/geographies.json";
-
-export interface GeoProp {
-  geography: string;
-}
 
 const enableAllTabs = false;
 

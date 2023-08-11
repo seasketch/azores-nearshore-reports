@@ -17,7 +17,7 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
-import { GeoProp } from "../clients/MpaTabReport";
+import { GeoProp } from "../util/types";
 
 interface ByIslandProp extends GeoProp {
   hidden: boolean;

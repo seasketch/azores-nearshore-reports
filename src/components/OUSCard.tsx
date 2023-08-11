@@ -21,7 +21,7 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
-import { GeoProp } from "../clients/MpaTabReport";
+import { GeoProp } from "../util/types";
 
 export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();

@@ -17,7 +17,7 @@ import {
 import totals from "../../data/bin/ousDemographicPrecalcTotals.json";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
-import { GeoProp } from "../clients/MpaTabReport";
+import { GeoProp } from "../util/types";
 const precalcTotals = totals as ReportResultBase;
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });

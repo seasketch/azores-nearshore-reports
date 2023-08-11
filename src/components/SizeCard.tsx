@@ -47,10 +47,10 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
-import { GeoProp } from "../clients/MpaTabReport";
 
 import project from "../../project";
 import { flattenByGroupAllClass } from "../util/flattenByGroupAllClass";
+import { GeoProp } from "../util/types";
 
 // Mapping groupIds to colors
 const groupColorMap: Record<string, string> = {
