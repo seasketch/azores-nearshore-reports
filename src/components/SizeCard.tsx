@@ -49,7 +49,7 @@ import {
 import project from "../../project";
 import { flattenByGroupAllClass } from "../util/flattenByGroupAllClass";
 import { GeoProp } from "../util/types";
-import { getGeographyById } from "../util/geography";
+import { getGeographyById } from "../util/getGeographyById";
 
 // Mapping groupIds to colors
 const groupColorMap: Record<string, string> = {

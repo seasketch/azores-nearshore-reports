@@ -24,7 +24,10 @@ import {
   getUserAttribute,
 } from "@seasketch/geoprocessing/client-core";
 import { getPrecalcMetrics } from "../../data/bin/getPrecalcMetrics";
-import { clipSketchToGeography, getParamStringArray } from "../util/geography";
+import {
+  clipSketchToGeography,
+  getParamStringArray,
+} from "../util/clipSketchToGeography";
 import { ExtraParams } from "../util/types";
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");

@@ -11,27 +11,13 @@ import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import { featureCollection } from "@turf/helpers";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import geographies from "../../project/geographies.json";
 import {
   clipMultiMerge,
   getFlatGeobufFilename,
 } from "@seasketch/geoprocessing";
 import simplify from "@turf/simplify";
-import { ExtraParams, Geography } from "./types";
-
-/**
- * Takes geographyId and returns Geography object
- * @param geographyId: geographyId
- * @returns Geography
- */
-export const getGeographyById = (geographyId: string): Geography => {
-  const geography = geographies.find((g) => g.geographyId === geographyId);
-  if (!geography) {
-    throw new Error(`Geography not found - ${geographyId}`);
-  } else {
-    return geography;
-  }
-};
+import { ExtraParams } from "./types";
+import { getGeographyById } from "./getGeographyById";
 
 /**
  * Validates and returns string[] parameter from extraParams

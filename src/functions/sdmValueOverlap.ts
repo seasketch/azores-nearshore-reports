@@ -15,7 +15,10 @@ import {
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import { clipSketchToGeography, getParamStringArray } from "../util/geography";
+import {
+  clipSketchToGeography,
+  getParamStringArray,
+} from "../util/clipSketchToGeography";
 import { ExtraParams } from "../util/types";
 
 const metricGroup = project.getMetricGroup("sdmValueOverlap");

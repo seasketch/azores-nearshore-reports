@@ -17,7 +17,7 @@ import {
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../util/types";
-import { getGeographyById } from "../util/geography";
+import { getGeographyById } from "../util/getGeographyById";
 
 interface ByIslandProp extends GeoProp {
   hidden: boolean;

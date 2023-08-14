@@ -14,7 +14,10 @@ import {
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import { clipSketchToGeography, getParamStringArray } from "../util/geography";
+import {
+  clipSketchToGeography,
+  getParamStringArray,
+} from "../util/clipSketchToGeography";
 import { overlapFeatures } from "../util/overlapFeatures";
 import { ExtraParams } from "../util/types";
 
