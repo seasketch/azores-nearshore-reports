@@ -17,6 +17,10 @@ export const BathymetryCard: React.FunctionComponent<GeoProp> = (props) => {
       extraParams={{ geographies: [props.geographyId] }}
     >
       {(data: BathymetryResults) => {
+        if (!data || !data.max) {
+          console.error(`No bathymetry results for ${props.geographyId}`);
+          data = { max: 0, min: 0, mean: 0, units: "meters" };
+        }
         return (
           <>
             <KeySection

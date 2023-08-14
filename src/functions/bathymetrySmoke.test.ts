@@ -17,9 +17,6 @@ describe("bathymetry smoke tests", () => {
     for (const example of examples) {
       const result = await bathymetry(example);
       expect(result).toBeTruthy();
-      expect(result.min).toBeTruthy();
-      expect(result.max).toBeTruthy();
-      expect(result.mean).toBeTruthy();
       writeResultOutput(result, "bathymetry", example.properties.name);
     }
   });

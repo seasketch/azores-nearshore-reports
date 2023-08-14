@@ -39,7 +39,12 @@ export async function bathymetry(
   const raster = await loadCogWindow(url, {
     windowBox: box,
   });
-  return await bathyStats(sketches, raster);
+  const stats = await bathyStats(sketches, raster);
+  if (!stats)
+    throw new Error(
+      `No stats returned for ${sketch.properties.name} with ${geographyId} geography`
+    );
+  return stats;
 }
 
 /**
