@@ -6,7 +6,6 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import precalc from "../../project/precalc.json";
 import cloneDeep from "lodash/cloneDeep";
-import path from "path";
 
 /**
  * Extracts precalc metrics from precalc.json for a MetricGroup
@@ -133,13 +132,3 @@ export const toPercentMetric = (
     };
   });
 };
-
-/**
- * Builds JSON path from dist folder path and datasourceId
- * @param dstPath string path to dist folder
- * @param datasourceId string id for datasource
- * @returns string path to datasource file
- */
-export function getJsonPath(dstPath: string, datasourceId: string) {
-  return path.join(dstPath, datasourceId) + ".json";
-}

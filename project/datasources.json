@@ -2150,5 +2150,71 @@
     "propertiesToKeep": [
       "island"
     ]
+  },
+  {
+    "datasourceId": "sao-miguel",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 2137075226.451054
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "san_miguel_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T21:33:47.604Z",
+    "lastUpdated": "2023-08-14T21:33:47.604Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/san_miguel_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "corvo",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 575605732.7764677
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "corvo_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:06:52.214Z",
+    "lastUpdated": "2023-08-14T22:06:52.214Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/corvo_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/graciosa_6nm_boundary_ws84.shp",
+    "layerName": "graciosa_6nm_boundary_ws84",
+    "geo_type": "vector",
+    "datasourceId": "graciosa",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-08-14T22:07:44.485Z",
+    "lastUpdated": "2023-08-14T22:07:44.485Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 746350678.5030005
+        }
+      }
+    },
+    "propertiesToKeep": []
   }
 ]

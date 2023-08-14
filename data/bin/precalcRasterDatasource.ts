@@ -1,3 +1,4 @@
+import path from "path";
 import fs from "fs-extra";
 import {
   Histogram,
@@ -27,7 +28,6 @@ import bbox from "@turf/bbox";
 // @ts-ignore
 import geoblaze from "geoblaze";
 import { Geography } from "../../src/util/types";
-import { getJsonPath } from "./getPrecalcMetrics";
 
 /**
  * Returns Metric array for raster datasource and geography
@@ -174,4 +174,14 @@ export async function genRasterMetrics(
   throw new Error(
     `Something is malformed, check raster ${rasterConfig.datasourceId} and geography ${geography.datasourceId}]`
   );
+}
+
+/**
+ * Builds JSON path from dist folder path and datasourceId
+ * @param dstPath string path to dist folder
+ * @param datasourceId string id for datasource
+ * @returns string path to datasource file
+ */
+function getJsonPath(dstPath: string, datasourceId: string) {
+  return path.join(dstPath, datasourceId) + ".json";
 }

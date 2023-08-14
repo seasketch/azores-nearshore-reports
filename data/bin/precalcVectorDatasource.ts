@@ -1,7 +1,6 @@
 import path from "path";
 import fs from "fs-extra";
 import area from "@turf/area";
-
 import {
   FeatureCollection,
   ImportVectorDatasourceConfig,
@@ -20,7 +19,6 @@ import {
   createMetric,
 } from "@seasketch/geoprocessing";
 import { Geography } from "../../src/util/types";
-import { getJsonPath } from "./getPrecalcMetrics";
 
 /**
  * Creates precalc metrics for a datasource and geography
@@ -248,4 +246,14 @@ export function genVectorMetrics(
   });
 
   return totalMetrics.concat(classMetrics);
+}
+
+/**
+ * Builds JSON path from dist folder path and datasourceId
+ * @param dstPath string path to dist folder
+ * @param datasourceId string id for datasource
+ * @returns string path to datasource file
+ */
+function getJsonPath(dstPath: string, datasourceId: string) {
+  return path.join(dstPath, datasourceId) + ".json";
 }

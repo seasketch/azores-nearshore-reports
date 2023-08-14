@@ -5,8 +5,23 @@
         "display": "Nearshore"
     },
     {
+        "geographyId": "corvo",
+        "datasourceId": "corvo",
+        "display": "Corvo"
+    },
+    {
+        "geographyId": "graciosa",
+        "datasourceId": "graciosa",
+        "display": "Graciosa"
+    },
+    {
         "geographyId": "santa-maria",
         "datasourceId": "santa-maria",
         "display": "Santa Maria"
+    },
+    {
+        "geographyId": "sao-miguel",
+        "datasourceId": "sao-miguel",
+        "display": "São Miguel"
     }
 ]

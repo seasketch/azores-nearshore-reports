@@ -887,7 +887,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "santamaria_comm_fish_ous",
+      "classId": "santa-maria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.05722208891360481,
@@ -899,7 +899,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "santamaria_comm_fish_ous",
+      "classId": "santa-maria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -910,7 +910,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "santamaria_comm_fish_ous",
+      "classId": "santa-maria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.05722208891360481,
@@ -921,7 +921,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "santamaria_cultural_heritage_ous",
+      "classId": "santa-maria_cultural_heritage_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -933,7 +933,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "santamaria_cultural_heritage_ous",
+      "classId": "santa-maria_cultural_heritage_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -944,7 +944,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "santamaria_cultural_heritage_ous",
+      "classId": "santa-maria_cultural_heritage_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -955,7 +955,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "santamaria_rec_fish_ous",
+      "classId": "santa-maria_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.26691445196519226,
@@ -967,7 +967,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "santamaria_rec_fish_ous",
+      "classId": "santa-maria_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -978,7 +978,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "santamaria_rec_fish_ous",
+      "classId": "santa-maria_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.26691445196519226,
@@ -989,7 +989,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "santamaria_rec_sports_ous",
+      "classId": "santa-maria_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.22239862211381478,
@@ -1001,7 +1001,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "santamaria_rec_sports_ous",
+      "classId": "santa-maria_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1012,7 +1012,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "santamaria_rec_sports_ous",
+      "classId": "santa-maria_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.22239862211381478,
@@ -1023,7 +1023,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "santamaria_sci_tech_ous",
+      "classId": "santa-maria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.0005671805022871013,
@@ -1035,7 +1035,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "santamaria_sci_tech_ous",
+      "classId": "santa-maria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1046,7 +1046,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "santamaria_sci_tech_ous",
+      "classId": "santa-maria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.0005671805022871013,
@@ -1057,7 +1057,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "santamaria_tour_fish_ous",
+      "classId": "santa-maria_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.17847931165795217,
@@ -1069,7 +1069,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "santamaria_tour_fish_ous",
+      "classId": "santa-maria_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1080,7 +1080,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "santamaria_tour_fish_ous",
+      "classId": "santa-maria_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.17847931165795217,
@@ -1091,7 +1091,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saojorge_comm_fish_ous",
+      "classId": "sao-jorge_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1103,7 +1103,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saojorge_comm_fish_ous",
+      "classId": "sao-jorge_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1114,7 +1114,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saojorge_comm_fish_ous",
+      "classId": "sao-jorge_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1125,7 +1125,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saojorge_cultural_heritage_ous",
+      "classId": "sao-jorge_cultural_heritage_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1137,7 +1137,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saojorge_cultural_heritage_ous",
+      "classId": "sao-jorge_cultural_heritage_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1148,7 +1148,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saojorge_cultural_heritage_ous",
+      "classId": "sao-jorge_cultural_heritage_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1159,7 +1159,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saojorge_rec_fish_ous",
+      "classId": "sao-jorge_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1171,7 +1171,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saojorge_rec_fish_ous",
+      "classId": "sao-jorge_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1182,7 +1182,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saojorge_rec_fish_ous",
+      "classId": "sao-jorge_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1193,7 +1193,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saojorge_rec_sports_ous",
+      "classId": "sao-jorge_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1205,7 +1205,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saojorge_rec_sports_ous",
+      "classId": "sao-jorge_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1216,7 +1216,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saojorge_rec_sports_ous",
+      "classId": "sao-jorge_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1227,7 +1227,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saojorge_sci_tech_ous",
+      "classId": "sao-jorge_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1239,7 +1239,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saojorge_sci_tech_ous",
+      "classId": "sao-jorge_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1250,7 +1250,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saojorge_sci_tech_ous",
+      "classId": "sao-jorge_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1261,7 +1261,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saojorge_tour_fish_ous",
+      "classId": "sao-jorge_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1273,7 +1273,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saojorge_tour_fish_ous",
+      "classId": "sao-jorge_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1284,7 +1284,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saojorge_tour_fish_ous",
+      "classId": "sao-jorge_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1295,7 +1295,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saomiguel_aquaculture_ous",
+      "classId": "sao-miguel_aquaculture_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1307,7 +1307,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saomiguel_aquaculture_ous",
+      "classId": "sao-miguel_aquaculture_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1318,7 +1318,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saomiguel_aquaculture_ous",
+      "classId": "sao-miguel_aquaculture_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1329,7 +1329,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saomiguel_comm_fish_ous",
+      "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.0014795410104815332,
@@ -1341,7 +1341,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saomiguel_comm_fish_ous",
+      "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.0013952964150192315,
@@ -1352,7 +1352,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saomiguel_comm_fish_ous",
+      "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.00008424459546230167,
@@ -1363,7 +1363,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saomiguel_rec_fish_ous",
+      "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.0023216598535642508,
@@ -1375,7 +1375,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saomiguel_rec_fish_ous",
+      "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.002294981873095514,
@@ -1386,7 +1386,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saomiguel_rec_fish_ous",
+      "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.000026677980468736706,
@@ -1397,7 +1397,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saomiguel_rec_sports_ous",
+      "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.0015215647014458211,
@@ -1409,7 +1409,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saomiguel_rec_sports_ous",
+      "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.0014919442733685173,
@@ -1420,7 +1420,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saomiguel_rec_sports_ous",
+      "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.000029620428077303806,
@@ -1431,7 +1431,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saomiguel_sci_tech_ous",
+      "classId": "sao-miguel_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1443,7 +1443,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saomiguel_sci_tech_ous",
+      "classId": "sao-miguel_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1454,7 +1454,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saomiguel_sci_tech_ous",
+      "classId": "sao-miguel_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1465,7 +1465,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saomiguel_sec_def_ous",
+      "classId": "sao-miguel_sec_def_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1477,7 +1477,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saomiguel_sec_def_ous",
+      "classId": "sao-miguel_sec_def_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1488,7 +1488,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saomiguel_sec_def_ous",
+      "classId": "sao-miguel_sec_def_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -1499,7 +1499,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17851",
-      "classId": "saomiguel_tour_fish_ous",
+      "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.009521903385044883,
@@ -1511,7 +1511,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17852",
-      "classId": "saomiguel_tour_fish_ous",
+      "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.009395612023797018,
@@ -1522,7 +1522,7 @@
     {
       "metricId": "ousByIslandValueOverlap",
       "sketchId": "17853",
-      "classId": "saomiguel_tour_fish_ous",
+      "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.00012629136124786555,

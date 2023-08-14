@@ -77,13 +77,7 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
                 return groups;
               }
 
-              // adds metric to the island's metric array
-              if (island === "santamaria")
-                groups["santa-maria"] = [
-                  ...(groups["santa-maria"] || []),
-                  metric,
-                ];
-              else groups[island] = [...(groups[island] || []), metric];
+              groups[island] = [...(groups[island] || []), metric];
               return groups;
             },
             {}

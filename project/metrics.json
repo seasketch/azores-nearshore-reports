@@ -459,133 +459,133 @@
                 "layerId": "eKQhExpWa"
             },
             {
-                "classId": "santamaria_comm_fish_ous",
+                "classId": "santa-maria_comm_fish_ous",
                 "display": "Commercial Fishing",
                 "datasourceId": "santamaria_comm_fish_ous",
                 "noDataValue": 0,
                 "layerId": "XcjHpoOD5"
             },
             {
-                "classId": "santamaria_cultural_heritage_ous",
+                "classId": "santa-maria_cultural_heritage_ous",
                 "display": "Underwater Cultural Heritage",
                 "datasourceId": "santamaria_cultural_heritage_ous",
                 "noDataValue": 0,
                 "layerId": "OVD43_6Iw"
             },
             {
-                "classId": "santamaria_rec_fish_ous",
+                "classId": "santa-maria_rec_fish_ous",
                 "display": "Recreational Fishing",
                 "datasourceId": "santamaria_rec_fish_ous",
                 "noDataValue": 0,
                 "layerId": "3xurnvR7L"
             },
             {
-                "classId": "santamaria_rec_sports_ous",
+                "classId": "santa-maria_rec_sports_ous",
                 "display": "Recreation, Sports, and Tourism",
                 "datasourceId": "santamaria_rec_sports_ous",
                 "noDataValue": 0,
                 "layerId": "LXIFA94QT"
             },
             {
-                "classId": "santamaria_sci_tech_ous",
+                "classId": "santa-maria_sci_tech_ous",
                 "display": "Science, Technology, and Monitoring",
                 "datasourceId": "santamaria_sci_tech_ous",
                 "noDataValue": 0,
                 "layerId": "0jpx5Is9m"
             },
             {
-                "classId": "santamaria_tour_fish_ous",
+                "classId": "santa-maria_tour_fish_ous",
                 "display": "Touristic Fishing",
                 "datasourceId": "santamaria_tour_fish_ous",
                 "noDataValue": 0,
                 "layerId": "OMWgjeQeN"
             },
             {
-                "classId": "saojorge_comm_fish_ous",
+                "classId": "sao-jorge_comm_fish_ous",
                 "display": "Commercial Fishing",
                 "datasourceId": "saojorge_comm_fish_ous",
                 "noDataValue": 0,
                 "layerId": "fK7Yrx95T"
             },
             {
-                "classId": "saojorge_cultural_heritage_ous",
+                "classId": "sao-jorge_cultural_heritage_ous",
                 "display": "Underwater Cultural Heritage",
                 "datasourceId": "saojorge_cultural_heritage_ous",
                 "noDataValue": 0,
                 "layerId": "Bl7RqHbCa"
             },
             {
-                "classId": "saojorge_rec_fish_ous",
+                "classId": "sao-jorge_rec_fish_ous",
                 "display": "Recreational Fishing",
                 "datasourceId": "saojorge_rec_fish_ous",
                 "noDataValue": 0,
                 "layerId": "aI7bnPiaN"
             },
             {
-                "classId": "saojorge_rec_sports_ous",
+                "classId": "sao-jorge_rec_sports_ous",
                 "display": "Recreation, Sports, and Tourism",
                 "datasourceId": "saojorge_rec_sports_ous",
                 "noDataValue": 0,
                 "layerId": "E8T71_KeY"
             },
             {
-                "classId": "saojorge_sci_tech_ous",
+                "classId": "sao-jorge_sci_tech_ous",
                 "display": "Science, Technology, and Monitoring",
                 "datasourceId": "saojorge_sci_tech_ous",
                 "noDataValue": 0,
                 "layerId": "LSZ3gMElM"
             },
             {
-                "classId": "saojorge_tour_fish_ous",
+                "classId": "sao-jorge_tour_fish_ous",
                 "display": "Touristic Fishing",
                 "datasourceId": "saojorge_tour_fish_ous",
                 "noDataValue": 0,
                 "layerId": "Ysz2ZBX1y"
             },
             {
-                "classId": "saomiguel_aquaculture_ous",
+                "classId": "sao-miguel_aquaculture_ous",
                 "display": "Aquaculture",
                 "datasourceId": "saomiguel_aquaculture_ous",
                 "noDataValue": 0,
                 "layerId": "Rhm3RlX0C"
             },
             {
-                "classId": "saomiguel_comm_fish_ous",
+                "classId": "sao-miguel_comm_fish_ous",
                 "display": "Commercial Fishing",
                 "datasourceId": "saomiguel_comm_fish_ous",
                 "noDataValue": 0,
                 "layerId": "hyn9VjcWc"
             },
             {
-                "classId": "saomiguel_rec_fish_ous",
+                "classId": "sao-miguel_rec_fish_ous",
                 "display": "Recreational Fishing",
                 "datasourceId": "saomiguel_rec_fish_ous",
                 "noDataValue": 0,
                 "layerId": "kQi5L60LK"
             },
             {
-                "classId": "saomiguel_rec_sports_ous",
+                "classId": "sao-miguel_rec_sports_ous",
                 "display": "Recreation, Sports, and Tourism",
                 "datasourceId": "saomiguel_rec_sports_ous",
                 "noDataValue": 0,
                 "layerId": "I8hvsWiwy"
             },
             {
-                "classId": "saomiguel_sci_tech_ous",
+                "classId": "sao-miguel_sci_tech_ous",
                 "display": "Science, Technology, and Monitoring",
                 "datasourceId": "saomiguel_sci_tech_ous",
                 "noDataValue": 0,
                 "layerId": "e6YGmHOp2"
             },
             {
-                "classId": "saomiguel_sec_def_ous",
+                "classId": "sao-miguel_sec_def_ous",
                 "display": "Security and Defense",
                 "datasourceId": "saomiguel_sec_def_ous",
                 "noDataValue": 0,
                 "layerId": "2z9BvCsFz"
             },
             {
-                "classId": "saomiguel_tour_fish_ous",
+                "classId": "sao-miguel_tour_fish_ous",
                 "display": "Touristic Fishing",
                 "datasourceId": "saomiguel_tour_fish_ous",
                 "noDataValue": 0,

@@ -897,6 +897,1942 @@
             "sketchId": null
         },
         {
+            "metricId": "count",
+            "value": 1,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 2137075226.451204,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 575605732.7763913,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 746350678.5029556,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 23,
+            "classId": "PA_Bulweria_bulwerii_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 20,
+            "classId": "PA_Calonectris_borealis_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 24,
+            "classId": "PA_Larus_michahellis_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 18,
+            "classId": "PA_Oceanodroma_castro_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "PA_Onychoprion_fuscatus_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 24,
+            "classId": "PA_Puffinus_baroli_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 9,
+            "classId": "PA_Puffinus_puffinus_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 20,
+            "classId": "PA_Sterna_dougallii_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 24,
+            "classId": "PA_Sterna_hirundo_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.06389344549518228,
+            "classId": "corvo_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1.4087103822741796,
+            "classId": "corvo_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 17.838760380514145,
+            "classId": "corvo_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.07265075013234945,
+            "classId": "all_commercial_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_energy_development_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1.4341571611217403,
+            "classId": "all_recreation_sports_and_tourism_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1.4577461507875067,
+            "classId": "all_recreational_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00042957070975446765,
+            "classId": "all_science_tech_monitoring_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_security_and_defense_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.08353606194168606,
+            "classId": "all_touristic_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_underwater_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.005771506846372176,
+            "classId": "faial_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_energy_dev_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0004206713714465238,
+            "classId": "faial_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.054291448649806284,
+            "classId": "flores_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.07077465261447458,
+            "classId": "flores_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.011855220629227503,
+            "classId": "flores_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0032227803221758222,
+            "classId": "flores_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00000252146805959641,
+            "classId": "pico_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000002554191379372517,
+            "classId": "pico_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0009599911924098592,
+            "classId": "saomiguel_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000018984941917710163,
+            "classId": "saomiguel_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00012317770929198835,
+            "classId": "saomiguel_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000040816244898711496,
+            "classId": "saomiguel_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 24,
+            "classId": "PA_Caretta_caretta_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 24,
+            "classId": "PA_Chelonia_mydas_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 24,
+            "classId": "PA_Dermochelys_coriacea_baseline-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 27729219.29432954,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 429571790.9819186,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 28139597.291709516,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 28139597.291709516,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 469787291.93608576,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": -3679376,
+            "classId": "bathymetry-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 620546531.8500957,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 22.76249933242798,
+            "classId": "all-fishing-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "drifting-longlines-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "ESP-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 18.037221312522888,
+            "classId": "pole-and-line-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-longlines-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 4.725277900695801,
+            "classId": "fixed-gear-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "purse-seines-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "other-purse-seines-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-gillnets-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trawlers-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trollers-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 22.76249933242798,
+            "classId": "PRT-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "RUS-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 620546531.8500957,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 575605732.7763913,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Bulweria_bulwerii_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Calonectris_borealis_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Larus_michahellis_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Oceanodroma_castro_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Onychoprion_fuscatus_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Puffinus_baroli_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 19,
+            "classId": "PA_Puffinus_puffinus_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Sterna_dougallii_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Sterna_hirundo_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1.1431304545217404,
+            "classId": "all_commercial_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.05178065598011017,
+            "classId": "all_energy_development_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 37.32112205175923,
+            "classId": "all_recreation_sports_and_tourism_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 3.1095178316015932,
+            "classId": "all_recreational_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0082569964777221,
+            "classId": "all_science_tech_monitoring_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0060398935731882375,
+            "classId": "all_security_and_defense_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.042529343535721686,
+            "classId": "all_touristic_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_underwater_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_energy_dev_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.006618192630647002,
+            "classId": "faial_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0012903671878348177,
+            "classId": "faial_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.9966060293382668,
+            "classId": "graciosa_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 4.991571782531594,
+            "classId": "graciosa_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 6.901942863848433,
+            "classId": "graciosa_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.011038112257665489,
+            "classId": "graciosa_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.010149305066647685,
+            "classId": "graciosa_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.05902521198959221,
+            "classId": "graciosa_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0023258318331897954,
+            "classId": "pico_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0000032391305168077977,
+            "classId": "pico_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0000032814259736113627,
+            "classId": "pico_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0010538233095758187,
+            "classId": "saojorge_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.013505344264295616,
+            "classId": "saomiguel_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00015364997621492016,
+            "classId": "saomiguel_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00016505112665099464,
+            "classId": "saomiguel_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00005628312043093331,
+            "classId": "saomiguel_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.004351479934101121,
+            "classId": "terceira_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0035052410094067454,
+            "classId": "terceira_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0015231470344487796,
+            "classId": "terceira_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Caretta_caretta_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Chelonia_mydas_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Dermochelys_coriacea_baseline-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 25026543.98906275,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 3,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 120843509.44861715,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 527873285.8300538,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 736979483.8975104,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 120096612.18748592,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 120096612.18748592,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 579368085.7032138,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": -3095492,
+            "classId": "bathymetry-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 746350678.5029556,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 244.5691718161106,
+            "classId": "all-fishing-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "drifting-longlines-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "ESP-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 38.15999981760979,
+            "classId": "pole-and-line-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 136.87582796812057,
+            "classId": "set-longlines-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 16.044445037841797,
+            "classId": "fixed-gear-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "purse-seines-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "other-purse-seines-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-gillnets-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trawlers-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trollers-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 244.5691718161106,
+            "classId": "PRT-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "RUS-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 746350678.5029556,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 746350678.5029556,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
             "metricId": "sum",
             "value": 34,
             "classId": "PA_Bulweria_bulwerii_baseline-total",
@@ -1790,6 +3726,998 @@
             "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Bulweria_bulwerii_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Calonectris_borealis_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Larus_michahellis_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Oceanodroma_castro_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Onychoprion_fuscatus_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Puffinus_baroli_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 73,
+            "classId": "PA_Puffinus_puffinus_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Sterna_dougallii_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Sterna_hirundo_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.09589502477865608,
+            "classId": "all_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.8527082448640018,
+            "classId": "all_commercial_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.005991909193447498,
+            "classId": "all_energy_development_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 66.88360526791584,
+            "classId": "all_recreation_sports_and_tourism_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 9.236841247209444,
+            "classId": "all_recreational_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.44924641914172947,
+            "classId": "all_science_tech_monitoring_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.11510828358950675,
+            "classId": "all_security_and_defense_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.21014751841955093,
+            "classId": "all_touristic_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_underwater_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.045848622685298324,
+            "classId": "faial_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_energy_dev_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.001722752189948551,
+            "classId": "faial_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000009110118908250975,
+            "classId": "pico_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000009227320969917852,
+            "classId": "pico_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.09490470374748838,
+            "classId": "saomiguel_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.5601403844216142,
+            "classId": "saomiguel_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 15.191732398552622,
+            "classId": "saomiguel_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 66.59644351537372,
+            "classId": "saomiguel_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.30071250851653986,
+            "classId": "saomiguel_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.15135314184590243,
+            "classId": "saomiguel_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.3121675904829324,
+            "classId": "saomiguel_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0010402779535070295,
+            "classId": "terceira_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Caretta_caretta_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Chelonia_mydas_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 86,
+            "classId": "PA_Dermochelys_coriacea_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 4,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 10771851.267102595,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 9,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 332435677.6489079,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1466585426.2290797,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 2068807939.4420502,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1691583465.4653413,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 319729891.14666325,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 319729891.14666325,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1589219035.8653083,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": -8405332,
+            "classId": "bathymetry-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 2137075226.451204,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 3617.8377351760864,
+            "classId": "all-fishing-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 13.058055933564901,
+            "classId": "drifting-longlines-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 5.325000047683716,
+            "classId": "ESP-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1265.088775061071,
+            "classId": "pole-and-line-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 27.024167343974113,
+            "classId": "set-longlines-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 742.8169378638268,
+            "classId": "fixed-gear-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "purse-seines-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "other-purse-seines-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-gillnets-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trawlers-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trollers-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 3612.5127305984497,
+            "classId": "PRT-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "RUS-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 2137075226.451204,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 2137075226.451204,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
             "sketchId": null
         }
     ]
