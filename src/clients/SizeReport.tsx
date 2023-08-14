@@ -27,7 +27,7 @@ export const SizeReport = () => {
           planning area.
         </p>
       </Card>
-      <SizeCard geography={geography} />
+      <SizeCard geographyId={geography} />
     </Translator>
   );
 };

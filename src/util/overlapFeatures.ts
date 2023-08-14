@@ -14,6 +14,10 @@ import area from "@turf/area";
 import flatten from "@turf/flatten";
 import { chunk, clip, clipMultiMerge } from "@seasketch/geoprocessing";
 
+// Only change in this file is in overlapFeatures to support subregions.
+// Additional commenting in overlapFeatures.
+// All other functions are the same as in the GP library
+
 interface OverlapFeatureOptions {
   /** Operation to perform, supports area or sum.  Defaults to area */
   operation: "area" | "sum";
@@ -24,15 +28,13 @@ interface OverlapFeatureOptions {
   sumProperty?: string;
 }
 
-// ToDo: support
-// point - sum of points
-// linestring - sum of length
-// polygon - sum of area
-
 /**
  * Calculates overlap between sketch(es) and an array of polygon features.
  * Supports area or sum operation (given sumProperty), defaults to area
  * If sketch collection includes overall and per sketch
+ * ---- DIFFERENCES FROM overlapFeatures IN GP LIBRARY --------
+ * - With subregions, sketchUnion can now be both null and valid. Instead of
+ * erroring when sketchUnion is null, sets sketchUnionArea to 0.
  */
 export async function overlapFeatures(
   metricId: string,

@@ -38,7 +38,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
   const precalcMetrics = getPrecalcMetrics(
     metricGroup,
     "area",
-    props.geography
+    props.geographyId
   );
 
   const mapLabel = t("Map");
@@ -52,7 +52,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Benthic Habitat")}
         functionName="geomorphAreaOverlap"
-        extraParams={{ geographies: [props.geography] }}
+        extraParams={{ geographies: [props.geographyId] }}
         useChildCard
       >
         {(data: ReportResult) => {

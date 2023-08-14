@@ -27,7 +27,11 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
   const metricGroup = project.getMetricGroup("ousValueOverlap");
-  const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", props.geography);
+  const precalcMetrics = getPrecalcMetrics(
+    metricGroup,
+    "sum",
+    props.geographyId
+  );
   const mapLabel = t("Map");
   const sectorLabel = t("Sector");
   const percValueLabel = t("% Value Found Within Plan");
@@ -38,12 +42,12 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
         title={
           t("Ocean Use Within") +
           " " +
-          getGeographyById(props.geography).display +
+          getGeographyById(props.geographyId).display +
           " " +
           t("Planning Area")
         }
         functionName="ousValueOverlap"
-        extraParams={{ geographies: [props.geography] }}
+        extraParams={{ geographies: [props.geographyId] }}
       >
         {(data: ReportResult) => {
           // Single sketch or collection top-level
@@ -62,7 +66,7 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
                   This report summarizes the percentage of ocean use value
                   within the
                 </Trans>{" "}
-                <b>{getGeographyById(props.geography).display}</b>{" "}
+                <b>{getGeographyById(props.geographyId).display}</b>{" "}
                 <Trans i18nKey="OUS Card 2">
                   <b>planning area</b> that overlaps with this plan, as reported
                   in the Ocean Use Survey. This report includes ocean use by

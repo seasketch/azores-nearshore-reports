@@ -44,7 +44,7 @@ const contextValue = sampleSketchReportContextValue({
 // Wrap in Translator to allow translations to work in storybook without report client
 export const basic = () => (
   <Translator>
-    <SizeCard geography="nearshore" />
+    <SizeCard geographyId="nearshore" />
   </Translator>
 );
 

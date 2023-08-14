@@ -40,7 +40,7 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Ocean Use Demographics")}
         functionName="ousDemographicOverlap"
-        extraParams={{ geographies: [props.geography] }}
+        extraParams={{ geographies: [props.geographyId] }}
       >
         {(data: ReportResult) => {
           // Filter down to people count metrics for top-level sketch

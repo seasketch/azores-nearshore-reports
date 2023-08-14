@@ -54,10 +54,10 @@ const MpaTabReport = () => {
         />
       </div>
       <ReportPage hidden={!enableAllTabs && tab !== viabilityId}>
-        <ViabilityPage geography={geography} />
+        <ViabilityPage geographyId={geography} />
       </ReportPage>
       <ReportPage hidden={!enableAllTabs && tab !== representationId}>
-        <RepresentationPage geography={geography} />
+        <RepresentationPage geographyId={geography} />
       </ReportPage>
     </>
   );

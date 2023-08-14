@@ -20,6 +20,7 @@ import {
   createMetric,
 } from "@seasketch/geoprocessing";
 import { Geography } from "../../src/util/types";
+import { getJsonPath } from "./getPrecalcMetrics";
 
 /**
  * Creates precalc metrics for a datasource and geography
@@ -118,6 +119,7 @@ export function genVectorMetrics(
     });
   });
 
+  // Read in vector geography datasource as FeatureCollection
   const rawJsonGeo = fs.readJsonSync(
     getJsonPath(vectorConfig.dstPath, geography.datasourceId)
   );
@@ -125,6 +127,7 @@ export function genVectorMetrics(
     Polygon | MultiPolygon
   >;
 
+  // Clip vector data to geography boundaries
   const clippedFeatures = featureCollection.features
     .map(
       (feat) =>
@@ -245,8 +248,4 @@ export function genVectorMetrics(
   });
 
   return totalMetrics.concat(classMetrics);
-}
-
-function getJsonPath(dstPath: string, datasourceId: string) {
-  return path.join(dstPath, datasourceId) + ".json";
 }

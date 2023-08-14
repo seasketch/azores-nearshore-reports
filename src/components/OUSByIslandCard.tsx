@@ -44,12 +44,12 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
         title={
           t("Ocean Use By") +
           " " +
-          getGeographyById(props.geography).display +
+          getGeographyById(props.geographyId).display +
           " " +
           t("Inhabitants")
         }
         functionName="ousByIslandValueOverlap"
-        extraParams={{ geographies: [props.geography] }}
+        extraParams={{ geographies: [props.geographyId] }}
       >
         {(data: ReportResult) => {
           // Single sketch or collection top-level
@@ -96,7 +96,7 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
                   This report summarizes the percent of total <b>nearshore</b>{" "}
                   ocean use value of
                 </Trans>{" "}
-                <b>{getGeographyById(props.geography).display}</b>{" "}
+                <b>{getGeographyById(props.geographyId).display}</b>{" "}
                 <Trans i18nKey="OUS By Island Card 2">
                   <b>inhabitants</b> that overlaps with the proposed plan, as
                   reported in the Ocean Use Survey. Plans should consider the
@@ -106,7 +106,7 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
               </p>
 
               <ClassTable
-                rows={groupedMetrics[props.geography]}
+                rows={groupedMetrics[props.geographyId]}
                 metricGroup={metricGroup}
                 columnConfig={[
                   {

@@ -6,8 +6,8 @@ import { GeoProp } from "../util/types";
 const ReportPage: React.FunctionComponent<GeoProp> = (props) => {
   return (
     <>
-      <SDMCard geography={props.geography} />
-      <Geomorphology geography={props.geography} />
+      <SDMCard geographyId={props.geographyId} />
+      <Geomorphology geographyId={props.geographyId} />
     </>
   );
 };

@@ -12,14 +12,14 @@ const ReportPage: React.FunctionComponent<GeoProp> = (props) => {
   return (
     <>
       <ProtectionCard />
-      <SizeCard geography={props.geography} />
-      <BathymetryCard geography={props.geography} />
-      <OUSCard geography={props.geography} />
+      <SizeCard geographyId={props.geographyId} />
+      <BathymetryCard geographyId={props.geographyId} />
+      <OUSCard geographyId={props.geographyId} />
       <OUSByIslandCard
-        hidden={props.geography === "nearshore"}
-        geography={props.geography}
+        hidden={props.geographyId === "nearshore"}
+        geographyId={props.geographyId}
       />
-      <OusDemographics geography={props.geography} />
+      <OusDemographics geographyId={props.geographyId} />
       <SketchAttributesCard autoHide />
     </>
   );

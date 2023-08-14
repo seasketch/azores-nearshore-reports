@@ -4,7 +4,7 @@ export interface ExtraParams {
 }
 
 export interface GeoProp {
-  geography: string;
+  geographyId: string;
 }
 
 export interface Geography {

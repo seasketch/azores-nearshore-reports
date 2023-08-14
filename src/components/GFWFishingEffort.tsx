@@ -34,7 +34,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
   const precalcTotals: Metric[] = getPrecalcMetrics(
     metricGroup,
     "sum",
-    props.geography
+    props.geographyId
   );
   return (
     <>

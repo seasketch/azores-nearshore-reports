@@ -33,7 +33,7 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
   const precalcMetrics: Metric[] = getPrecalcMetrics(
     metricGroup,
     "sum",
-    props.geography
+    props.geographyId
   );
   const mapLabel = t("Map");
   const breedingBirdsLabel = t("Breeding Birds");
@@ -44,7 +44,7 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Valuable Species Habitat")}
         functionName="sdmValueOverlap"
-        extraParams={{ geographies: [props.geography] }}
+        extraParams={{ geographies: [props.geographyId] }}
         useChildCard
       >
         {(data: ReportResult) => {

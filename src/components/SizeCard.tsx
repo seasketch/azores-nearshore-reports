@@ -86,7 +86,7 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
     <ResultsCard
       title={t("Size")}
       functionName="boundaryAreaOverlap"
-      extraParams={{ geographies: [props.geography] }}
+      extraParams={{ geographies: [props.geographyId] }}
     >
       {(data: ReportResult) => {
         // Get overall area of sketch metric
@@ -99,7 +99,7 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
         const boundaryTotalMetrics = getPrecalcMetrics(
           mg,
           "area",
-          props.geography
+          props.geographyId
         );
 
         // Grab overall size precalc metric
@@ -128,17 +128,17 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
                 </b>
                 {", "}
                 {t("which is")} <b>{percDisplay}</b> {t("of")}{" "}
-                {getGeographyById(props.geography).display} {t("waters")}.
+                {getGeographyById(props.geographyId).display} {t("waters")}.
               </KeySection>
               {isCollection
                 ? collectionReport(
                     data,
                     boundaryTotalMetrics,
-                    props.geography,
+                    props.geographyId,
                     objectiveIds,
                     t
                   )
-                : sketchReport(data, props.geography, t)}
+                : sketchReport(data, props.geographyId, t)}
 
               <Collapse title={t("Learn More")}>
                 {genLearnMore(objectives)}
