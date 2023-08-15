@@ -2196,22 +2196,132 @@
     "propertiesToKeep": []
   },
   {
-    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/graciosa_6nm_boundary_ws84.shp",
-    "layerName": "graciosa_6nm_boundary_ws84",
-    "geo_type": "vector",
     "datasourceId": "graciosa",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [],
-    "created": "2023-08-14T22:07:44.485Z",
-    "lastUpdated": "2023-08-14T22:07:44.485Z",
+    "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
           "count": 1,
           "sum": null,
           "area": 746350678.5030005
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "graciosa_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:07:44.485Z",
+    "lastUpdated": "2023-08-14T22:07:44.485Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/graciosa_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "flores",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 926376704.26102
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "flores_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:41:55.818Z",
+    "lastUpdated": "2023-08-14T22:41:55.818Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/flores_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "faial",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 990138030.0899957
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "faial_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:42:15.599Z",
+    "lastUpdated": "2023-08-14T22:42:15.599Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/faial_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "pico",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 1549832742.7643557
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "pico_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:42:34.093Z",
+    "lastUpdated": "2023-08-14T22:42:34.093Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/pico_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "sao-jorge",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 1656884789.0896845
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "san_jorge_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:43:03.652Z",
+    "lastUpdated": "2023-08-14T22:43:03.652Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/san_jorge_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/terceira_6nm_boundary_ws84.shp",
+    "layerName": "terceira_6nm_boundary_ws84",
+    "geo_type": "vector",
+    "datasourceId": "terceira",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-08-14T22:43:32.794Z",
+    "lastUpdated": "2023-08-14T22:43:32.794Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 1292242320.0095162
         }
       }
     },

@@ -10,9 +10,24 @@
         "display": "Corvo"
     },
     {
+        "geographyId": "faial",
+        "datasourceId": "faial",
+        "display": "Faial"
+    },
+    {
+        "geographyId": "flores",
+        "datasourceId": "flores",
+        "display": "Flores"
+    },
+    {
         "geographyId": "graciosa",
         "datasourceId": "graciosa",
         "display": "Graciosa"
+    },
+    {
+        "geographyId": "pico",
+        "datasourceId": "pico",
+        "display": "Pico"
     },
     {
         "geographyId": "santa-maria",
@@ -23,5 +38,15 @@
         "geographyId": "sao-miguel",
         "datasourceId": "sao-miguel",
         "display": "São Miguel"
+    },
+    {
+        "geographyId": "sao-jorge",
+        "datasourceId": "sao-jorge",
+        "display": "São Jorge"
+    },
+    {
+        "geographyId": "terceira",
+        "datasourceId": "terceira",
+        "display": "Terceira"
     }
 ]

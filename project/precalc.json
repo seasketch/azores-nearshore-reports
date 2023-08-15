@@ -945,6 +945,86 @@
             "sketchId": null
         },
         {
+            "metricId": "count",
+            "value": 1,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 926376704.2608929,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 990138030.0902897,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1549832742.7646012,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1656884789.0896919,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1292242320.0092096,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
             "metricId": "sum",
             "value": 23,
             "classId": "PA_Bulweria_bulwerii_baseline-total",
@@ -1886,6 +1966,2134 @@
             "classId": "graciosa-total",
             "groupId": null,
             "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 44940799.073704444,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Bulweria_bulwerii_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Calonectris_borealis_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Larus_michahellis_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Oceanodroma_castro_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Onychoprion_fuscatus_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Puffinus_baroli_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Puffinus_puffinus_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Sterna_dougallii_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Sterna_hirundo_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.01551438047317788,
+            "classId": "all_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.4692457820614315,
+            "classId": "all_commercial_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.009694079344626516,
+            "classId": "all_energy_development_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 41.09361214559854,
+            "classId": "all_recreation_sports_and_tourism_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 7.466894182400745,
+            "classId": "all_recreational_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.07747134405750844,
+            "classId": "all_science_tech_monitoring_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_security_and_defense_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.06568759450733808,
+            "classId": "all_touristic_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_underwater_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.022587112747714855,
+            "classId": "faial_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.6084502925455357,
+            "classId": "faial_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.007444799994118512,
+            "classId": "faial_energy_dev_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1.9747487617256638,
+            "classId": "faial_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 10.714632535737932,
+            "classId": "faial_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.09051476233525957,
+            "classId": "faial_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.08363128993373437,
+            "classId": "pico_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 7.885158739090091,
+            "classId": "pico_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 14.036646707801042,
+            "classId": "pico_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00019440038652945857,
+            "classId": "pico_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.02862639485383056,
+            "classId": "pico_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0037565291847840854,
+            "classId": "saojorge_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00555167787703148,
+            "classId": "saomiguel_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.006393021031465829,
+            "classId": "saomiguel_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00021786462701556264,
+            "classId": "saomiguel_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000006256338761653768,
+            "classId": "saomiguel_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00007416354729006258,
+            "classId": "saomiguel_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00003538585108930903,
+            "classId": "terceira_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.001653537486122847,
+            "classId": "terceira_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Caretta_caretta_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Chelonia_mydas_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 40,
+            "classId": "PA_Dermochelys_coriacea_baseline-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 76553707.31419457,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 493624904.2146089,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 970518553.3464,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 495263990.9014268,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 4,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 110238034.43702303,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 106724456.09890598,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 3,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 3513578.3381170374,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 497965374.65065295,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": -4169570,
+            "classId": "bathymetry-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1258212574.016669,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1040.4672267436981,
+            "classId": "all-fishing-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 299.8911034464836,
+            "classId": "drifting-longlines-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 267.6333267688751,
+            "classId": "ESP-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 166.56472665071487,
+            "classId": "pole-and-line-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 258.55666586756706,
+            "classId": "set-longlines-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 216.54999850690365,
+            "classId": "fixed-gear-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "purse-seines-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "other-purse-seines-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-gillnets-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trawlers-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trollers-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 772.8338723182678,
+            "classId": "PRT-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "RUS-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1258212574.016669,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 990138030.0902897,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 268074543.92637923,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 35,
+            "classId": "PA_Bulweria_bulwerii_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 35,
+            "classId": "PA_Calonectris_borealis_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 35,
+            "classId": "PA_Larus_michahellis_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 35,
+            "classId": "PA_Oceanodroma_castro_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "PA_Onychoprion_fuscatus_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 35,
+            "classId": "PA_Puffinus_baroli_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 32,
+            "classId": "PA_Puffinus_puffinus_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 35,
+            "classId": "PA_Sterna_dougallii_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 35,
+            "classId": "PA_Sterna_hirundo_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0068392223961382115,
+            "classId": "corvo_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.008508737054086168,
+            "classId": "corvo_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.6229779319255835,
+            "classId": "all_commercial_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.017242298927158117,
+            "classId": "all_energy_development_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 18.8788890621628,
+            "classId": "all_recreation_sports_and_tourism_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 5.753866740364196,
+            "classId": "all_recreational_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.4194527734588278,
+            "classId": "all_science_tech_monitoring_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_security_and_defense_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.07733682464549929,
+            "classId": "all_touristic_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.06452612248176592,
+            "classId": "all_underwater_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.006359688206202918,
+            "classId": "faial_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_energy_dev_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00042704188485842565,
+            "classId": "faial_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.906247615328283,
+            "classId": "flores_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.08011555690245586,
+            "classId": "flores_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 7.245537417145783,
+            "classId": "flores_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 57.70458453484879,
+            "classId": "flores_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1.7109994911734248,
+            "classId": "flores_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.1425412657117704,
+            "classId": "flores_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000004043316459582946,
+            "classId": "pico_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0000040943743047638925,
+            "classId": "pico_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.003399982916531208,
+            "classId": "saomiguel_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000009144287381468441,
+            "classId": "saomiguel_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00017013812483351876,
+            "classId": "saomiguel_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00006669992403207647,
+            "classId": "saomiguel_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000002873310277928809,
+            "classId": "terceira_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.003254981326392681,
+            "classId": "terceira_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 35,
+            "classId": "PA_Caretta_caretta_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 35,
+            "classId": "PA_Chelonia_mydas_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 35,
+            "classId": "PA_Dermochelys_coriacea_baseline-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 612708903.137435,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 217275199.81971267,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 217275199.81971267,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 565751855.5838854,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": -3787627,
+            "classId": "bathymetry-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 971317503.3345973,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 106.77277863025665,
+            "classId": "all-fishing-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 81.65972244739532,
+            "classId": "drifting-longlines-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "ESP-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 16.50305473804474,
+            "classId": "pole-and-line-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-longlines-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 8.60999995470047,
+            "classId": "fixed-gear-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "purse-seines-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "other-purse-seines-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-gillnets-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trawlers-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trollers-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 106.77277863025665,
+            "classId": "PRT-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "RUS-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 971317503.3345973,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 44940799.073704444,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 926376704.2608929,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "flores",
             "sketchId": null
         },
         {
@@ -2833,6 +5041,1110 @@
             "sketchId": null
         },
         {
+            "metricId": "count",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Bulweria_bulwerii_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Calonectris_borealis_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Larus_michahellis_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Oceanodroma_castro_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Onychoprion_fuscatus_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Puffinus_baroli_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 59,
+            "classId": "PA_Puffinus_puffinus_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Sterna_dougallii_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Sterna_hirundo_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0011407632700866088,
+            "classId": "all_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.41197173793904085,
+            "classId": "all_commercial_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.05373384477570653,
+            "classId": "all_energy_development_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 100.64767592537748,
+            "classId": "all_recreation_sports_and_tourism_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 17.49131208477297,
+            "classId": "all_recreational_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.15146611057369347,
+            "classId": "all_science_tech_monitoring_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_security_and_defense_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.06994272471426566,
+            "classId": "all_touristic_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_underwater_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0009126106160692871,
+            "classId": "faial_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.15474395892139192,
+            "classId": "faial_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_energy_dev_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1.3770717984899932,
+            "classId": "faial_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 5.5166088303560645,
+            "classId": "faial_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.09609530441324488,
+            "classId": "faial_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.4811981670902661,
+            "classId": "pico_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 24.721101847027775,
+            "classId": "pico_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 309.8779403744742,
+            "classId": "pico_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.06370408418712867,
+            "classId": "pico_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.07451314036571333,
+            "classId": "pico_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0001303393306528733,
+            "classId": "saojorge_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.07286744946149781,
+            "classId": "saojorge_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0032883510079493306,
+            "classId": "saomiguel_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00027849039518096363,
+            "classId": "saomiguel_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0004042138690631969,
+            "classId": "saomiguel_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000007340494852306478,
+            "classId": "saomiguel_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00011586457203005551,
+            "classId": "saomiguel_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0046879184209389635,
+            "classId": "terceira_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.36103462413747067,
+            "classId": "terceira_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Caretta_caretta_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Chelonia_mydas_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 63,
+            "classId": "PA_Dermochelys_coriacea_baseline-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 100782710.49603815,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 613666511.3887669,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1523193724.016618,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 532511791.72121364,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 5,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 121662147.21331662,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 106289754.24770924,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 4,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 15372392.965607375,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 745470754.2343291,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": -8125248,
+            "classId": "bathymetry-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 3,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1959823981.164474,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1117.2015507221222,
+            "classId": "all-fishing-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 266.1244366168976,
+            "classId": "drifting-longlines-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 229.8227717652917,
+            "classId": "ESP-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 438.4522261619568,
+            "classId": "pole-and-line-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 146.6193292737007,
+            "classId": "set-longlines-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 134.91721713542938,
+            "classId": "fixed-gear-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "purse-seines-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "other-purse-seines-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-gillnets-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trawlers-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trollers-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 887.3787586688995,
+            "classId": "PRT-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "RUS-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 3,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1959823981.164474,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 268074543.92637923,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1549832742.7646012,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 141916694.4734937,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
             "metricId": "sum",
             "value": 34,
             "classId": "PA_Bulweria_bulwerii_baseline-total",
@@ -3772,6 +7084,86 @@
             "metricId": "area",
             "value": 0,
             "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "terceira-total",
             "groupId": null,
             "geographyId": "santa-maria",
             "sketchId": null
@@ -4718,6 +8110,2134 @@
             "classId": "graciosa-total",
             "groupId": null,
             "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 68,
+            "classId": "PA_Bulweria_bulwerii_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 68,
+            "classId": "PA_Calonectris_borealis_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 68,
+            "classId": "PA_Larus_michahellis_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 66,
+            "classId": "PA_Oceanodroma_castro_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 68,
+            "classId": "PA_Onychoprion_fuscatus_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 68,
+            "classId": "PA_Puffinus_baroli_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 51,
+            "classId": "PA_Puffinus_puffinus_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 68,
+            "classId": "PA_Sterna_dougallii_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 68,
+            "classId": "PA_Sterna_hirundo_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.5363305973139152,
+            "classId": "all_commercial_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.003892473177984357,
+            "classId": "all_energy_development_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 29.961896223647663,
+            "classId": "all_recreation_sports_and_tourism_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 28.784523571085494,
+            "classId": "all_recreational_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.556651443072361,
+            "classId": "all_science_tech_monitoring_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_security_and_defense_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.06326825631326471,
+            "classId": "all_touristic_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.056352980427618604,
+            "classId": "all_underwater_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.009532635529129863,
+            "classId": "faial_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_energy_dev_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0020643851366912713,
+            "classId": "faial_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.014754176146265507,
+            "classId": "faial_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.013609512243078825,
+            "classId": "faial_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.07551643263212782,
+            "classId": "pico_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0012176154622518046,
+            "classId": "pico_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.018647020671066272,
+            "classId": "pico_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000007239854002694113,
+            "classId": "pico_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.5945063125055228,
+            "classId": "saojorge_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.08208766846655635,
+            "classId": "saojorge_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 7.363901916518131,
+            "classId": "saojorge_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 149.85481551115254,
+            "classId": "saojorge_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.5693980188807473,
+            "classId": "saojorge_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.08590235167363858,
+            "classId": "saojorge_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.011228160001474308,
+            "classId": "saomiguel_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000339039866493529,
+            "classId": "saomiguel_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000364255581007944,
+            "classId": "saomiguel_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00012422331440831158,
+            "classId": "saomiguel_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.04114940610853779,
+            "classId": "terceira_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.012438977099776594,
+            "classId": "terceira_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0031929330771114373,
+            "classId": "terceira_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "terceira_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 68,
+            "classId": "PA_Caretta_caretta_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 68,
+            "classId": "PA_Chelonia_mydas_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 66,
+            "classId": "PA_Dermochelys_coriacea_baseline-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 716643176.5098213,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1601384458.0702252,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 594117884.4818677,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 125253413.32445833,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 124665926.21899131,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 587487.1054670161,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 761759318.3120316,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": -8394622,
+            "classId": "bathymetry-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1798801483.5631857,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 753.0392204523087,
+            "classId": "all-fishing-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 9.823609828948975,
+            "classId": "drifting-longlines-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 1.5158330202102661,
+            "classId": "ESP-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 349.35367166996,
+            "classId": "pole-and-line-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 234.88026958703995,
+            "classId": "set-longlines-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 93.88666450977325,
+            "classId": "fixed-gear-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "purse-seines-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "other-purse-seines-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-gillnets-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trawlers-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trollers-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 751.5233875513077,
+            "classId": "PRT-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "RUS-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 2,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1798801483.5631857,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 141916694.4734937,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1656884789.0896919,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 52,
+            "classId": "PA_Bulweria_bulwerii_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 52,
+            "classId": "PA_Calonectris_borealis_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 52,
+            "classId": "PA_Larus_michahellis_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 43,
+            "classId": "PA_Oceanodroma_castro_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 52,
+            "classId": "PA_Onychoprion_fuscatus_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 52,
+            "classId": "PA_Puffinus_baroli_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 23,
+            "classId": "PA_Puffinus_puffinus_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 52,
+            "classId": "PA_Sterna_dougallii_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 52,
+            "classId": "PA_Sterna_hirundo_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "corvo_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.39558408590136196,
+            "classId": "all_commercial_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0006426807522075251,
+            "classId": "all_energy_development_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 42.09544054135726,
+            "classId": "all_recreation_sports_and_tourism_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 5.144067492427385,
+            "classId": "all_recreational_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0034358744726734614,
+            "classId": "all_science_tech_monitoring_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "all_security_and_defense_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.09313504581916465,
+            "classId": "all_touristic_fishing_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0775289530029113,
+            "classId": "all_underwater_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_energy_dev_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "faial_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.006641468241621595,
+            "classId": "faial_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0008661263148042053,
+            "classId": "faial_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "flores_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "graciosa_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.001943763878301752,
+            "classId": "pico_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0000055791887405010065,
+            "classId": "pico_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.000005652557764745936,
+            "classId": "pico_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "pico_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "santamaria_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saojorge_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_aquaculture_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.013133986482754878,
+            "classId": "saomiguel_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0002646437016156078,
+            "classId": "saomiguel_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.0021076317837838143,
+            "classId": "saomiguel_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "saomiguel_sec_def_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00009697841276690156,
+            "classId": "saomiguel_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.6320858590110063,
+            "classId": "terceira_comm_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.11729777696382371,
+            "classId": "terceira_cultural_heritage_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 2.845957693957459,
+            "classId": "terceira_rec_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 30.413488784993092,
+            "classId": "terceira_rec_sports_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.00339032325863009,
+            "classId": "terceira_sci_tech_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0.12791745498805085,
+            "classId": "terceira_tour_fish_ous-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 52,
+            "classId": "PA_Caretta_caretta_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 52,
+            "classId": "PA_Chelonia_mydas_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 52,
+            "classId": "PA_Dermochelys_coriacea_baseline-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 80043848.83868992,
+            "classId": "basins-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 4,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 172031340.56049353,
+            "classId": "canyons-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 3,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 567433444.3033946,
+            "classId": "escarpments-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1260982902.5661197,
+            "classId": "plateaus-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 840797237.3781673,
+            "classId": "ridges-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 306897288.6572883,
+            "classId": "shelf_class-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 306897288.6572883,
+            "classId": "shelf_class-high",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-low",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "shelf_class-medium",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 748792775.4003589,
+            "classId": "slope-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "santa-maria-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": -4730236,
+            "classId": "bathymetry-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1292242320.0092096,
+            "classId": "azores_nearshore-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 519.4932168722153,
+            "classId": "all-fishing-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 8.968055844306946,
+            "classId": "drifting-longlines-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "ESP-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 278.49555695056915,
+            "classId": "pole-and-line-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 12.38305515050888,
+            "classId": "set-longlines-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 100.91000020503998,
+            "classId": "fixed-gear-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "purse-seines-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "other-purse-seines-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "set-gillnets-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trawlers-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "trollers-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 519.4932168722153,
+            "classId": "PRT-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "sum",
+            "value": 0,
+            "classId": "RUS-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1292242320.0092096,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1292242320.0092096,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "terceira",
             "sketchId": null
         }
     ]
