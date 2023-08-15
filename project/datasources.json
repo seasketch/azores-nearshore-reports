@@ -1818,30 +1818,6 @@
     "src": "data/src/Analytics/bathy/gebco_2021.tif"
   },
   {
-    "datasourceId": "azores_nearshore",
-    "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 9,
-          "sum": null,
-          "area": 10752320707.152864
-        }
-      }
-    },
-    "formats": [
-      "fgb"
-    ],
-    "layerName": "azores_indv_islands_6nm_boundary_ws84",
-    "classKeys": [],
-    "created": "2023-08-02T16:21:35.342Z",
-    "lastUpdated": "2023-08-02T16:21:35.342Z",
-    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/azores_indv_islands_6nm_boundary_ws84.shp",
-    "propertiesToKeep": [
-      "island"
-    ]
-  },
-  {
     "datasourceId": "all-fishing",
     "geo_type": "raster",
     "keyStats": {
@@ -2128,30 +2104,6 @@
     "src": "data/src/Analytics/gfw/RUS.tif"
   },
   {
-    "datasourceId": "6nm_boundary",
-    "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 9,
-          "sum": null,
-          "area": 10752320707.152864
-        }
-      }
-    },
-    "formats": [
-      "fgb"
-    ],
-    "layerName": "azores_indv_islands_6nm_boundary_ws84",
-    "classKeys": [],
-    "created": "2023-08-07T16:21:59.541Z",
-    "lastUpdated": "2023-08-07T16:21:59.541Z",
-    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/azores_indv_islands_6nm_boundary_ws84.shp",
-    "propertiesToKeep": [
-      "island"
-    ]
-  },
-  {
     "datasourceId": "sao-miguel",
     "geo_type": "vector",
     "keyStats": {
@@ -2306,22 +2258,44 @@
     "propertiesToKeep": []
   },
   {
-    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/terceira_6nm_boundary_ws84.shp",
-    "layerName": "terceira_6nm_boundary_ws84",
-    "geo_type": "vector",
     "datasourceId": "terceira",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [],
-    "created": "2023-08-14T22:43:32.794Z",
-    "lastUpdated": "2023-08-14T22:43:32.794Z",
+    "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
           "count": 1,
           "sum": null,
           "area": 1292242320.0095162
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "terceira_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:43:32.794Z",
+    "lastUpdated": "2023-08-14T22:43:32.794Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/terceira_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/azores_islands_dissolved_6nm_boundary_ws84.shp",
+    "layerName": "azores_islands_dissolved_6nm_boundary_ws84",
+    "geo_type": "vector",
+    "datasourceId": "6nm_boundary",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-08-15T21:11:49.865Z",
+    "lastUpdated": "2023-08-15T21:11:49.865Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 6,
+          "sum": null,
+          "area": 10297388667.715572
         }
       }
     },

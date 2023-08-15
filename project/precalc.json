@@ -130,7 +130,7 @@
         },
         {
             "metricId": "sum",
-            "value": 75.52184514313186,
+            "value": 75.51310565173927,
             "classId": "all_recreational_fishing_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -154,7 +154,7 @@
         },
         {
             "metricId": "sum",
-            "value": 1.4775226867154538,
+            "value": 1.4775209975918342,
             "classId": "all_touristic_fishing_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -178,7 +178,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.6513380535586002,
+            "value": 0.6501597590991359,
             "classId": "faial_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -194,7 +194,7 @@
         },
         {
             "metricId": "sum",
-            "value": 2.0183088253978383,
+            "value": 2.0046138602782264,
             "classId": "faial_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -202,7 +202,7 @@
         },
         {
             "metricId": "sum",
-            "value": 10.804971488639008,
+            "value": 10.79756690206045,
             "classId": "faial_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -210,7 +210,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.15688919033134852,
+            "value": 0.1565363772750965,
             "classId": "faial_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -322,7 +322,7 @@
         },
         {
             "metricId": "sum",
-            "value": 24.727458796565028,
+            "value": 24.72745879495678,
             "classId": "pico_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -330,7 +330,7 @@
         },
         {
             "metricId": "sum",
-            "value": 309.8935495721728,
+            "value": 309.89250912912803,
             "classId": "pico_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -466,7 +466,7 @@
         },
         {
             "metricId": "sum",
-            "value": 15.255613723689352,
+            "value": 15.255613722736078,
             "classId": "saomiguel_rec_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -618,7 +618,7 @@
         },
         {
             "metricId": "area",
-            "value": 5977449927.779953,
+            "value": 5977449927.779573,
             "classId": "escarpments-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -761,22 +761,6 @@
             "sketchId": null
         },
         {
-            "metricId": "count",
-            "value": 9,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "nearshore",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 10752320707.150524,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "nearshore",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
             "value": 7766.664495259523,
             "classId": "all-fishing-total",
@@ -876,22 +860,6 @@
             "metricId": "sum",
             "value": 0,
             "classId": "RUS-total",
-            "groupId": null,
-            "geographyId": "nearshore",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 9,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "nearshore",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 10752320707.150524,
-            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "nearshore",
             "sketchId": null
@@ -1020,6 +988,22 @@
             "metricId": "area",
             "value": 1292242320.0092096,
             "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 6,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 10297388667.713718,
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "nearshore",
             "sketchId": null
@@ -1785,22 +1769,6 @@
             "sketchId": null
         },
         {
-            "metricId": "count",
-            "value": 2,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "corvo",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 620546531.8500957,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "corvo",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
             "value": 22.76249933242798,
             "classId": "all-fishing-total",
@@ -1900,22 +1868,6 @@
             "metricId": "sum",
             "value": 0,
             "classId": "RUS-total",
-            "groupId": null,
-            "geographyId": "corvo",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 2,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "corvo",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 620546531.8500957,
-            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "corvo",
             "sketchId": null
@@ -2044,6 +1996,22 @@
             "metricId": "area",
             "value": 0,
             "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 575605732.7763913,
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "corvo",
             "sketchId": null
@@ -2809,22 +2777,6 @@
             "sketchId": null
         },
         {
-            "metricId": "count",
-            "value": 2,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "faial",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 1258212574.016669,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "faial",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
             "value": 1040.4672267436981,
             "classId": "all-fishing-total",
@@ -2924,22 +2876,6 @@
             "metricId": "sum",
             "value": 0,
             "classId": "RUS-total",
-            "groupId": null,
-            "geographyId": "faial",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 2,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "faial",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 1258212574.016669,
-            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "faial",
             "sketchId": null
@@ -3068,6 +3004,22 @@
             "metricId": "area",
             "value": 0,
             "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 990138030.0902897,
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "faial",
             "sketchId": null
@@ -3833,22 +3785,6 @@
             "sketchId": null
         },
         {
-            "metricId": "count",
-            "value": 2,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "flores",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 971317503.3345973,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "flores",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
             "value": 106.77277863025665,
             "classId": "all-fishing-total",
@@ -3948,22 +3884,6 @@
             "metricId": "sum",
             "value": 0,
             "classId": "RUS-total",
-            "groupId": null,
-            "geographyId": "flores",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 2,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "flores",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 971317503.3345973,
-            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "flores",
             "sketchId": null
@@ -4092,6 +4012,22 @@
             "metricId": "area",
             "value": 0,
             "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 926376704.2608929,
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "flores",
             "sketchId": null
@@ -4857,22 +4793,6 @@
             "sketchId": null
         },
         {
-            "metricId": "count",
-            "value": 1,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "graciosa",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 746350678.5029556,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "graciosa",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
             "value": 244.5691718161106,
             "classId": "all-fishing-total",
@@ -4978,22 +4898,6 @@
         },
         {
             "metricId": "count",
-            "value": 1,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "graciosa",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 746350678.5029556,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "graciosa",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
             "value": 0,
             "classId": "sao-miguel-total",
             "groupId": null,
@@ -5116,6 +5020,22 @@
             "metricId": "area",
             "value": 0,
             "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 746350678.5029556,
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "graciosa",
             "sketchId": null
@@ -5881,22 +5801,6 @@
             "sketchId": null
         },
         {
-            "metricId": "count",
-            "value": 3,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "pico",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 1959823981.164474,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "pico",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
             "value": 1117.2015507221222,
             "classId": "all-fishing-total",
@@ -5996,22 +5900,6 @@
             "metricId": "sum",
             "value": 0,
             "classId": "RUS-total",
-            "groupId": null,
-            "geographyId": "pico",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 3,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "pico",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 1959823981.164474,
-            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "pico",
             "sketchId": null
@@ -6140,6 +6028,22 @@
             "metricId": "area",
             "value": 0,
             "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1549832742.7646012,
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "pico",
             "sketchId": null
@@ -6905,22 +6809,6 @@
             "sketchId": null
         },
         {
-            "metricId": "count",
-            "value": 1,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 877814480.8379073,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
             "value": 1022.1172161102295,
             "classId": "all-fishing-total",
@@ -7026,6 +6914,134 @@
         },
         {
             "metricId": "count",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
             "value": 1,
             "classId": "6nm_boundary-total",
             "groupId": null,
@@ -7036,134 +7052,6 @@
             "metricId": "area",
             "value": 877814480.8379073,
             "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "sao-miguel-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "sao-miguel-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "corvo-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "corvo-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "graciosa-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "graciosa-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "flores-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "flores-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "faial-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "faial-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "pico-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "pico-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "sao-jorge-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "sao-jorge-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "terceira-total",
-            "groupId": null,
-            "geographyId": "santa-maria",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "terceira-total",
             "groupId": null,
             "geographyId": "santa-maria",
             "sketchId": null
@@ -7929,22 +7817,6 @@
             "sketchId": null
         },
         {
-            "metricId": "count",
-            "value": 1,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 2137075226.451204,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
             "value": 3617.8377351760864,
             "classId": "all-fishing-total",
@@ -8051,7 +7923,7 @@
         {
             "metricId": "count",
             "value": 1,
-            "classId": "6nm_boundary-total",
+            "classId": "sao-miguel-total",
             "groupId": null,
             "geographyId": "sao-miguel",
             "sketchId": null
@@ -8059,7 +7931,119 @@
         {
             "metricId": "area",
             "value": 2137075226.451204,
-            "classId": "6nm_boundary-total",
+            "classId": "sao-miguel-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "corvo-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "graciosa-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "flores-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "faial-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "pico-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "sao-jorge-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 0,
+            "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 0,
+            "classId": "terceira-total",
             "groupId": null,
             "geographyId": "sao-miguel",
             "sketchId": null
@@ -8067,7 +8051,7 @@
         {
             "metricId": "count",
             "value": 1,
-            "classId": "sao-miguel-total",
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "sao-miguel",
             "sketchId": null
@@ -8075,119 +8059,7 @@
         {
             "metricId": "area",
             "value": 2137075226.451204,
-            "classId": "sao-miguel-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "corvo-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "corvo-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "graciosa-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "graciosa-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "flores-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "flores-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "faial-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "faial-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "pico-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "pico-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "sao-jorge-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "sao-jorge-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 0,
-            "classId": "terceira-total",
-            "groupId": null,
-            "geographyId": "sao-miguel",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 0,
-            "classId": "terceira-total",
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "sao-miguel",
             "sketchId": null
@@ -8953,22 +8825,6 @@
             "sketchId": null
         },
         {
-            "metricId": "count",
-            "value": 2,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "sao-jorge",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 1798801483.5631857,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "sao-jorge",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
             "value": 753.0392204523087,
             "classId": "all-fishing-total",
@@ -9068,22 +8924,6 @@
             "metricId": "sum",
             "value": 0,
             "classId": "RUS-total",
-            "groupId": null,
-            "geographyId": "sao-jorge",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
-            "value": 2,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "sao-jorge",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 1798801483.5631857,
-            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "sao-jorge",
             "sketchId": null
@@ -9212,6 +9052,22 @@
             "metricId": "area",
             "value": 0,
             "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1656884789.0896919,
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "sao-jorge",
             "sketchId": null
@@ -9977,22 +9833,6 @@
             "sketchId": null
         },
         {
-            "metricId": "count",
-            "value": 1,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "terceira",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 1292242320.0092096,
-            "classId": "azores_nearshore-total",
-            "groupId": null,
-            "geographyId": "terceira",
-            "sketchId": null
-        },
-        {
             "metricId": "sum",
             "value": 519.4932168722153,
             "classId": "all-fishing-total",
@@ -10098,22 +9938,6 @@
         },
         {
             "metricId": "count",
-            "value": 1,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "terceira",
-            "sketchId": null
-        },
-        {
-            "metricId": "area",
-            "value": 1292242320.0092096,
-            "classId": "6nm_boundary-total",
-            "groupId": null,
-            "geographyId": "terceira",
-            "sketchId": null
-        },
-        {
-            "metricId": "count",
             "value": 0,
             "classId": "sao-miguel-total",
             "groupId": null,
@@ -10236,6 +10060,22 @@
             "metricId": "area",
             "value": 1292242320.0092096,
             "classId": "terceira-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 1,
+            "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 1292242320.0092096,
+            "classId": "6nm_boundary-total",
             "groupId": null,
             "geographyId": "terceira",
             "sketchId": null
