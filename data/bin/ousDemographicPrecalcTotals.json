@@ -6,7 +6,7 @@
       "classId": "ousPeopleCount_all",
       "groupId": null,
       "geographyId": null,
-      "value": 4644
+      "value": 5045
     },
     {
       "metricId": "ousRespondentCount",
@@ -118,7 +118,7 @@
       "classId": "flores",
       "groupId": null,
       "geographyId": null,
-      "value": 402
+      "value": 483
     },
     {
       "metricId": "ousRespondentCount",
@@ -134,7 +134,7 @@
       "classId": "santa maria",
       "groupId": null,
       "geographyId": null,
-      "value": 515
+      "value": 534
     },
     {
       "metricId": "ousRespondentCount",
@@ -374,7 +374,7 @@
       "classId": "graciosa",
       "groupId": null,
       "geographyId": null,
-      "value": 196
+      "value": 222
     },
     {
       "metricId": "ousRespondentCount",
@@ -390,7 +390,7 @@
       "classId": "pico",
       "groupId": null,
       "geographyId": null,
-      "value": 815
+      "value": 861
     },
     {
       "metricId": "ousRespondentCount",
@@ -406,7 +406,7 @@
       "classId": "faial",
       "groupId": null,
       "geographyId": null,
-      "value": 401
+      "value": 485
     },
     {
       "metricId": "ousRespondentCount",
@@ -422,7 +422,7 @@
       "classId": "saomiguel",
       "groupId": null,
       "geographyId": null,
-      "value": 1483
+      "value": 1573
     },
     {
       "metricId": "ousRespondentCount",
@@ -470,7 +470,7 @@
       "classId": "saojorge",
       "groupId": null,
       "geographyId": null,
-      "value": 389
+      "value": 441
     },
     {
       "metricId": "ousRespondentCount",
@@ -486,7 +486,7 @@
       "classId": "terceira",
       "groupId": null,
       "geographyId": null,
-      "value": 365
+      "value": 368
     },
     {
       "metricId": "ousRespondentCount",

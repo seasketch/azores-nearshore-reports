@@ -1,9 +1,6 @@
 import { expose } from "threads/worker";
 import {
-  OusFeatureProperties,
-  OusFeature,
   OusFeatureCollection,
-  BaseCountStats,
   ClassCountStats,
   OusStats,
 } from "./overlapOusDemographic";
@@ -12,12 +9,9 @@ import intersect from "@turf/intersect";
 import {
   clip,
   createMetric,
-  Feature,
   Polygon,
-  FeatureCollection,
   Metric,
   MultiPolygon,
-  Nullable,
   Sketch,
   SketchCollection,
   toSketchArray,
@@ -62,6 +56,9 @@ async function overlapOusDemographicWorker(
 
   // Track counting of respondent/sector level stats, only need to count once
   const respondentProcessed: Record<string, Record<string, boolean>> = {};
+
+  // Track counting of max represented people for respondent stats
+  const maxPeoplePerRespondent: Record<string, number> = {};
 
   const countStats = shapes.features.reduce<OusStats>(
     (statsSoFar, shape) => {
@@ -111,11 +108,13 @@ async function overlapOusDemographicWorker(
       // Mutates
       let newStats: OusStats = { ...statsSoFar };
 
-      // Once per respondent counts - island
+      // If new respondent
       if (!respondentProcessed[resp_id]) {
-        newStats.people = newStats.people + curPeople;
+        // Add respondent to total respondents
         newStats.respondents = newStats.respondents + 1;
+        newStats.people = newStats.people + curPeople;
 
+        // Add new respondent to island stats
         newStats.byIsland[respIsland] = {
           respondents: newStats.byIsland[respIsland]
             ? newStats.byIsland[respIsland].respondents + 1
@@ -124,7 +123,29 @@ async function overlapOusDemographicWorker(
             ? newStats.byIsland[respIsland].people + curPeople
             : curPeople,
         };
+
         respondentProcessed[resp_id] = {};
+
+        // Keep track of # people this respondent represents
+        respondentProcessed[resp_id][curPeople] = true;
+        maxPeoplePerRespondent[resp_id] = curPeople;
+      }
+
+      // If new number of people represented by respondent
+      if (!respondentProcessed[resp_id][curPeople]) {
+        // If respondent is representing MORE people, add them
+        if (maxPeoplePerRespondent[resp_id] < curPeople) {
+          const addnPeople = curPeople - maxPeoplePerRespondent[resp_id];
+          newStats.people = newStats.people + addnPeople;
+
+          newStats.byIsland[respIsland] = {
+            respondents: newStats.byIsland[respIsland].respondents,
+            people: newStats.byIsland[respIsland].people + addnPeople,
+          };
+
+          // Update maxPeoplePerRespondent
+          maxPeoplePerRespondent[resp_id] = curPeople;
+        }
       }
 
       // Once per respondent and gear type counts
