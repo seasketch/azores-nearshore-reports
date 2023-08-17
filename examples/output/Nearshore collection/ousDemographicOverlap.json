@@ -6,7 +6,7 @@
       "classId": "ousPeopleCount_all",
       "groupId": null,
       "geographyId": null,
-      "value": 1204
+      "value": 1223
     },
     {
       "metricId": "ousRespondentCount",
@@ -310,7 +310,7 @@
       "classId": "saojorge",
       "groupId": null,
       "geographyId": null,
-      "value": 262
+      "value": 278
     },
     {
       "metricId": "ousRespondentCount",
@@ -326,7 +326,7 @@
       "classId": "terceira",
       "groupId": null,
       "geographyId": null,
-      "value": 214
+      "value": 217
     },
     {
       "metricId": "ousRespondentCount",

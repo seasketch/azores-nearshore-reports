@@ -74,7 +74,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.06460597488552366,
+            "value": 0.06460664409917172,
             "classId": "corvo_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -90,7 +90,7 @@
         },
         {
             "metricId": "sum",
-            "value": 17.845173388731297,
+            "value": 17.845188211816918,
             "classId": "corvo_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -114,7 +114,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.13832005103792966,
+            "value": 0.13832085300644792,
             "classId": "all_energy_development_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -162,7 +162,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.2999138966333703,
+            "value": 0.30094246220687637,
             "classId": "all_underwater_cultural_heritage_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -226,7 +226,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.08011555690245586,
+            "value": 0.08211523905265494,
             "classId": "flores_cultural_heritage_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -250,7 +250,7 @@
         },
         {
             "metricId": "sum",
-            "value": 1.7109994911734248,
+            "value": 1.711079632590554,
             "classId": "flores_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -258,7 +258,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.1425412657117704,
+            "value": 0.14254285422043722,
             "classId": "flores_tour_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -282,7 +282,7 @@
         },
         {
             "metricId": "sum",
-            "value": 6.901942863848433,
+            "value": 6.901943509303578,
             "classId": "graciosa_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -290,7 +290,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.011038112257665489,
+            "value": 0.011063747449952643,
             "classId": "graciosa_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -306,7 +306,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.05902521198959221,
+            "value": 0.05903704320144243,
             "classId": "graciosa_tour_fish_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -410,7 +410,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.08208766846655635,
+            "value": 0.08212168976024259,
             "classId": "saojorge_cultural_heritage_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -434,7 +434,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.5693980188807473,
+            "value": 0.5762668460374698,
             "classId": "saojorge_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -794,7 +794,7 @@
         },
         {
             "metricId": "sum",
-            "value": 698.3295889049768,
+            "value": 740.9309778362513,
             "classId": "set-longlines-total",
             "groupId": null,
             "geographyId": "nearshore",
@@ -1098,7 +1098,7 @@
         },
         {
             "metricId": "sum",
-            "value": 17.838760380514145,
+            "value": 17.838775203599766,
             "classId": "corvo_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "corvo",
@@ -3098,7 +3098,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.0068392223961382115,
+            "value": 0.006839891609786264,
             "classId": "corvo_comm_fish_ous-total",
             "groupId": null,
             "geographyId": "flores",
@@ -3250,7 +3250,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.08011555690245586,
+            "value": 0.08211523905265494,
             "classId": "flores_cultural_heritage_ous-total",
             "groupId": null,
             "geographyId": "flores",
@@ -3274,7 +3274,7 @@
         },
         {
             "metricId": "sum",
-            "value": 1.7109994911734248,
+            "value": 1.711079632590554,
             "classId": "flores_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "flores",
@@ -3282,7 +3282,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.1425412657117704,
+            "value": 0.14254285422043722,
             "classId": "flores_tour_fish_ous-total",
             "groupId": null,
             "geographyId": "flores",
@@ -4314,7 +4314,7 @@
         },
         {
             "metricId": "sum",
-            "value": 6.901942863848433,
+            "value": 6.901943509303578,
             "classId": "graciosa_rec_sports_ous-total",
             "groupId": null,
             "geographyId": "graciosa",
@@ -4322,7 +4322,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.011038112257665489,
+            "value": 0.011063747449952643,
             "classId": "graciosa_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "graciosa",
@@ -4338,7 +4338,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.05902521198959221,
+            "value": 0.05903704320144243,
             "classId": "graciosa_tour_fish_ous-total",
             "groupId": null,
             "geographyId": "graciosa",
@@ -6210,7 +6210,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.10150584072107449,
+            "value": 0.10253440629458055,
             "classId": "all_underwater_cultural_heritage_ous-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -6842,7 +6842,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0,
+            "value": 42.601388931274414,
             "classId": "set-longlines-total",
             "groupId": null,
             "geographyId": "santa-maria",
@@ -7170,7 +7170,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.005991909193447498,
+            "value": 0.005992711161965758,
             "classId": "all_energy_development_ous-total",
             "groupId": null,
             "geographyId": "sao-miguel",
@@ -8474,7 +8474,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.08208766846655635,
+            "value": 0.08212168976024259,
             "classId": "saojorge_cultural_heritage_ous-total",
             "groupId": null,
             "geographyId": "sao-jorge",
@@ -8498,7 +8498,7 @@
         },
         {
             "metricId": "sum",
-            "value": 0.5693980188807473,
+            "value": 0.5762668460374698,
             "classId": "saojorge_sci_tech_ous-total",
             "groupId": null,
             "geographyId": "sao-jorge",

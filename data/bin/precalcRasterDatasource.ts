@@ -143,12 +143,21 @@ export async function genRasterMetrics(
 
   // Creates metric for simple continous raster
   if (rasterConfig.measurementType === "quantitative") {
+    let sum = 0;
+    try {
+      const result = await geoblaze.sum(raster, geographyFeatureColl);
+      sum = result[0];
+    } catch (err) {
+      console.log(
+        "overlapRaster geoblaze.sum threw, meaning no cells with value were found within the geometry"
+      );
+    }
     return [
       createMetric({
         geographyId: geography.geographyId,
         classId: rasterConfig.datasourceId + "-total",
         metricId: "sum",
-        value: await getSum(raster, geographyFeatureColl),
+        value: sum,
       }),
     ];
   }

@@ -6,7 +6,7 @@
       "classId": "ousPeopleCount_all",
       "groupId": null,
       "geographyId": null,
-      "value": 403
+      "value": 405
     },
     {
       "metricId": "ousRespondentCount",
@@ -102,7 +102,7 @@
       "classId": "santa maria",
       "groupId": null,
       "geographyId": null,
-      "value": 301
+      "value": 303
     },
     {
       "metricId": "ousRespondentCount",
