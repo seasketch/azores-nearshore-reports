@@ -48,7 +48,7 @@ import {
 
 import project from "../../project";
 import { flattenByGroupAllClass } from "../util/flattenByGroupAllClass";
-import { GeoProp } from "../util/types";
+import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
 
 // Mapping groupIds to colors

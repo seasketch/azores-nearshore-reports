@@ -26,7 +26,7 @@ import {
 import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
-import { GeoProp } from "../util/types";
+import { GeoProp } from "../types";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 

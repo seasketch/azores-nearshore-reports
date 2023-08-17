@@ -6,7 +6,7 @@ import { OusDemographics } from "./OusDemographic";
 import { OUSByIslandCard } from "./OUSByIslandCard";
 import { ProtectionCard } from "./ProtectionCard";
 import { BathymetryCard } from "./BathymetryCard";
-import { GeoProp } from "../util/types";
+import { GeoProp } from "../types";
 
 const ReportPage: React.FunctionComponent<GeoProp> = (props) => {
   return (

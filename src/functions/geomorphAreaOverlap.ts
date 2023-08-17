@@ -19,7 +19,7 @@ import {
   getParamStringArray,
 } from "../util/clipSketchToGeography";
 import { overlapFeatures } from "../util/overlapFeatures";
-import { ExtraParams } from "../util/types";
+import { ExtraParams } from "../types";
 
 export async function geomorphAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,

@@ -18,7 +18,7 @@ import {
   clipSketchToGeography,
   getParamStringArray,
 } from "../util/clipSketchToGeography";
-import { ExtraParams } from "../util/types";
+import { ExtraParams } from "../types";
 
 const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { SDMCard } from "./SDMCard";
 import { Geomorphology } from "./Geomorphology";
-import { GeoProp } from "../util/types";
+import { GeoProp } from "../types";
 
 const ReportPage: React.FunctionComponent<GeoProp> = (props) => {
   return (

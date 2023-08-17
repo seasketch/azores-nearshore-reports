@@ -19,7 +19,7 @@ import {
   clipSketchToGeography,
   getParamStringArray,
 } from "../util/clipSketchToGeography";
-import { ExtraParams } from "../util/types";
+import { ExtraParams } from "../types";
 
 const METRIC = project.getMetricGroup("ousSectorDemographicOverlap");
 

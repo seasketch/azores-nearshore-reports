@@ -18,7 +18,7 @@ import {
   clipSketchToGeography,
   getParamStringArray,
 } from "../util/clipSketchToGeography";
-import { BathymetryResults, ExtraParams } from "../util/types";
+import { BathymetryResults, ExtraParams } from "../types";
 
 export async function bathymetry(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,

@@ -1,7 +1,7 @@
 import React from "react";
 import { ResultsCard, KeySection } from "@seasketch/geoprocessing/client-ui";
 import { useTranslation } from "react-i18next";
-import { BathymetryResults, GeoProp } from "../util/types";
+import { BathymetryResults, GeoProp } from "../types";
 
 const formatDepth = (val: number) => {
   if (!val) return "0m";

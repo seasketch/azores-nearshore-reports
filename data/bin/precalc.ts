@@ -11,7 +11,7 @@ import {
   isInternalRasterDatasource,
   isInternalVectorDatasource,
 } from "@seasketch/geoprocessing";
-import { Geography } from "../../src/util/types";
+import { Geography } from "../../src/types";
 
 /**
  * Function called in 'npm run precalc' command

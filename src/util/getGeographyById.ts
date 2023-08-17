@@ -1,4 +1,4 @@
-import { Geography } from "./types";
+import { Geography } from "../types";
 import geographies from "../../project/geographies.json";
 
 /**

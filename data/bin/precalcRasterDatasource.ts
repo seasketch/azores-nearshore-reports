@@ -27,7 +27,7 @@ import bbox from "@turf/bbox";
 
 // @ts-ignore
 import geoblaze from "geoblaze";
-import { Geography } from "../../src/util/types";
+import { Geography } from "../../src/types";
 
 /**
  * Returns Metric array for raster datasource and geography

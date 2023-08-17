@@ -18,7 +18,7 @@ import {
   datasourceConfig,
   createMetric,
 } from "@seasketch/geoprocessing";
-import { Geography } from "../../src/util/types";
+import { Geography } from "../../src/types";
 
 /**
  * Creates precalc metrics for a datasource and geography

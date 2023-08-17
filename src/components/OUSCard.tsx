@@ -20,7 +20,7 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
-import { GeoProp } from "../util/types";
+import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
 
 export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {

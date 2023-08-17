@@ -16,7 +16,7 @@ import {
   getFlatGeobufFilename,
 } from "@seasketch/geoprocessing";
 import simplify from "@turf/simplify";
-import { ExtraParams } from "./types";
+import { ExtraParams } from "../types";
 import { getGeographyById } from "./getGeographyById";
 
 /**
