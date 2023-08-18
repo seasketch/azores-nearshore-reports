@@ -15,11 +15,9 @@ import {
 } from "../util/overlapOusDemographic";
 import { featureCollection } from "@turf/helpers";
 import project from "../../project";
-import {
-  clipSketchToGeography,
-  getParamStringArray,
-} from "../util/clipSketchToGeography";
+import { clipSketchToGeography } from "../util/clipSketchToGeography";
 import { ExtraParams } from "../types";
+import { getParamStringArray } from "../util/extraParams";
 
 const METRIC = project.getMetricGroup("ousSectorDemographicOverlap");
 
