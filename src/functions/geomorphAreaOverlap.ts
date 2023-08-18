@@ -14,12 +14,10 @@ import {
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import {
-  clipSketchToGeography,
-  getParamStringArray,
-} from "../util/clipSketchToGeography";
+import { clipSketchToGeography } from "../util/clipSketchToGeography";
 import { overlapFeatures } from "../util/overlapFeatures";
 import { ExtraParams } from "../types";
+import { getParamStringArray } from "../util/extraParams";
 
 export async function geomorphAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,

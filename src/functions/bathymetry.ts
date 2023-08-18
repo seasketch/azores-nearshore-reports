@@ -14,11 +14,9 @@ import project from "../../project";
 
 // @ts-ignore
 import geoblaze, { Georaster } from "geoblaze";
-import {
-  clipSketchToGeography,
-  getParamStringArray,
-} from "../util/clipSketchToGeography";
+import { clipSketchToGeography } from "../util/clipSketchToGeography";
 import { BathymetryResults, ExtraParams } from "../types";
+import { getParamStringArray } from "../util/extraParams";
 
 export async function bathymetry(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
