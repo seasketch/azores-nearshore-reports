@@ -26,6 +26,7 @@
     "src/functions/ousValueOverlap.ts",
     "src/functions/ousByIslandValueOverlap.ts",
     "src/functions/ousDemographicOverlap.ts",
-    "src/functions/geomorphAreaOverlap.ts"
+    "src/functions/geomorphAreaOverlap.ts",
+    "src/functions/gfwValueOverlap.ts"
   ]
 }
