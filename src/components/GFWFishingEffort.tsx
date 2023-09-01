@@ -50,6 +50,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Fishing Effort - 2019-2022")}
         functionName="gfwValueOverlap"
+        extraParams={{ geographyIds: [props.geographyId] }}
       >
         {(data: ReportResult) => {
           const percMetricIdName = `${metricGroup.metricId}Perc`;
