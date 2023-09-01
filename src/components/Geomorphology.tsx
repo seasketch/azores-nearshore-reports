@@ -34,7 +34,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
-  const metricGroup = project.getMetricGroup("geomorphAreaOverlap");
+  const metricGroup = project.getMetricGroup("geomorphAreaOverlap", t);
   const precalcMetrics = getPrecalcMetrics(
     metricGroup,
     "area",

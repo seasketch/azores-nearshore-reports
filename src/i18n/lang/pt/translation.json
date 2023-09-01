@@ -242,7 +242,7 @@
   "All Fishing 2019-2022": "Todas as Pescas 2019-2022",
   "Drifting Longline": "Longline à deriva",
   "Fixed Gear": "Engrenagem Fixa",
-  "Nearshore Planning Area": "Área de Planejamento Nearshore",
+  "Nearshore Planning Area": "Área de Planejamento Costeiro",
   "nearshore waters": "águas costeiras",
   "nearshore waters as no-take.": "águas costeiras como não extração.",
   "nearshore waters.": "águas costeiras.",
@@ -259,5 +259,17 @@
   "This plan <b>does not</b> meet the objective of fully protecting": "Este plano <b>não</b> atende ao objetivo de proteger totalmente",
   "This plan <b>does not</b> meet the objective of protecting": "Este plano <b>não</b> atende ao objetivo de proteger",
   "Trawlers": "Arrastões",
-  "Trollers": "Trollers"
+  "Trollers": "Trollers",
+  "All Fishing": "Toda Pesca",
+  "By Country": "Por País",
+  "By Gear Type": "Por Tipo de Engrenagem",
+  "Fishing Effort": "Esforço de Pesca",
+  "Fishing Effort - 2019-2022": "Esforço de Pesca - 2019-2022",
+  "GFW Card": "Este relatório resume a proporção do esforço de pesca de 2019-2022 que está dentro deste plano, conforme relatado pela Global Fishing Watch. Quanto maior for a percentagem, maior será o impacto potencial para a pesca se o acesso ou as actividades forem restringidos.",
+  "GFW Card - learn more": "<p>🎯 Objetivo de planejamento: não há objetivo/meta específico para limitar o impacto potencial nas atividades de pesca.</p><1>🗺️ Dados de origem: <1>O esforço de pesca aparente</1> é medido usando transmissões (ou \"pings\") transmitidos por navios de pesca usando o sistema de rastreamento de navios do sistema de identificação automática (AIS).</1><p>Os modelos de aprendizado de máquina são então usados ​​para classificar os navios de pesca e prever quando eles estão pescando com base em seus padrões de movimento e mudanças em velocidade.</p><p>O esforço de pesca aparente pode então ser calculado para qualquer área, resumindo as horas de pesca de todos os navios de pesca naquela área.</p><p>📈 Relatório: as porcentagens são calculadas somando o total quantidade de esforço de pesca (em horas) dentro das AMPs neste plano, e dividindo-a pela quantidade total de esforço de pesca (em horas) na área de planeamento costeiro selecionada. Se o plano incluir diversas áreas sobrepostas, a sobreposição será contada apenas uma vez.</p><5>Há uma série de advertências e limitações para esses dados. Para mais informações: <2>Global Fishing Watch - Aparent Fishing Effort</2></5>",
+  "hours": "horas",
+  "Key Resources": "Principais Recursos",
+  "Limpet Catch Areas": "Áreas de Captura de Lapas",
+  "Limpet Catch Areas Card": "<p>Este relatório apresenta a quantidade de áreas de captura de lapas que se sobrepõem ao seu plano.</p>",
+  "Limpet Catch Card - learn more": "<p>ℹ️ Visão geral: As lapas são uma espécie chave com áreas de captura conhecidas em torno da Graciosa. Os planos devem ter em conta o impacto de protecções adicionais em áreas conhecidas de captura de lapa.</p><p>🎯 Objectivo de planeamento: Não existem objectivos de planeamento identificados para áreas de captura de lapa.</p><p>🗺️ Dados de origem: Regulamentos Áreas de Pesca Reserva Regime Apanha Portaria</p><p>📈 Relatório: A porcentagem de cada feature type dentro deste plano é calculada encontrando a sobreposição de cada feature type com o plano, somando sua área e depois dividindo pela área total de cada tipo de recurso encontrado na área de planejamento nearshore selecionada. Se o plano incluir diversas áreas sobrepostas, a sobreposição será contada apenas uma vez.</p>"
 }

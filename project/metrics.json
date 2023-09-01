@@ -49,79 +49,79 @@
                 "datasourceId": "all-fishing",
                 "classId": "all-fishing",
                 "display": "All Fishing 2019-2022",
-                "layerId": ""
+                "layerId": "jZtDUqaMr"
             },
             {
                 "datasourceId": "drifting-longlines",
                 "classId": "gear_type:drifting-longlines",
                 "display": "Drifting Longline",
-                "layerId": ""
+                "layerId": "aajnk4nrX"
             },
             {
                 "datasourceId": "pole-and-line",
                 "classId": "gear_type:pole-and-line",
                 "display": "Pole and Line",
-                "layerId": ""
+                "layerId": "hW1E3FBPz"
             },
             {
                 "datasourceId": "set-longlines",
                 "classId": "gear_type:set-longlines",
                 "display": "Set Longline",
-                "layerId": ""
+                "layerId": "N0E0OReSI"
             },
             {
                 "datasourceId": "fixed-gear",
                 "classId": "gear_type:fixed-gear",
                 "display": "Fixed Gear",
-                "layerId": ""
+                "layerId": "YYf19XfBP"
             },
             {
                 "datasourceId": "purse-seines",
                 "classId": "gear_type:purse-seines",
                 "display": "Purse Seines",
-                "layerId": ""
+                "layerId": "asnRbdlVX"
             },
             {
                 "datasourceId": "other-purse-seines",
                 "classId": "gear_type:other-purse-seines",
                 "display": "Other Purse Seines",
-                "layerId": ""
+                "layerId": "qshM_zd5b"
             },
             {
                 "datasourceId": "set-gillnets",
                 "classId": "gear_type:set-gillnets",
                 "display": "Set Gillnet",
-                "layerId": ""
+                "layerId": "c35m_EBuR"
             },
             {
                 "datasourceId": "trawlers",
                 "classId": "gear_type:trawlers",
                 "display": "Trawlers",
-                "layerId": ""
+                "layerId": "JvLoC_w06"
             },
             {
                 "datasourceId": "trollers",
                 "classId": "gear_type:trollers",
                 "display": "Trollers",
-                "layerId": ""
+                "layerId": "t25zERtQF"
             },
             {
                 "datasourceId": "PRT",
                 "classId": "country:PRT",
                 "display": "Portugal",
-                "layerId": ""
+                "layerId": "kDkD6uFHK"
             },
             {
                 "datasourceId": "ESP",
                 "classId": "country:ESP",
                 "display": "Spain",
-                "layerId": ""
+                "layerId": "Ge5VZEPCj"
             },
             {
                 "datasourceId": "RUS",
                 "classId": "country:RUS",
                 "display": "Russia",
-                "layerId": ""
+                "layerId": "eNJvCPXbZ"
             }
         ]
     },

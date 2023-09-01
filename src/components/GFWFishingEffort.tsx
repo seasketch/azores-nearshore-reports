@@ -19,7 +19,7 @@ import {
   MetricGroup,
 } from "@seasketch/geoprocessing/client-core";
 import cloneDeep from "lodash/cloneDeep";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import project from "../../project";
 import {
   getPrecalcMetrics,
@@ -36,10 +36,19 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
     "sum",
     props.geographyId
   );
+
+  const allFishingLabel = t("All Fishing");
+  const byGearTypeLabel = t("By Gear Type");
+  const byCountryLabel = t("By Country");
+  const mapLabel = t("Map");
+  const fishingEffortLabel = t("Fishing Effort");
+  const percWithinLabel = t("% Within Plan");
+  const hoursLabel = t("hours");
+
   return (
     <>
       <ResultsCard
-        title="Fishing Effort - 2019-2022"
+        title={t("Fishing Effort - 2019-2022")}
         functionName="gfwValueOverlap"
       >
         {(data: ReportResult) => {
@@ -99,7 +108,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
 
           const colConfigs: ClassTableColumnConfig[] = [
             {
-              columnLabel: "All Fishing",
+              columnLabel: allFishingLabel,
               type: "class",
               width: 31,
             },
@@ -107,16 +116,16 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
               type: "metricValue",
               metricId: metricGroup.metricId,
               valueFormatter: "integer",
-              valueLabel: "hours",
+              valueLabel: hoursLabel,
               width: 20,
               colStyle: { textAlign: "right" },
-              columnLabel: "Fishing Effort",
+              columnLabel: fishingEffortLabel,
             },
             {
               type: "metricValue",
               metricId: percMetricIdName,
               valueFormatter: "percent",
-              columnLabel: "Within Plan",
+              columnLabel: percWithinLabel,
               width: 15,
               colStyle: { textAlign: "right" },
             },
@@ -132,65 +141,27 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
             {
               type: "layerToggle",
               width: 14,
+              columnLabel: mapLabel,
             },
           ];
 
           const gearTypeColConfigs = cloneDeep(colConfigs);
-          gearTypeColConfigs[0].columnLabel = "By Gear Type";
+          gearTypeColConfigs[0].columnLabel = byGearTypeLabel;
 
           const countryColConfigs = cloneDeep(colConfigs);
-          countryColConfigs[0].columnLabel = "By Country";
+          countryColConfigs[0].columnLabel = byCountryLabel;
 
           return (
             <>
               <p>
-                This report summarizes the proportion of fishing effort from
-                2019-2022 that is within this plan, as reported by Global
-                Fishing Watch. The higher the percentage, the greater the
-                potential impact to the fishery if access or activities are
-                restricted.
+                <Trans i18nKey="GFW Card">
+                  This report summarizes the proportion of fishing effort from
+                  2019-2022 that is within this plan, as reported by Global
+                  Fishing Watch. The higher the percentage, the greater the
+                  potential impact to the fishery if access or activities are
+                  restricted.
+                </Trans>
               </p>
-
-              <Collapse title="Learn more">
-                <p>
-                  🎯 Planning Objective: there is no specific objective/target
-                  for limiting the potential impact to fishing activities.
-                </p>
-                <p>
-                  🗺️ Source Data: <b>Apparent fishing effort</b> is measured
-                  using transmissions (or "pings") broadcast by fishing vessels
-                  using the automatic identification system (AIS) vessel
-                  tracking system.
-                </p>
-                <p>
-                  Machine learning models are then used to classify fishing
-                  vessels and predict when they are fishing based on their
-                  movement patterns and changes in speed.
-                </p>
-                <p>
-                  Apparent fishing effort can then be calculated for any area by
-                  summarizing the fishing hours for all fishing vessels in that
-                  area.
-                </p>
-                <p>
-                  📈 Report: Percentages are calculated by summing the total
-                  amount of fishing effort (in hours) within the MPAs in this
-                  plan, and dividing it by the total amount of fishing effort
-                  (in hours) across the selected nearshore planning area. If the
-                  plan includes multiple areas that overlap, the overlap is only
-                  counted once.
-                </p>
-                <p>
-                  There are a number of caveats and limitations to this data.
-                  For further information:{" "}
-                  <a
-                    target="_blank"
-                    href={`"https://globalfishingwatch.org/dataset-and-code-fishing-effort"`}
-                  >
-                    Global Fishing Watch - Apparent Fishing Effort
-                  </a>
-                </p>
-              </Collapse>
 
               <ClassTable
                 rows={parentMetricsAll}
@@ -198,7 +169,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
                 columnConfig={colConfigs}
               />
               {isCollection && (
-                <Collapse title="Show by MPA">
+                <Collapse title={t("Show by MPA")}>
                   {genSketchTable(data.sketch, metricsAll, metricGroupAll)}
                 </Collapse>
               )}
@@ -210,7 +181,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
                 columnConfig={gearTypeColConfigs}
               />
               {isCollection && (
-                <Collapse title="Show by MPA">
+                <Collapse title={t("Show by MPA")}>
                   {genSketchTable(
                     data.sketch,
                     metricsByGearType,
@@ -226,7 +197,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
                 columnConfig={countryColConfigs}
               />
               {isCollection && (
-                <Collapse title="Show by MPA">
+                <Collapse title={t("Show by MPA")}>
                   {genSketchTable(
                     data.sketch,
                     metricsByCountry,
@@ -234,6 +205,49 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
                   )}
                 </Collapse>
               )}
+
+              <Collapse title={t("Learn more")}>
+                <Trans i18nKey="GFW Card - learn more">
+                  <p>
+                    🎯 Planning Objective: there is no specific objective/target
+                    for limiting the potential impact to fishing activities.
+                  </p>
+                  <p>
+                    🗺️ Source Data: <b>Apparent fishing effort</b> is measured
+                    using transmissions (or "pings") broadcast by fishing
+                    vessels using the automatic identification system (AIS)
+                    vessel tracking system.
+                  </p>
+                  <p>
+                    Machine learning models are then used to classify fishing
+                    vessels and predict when they are fishing based on their
+                    movement patterns and changes in speed.
+                  </p>
+                  <p>
+                    Apparent fishing effort can then be calculated for any area
+                    by summarizing the fishing hours for all fishing vessels in
+                    that area.
+                  </p>
+                  <p>
+                    📈 Report: Percentages are calculated by summing the total
+                    amount of fishing effort (in hours) within the MPAs in this
+                    plan, and dividing it by the total amount of fishing effort
+                    (in hours) across the selected nearshore planning area. If
+                    the plan includes multiple areas that overlap, the overlap
+                    is only counted once.
+                  </p>
+                  <p>
+                    There are a number of caveats and limitations to this data.
+                    For further information:{" "}
+                    <a
+                      target="_blank"
+                      href={`"https://globalfishingwatch.org/dataset-and-code-fishing-effort"`}
+                    >
+                      Global Fishing Watch - Apparent Fishing Effort
+                    </a>
+                  </p>
+                </Trans>
+              </Collapse>
             </>
           );
         }}

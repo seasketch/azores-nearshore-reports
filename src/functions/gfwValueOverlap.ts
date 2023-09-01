@@ -14,14 +14,19 @@ import {
 import { loadCog, loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-
-//@ts-ignore
-import { geoblaze } from "geoblaze";
+import { ExtraParams } from "../types";
+import { getParamStringArray } from "../util/extraParams";
+import { clipSketchToGeography } from "../util/clipSketchToGeography";
 
 export async function gfwValueOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
+  extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  const box = sketch.bbox || bbox(sketch);
+  const geographyId = extraParams
+    ? getParamStringArray("geographyIds", extraParams)[0]
+    : undefined;
+  const clippedSketch = await clipSketchToGeography(sketch, geographyId);
+  const box = clippedSketch.bbox || bbox(clippedSketch);
   const mg = project.getMetricGroup("gfwValueOverlap");
 
   const metrics: Metric[] = (
@@ -35,7 +40,11 @@ export async function gfwValueOverlap(
         )}`;
         const raster = await loadCogWindow(url, { windowBox: box });
 
-        const overlapResult = await overlapRaster(mg.metricId, raster, sketch);
+        const overlapResult = await overlapRaster(
+          mg.metricId,
+          raster,
+          clippedSketch
+        );
 
         return overlapResult.map(
           (metrics): Metric => ({
@@ -53,7 +62,7 @@ export async function gfwValueOverlap(
 
   return {
     metrics: sortMetrics(rekeyMetrics(metrics)),
-    sketch: toNullSketch(sketch, true),
+    sketch: toNullSketch(clippedSketch, true),
   };
 }
 
