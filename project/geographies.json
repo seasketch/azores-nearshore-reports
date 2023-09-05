@@ -2,51 +2,61 @@
     {
         "geographyId": "nearshore",
         "datasourceId": "6nm_boundary",
-        "display": "Azores"
+        "display": "Azores",
+        "layerId":"x6kSfK6Lb"
     },
     {
         "geographyId": "corvo",
         "datasourceId": "corvo",
-        "display": "Corvo"
+        "display": "Corvo",
+        "layerId":"8FCgjRWU0"
     },
     {
         "geographyId": "faial",
         "datasourceId": "faial",
-        "display": "Faial"
+        "display": "Faial",
+        "layerId":"wjYSaTZQH"
     },
     {
         "geographyId": "flores",
         "datasourceId": "flores",
-        "display": "Flores"
+        "display": "Flores",
+        "layerId":"lFdg3LY1s"
     },
     {
         "geographyId": "graciosa",
         "datasourceId": "graciosa",
-        "display": "Graciosa"
+        "display": "Graciosa",
+        "layerId":"PHFcvWw4G"
     },
     {
         "geographyId": "pico",
         "datasourceId": "pico",
-        "display": "Pico"
+        "display": "Pico",
+        "layerId":"zC5Z08VYd"
     },
     {
         "geographyId": "santa-maria",
         "datasourceId": "santa-maria",
-        "display": "Santa Maria"
+        "display": "Santa Maria",
+        "layerId":"CymWQ6bdS"
     },
     {
         "geographyId": "sao-miguel",
         "datasourceId": "sao-miguel",
-        "display": "São Miguel"
+        "display": "São Miguel",
+        "layerId":"bO_QJJX9E"
     },
     {
         "geographyId": "sao-jorge",
         "datasourceId": "sao-jorge",
-        "display": "São Jorge"
+        "display": "São Jorge",
+        "layerId":"vAypmorBv"
     },
     {
         "geographyId": "terceira",
         "datasourceId": "terceira",
-        "display": "Terceira"
+        "display": "Terceira",
+        "layerId":"3bBUAMahS"
     }
 ]

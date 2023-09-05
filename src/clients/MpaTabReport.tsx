@@ -3,12 +3,16 @@ import {
   SegmentControl,
   ReportPage,
   Card,
+  ToolbarCard,
+  LayerToggle,
+  VerticalSpacer,
 } from "@seasketch/geoprocessing/client-ui";
 import ViabilityPage from "../components/ViabilityPage";
 import RepresentationPage from "../components/RepresentationPage";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync";
 import geographies from "../../project/geographies.json";
+import { getGeographyById } from "../util/getGeographyById";
 
 const enableAllTabs = false;
 
@@ -21,31 +25,36 @@ const MpaTabReport = () => {
     { id: representationId, label: t("Representation") },
   ];
   const [tab, setTab] = useState<string>(viabilityId);
-  const [geography, setGeography] = useState("nearshore");
+  const [geographyId, setGeography] = useState("nearshore");
 
   const geographySwitcher = (e: any) => {
     setGeography(e.target.value);
   };
+
+  const switcherAndMap = (
+    <>
+      <select onChange={geographySwitcher}>
+        {geographies.map((geography) => {
+          return (
+            <option key={geography.geographyId} value={geography.geographyId}>
+              {geography.display}
+            </option>
+          );
+        })}
+      </select>
+      <LayerToggle
+        label=" "
+        layerId={getGeographyById(geographyId).layerId}
+        simple
+      />
+    </>
+  );
+
   return (
     <>
-      <Card>
-        <p>
-          {t("Nearshore Planning Area")}
-          {": "}
-          <select onChange={geographySwitcher}>
-            {geographies.map((geography) => {
-              return (
-                <option
-                  key={geography.geographyId}
-                  value={geography.geographyId}
-                >
-                  {geography.display}
-                </option>
-              );
-            })}
-          </select>
-        </p>
-      </Card>
+      <ToolbarCard title={t("Nearshore Planning Area")} items={switcherAndMap}>
+        <></>
+      </ToolbarCard>
       <div style={{ marginTop: 5 }}>
         <SegmentControl
           value={tab}
@@ -54,10 +63,10 @@ const MpaTabReport = () => {
         />
       </div>
       <ReportPage hidden={!enableAllTabs && tab !== viabilityId}>
-        <ViabilityPage geographyId={geography} />
+        <ViabilityPage geographyId={geographyId} />
       </ReportPage>
       <ReportPage hidden={!enableAllTabs && tab !== representationId}>
-        <RepresentationPage geographyId={geography} />
+        <RepresentationPage geographyId={geographyId} />
       </ReportPage>
     </>
   );

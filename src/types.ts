@@ -11,6 +11,7 @@ export interface Geography {
   geographyId: string;
   datasourceId: string;
   display: string;
+  layerId?: string;
 }
 
 export interface BathymetryResults {
