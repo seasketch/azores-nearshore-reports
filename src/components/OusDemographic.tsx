@@ -165,7 +165,8 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
                   This report summarizes the people that use the ocean within
                   this nearshore plan, as represented by the Ocean Use Survey.
                   Plans should consider the potential benefits and impacts to
-                  these people if access or activities are restricted.
+                  these people if access or activities are restricted. This
+                  demographics report includes all Ocean Use Survey responses.
                 </Trans>
               </p>
 

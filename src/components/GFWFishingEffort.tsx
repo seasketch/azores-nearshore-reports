@@ -26,6 +26,7 @@ import {
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../types";
+import { getGeographyById } from "../util/getGeographyById";
 
 export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
@@ -155,12 +156,16 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
           return (
             <>
               <p>
-                <Trans i18nKey="GFW Card">
-                  This report summarizes the proportion of fishing effort from
-                  2019-2022 that is within this plan, as reported by Global
-                  Fishing Watch. The higher the percentage, the greater the
-                  potential impact to the fishery if access or activities are
-                  restricted.
+                <Trans i18nKey="GFW Card 1">
+                  This report summarizes the proportion of 2019-2022 fishing
+                  effort within the
+                </Trans>{" "}
+                {getGeographyById(props.geographyId).display}{" "}
+                <Trans i18nKey="GFW Card 2">
+                  nearshore planning area that that overlaps with this plan, as
+                  reported by Global Fishing Watch. The higher the percentage,
+                  the greater the potential impact to the fishery if access or
+                  activities are restricted.
                 </Trans>
               </p>
 

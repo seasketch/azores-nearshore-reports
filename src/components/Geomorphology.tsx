@@ -27,6 +27,7 @@ import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
+import { getGeographyById } from "../util/getGeographyById";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
@@ -80,14 +81,19 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
                 />
               }
             >
-              <Trans i18nKey="Geomorphology Card">
-                <p>
+              <p>
+                <Trans i18nKey="Geomorphology Card 1">
                   The seafloor (benthic zone) has many unique physical features,
                   each creating habitats that support different ecological
                   communities. This report summarizes the percentage of each
-                  nearshore benthic habitat found in the plan.
-                </p>
-              </Trans>
+                  nearshore benthic habitat within the
+                </Trans>{" "}
+                {getGeographyById(props.geographyId).display}{" "}
+                <Trans i18nKey="Geomorphology Card 2">
+                  nearshore planning area found in this plan.
+                </Trans>
+              </p>
+
               <Translator>
                 <ClassTable
                   rows={finalMetrics}
