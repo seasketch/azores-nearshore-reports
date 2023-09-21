@@ -385,6 +385,11 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
                     plan for each sector and dividing it by the total number of
                     people that use the ocean within the sector.
                   </p>
+                  <p>
+                    Due to the complex nature of this report and to ensure the
+                    timely return of reports, sketch shorelines have been
+                    simplified with a 0.0001 degree tolerance.{" "}
+                  </p>
                 </Trans>
               </Collapse>
             </>

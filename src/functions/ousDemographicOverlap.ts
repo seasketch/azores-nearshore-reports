@@ -30,7 +30,7 @@ export async function ousDemographicOverlap(
     ? getParamStringArray("geographyIds", extraParams)[0]
     : undefined;
   const clippedSketch = await clipSketchToGeography(sketch, geographyId, {
-    tolerance: 0.00005,
+    tolerance: 0.0001,
     highQuality: true,
   });
   const url = `${project.dataBucketUrl()}ous_demographics.fgb`;
