@@ -76,36 +76,6 @@
                 "layerId": "YYf19XfBP"
             },
             {
-                "datasourceId": "purse-seines",
-                "classId": "gear_type:purse-seines",
-                "display": "Purse Seines",
-                "layerId": "asnRbdlVX"
-            },
-            {
-                "datasourceId": "other-purse-seines",
-                "classId": "gear_type:other-purse-seines",
-                "display": "Other Purse Seines",
-                "layerId": "qshM_zd5b"
-            },
-            {
-                "datasourceId": "set-gillnets",
-                "classId": "gear_type:set-gillnets",
-                "display": "Set Gillnet",
-                "layerId": "c35m_EBuR"
-            },
-            {
-                "datasourceId": "trawlers",
-                "classId": "gear_type:trawlers",
-                "display": "Trawlers",
-                "layerId": "JvLoC_w06"
-            },
-            {
-                "datasourceId": "trollers",
-                "classId": "gear_type:trollers",
-                "display": "Trollers",
-                "layerId": "t25zERtQF"
-            },
-            {
                 "datasourceId": "PRT",
                 "classId": "country:PRT",
                 "display": "Portugal",
@@ -116,12 +86,6 @@
                 "classId": "country:ESP",
                 "display": "Spain",
                 "layerId": "Ge5VZEPCj"
-            },
-            {
-                "datasourceId": "RUS",
-                "classId": "country:RUS",
-                "display": "Russia",
-                "layerId": "eNJvCPXbZ"
             }
         ]
     },

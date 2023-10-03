@@ -1,7 +1,7 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
+import { Tooltip } from "@material-ui/core/";
 import { CheckCircleFill, InfoCircleFill } from "@styled-icons/bootstrap";
-import { Tooltip } from "@mui/material";
 import {
   ClassTableColumnConfig,
   ClassTableProps,

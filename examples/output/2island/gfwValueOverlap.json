@@ -105,40 +105,6 @@
     {
       "metricId": "gfwValueOverlap",
       "sketchId": "17851",
-      "classId": "country:RUS",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2island",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "country:RUS",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "saomiguel"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "country:RUS",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "santamaria"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
       "classId": "gear_type:drifting-longlines",
       "groupId": null,
       "geographyId": null,
@@ -207,40 +173,6 @@
     {
       "metricId": "gfwValueOverlap",
       "sketchId": "17851",
-      "classId": "gear_type:other-purse-seines",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2island",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "gear_type:other-purse-seines",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "saomiguel"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "gear_type:other-purse-seines",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "santamaria"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
       "classId": "gear_type:pole-and-line",
       "groupId": null,
       "geographyId": null,
@@ -275,74 +207,6 @@
     {
       "metricId": "gfwValueOverlap",
       "sketchId": "17851",
-      "classId": "gear_type:purse-seines",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2island",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "gear_type:purse-seines",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "saomiguel"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "gear_type:purse-seines",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "santamaria"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
-      "classId": "gear_type:set-gillnets",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2island",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "gear_type:set-gillnets",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "saomiguel"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "gear_type:set-gillnets",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "santamaria"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
       "classId": "gear_type:set-longlines",
       "groupId": null,
       "geographyId": null,
@@ -370,74 +234,6 @@
       "groupId": null,
       "geographyId": null,
       "value": 19.24805450439453,
-      "extra": {
-        "sketchName": "santamaria"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
-      "classId": "gear_type:trawlers",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2island",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "gear_type:trawlers",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "saomiguel"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "gear_type:trawlers",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "santamaria"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
-      "classId": "gear_type:trollers",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2island",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "gear_type:trollers",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "saomiguel"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "gear_type:trollers",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
       "extra": {
         "sketchName": "santamaria"
       }

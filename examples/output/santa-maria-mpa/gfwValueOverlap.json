@@ -36,17 +36,6 @@
     {
       "metricId": "gfwValueOverlap",
       "sketchId": "15881",
-      "classId": "country:RUS",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "santa-maria-mpa"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
       "classId": "gear_type:drifting-longlines",
       "groupId": null,
       "geographyId": null,
@@ -69,17 +58,6 @@
     {
       "metricId": "gfwValueOverlap",
       "sketchId": "15881",
-      "classId": "gear_type:other-purse-seines",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "santa-maria-mpa"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
       "classId": "gear_type:pole-and-line",
       "groupId": null,
       "geographyId": null,
@@ -91,54 +69,10 @@
     {
       "metricId": "gfwValueOverlap",
       "sketchId": "15881",
-      "classId": "gear_type:purse-seines",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "santa-maria-mpa"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
-      "classId": "gear_type:set-gillnets",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "santa-maria-mpa"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
       "classId": "gear_type:set-longlines",
       "groupId": null,
       "geographyId": null,
       "value": 29.184165954589844,
-      "extra": {
-        "sketchName": "santa-maria-mpa"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
-      "classId": "gear_type:trawlers",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "santa-maria-mpa"
-      }
-    },
-    {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
-      "classId": "gear_type:trollers",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }

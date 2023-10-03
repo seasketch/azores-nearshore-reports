@@ -228,6 +228,12 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
                     is only counted once.
                   </p>
                   <p>
+                    Some data layers which were present in offshore planning
+                    have been removed because they don't overlap with the
+                    nearshore. These layers are: Purse Seines, Other Purse
+                    Seines, Set Gillnet, Trawlers, Trollers, and Russia.
+                  </p>
+                  <p>
                     There are a number of caveats and limitations to this data.
                     For further information:{" "}
                     <a
