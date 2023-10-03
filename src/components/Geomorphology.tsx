@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Collapse,
-  ClassTable,
   SketchClassTable,
   ResultsCard,
   useSketchProperties,
@@ -28,6 +27,7 @@ import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
+import { ClassTable } from "../util/ClassTable";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
@@ -117,7 +117,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
                           )
                         ),
                       valueLabel: sqKmLabel,
-                      width: 30,
+                      width: 25,
                     },
                     {
                       columnLabel: percAreaWithin,
@@ -130,7 +130,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
                         targetLabelStyle: "tight",
                         barHeight: 11,
                       },
-                      width: 30,
+                      width: 35,
                       targetValueFormatter: (
                         value: number,
                         row: number,

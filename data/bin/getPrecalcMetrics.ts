@@ -119,7 +119,7 @@ export const toPercentMetric = (
       );
       return {
         ...cloneDeep(curMetric),
-        value: 0,
+        value: NaN,
         ...(percMetricId ? { metricId: percMetricId } : {}),
       };
     }

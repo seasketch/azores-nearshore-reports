@@ -1,6 +1,7 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
-import { CheckCircleFill } from "@styled-icons/bootstrap";
+import { CheckCircleFill, InfoCircleFill } from "@styled-icons/bootstrap";
+import { Tooltip } from "@mui/material";
 import {
   ClassTableColumnConfig,
   ClassTableProps,
@@ -165,7 +166,20 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
                 {
                   title: (value: number) => (
                     <>
-                      {target && value >= target ? (
+                      {isNaN(value) ? (
+                        <Tooltip
+                          title="This class has no value in the selected planning area"
+                          arrow
+                        >
+                          <InfoCircleFill
+                            size={14}
+                            style={{
+                              color: "#83C6E6",
+                              paddingRight: 5,
+                            }}
+                          />
+                        </Tooltip>
+                      ) : target && value >= target ? (
                         <CheckCircleFill
                           size={14}
                           style={{ color: "#78c679", paddingRight: 5 }}
@@ -173,7 +187,7 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
                       ) : (
                         <></>
                       )}
-                      {percentWithEdge(value / 100)}
+                      {percentWithEdge(isNaN(value) ? 0 : value / 100)}
                     </>
                   ),
                 },

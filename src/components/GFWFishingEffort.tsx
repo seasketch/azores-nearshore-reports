@@ -3,7 +3,6 @@ import {
   Collapse,
   ResultsCard,
   SketchClassTable,
-  ClassTable,
   ClassTableColumnConfig,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
@@ -27,6 +26,8 @@ import {
 } from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
+import { ClassTable } from "../util/ClassTable";
+import Translator from "./TranslatorAsync";
 
 export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
@@ -101,18 +102,11 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
             data.sketch.properties.id,
           ]);
 
-          const colWidths = {
-            classColWidth: "40%",
-            percColWidth: "40%",
-            showMapWidth: "20%",
-            goalWidth: "0%",
-          };
-
           const colConfigs: ClassTableColumnConfig[] = [
             {
               columnLabel: allFishingLabel,
               type: "class",
-              width: 31,
+              width: 20,
             },
             {
               type: "metricValue",
@@ -120,29 +114,21 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
               valueFormatter: "integer",
               valueLabel: hoursLabel,
               width: 20,
-              colStyle: { textAlign: "right" },
               columnLabel: fishingEffortLabel,
             },
             {
-              type: "metricValue",
-              metricId: percMetricIdName,
-              valueFormatter: "percent",
               columnLabel: percWithinLabel,
-              width: 15,
-              colStyle: { textAlign: "right" },
-            },
-            {
               type: "metricChart",
               metricId: percMetricIdName,
               valueFormatter: "percent",
               chartOptions: {
-                showTitle: false,
+                showTitle: true,
               },
-              width: 20,
+              width: 35,
             },
             {
               type: "layerToggle",
-              width: 14,
+              width: 15,
               columnLabel: mapLabel,
             },
           ];

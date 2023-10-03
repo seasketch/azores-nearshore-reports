@@ -47,6 +47,9 @@
     "@seasketch/geoprocessing"
   ],
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.11",
     "@turf/area": "^6.5.0",
     "@turf/bbox": "^6.5.0",
     "@turf/bbox-clip": "^6.5.0",

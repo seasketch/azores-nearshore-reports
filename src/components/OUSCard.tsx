@@ -3,7 +3,6 @@ import {
   Collapse,
   ResultsCard,
   SketchClassTable,
-  ClassTable,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
@@ -20,6 +19,7 @@ import {
   getPrecalcMetrics,
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
+import { ClassTable } from "../util/ClassTable";
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
 

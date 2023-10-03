@@ -3,7 +3,6 @@ import {
   Collapse,
   ResultsCard,
   SketchClassTable,
-  ClassTable,
   useSketchProperties,
   LayerToggle,
   ToolbarCard,
@@ -19,6 +18,7 @@ import {
   MetricGroup,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
+import { ClassTable } from "../util/ClassTable";
 import { Trans, useTranslation } from "react-i18next";
 import {
   getPrecalcMetrics,

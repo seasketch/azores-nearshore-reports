@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
   Collapse,
   ResultsCard,
-  ClassTable,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
@@ -10,6 +9,7 @@ import {
   metricsWithSketchId,
   sortMetrics,
 } from "@seasketch/geoprocessing/client-core";
+import { ClassTable } from "../util/ClassTable";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import {
