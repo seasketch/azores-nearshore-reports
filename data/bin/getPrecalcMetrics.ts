@@ -85,7 +85,8 @@ export function getPrecalcMetrics(
  * - totalsByKey maps based strictly on classId, because all precalc metrics have classId,
  * and this is checked
  * - subregions were causing some total metric values to be 0, and leading to a
- * division-by-zero error. Now, toPercentMetric() catches 0 denominators and returns 0% metric
+ * division-by-zero error. toPercentMetric() now catches this and returns NaN, which now has to be
+ * handled in ClassTable and SketchClassTable to avoid showing NaN
  */
 export const toPercentMetric = (
   metrics: Metric[],

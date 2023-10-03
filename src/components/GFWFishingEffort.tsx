@@ -2,7 +2,6 @@ import React from "react";
 import {
   Collapse,
   ResultsCard,
-  SketchClassTable,
   ClassTableColumnConfig,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
@@ -27,7 +26,7 @@ import {
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
 import { ClassTable } from "../util/ClassTable";
-import Translator from "./TranslatorAsync";
+import { SketchClassTable } from "../util/SketchClassTable";
 
 export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();

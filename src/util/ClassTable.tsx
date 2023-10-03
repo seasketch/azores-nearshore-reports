@@ -27,6 +27,7 @@ import {
  * ----- DIFFERENCES FROM ClassTable IN GP ------
  * Returns 0 when faced with a 'missing' metrics instead of erroring, which occurs in OUSDemographics (when 0 people overlap)
  * This same edit was made in the Maldives offshore reports to account for OUS Demographics
+ * Handles "class has no values in subregion" NaN values by overwriting NaN with 0 and adding information circle
  */
 export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
   rows,

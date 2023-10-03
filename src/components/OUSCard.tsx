@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
   Collapse,
   ResultsCard,
-  SketchClassTable,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
@@ -20,6 +19,7 @@ import {
   toPercentMetric,
 } from "../../data/bin/getPrecalcMetrics";
 import { ClassTable } from "../util/ClassTable";
+import { SketchClassTable } from "../util/SketchClassTable";
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
 
