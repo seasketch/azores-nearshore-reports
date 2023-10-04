@@ -51,7 +51,7 @@
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.03359834820665242,
+      "value": 0.033598,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -63,7 +63,7 @@
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.011766253485106404,
+      "value": 0.011766,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -74,7 +74,7 @@
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.007932060464284518,
+      "value": 0.007932,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -85,7 +85,7 @@
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.01621207157013771,
+      "value": 0.016212,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -141,7 +141,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.15552583799683362,
+      "value": 0.155526,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -153,7 +153,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0487403099000403,
+      "value": 0.04874,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -164,7 +164,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.07651031861041702,
+      "value": 0.07651,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -175,7 +175,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.039071494814152175,
+      "value": 0.039071,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -186,7 +186,7 @@
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.18427425338031256,
+      "value": 0.184274,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -198,7 +198,7 @@
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.04176582087660563,
+      "value": 0.041766,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -209,7 +209,7 @@
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.09927996568404751,
+      "value": 0.09928,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -220,7 +220,7 @@
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.047749805689239366,
+      "value": 0.04775,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -231,7 +231,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.003955117298204108,
+      "value": 0.003955,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -243,7 +243,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0032958572173372724,
+      "value": 0.003296,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -254,7 +254,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0003247755309677969,
+      "value": 0.000325,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -265,7 +265,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0003345207459198585,
+      "value": 0.000335,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -321,7 +321,7 @@
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.116258054724514,
+      "value": 0.116258,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -333,7 +333,7 @@
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.04338816924616662,
+      "value": 0.043388,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -344,7 +344,7 @@
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.03820931550239948,
+      "value": 0.038209,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -355,7 +355,7 @@
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.04142053493808051,
+      "value": 0.041421,
       "extra": {
         "sketchName": "sketch2"
       }

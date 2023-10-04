@@ -6,7 +6,7 @@
       "classId": "all-fishing",
       "groupId": null,
       "geographyId": null,
-      "value": 344.7127685546875,
+      "value": 344.712769,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -29,7 +29,7 @@
       "classId": "all-fishing",
       "groupId": null,
       "geographyId": null,
-      "value": 344.7127685546875,
+      "value": 344.712769,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -74,7 +74,7 @@
       "classId": "country:PRT",
       "groupId": null,
       "geographyId": null,
-      "value": 344.7127685546875,
+      "value": 344.712769,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -97,7 +97,7 @@
       "classId": "country:PRT",
       "groupId": null,
       "geographyId": null,
-      "value": 344.7127685546875,
+      "value": 344.712769,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -142,7 +142,7 @@
       "classId": "gear_type:fixed-gear",
       "groupId": null,
       "geographyId": null,
-      "value": 75.21861267089844,
+      "value": 75.218613,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -165,7 +165,7 @@
       "classId": "gear_type:fixed-gear",
       "groupId": null,
       "geographyId": null,
-      "value": 75.21861267089844,
+      "value": 75.218613,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -210,7 +210,7 @@
       "classId": "gear_type:set-longlines",
       "groupId": null,
       "geographyId": null,
-      "value": 19.24805450439453,
+      "value": 19.248055,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -233,7 +233,7 @@
       "classId": "gear_type:set-longlines",
       "groupId": null,
       "geographyId": null,
-      "value": 19.24805450439453,
+      "value": 19.248055,
       "extra": {
         "sketchName": "santamaria"
       }

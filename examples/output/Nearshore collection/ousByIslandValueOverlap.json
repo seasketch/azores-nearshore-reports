@@ -274,7 +274,7 @@
       "classId": "faial_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.011909254606186082,
+      "value": 0.011909,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -297,7 +297,7 @@
       "classId": "faial_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000029923739930382,
+      "value": 0.000003,
       "extra": {
         "sketchName": "2"
       }
@@ -330,7 +330,7 @@
       "classId": "faial_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.011906262232193043,
+      "value": 0.011906,
       "extra": {
         "sketchName": "5"
       }
@@ -408,7 +408,7 @@
       "classId": "faial_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.004491674284139435,
+      "value": 0.004492,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -431,7 +431,7 @@
       "classId": "faial_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0012452172904886538,
+      "value": 0.001245,
       "extra": {
         "sketchName": "2"
       }
@@ -453,7 +453,7 @@
       "classId": "faial_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00037367091863416135,
+      "value": 0.000374,
       "extra": {
         "sketchName": "4"
       }
@@ -464,7 +464,7 @@
       "classId": "faial_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00287278607501662,
+      "value": 0.002873,
       "extra": {
         "sketchName": "5"
       }
@@ -475,7 +475,7 @@
       "classId": "faial_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.03528178507828983,
+      "value": 0.035282,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -487,7 +487,7 @@
       "classId": "faial_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0010392572684914114,
+      "value": 0.001039,
       "extra": {
         "sketchName": "1"
       }
@@ -498,7 +498,7 @@
       "classId": "faial_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.005132859115754229,
+      "value": 0.005133,
       "extra": {
         "sketchName": "2"
       }
@@ -509,7 +509,7 @@
       "classId": "faial_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00027663745610162493,
+      "value": 0.000277,
       "extra": {
         "sketchName": "3"
       }
@@ -520,7 +520,7 @@
       "classId": "faial_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0017658917673504249,
+      "value": 0.001766,
       "extra": {
         "sketchName": "4"
       }
@@ -531,7 +531,7 @@
       "classId": "faial_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.02783316928931079,
+      "value": 0.027833,
       "extra": {
         "sketchName": "5"
       }
@@ -542,7 +542,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.03406926953661671,
+      "value": 0.034069,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -565,7 +565,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0037382949943705057,
+      "value": 0.003738,
       "extra": {
         "sketchName": "2"
       }
@@ -576,7 +576,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0018916801837249864,
+      "value": 0.001892,
       "extra": {
         "sketchName": "3"
       }
@@ -587,7 +587,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0006092864864299941,
+      "value": 0.000609,
       "extra": {
         "sketchName": "4"
       }
@@ -598,7 +598,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.02794114792212188,
+      "value": 0.027941,
       "extra": {
         "sketchName": "5"
       }
@@ -1413,7 +1413,7 @@
       "classId": "pico_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.18921173545817638,
+      "value": 0.189212,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -1436,7 +1436,7 @@
       "classId": "pico_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.02702808046365135,
+      "value": 0.027028,
       "extra": {
         "sketchName": "2"
       }
@@ -1447,7 +1447,7 @@
       "classId": "pico_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0013421765628152116,
+      "value": 0.001342,
       "extra": {
         "sketchName": "3"
       }
@@ -1458,7 +1458,7 @@
       "classId": "pico_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.022463260330908952,
+      "value": 0.022463,
       "extra": {
         "sketchName": "4"
       }
@@ -1469,7 +1469,7 @@
       "classId": "pico_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.1407630523118577,
+      "value": 0.140763,
       "extra": {
         "sketchName": "5"
       }
@@ -1480,7 +1480,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 15.23909629796347,
+      "value": 15.239096,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -1503,7 +1503,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 8.857674685853546,
+      "value": 8.857675,
       "extra": {
         "sketchName": "2"
       }
@@ -1514,7 +1514,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00018263773768630032,
+      "value": 0.000183,
       "extra": {
         "sketchName": "3"
       }
@@ -1525,7 +1525,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 5.63275044747806,
+      "value": 5.63275,
       "extra": {
         "sketchName": "4"
       }
@@ -1536,7 +1536,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 1.0077692577026989,
+      "value": 1.007769,
       "extra": {
         "sketchName": "5"
       }
@@ -1547,7 +1547,7 @@
       "classId": "pico_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 260.93540612873034,
+      "value": 260.935406,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -1570,7 +1570,7 @@
       "classId": "pico_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 211.57774545534733,
+      "value": 211.577745,
       "extra": {
         "sketchName": "2"
       }
@@ -1581,7 +1581,7 @@
       "classId": "pico_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0036570420166697204,
+      "value": 0.003657,
       "extra": {
         "sketchName": "3"
       }
@@ -1592,7 +1592,7 @@
       "classId": "pico_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 6.232259003689554,
+      "value": 6.232259,
       "extra": {
         "sketchName": "4"
       }
@@ -1603,7 +1603,7 @@
       "classId": "pico_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 43.43724785743854,
+      "value": 43.437248,
       "extra": {
         "sketchName": "5"
       }
@@ -1614,7 +1614,7 @@
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.012090171599920735,
+      "value": 0.01209,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -1670,7 +1670,7 @@
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.012087773824739051,
+      "value": 0.012088,
       "extra": {
         "sketchName": "5"
       }
@@ -1681,7 +1681,7 @@
       "classId": "pico_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.04270236732014965,
+      "value": 0.042702,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -1737,7 +1737,7 @@
       "classId": "pico_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.04270236732014965,
+      "value": 0.042702,
       "extra": {
         "sketchName": "5"
       }
@@ -2150,7 +2150,7 @@
       "classId": "sao-jorge_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.050663118634489024,
+      "value": 0.050663,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2173,7 +2173,7 @@
       "classId": "sao-jorge_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.026196101252864423,
+      "value": 0.026196,
       "extra": {
         "sketchName": "2"
       }
@@ -2184,7 +2184,7 @@
       "classId": "sao-jorge_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0244670173816246,
+      "value": 0.024467,
       "extra": {
         "sketchName": "3"
       }
@@ -2217,7 +2217,7 @@
       "classId": "sao-jorge_cultural_heritage_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.08212168976024259,
+      "value": 0.082122,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2240,7 +2240,7 @@
       "classId": "sao-jorge_cultural_heritage_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.07456896256189793,
+      "value": 0.074569,
       "extra": {
         "sketchName": "2"
       }
@@ -2251,7 +2251,7 @@
       "classId": "sao-jorge_cultural_heritage_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.007552727198344655,
+      "value": 0.007553,
       "extra": {
         "sketchName": "3"
       }
@@ -2284,7 +2284,7 @@
       "classId": "sao-jorge_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 2.2960550022495454,
+      "value": 2.296055,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2307,7 +2307,7 @@
       "classId": "sao-jorge_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 2.0657985114886515,
+      "value": 2.065799,
       "extra": {
         "sketchName": "2"
       }
@@ -2318,7 +2318,7 @@
       "classId": "sao-jorge_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.23025649076089394,
+      "value": 0.230256,
       "extra": {
         "sketchName": "3"
       }
@@ -2351,7 +2351,7 @@
       "classId": "sao-jorge_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 16.83983180671879,
+      "value": 16.839832,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2374,7 +2374,7 @@
       "classId": "sao-jorge_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 9.111495202069193,
+      "value": 9.111495,
       "extra": {
         "sketchName": "2"
       }
@@ -2385,7 +2385,7 @@
       "classId": "sao-jorge_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 7.728298390196173,
+      "value": 7.728298,
       "extra": {
         "sketchName": "3"
       }
@@ -2396,7 +2396,7 @@
       "classId": "sao-jorge_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000972199121633821,
+      "value": 0.000097,
       "extra": {
         "sketchName": "4"
       }
@@ -2418,7 +2418,7 @@
       "classId": "sao-jorge_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.3736030043801293,
+      "value": 0.373603,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2441,7 +2441,7 @@
       "classId": "sao-jorge_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.1617400641553104,
+      "value": 0.16174,
       "extra": {
         "sketchName": "2"
       }
@@ -2452,7 +2452,7 @@
       "classId": "sao-jorge_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.21186294022481889,
+      "value": 0.211863,
       "extra": {
         "sketchName": "3"
       }
@@ -2485,7 +2485,7 @@
       "classId": "sao-jorge_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.002588362788401355,
+      "value": 0.002588,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2519,7 +2519,7 @@
       "classId": "sao-jorge_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.002588362788401355,
+      "value": 0.002588,
       "extra": {
         "sketchName": "3"
       }
@@ -2619,7 +2619,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0035168265531186904,
+      "value": 0.003517,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2631,7 +2631,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.002055452058252527,
+      "value": 0.002055,
       "extra": {
         "sketchName": "1"
       }
@@ -2642,7 +2642,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00009011755389387588,
+      "value": 0.00009,
       "extra": {
         "sketchName": "2"
       }
@@ -2653,7 +2653,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00006700283974936383,
+      "value": 0.000067,
       "extra": {
         "sketchName": "3"
       }
@@ -2664,7 +2664,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000059083993605213436,
+      "value": 0.000059,
       "extra": {
         "sketchName": "4"
       }
@@ -2675,7 +2675,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0012571568541783762,
+      "value": 0.001257,
       "extra": {
         "sketchName": "5"
       }
@@ -2686,7 +2686,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00017407544794384444,
+      "value": 0.000174,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2698,7 +2698,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00004037207384532948,
+      "value": 0.00004,
       "extra": {
         "sketchName": "1"
       }
@@ -2709,7 +2709,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000031776932537974645,
+      "value": 0.000032,
       "extra": {
         "sketchName": "2"
       }
@@ -2720,7 +2720,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00002360681815760657,
+      "value": 0.000024,
       "extra": {
         "sketchName": "3"
       }
@@ -2731,7 +2731,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000020833174695367163,
+      "value": 0.000021,
       "extra": {
         "sketchName": "4"
       }
@@ -2742,7 +2742,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00006171615215838644,
+      "value": 0.000062,
       "extra": {
         "sketchName": "5"
       }
@@ -2753,7 +2753,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0002244553473644828,
+      "value": 0.000224,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2765,7 +2765,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00004333758545194133,
+      "value": 0.000043,
       "extra": {
         "sketchName": "1"
       }
@@ -2776,7 +2776,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00003412848440520477,
+      "value": 0.000034,
       "extra": {
         "sketchName": "2"
       }
@@ -2787,7 +2787,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000025365010065669935,
+      "value": 0.000025,
       "extra": {
         "sketchName": "3"
       }
@@ -2798,7 +2798,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000022396235626054306,
+      "value": 0.000022,
       "extra": {
         "sketchName": "4"
       }
@@ -2809,7 +2809,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0001037696977339575,
+      "value": 0.000104,
       "extra": {
         "sketchName": "5"
       }
@@ -2820,7 +2820,7 @@
       "classId": "sao-miguel_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000026867862276611088,
+      "value": 0.000003,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2876,7 +2876,7 @@
       "classId": "sao-miguel_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000026867862276611088,
+      "value": 0.000003,
       "extra": {
         "sketchName": "5"
       }
@@ -2954,7 +2954,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00006380306969422378,
+      "value": 0.000064,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -2966,7 +2966,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000014790513760409851,
+      "value": 0.000015,
       "extra": {
         "sketchName": "1"
       }
@@ -2977,7 +2977,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000011637102281802925,
+      "value": 0.000012,
       "extra": {
         "sketchName": "2"
       }
@@ -2988,7 +2988,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000008648069673711234,
+      "value": 0.000009,
       "extra": {
         "sketchName": "3"
       }
@@ -2999,7 +2999,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000007631071428093605,
+      "value": 0.000008,
       "extra": {
         "sketchName": "4"
       }
@@ -3010,7 +3010,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000022645365769236037,
+      "value": 0.000023,
       "extra": {
         "sketchName": "5"
       }
@@ -3021,7 +3021,7 @@
       "classId": "terceira_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.03837109920818804,
+      "value": 0.038371,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -3033,7 +3033,7 @@
       "classId": "terceira_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.037215381994730734,
+      "value": 0.037215,
       "extra": {
         "sketchName": "1"
       }
@@ -3077,7 +3077,7 @@
       "classId": "terceira_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.001155717213457308,
+      "value": 0.001156,
       "extra": {
         "sketchName": "5"
       }
@@ -3155,7 +3155,7 @@
       "classId": "terceira_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.1874783294635023,
+      "value": 0.187478,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -3167,7 +3167,7 @@
       "classId": "terceira_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.1863114541949642,
+      "value": 0.186311,
       "extra": {
         "sketchName": "1"
       }
@@ -3178,7 +3178,7 @@
       "classId": "terceira_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0004869321642217983,
+      "value": 0.000487,
       "extra": {
         "sketchName": "2"
       }
@@ -3189,7 +3189,7 @@
       "classId": "terceira_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000679943104316294,
+      "value": 0.00068,
       "extra": {
         "sketchName": "3"
       }
@@ -3222,7 +3222,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 1.3072650024724672,
+      "value": 1.307265,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -3234,7 +3234,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.9478233766438202,
+      "value": 0.947823,
       "extra": {
         "sketchName": "1"
       }
@@ -3245,7 +3245,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00009651173192626317,
+      "value": 0.000097,
       "extra": {
         "sketchName": "2"
       }
@@ -3256,7 +3256,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00007169079639002263,
+      "value": 0.000072,
       "extra": {
         "sketchName": "3"
       }
@@ -3267,7 +3267,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00006328151768375534,
+      "value": 0.000063,
       "extra": {
         "sketchName": "4"
       }
@@ -3278,7 +3278,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.35922298034373634,
+      "value": 0.359223,
       "extra": {
         "sketchName": "5"
       }
@@ -3289,7 +3289,7 @@
       "classId": "terceira_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0005173724379741174,
+      "value": 0.000517,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -3301,7 +3301,7 @@
       "classId": "terceira_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0005173724379741174,
+      "value": 0.000517,
       "extra": {
         "sketchName": "1"
       }
@@ -3356,7 +3356,7 @@
       "classId": "terceira_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.04162752580396045,
+      "value": 0.041628,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -3368,7 +3368,7 @@
       "classId": "terceira_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.04162752580396045,
+      "value": 0.041628,
       "extra": {
         "sketchName": "1"
       }

@@ -6,7 +6,7 @@
       "classId": "all-fishing",
       "groupId": null,
       "geographyId": null,
-      "value": 158.5494384765625,
+      "value": 158.549438,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -40,7 +40,7 @@
       "classId": "all-fishing",
       "groupId": null,
       "geographyId": null,
-      "value": 158.5494384765625,
+      "value": 158.549438,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -96,7 +96,7 @@
       "classId": "country:PRT",
       "groupId": null,
       "geographyId": null,
-      "value": 158.5494384765625,
+      "value": 158.549438,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -130,7 +130,7 @@
       "classId": "country:PRT",
       "groupId": null,
       "geographyId": null,
-      "value": 158.5494384765625,
+      "value": 158.549438,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -186,7 +186,7 @@
       "classId": "gear_type:fixed-gear",
       "groupId": null,
       "geographyId": null,
-      "value": 8.77750015258789,
+      "value": 8.7775,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -220,7 +220,7 @@
       "classId": "gear_type:fixed-gear",
       "groupId": null,
       "geographyId": null,
-      "value": 8.77750015258789,
+      "value": 8.7775,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -231,7 +231,7 @@
       "classId": "gear_type:pole-and-line",
       "groupId": null,
       "geographyId": null,
-      "value": 111.81138610839844,
+      "value": 111.811386,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -265,7 +265,7 @@
       "classId": "gear_type:pole-and-line",
       "groupId": null,
       "geographyId": null,
-      "value": 111.81138610839844,
+      "value": 111.811386,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -276,7 +276,7 @@
       "classId": "gear_type:set-longlines",
       "groupId": null,
       "geographyId": null,
-      "value": 13.41722297668457,
+      "value": 13.417223,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -310,7 +310,7 @@
       "classId": "gear_type:set-longlines",
       "groupId": null,
       "geographyId": null,
-      "value": 13.41722297668457,
+      "value": 13.417223,
       "extra": {
         "sketchName": "sketch2"
       }

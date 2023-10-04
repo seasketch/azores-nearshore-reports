@@ -1,6 +1,5 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
-import { Tooltip } from "@material-ui/core/";
 import { CheckCircleFill, InfoCircleFill } from "@styled-icons/bootstrap";
 import {
   ClassTableColumnConfig,
@@ -21,6 +20,7 @@ import {
   getMetricGroupObjectiveId,
   getObjectiveById,
 } from "@seasketch/geoprocessing";
+import { InformationTooltip } from "./InformationTooltip";
 
 /**
  * Table displaying class metrics, one class per table row.  Having more than one metric per class may yield unexpected results
@@ -168,18 +168,7 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
                   title: (value: number) => (
                     <>
                       {isNaN(value) ? (
-                        <Tooltip
-                          title="This class has no value in the selected planning area"
-                          arrow
-                        >
-                          <InfoCircleFill
-                            size={14}
-                            style={{
-                              color: "#83C6E6",
-                              paddingRight: 5,
-                            }}
-                          />
-                        </Tooltip>
+                        <InformationTooltip text="This feature class is not found in the selected planning area" />
                       ) : target && value >= target ? (
                         <CheckCircleFill
                           size={14}

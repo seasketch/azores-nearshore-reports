@@ -94,7 +94,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000021974476453578973,
+      "value": 0.000022,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -292,7 +292,7 @@
       "classId": "santa-maria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0467069872493866,
+      "value": 0.046707,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -314,7 +314,7 @@
       "classId": "santa-maria_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.3037910193246205,
+      "value": 0.303791,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -325,7 +325,7 @@
       "classId": "santa-maria_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.2910331501202563,
+      "value": 0.291033,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -336,7 +336,7 @@
       "classId": "santa-maria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000794984754293182,
+      "value": 0.000795,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -347,7 +347,7 @@
       "classId": "santa-maria_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.20948120563161865,
+      "value": 0.209481,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -435,7 +435,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00013725346599269272,
+      "value": 0.000137,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -446,7 +446,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000041414075343748635,
+      "value": 0.000041,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -457,7 +457,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000523526112060746,
+      "value": 0.000524,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -490,7 +490,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00017901023932020976,
+      "value": 0.000179,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }

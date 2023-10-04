@@ -40,7 +40,7 @@
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.04102944943809561,
+      "value": 0.041029,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -52,7 +52,7 @@
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00216971488674389,
+      "value": 0.00217,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -63,7 +63,7 @@
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.03885973455135172,
+      "value": 0.03886,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -74,7 +74,7 @@
       "classId": "all_energy_development_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000300310477804544,
+      "value": 0.0003,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -86,7 +86,7 @@
       "classId": "all_energy_development_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000300310477804544,
+      "value": 0.0003,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -108,7 +108,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.1508141998880258,
+      "value": 0.150814,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -120,7 +120,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0010351580683334305,
+      "value": 0.001035,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -131,7 +131,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.14977904181969237,
+      "value": 0.149779,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -142,7 +142,7 @@
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.18845551905974656,
+      "value": 0.188456,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -154,7 +154,7 @@
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0015982453968232946,
+      "value": 0.001598,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -165,7 +165,7 @@
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.18685727366292326,
+      "value": 0.186857,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -176,7 +176,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0004631623586745792,
+      "value": 0.000463,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -199,7 +199,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0004626914205006494,
+      "value": 0.000463,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -244,7 +244,7 @@
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.12387498624056104,
+      "value": 0.123875,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -256,7 +256,7 @@
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0063096827032507186,
+      "value": 0.00631,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -267,7 +267,7 @@
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.11756530353731032,
+      "value": 0.117565,
       "extra": {
         "sketchName": "santamaria"
       }

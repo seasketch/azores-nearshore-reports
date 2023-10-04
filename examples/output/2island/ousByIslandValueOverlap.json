@@ -278,7 +278,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00001554292236960464,
+      "value": 0.000016,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -301,7 +301,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00001554292236960464,
+      "value": 0.000016,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -890,7 +890,7 @@
       "classId": "santa-maria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.05722208891360481,
+      "value": 0.057222,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -913,7 +913,7 @@
       "classId": "santa-maria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.05722208891360481,
+      "value": 0.057222,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -958,7 +958,7 @@
       "classId": "santa-maria_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.26691445196519226,
+      "value": 0.266914,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -981,7 +981,7 @@
       "classId": "santa-maria_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.26691445196519226,
+      "value": 0.266914,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -992,7 +992,7 @@
       "classId": "santa-maria_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.22239862211381478,
+      "value": 0.222399,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -1015,7 +1015,7 @@
       "classId": "santa-maria_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.22239862211381478,
+      "value": 0.222399,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -1026,7 +1026,7 @@
       "classId": "santa-maria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0005671805022871013,
+      "value": 0.000567,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -1049,7 +1049,7 @@
       "classId": "santa-maria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0005671805022871013,
+      "value": 0.000567,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -1060,7 +1060,7 @@
       "classId": "santa-maria_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.17847931165795217,
+      "value": 0.178479,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -1083,7 +1083,7 @@
       "classId": "santa-maria_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.17847931165795217,
+      "value": 0.178479,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -1332,7 +1332,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0014795410104815332,
+      "value": 0.00148,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -1344,7 +1344,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0013952964150192315,
+      "value": 0.001395,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -1355,7 +1355,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00008424459546230167,
+      "value": 0.000084,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -1366,7 +1366,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0023216598535642508,
+      "value": 0.002322,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -1378,7 +1378,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.002294981873095514,
+      "value": 0.002295,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -1389,7 +1389,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000026677980468736706,
+      "value": 0.000027,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -1400,7 +1400,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0015215647014458211,
+      "value": 0.001522,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -1412,7 +1412,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0014919442733685173,
+      "value": 0.001492,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -1423,7 +1423,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000029620428077303806,
+      "value": 0.00003,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -1502,7 +1502,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.009521903385044883,
+      "value": 0.009522,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -1514,7 +1514,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.009395612023797018,
+      "value": 0.009396,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -1525,7 +1525,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00012629136124786555,
+      "value": 0.000126,
       "extra": {
         "sketchName": "santamaria"
       }
