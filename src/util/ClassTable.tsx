@@ -173,7 +173,11 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
                   title: (value: number) => (
                     <>
                       {isNaN(value) ? (
-                        <Tooltip text={tooltipText}>
+                        <Tooltip
+                          text={tooltipText}
+                          placement="bottom"
+                          offset={{ horizontal: 0, vertical: 5 }}
+                        >
                           <InfoCircleFill
                             size={14}
                             style={{

@@ -24,7 +24,6 @@ export interface TooltipProps {
 
 export const TooltipContainer = styled.div<TooltipContainerProps>`
   visibility: ${({ visible }) => (visible ? "visible" : "hidden")};
-  display: ${({ visible }) => (visible ? "flex" : "none")};
   z-index: 100;
   width: 100%;
   max-width: 200px;
@@ -42,7 +41,6 @@ export const TooltipTrigger = styled.button`
 
 export const TooltipItem = styled.div`
   font-family: sans-serif;
-  justify-content: flex-start;
   text-align: center;
   padding: 5px;
 `;
