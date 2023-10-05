@@ -152,6 +152,11 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
               }
             })();
 
+            const tooltipText =
+              (classesByName[row.classId || "missing"]?.display ||
+                "This feature class") +
+              " not found in the selected planning area";
+
             const chartProps = {
               ...(colConfig.chartOptions ? colConfig.chartOptions : {}),
               rows: [
@@ -168,7 +173,7 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
                   title: (value: number) => (
                     <>
                       {isNaN(value) ? (
-                        <InformationTooltip text="This feature class is not found in the selected planning area" />
+                        <InformationTooltip text={tooltipText} />
                       ) : target && value >= target ? (
                         <CheckCircleFill
                           size={14}
