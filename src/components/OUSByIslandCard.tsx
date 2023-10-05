@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
   Collapse,
   ResultsCard,
-  ClassTable,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
@@ -18,6 +17,7 @@ import {
 } from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
+import { ClassTable } from "../util/ClassTable";
 
 interface ByIslandProp extends GeoProp {
   hidden: boolean;

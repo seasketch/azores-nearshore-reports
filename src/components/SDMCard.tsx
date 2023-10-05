@@ -2,8 +2,6 @@ import React from "react";
 import {
   Collapse,
   ResultsCard,
-  SketchClassTable,
-  ClassTable,
   useSketchProperties,
   LayerToggle,
   ToolbarCard,
@@ -26,6 +24,8 @@ import {
 } from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
+import { ClassTable } from "../util/ClassTable";
+import { SketchClassTable } from "../util/SketchClassTable";
 
 export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();

@@ -1,8 +1,6 @@
 import React from "react";
 import {
   Collapse,
-  ClassTable,
-  SketchClassTable,
   ResultsCard,
   useSketchProperties,
   ToolbarCard,
@@ -28,6 +26,8 @@ import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
+import { ClassTable } from "../util/ClassTable";
+import { SketchClassTable } from "../util/SketchClassTable";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 

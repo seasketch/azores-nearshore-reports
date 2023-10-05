@@ -20,6 +20,7 @@ import {
   getMetricGroupObjectiveId,
   getObjectiveById,
 } from "@seasketch/geoprocessing";
+import { InformationTooltip } from "./InformationTooltip";
 
 /**
  * Table displaying class metrics, one class per table row.  Having more than one metric per class may yield unexpected results
@@ -165,7 +166,9 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
                 {
                   title: (value: number) => (
                     <>
-                      {target && value >= target ? (
+                      {isNaN(value) ? (
+                        <InformationTooltip text="This feature class is not found in the selected planning area" />
+                      ) : target && value >= target ? (
                         <CheckCircleFill
                           size={14}
                           style={{ color: "#78c679", paddingRight: 5 }}
@@ -173,7 +176,7 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
                       ) : (
                         <></>
                       )}
-                      {percentWithEdge(value / 100)}
+                      {percentWithEdge(isNaN(value) ? 0 : value / 100)}
                     </>
                   ),
                 },
