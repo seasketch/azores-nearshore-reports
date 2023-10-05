@@ -73,12 +73,6 @@ export const Tooltip = ({
             offset: [horizontal, vertical],
           },
         },
-        {
-          name: "arrow",
-          options: {
-            padding: 5,
-          },
-        },
       ],
     }
   );
@@ -109,7 +103,6 @@ export const Tooltip = ({
           <TooltipItem>{text}</TooltipItem>
         </TooltipContainer>
       </div>
-      <div className="arrow" style={styles.arrow} {...attributes.arrow}></div>
     </React.StrictMode>
   );
 };
