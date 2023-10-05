@@ -20,7 +20,7 @@ import {
   getMetricGroupObjectiveId,
   getObjectiveById,
 } from "@seasketch/geoprocessing";
-import { InformationTooltip } from "./InformationTooltip";
+import { Tooltip } from "./Tooltip";
 
 /**
  * Table displaying class metrics, one class per table row.  Having more than one metric per class may yield unexpected results
@@ -173,7 +173,14 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
                   title: (value: number) => (
                     <>
                       {isNaN(value) ? (
-                        <InformationTooltip text={tooltipText} />
+                        <Tooltip text={tooltipText}>
+                          <InfoCircleFill
+                            size={14}
+                            style={{
+                              color: "#83C6E6",
+                            }}
+                          />
+                        </Tooltip>
                       ) : target && value >= target ? (
                         <CheckCircleFill
                           size={14}
