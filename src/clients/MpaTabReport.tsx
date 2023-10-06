@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import {
-  SegmentControl,
   ReportPage,
   Card,
   ToolbarCard,
@@ -13,6 +12,7 @@ import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync";
 import geographies from "../../project/geographies.json";
 import { getGeographyById } from "../util/getGeographyById";
+import { SegmentControl } from "../util/SegmentControl";
 
 const enableAllTabs = false;
 
