@@ -8,7 +8,7 @@ export interface SegmentControlProps {
 
 export const SegmentControl = (props: SegmentControlProps) => {
   const index = props.segments.findIndex((seg) => seg.id === props.value);
-  const [segmentSizes, setSegmentSizes] = useState<number[]>();
+  const [segmentWidth, setSegmentWidth] = useState<number>(0);
   const containerRef = useRef<HTMLDivElement>(null);
   if (index === -1) {
     throw new Error(
@@ -21,18 +21,7 @@ export const SegmentControl = (props: SegmentControlProps) => {
   useEffect(() => {
     if (containerRef.current) {
       const containerWidth = containerRef.current.clientWidth;
-      const segmentWidth = containerWidth / props.segments.length;
-      const sizes: number[] = [];
-      for (const child of containerRef.current.childNodes) {
-        child as HTMLSpanElement;
-        if (child.nodeName === "SPAN") {
-          const span = child as HTMLSpanElement;
-          if (span.getAttribute("role") !== "button") {
-            sizes.push(segmentWidth);
-          }
-        }
-      }
-      setSegmentSizes(sizes);
+      setSegmentWidth(containerWidth / props.segments.length);
     }
   }, [containerRef.current]);
 
@@ -56,10 +45,8 @@ export const SegmentControl = (props: SegmentControlProps) => {
           transitionProperty: "all",
           transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
           transitionDuration: "75ms",
-          insetInlineStart: `${
-            segmentSizes ? segmentSizes[index] * index : 0
-          }px`,
-          width: `${segmentSizes ? segmentSizes[index] : 0}px`,
+          insetInlineStart: `${segmentWidth * index}px`,
+          width: `${segmentWidth}px`,
           fontSize: "0.875rem",
           lineHeight: "1.25rem",
           borderRadius: "0.25rem",
@@ -93,7 +80,7 @@ export const SegmentControl = (props: SegmentControlProps) => {
             lineHeight: "1.25rem",
             flex: "1 1 auto",
             textAlign: "center",
-            width: `${segmentSizes ? segmentSizes[index] : 0}px`,
+            width: `${segmentWidth}px`,
             cursor: "pointer",
             borderRadius: "0.375rem",
             padding: "0.125rem",
