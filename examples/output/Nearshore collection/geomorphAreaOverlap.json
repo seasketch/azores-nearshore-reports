@@ -106,7 +106,7 @@
       "classId": "canyons",
       "groupId": null,
       "geographyId": null,
-      "value": 84432161.61766227,
+      "value": 84432161.61767991,
       "extra": {
         "sketchName": "5"
       }
@@ -128,7 +128,7 @@
       "classId": "canyons",
       "groupId": null,
       "geographyId": null,
-      "value": 84432161.61766227,
+      "value": 84432161.61767991,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -162,7 +162,7 @@
       "classId": "escarpments",
       "groupId": null,
       "geographyId": null,
-      "value": 44929888.743874796,
+      "value": 44929888.74387369,
       "extra": {
         "sketchName": "4"
       }
@@ -184,7 +184,7 @@
       "classId": "escarpments",
       "groupId": null,
       "geographyId": null,
-      "value": 35998649.95874889,
+      "value": 35998649.958757706,
       "extra": {
         "sketchName": "3"
       }
@@ -195,7 +195,7 @@
       "classId": "escarpments",
       "groupId": null,
       "geographyId": null,
-      "value": 345617750.7847212,
+      "value": 345617750.78473,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -218,7 +218,7 @@
       "classId": "plateaus",
       "groupId": null,
       "geographyId": null,
-      "value": 151896364.55241835,
+      "value": 151896364.55242717,
       "extra": {
         "sketchName": "2"
       }
@@ -262,7 +262,7 @@
       "classId": "plateaus",
       "groupId": null,
       "geographyId": null,
-      "value": 835293773.8012418,
+      "value": 835293773.8012506,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -285,7 +285,7 @@
       "classId": "ridges",
       "groupId": null,
       "geographyId": null,
-      "value": 33666869.56558291,
+      "value": 33666869.56557905,
       "extra": {
         "sketchName": "2"
       }
@@ -307,7 +307,7 @@
       "classId": "ridges",
       "groupId": null,
       "geographyId": null,
-      "value": 77308260.25523663,
+      "value": 77308260.25523883,
       "extra": {
         "sketchName": "5"
       }
@@ -318,7 +318,7 @@
       "classId": "ridges",
       "groupId": null,
       "geographyId": null,
-      "value": 27243174.10849922,
+      "value": 27243174.108498678,
       "extra": {
         "sketchName": "3"
       }
@@ -329,7 +329,7 @@
       "classId": "ridges",
       "groupId": null,
       "geographyId": null,
-      "value": 295442867.3770385,
+      "value": 295442867.3770363,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -419,7 +419,7 @@
       "classId": "medium",
       "groupId": null,
       "geographyId": null,
-      "value": 2287458.1966434964,
+      "value": 2287458.1966434657,
       "extra": {
         "sketchName": "2"
       }
@@ -463,7 +463,7 @@
       "classId": "medium",
       "groupId": null,
       "geographyId": null,
-      "value": 8211783.653813878,
+      "value": 8211783.653813847,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true

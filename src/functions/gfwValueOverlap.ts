@@ -36,7 +36,7 @@ export async function gfwValueOverlap(
         if (!curClass.datasourceId)
           throw new Error(`Expected datasourceId for ${curClass}`);
         const url = `${project.dataBucketUrl()}${getCogFilename(
-          curClass.datasourceId
+          project.getInternalRasterDatasourceById(curClass.datasourceId)
         )}`;
         const raster = await loadCogWindow(url, { windowBox: box });
 

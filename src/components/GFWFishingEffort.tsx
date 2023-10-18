@@ -15,14 +15,11 @@ import {
   NullSketchCollection,
   Metric,
   MetricGroup,
+  toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 import cloneDeep from "lodash/cloneDeep";
 import { Trans, useTranslation } from "react-i18next";
 import project from "../../project";
-import {
-  getPrecalcMetrics,
-  toPercentMetric,
-} from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
 import { ClassTable } from "../util/ClassTable";
@@ -32,7 +29,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
   const metricGroup = project.getMetricGroup("gfwValueOverlap", t);
-  const precalcTotals: Metric[] = getPrecalcMetrics(
+  const precalcTotals: Metric[] = project.getPrecalcMetrics(
     metricGroup,
     "sum",
     props.geographyId
@@ -58,7 +55,9 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
 
           const metricsValueAndPerc = [
             ...data.metrics,
-            ...toPercentMetric(data.metrics, precalcTotals, percMetricIdName),
+            ...toPercentMetric(data.metrics, precalcTotals, {
+              idProperty: percMetricIdName,
+            }),
           ];
 
           const metricsAll = metricsValueAndPerc.filter((m) =>

@@ -8,14 +8,11 @@ import {
   ReportResult,
   metricsWithSketchId,
   sortMetrics,
+  toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 import { ClassTable } from "../util/ClassTable";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
-import {
-  getPrecalcMetrics,
-  toPercentMetric,
-} from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
 
@@ -32,7 +29,11 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
   const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
-  const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", "nearshore");
+  const precalcMetrics = project.getPrecalcMetrics(
+    metricGroup,
+    "sum",
+    "nearshore"
+  );
 
   const mapLabel = t("Map");
   const sectorLabel = t("Sector");

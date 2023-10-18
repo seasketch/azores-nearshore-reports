@@ -15,11 +15,8 @@ import {
   valueFormatter,
   Metric,
   MetricGroup,
-} from "@seasketch/geoprocessing/client-core";
-import {
-  getPrecalcMetrics,
   toPercentMetric,
-} from "../../data/bin/getPrecalcMetrics";
+} from "@seasketch/geoprocessing/client-core";
 
 import project from "../../project";
 import Translator from "./TranslatorAsync";
@@ -36,7 +33,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
   const { t } = useTranslation();
 
   const metricGroup = project.getMetricGroup("geomorphAreaOverlap", t);
-  const precalcMetrics = getPrecalcMetrics(
+  const precalcMetrics = project.getPrecalcMetrics(
     metricGroup,
     "area",
     props.geographyId
@@ -63,11 +60,9 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
 
           const finalMetrics = [
             ...singleMetrics,
-            ...toPercentMetric(
-              singleMetrics,
-              precalcMetrics,
-              project.getMetricGroupPercId(metricGroup)
-            ),
+            ...toPercentMetric(singleMetrics, precalcMetrics, {
+              idProperty: project.getMetricGroupPercId(metricGroup),
+            }),
           ];
 
           return (

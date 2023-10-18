@@ -11,8 +11,6 @@ import {
   NullSketchCollection,
   NullSketch,
   getSketchFeatures,
-  getFlatGeobufFilename,
-  clipMultiMerge,
 } from "@seasketch/geoprocessing";
 import project from "../../project";
 import {
@@ -23,13 +21,12 @@ import {
   firstMatchingMetric,
   getUserAttribute,
 } from "@seasketch/geoprocessing/client-core";
-import { getPrecalcMetrics } from "../../data/bin/getPrecalcMetrics";
 import { clipSketchToGeography } from "../util/clipSketchToGeography";
 import { ExtraParams } from "../types";
 import { getParamStringArray } from "../util/extraParams";
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
-const boundaryTotalMetrics = getPrecalcMetrics(
+const boundaryTotalMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
   "nearshore"

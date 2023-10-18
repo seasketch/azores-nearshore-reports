@@ -64,7 +64,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 155513803.23309192,
+      "value": 155513803.2330963,
       "extra": {
         "sketchName": "2"
       }
@@ -75,7 +75,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 155513803.23309192,
+      "value": 155513803.2330963,
       "extra": {
         "sketchName": "2"
       }
@@ -130,7 +130,7 @@
       "classId": "nearshore",
       "groupId": null,
       "geographyId": null,
-      "value": 303350260.45403963,
+      "value": 303350260.45403516,
       "extra": {
         "sketchName": "5"
       }
@@ -141,7 +141,7 @@
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
       "geographyId": null,
-      "value": 303350260.45403963,
+      "value": 303350260.45403516,
       "extra": {
         "sketchName": "5"
       }

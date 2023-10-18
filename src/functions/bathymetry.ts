@@ -32,7 +32,7 @@ export async function bathymetry(
   if (!mg.classes[0].datasourceId)
     throw new Error(`Expected datasourceId for ${mg.classes[0]}`);
   const url = `${project.dataBucketUrl()}${getCogFilename(
-    mg.classes[0].datasourceId
+    project.getInternalRasterDatasourceById(mg.classes[0].datasourceId)
   )}`;
   const raster = await loadCogWindow(url, {
     windowBox: box,

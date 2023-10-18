@@ -90,7 +90,7 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
             ...toPercentMetric(
               singlePeopleCountMetrics,
               singlePeopleTotalCountMetrics,
-              PERC_METRIC_ID
+              { idProperty: PERC_METRIC_ID }
             ),
           ];
 

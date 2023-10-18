@@ -11,13 +11,10 @@ import {
   metricsWithSketchId,
   Metric,
   MetricGroup,
+  toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
-import {
-  getPrecalcMetrics,
-  toPercentMetric,
-} from "../../data/bin/getPrecalcMetrics";
 import { ClassTable } from "../util/ClassTable";
 import { SketchClassTable } from "../util/SketchClassTable";
 import { GeoProp } from "../types";
@@ -27,7 +24,7 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
   const metricGroup = project.getMetricGroup("ousValueOverlap");
-  const precalcMetrics = getPrecalcMetrics(
+  const precalcMetrics = project.getPrecalcMetrics(
     metricGroup,
     "sum",
     props.geographyId

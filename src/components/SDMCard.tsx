@@ -15,15 +15,12 @@ import {
   sortMetrics,
   Metric,
   MetricGroup,
+  toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { ClassTable } from "../util/ClassTable";
 import { SketchClassTable } from "../util/SketchClassTable";
 import { Trans, useTranslation } from "react-i18next";
-import {
-  getPrecalcMetrics,
-  toPercentMetric,
-} from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../types";
 import { getGeographyById } from "../util/getGeographyById";
 
@@ -31,7 +28,7 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
   const metricGroup = project.getMetricGroup("sdmValueOverlap", t);
-  const precalcMetrics: Metric[] = getPrecalcMetrics(
+  const precalcMetrics: Metric[] = project.getPrecalcMetrics(
     metricGroup,
     "sum",
     props.geographyId

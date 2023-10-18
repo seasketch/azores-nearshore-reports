@@ -32,19 +32,15 @@ import {
   Objective,
   getUserAttribute,
   ObjectiveAnswer,
+  toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 import {
   getMetricGroupObjectiveIds,
   getMinYesCountMap,
-  getObjectiveById,
   isSketchCollection,
 } from "@seasketch/geoprocessing";
 import { Trans, useTranslation } from "react-i18next";
 import styled from "styled-components";
-import {
-  getPrecalcMetrics,
-  toPercentMetric,
-} from "../../data/bin/getPrecalcMetrics";
 
 import project from "../../project";
 import { flattenByGroupAllClass } from "../util/flattenByGroupAllClass";
@@ -96,7 +92,7 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
         );
 
         // Get precalcalulated total metrics from precalc.json
-        const boundaryTotalMetrics = getPrecalcMetrics(
+        const boundaryTotalMetrics = project.getPrecalcMetrics(
           mg,
           "area",
           props.geographyId
