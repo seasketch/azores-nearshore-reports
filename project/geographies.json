@@ -4,6 +4,7 @@
         "datasourceId": "6nm_boundary",
         "display": "Azores",
         "layerId":"x6kSfK6Lb",
+        "groups": ["default-boundary"],
         "precalc": true
     },
     {
@@ -11,6 +12,7 @@
         "datasourceId": "corvo",
         "display": "Corvo",
         "layerId":"8FCgjRWU0",
+        "groups": ["default-island"],
         "precalc": true
     },
     {

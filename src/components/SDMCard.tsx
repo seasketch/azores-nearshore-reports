@@ -28,10 +28,13 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
   const metricGroup = project.getMetricGroup("sdmValueOverlap", t);
+  const curGeography = getGeographyById(props.geographyId, {
+    fallbackGroup: "default-boundary",
+  });
   const precalcMetrics: Metric[] = project.getPrecalcMetrics(
     metricGroup,
     "sum",
-    props.geographyId
+    curGeography.geographyId
   );
   const mapLabel = t("Map");
   const breedingBirdsLabel = t("Breeding Birds");
@@ -42,7 +45,7 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Valuable Species Habitat")}
         functionName="sdmValueOverlap"
-        extraParams={{ geographyIds: [props.geographyId] }}
+        extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
         {(data: ReportResult) => {
@@ -93,7 +96,7 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
                 <Trans i18nKey="SDM Card 1">
                   This report summarizes the key species habitat within the
                 </Trans>{" "}
-                {getGeographyById(props.geographyId).display}{" "}
+                {curGeography.display}{" "}
                 <Trans i18nKey="SDM Card 2">
                   nearshore planning area protected by this plan, based on
                   species distribution models. The higher the percentage, the

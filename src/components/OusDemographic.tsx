@@ -18,6 +18,7 @@ import totals from "../../data/bin/ousDemographicPrecalcTotals.json";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
+import { getGeographyById } from "../util/getGeographyById";
 const precalcTotals = totals as ReportResultBase;
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
@@ -35,12 +36,17 @@ const TOTAL_METRIC_ID = `${overallMetricGroup.metricId}Total`;
 
 export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
   const { t } = useTranslation();
+
+  const curGeography = getGeographyById(props.geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+
   return (
     <>
       <ResultsCard
         title={t("Ocean Use Demographics")}
         functionName="ousDemographicOverlap"
-        extraParams={{ geographyIds: [props.geographyId] }}
+        extraParams={{ geographyIds: [curGeography.geographyId] }}
       >
         {(data: ReportResult) => {
           // Filter down to people count metrics for top-level sketch
@@ -90,7 +96,7 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
             ...toPercentMetric(
               singlePeopleCountMetrics,
               singlePeopleTotalCountMetrics,
-              { idProperty: PERC_METRIC_ID }
+              { metricIdOverride: PERC_METRIC_ID }
             ),
           ];
 

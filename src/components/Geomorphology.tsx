@@ -32,12 +32,17 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
+  const curGeography = getGeographyById(props.geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+
   const metricGroup = project.getMetricGroup("geomorphAreaOverlap", t);
   const precalcMetrics = project.getPrecalcMetrics(
     metricGroup,
     "area",
-    props.geographyId
+    curGeography.geographyId
   );
+  console.log("precalcMetrics", precalcMetrics);
 
   const mapLabel = t("Map");
   const benthicLabel = t("Habitat Type");
@@ -50,7 +55,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Benthic Habitat")}
         functionName="geomorphAreaOverlap"
-        extraParams={{ geographyIds: [props.geographyId] }}
+        extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
         {(data: ReportResult) => {
@@ -61,7 +66,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
           const finalMetrics = [
             ...singleMetrics,
             ...toPercentMetric(singleMetrics, precalcMetrics, {
-              idProperty: project.getMetricGroupPercId(metricGroup),
+              metricIdOverride: project.getMetricGroupPercId(metricGroup),
             }),
           ];
 
@@ -83,7 +88,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
                   communities. This report summarizes the percentage of each
                   nearshore benthic habitat within the
                 </Trans>{" "}
-                {getGeographyById(props.geographyId).display}{" "}
+                {curGeography.display}{" "}
                 <Trans i18nKey="Geomorphology Card 2">
                   nearshore planning area found in this plan.
                 </Trans>

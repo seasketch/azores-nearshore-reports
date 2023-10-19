@@ -7,7 +7,6 @@ import {
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
-  ReportResultBase,
   toNullSketchArray,
   flattenBySketchAllClass,
   metricsWithSketchId,
@@ -29,10 +28,13 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
   const metricGroup = project.getMetricGroup("gfwValueOverlap", t);
+  const curGeography = getGeographyById(props.geographyId, {
+    fallbackGroup: "default-boundary",
+  });
   const precalcTotals: Metric[] = project.getPrecalcMetrics(
     metricGroup,
     "sum",
-    props.geographyId
+    curGeography.geographyId
   );
 
   const allFishingLabel = t("All Fishing");
@@ -48,7 +50,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Fishing Effort - 2019-2022")}
         functionName="gfwValueOverlap"
-        extraParams={{ geographyIds: [props.geographyId] }}
+        extraParams={{ geographyIds: [curGeography.geographyId] }}
       >
         {(data: ReportResult) => {
           const percMetricIdName = `${metricGroup.metricId}Perc`;
@@ -56,7 +58,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
           const metricsValueAndPerc = [
             ...data.metrics,
             ...toPercentMetric(data.metrics, precalcTotals, {
-              idProperty: percMetricIdName,
+              metricIdOverride: percMetricIdName,
             }),
           ];
 
@@ -144,7 +146,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
                   This report summarizes the proportion of 2019-2022 fishing
                   effort within the
                 </Trans>{" "}
-                {getGeographyById(props.geographyId).display}{" "}
+                {curGeography.display}{" "}
                 <Trans i18nKey="GFW Card 2">
                   nearshore planning area that that overlaps with this plan, as
                   reported by Global Fishing Watch. The higher the percentage,
