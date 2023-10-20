@@ -45,7 +45,6 @@ import styled from "styled-components";
 import project from "../../project";
 import { flattenByGroupAllClass } from "../util/flattenByGroupAllClass";
 import { GeoProp } from "../types";
-import { getGeographyById } from "../util/getGeographyById";
 
 // Mapping groupIds to colors
 const groupColorMap: Record<string, string> = {
@@ -124,7 +123,7 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
                 </b>
                 {", "}
                 {t("which is")} <b>{percDisplay}</b> {t("of")}{" "}
-                {getGeographyById(props.geographyId).display}{" "}
+                {project.getGeographyById(props.geographyId).display}{" "}
                 {t("nearshore waters")}.
               </KeySection>
               {isCollection
@@ -462,7 +461,8 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA counts towards protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("nearshore waters.")}
+          {project.getGeographyById(geographyId).display}{" "}
+          {t("nearshore waters.")}
         </>
       );
     } else if (objective.countsToward[level] === OBJECTIVE_NO) {
@@ -470,7 +470,8 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA does not count towards protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("nearshore waters.")}
+          {project.getGeographyById(geographyId).display}{" "}
+          {t("nearshore waters.")}
         </>
       );
     }
@@ -486,7 +487,7 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA counts towards fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display}{" "}
+          {project.getGeographyById(geographyId).display}{" "}
           {t("nearshore waters as no-take.")}
         </>
       );
@@ -495,7 +496,7 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA does not count towards fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display}{" "}
+          {project.getGeographyById(geographyId).display}{" "}
           {t("nearshore waters as no-take.")}
         </>
       );
@@ -518,7 +519,8 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan meets the objective of protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("nearshore waters.")}
+          {project.getGeographyById(geographyId).display}{" "}
+          {t("nearshore waters.")}
         </>
       );
     } else if (objectiveMet === OBJECTIVE_NO) {
@@ -526,7 +528,8 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan does not meet the objective of protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("nearshore waters.")}
+          {project.getGeographyById(geographyId).display}{" "}
+          {t("nearshore waters.")}
         </>
       );
     }
@@ -542,7 +545,7 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan meets the objective of fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display}{" "}
+          {project.getGeographyById(geographyId).display}{" "}
           {t("nearshore waters as no-take.")}
         </>
       );
@@ -551,7 +554,7 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan does not meet the objective of fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display}{" "}
+          {project.getGeographyById(geographyId).display}{" "}
           {t("nearshore waters as no-take.")}
         </>
       );
@@ -582,7 +585,7 @@ const genMpaSketchTable = (
       ),
     },
     {
-      Header: "% " + getGeographyById(geographyId).display,
+      Header: "% " + project.getGeographyById(geographyId).display,
       accessor: (row) => percentWithEdge(row.value),
     },
   ];
@@ -627,7 +630,7 @@ const genGroupLevelTable = (
       ),
     },
     {
-      Header: "% " + getGeographyById(geographyId).display,
+      Header: "% " + project.getGeographyById(geographyId).display,
       accessor: (row) => {
         return (
           <GroupPill groupColorMap={groupColorMap} group={row.groupId}>

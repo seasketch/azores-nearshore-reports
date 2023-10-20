@@ -14,7 +14,6 @@ import { ClassTable } from "../util/ClassTable";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
-import { getGeographyById } from "../util/getGeographyById";
 
 interface ByIslandProp extends GeoProp {
   hidden: boolean;
@@ -29,7 +28,7 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
   const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
-  const curGeography = getGeographyById(props.geographyId, {
+  const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-island", // island-level only report so fallback to default island for testing
   });
   const precalcMetrics = project.getPrecalcMetrics(

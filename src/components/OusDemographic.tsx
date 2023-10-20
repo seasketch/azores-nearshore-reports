@@ -18,7 +18,6 @@ import totals from "../../data/bin/ousDemographicPrecalcTotals.json";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
-import { getGeographyById } from "../util/getGeographyById";
 const precalcTotals = totals as ReportResultBase;
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
@@ -37,7 +36,7 @@ const TOTAL_METRIC_ID = `${overallMetricGroup.metricId}Total`;
 export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
   const { t } = useTranslation();
 
-  const curGeography = getGeographyById(props.geographyId, {
+  const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
 

@@ -22,7 +22,6 @@ import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
-import { getGeographyById } from "../util/getGeographyById";
 import { ClassTable } from "../util/ClassTable";
 import { SketchClassTable } from "../util/SketchClassTable";
 
@@ -32,7 +31,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
-  const curGeography = getGeographyById(props.geographyId, {
+  const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
 

@@ -22,13 +22,12 @@ import { ClassTable } from "../util/ClassTable";
 import { SketchClassTable } from "../util/SketchClassTable";
 import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
-import { getGeographyById } from "../util/getGeographyById";
 
 export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
   const metricGroup = project.getMetricGroup("sdmValueOverlap", t);
-  const curGeography = getGeographyById(props.geographyId, {
+  const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
   const precalcMetrics: Metric[] = project.getPrecalcMetrics(

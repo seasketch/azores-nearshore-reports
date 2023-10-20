@@ -16,7 +16,6 @@ import {
   getFlatGeobufFilename,
 } from "@seasketch/geoprocessing";
 import simplify from "@turf/simplify";
-import { getGeographyById } from "./getGeographyById";
 
 /**
  * Clips sketch to geography. If geographyId and simplifyOptions are both null, returns original sketch
@@ -35,7 +34,7 @@ export async function clipSketchToGeography(
     else return sketch;
   }
 
-  const geography = getGeographyById(geographyId);
+  const geography = project.getGeographyById(geographyId);
   const box = sketch.bbox || bbox(sketch);
   const ds = project.getDatasourceById(
     geography.datasourceId
