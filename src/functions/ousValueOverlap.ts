@@ -12,8 +12,7 @@ import {
   getCogFilename,
   MultiPolygon,
 } from "@seasketch/geoprocessing";
-import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
-import bbox from "@turf/bbox";
+import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import project from "../../project";
 import { clipSketchToGeography } from "../util/clipSketchToGeography";
 import { DefaultExtraParams } from "../types";
@@ -33,7 +32,6 @@ export async function ousValueOverlap(
   });
 
   const clippedSketch = await clipSketchToGeography(sketch, curGeography);
-  const box = clippedSketch.bbox || bbox(clippedSketch);
   const metrics: Metric[] = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
@@ -43,9 +41,7 @@ export async function ousValueOverlap(
         const url = `${project.dataBucketUrl()}${getCogFilename(
           project.getInternalRasterDatasourceById(curClass.datasourceId)
         )}`;
-        const raster = await loadCogWindow(url, {
-          windowBox: box,
-        });
+        const raster = await loadCog(url);
         // start analysis as soon as source load done
         const overlapResult = await overlapRaster(
           metricGroup.metricId,

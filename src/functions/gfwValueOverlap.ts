@@ -11,8 +11,7 @@ import {
   overlapRaster,
   getCogFilename,
 } from "@seasketch/geoprocessing";
-import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
-import bbox from "@turf/bbox";
+import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import project from "../../project";
 import { DefaultExtraParams } from "../types";
 import { getGeographyIdFromParam } from "../util/extraParams";
@@ -28,7 +27,6 @@ export async function gfwValueOverlap(
   });
 
   const clippedSketch = await clipSketchToGeography(sketch, curGeography);
-  const box = clippedSketch.bbox || bbox(clippedSketch);
   const mg = project.getMetricGroup("gfwValueOverlap");
 
   const metrics: Metric[] = (
@@ -40,7 +38,7 @@ export async function gfwValueOverlap(
         const url = `${project.dataBucketUrl()}${getCogFilename(
           project.getInternalRasterDatasourceById(curClass.datasourceId)
         )}`;
-        const raster = await loadCogWindow(url, { windowBox: box });
+        const raster = await loadCog(url);
 
         const overlapResult = await overlapRaster(
           mg.metricId,

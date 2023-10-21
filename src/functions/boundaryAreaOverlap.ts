@@ -23,7 +23,7 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import { clipSketchToGeography } from "../util/clipSketchToGeography";
 import { DefaultExtraParams } from "../types";
-import { getParamStringArray } from "../util/extraParams";
+import { getGeographyIdFromParam } from "../util/extraParams";
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
 const boundaryTotalMetrics = project.getPrecalcMetrics(
@@ -40,10 +40,7 @@ export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams: DefaultExtraParams
 ): Promise<ReportResult> {
-  const geographyIds = getParamStringArray("geographyIds", extraParams);
-  if (!geographyIds || geographyIds.length === 0)
-    throw new Error("At least one geographyId required");
-  const geographyId = geographyIds[0];
+  const geographyId = getGeographyIdFromParam(extraParams);
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
