@@ -1,117 +1,90 @@
 import {
-  InternalVectorDatasource,
   Polygon,
+  MultiPolygon,
   Sketch,
   SketchCollection,
-  Feature,
-  MultiPolygon,
   toSketchArray,
+  Geography,
+  Feature,
+  isSketchCollection,
 } from "@seasketch/geoprocessing/client-core";
-import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
+import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
 import { featureCollection } from "@turf/helpers";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import {
-  clipMultiMerge,
-  getFlatGeobufFilename,
-} from "@seasketch/geoprocessing";
+import { clipMultiMerge } from "@seasketch/geoprocessing";
 import simplify from "@turf/simplify";
 
 /**
- * Clips sketch to geography. If geographyId and simplifyOptions are both null, returns original sketch
+ * Clips sketch to geography
  * @param sketch Sketch or SketchCollection
- * @param geographyId optional geographyId to clip sketch to
- * @param simplifyOptions optional simplifyOptions { tolerance: number; highQuality: boolean } to simplify geometries
+ * @param geography geography to clip sketch to
+ * @param simplifyOptions optionally simplify sketch
+ * @param simplifyOptions.tolerance tolerance in meters
+ * @param simplifyOptions.highQuality highQuality simplification
  * @returns Sketch | SketchCollection
+ * @throws if geography has no features
  */
-export async function clipSketchToGeography(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  geographyId?: string,
-  simplifyOptions?: { tolerance: number; highQuality: boolean }
-): Promise<Sketch<Polygon> | SketchCollection<Polygon>> {
-  if (!geographyId) {
+export async function clipSketchToGeography<G extends Polygon | MultiPolygon>(
+  sketch: Sketch<G> | SketchCollection<G>,
+  geography: Geography,
+  simplifyOptions?: { tolerance?: number; highQuality?: boolean }
+): Promise<Sketch<G> | SketchCollection<G>> {
+  if (!geography) {
     if (simplifyOptions) return simplify(sketch, simplifyOptions);
     else return sketch;
   }
 
-  const geography = project.getGeographyById(geographyId);
   const box = sketch.bbox || bbox(sketch);
-  const ds = project.getDatasourceById(
-    geography.datasourceId
-  ) as InternalVectorDatasource;
-  const subregion = await fgbFetchAll<Feature<Polygon | MultiPolygon>>(
-    project.dataBucketUrl() + getFlatGeobufFilename(ds),
-    box
+  // ToDo: need to support external geography too, can we borrow logic from precalc
+  const ds = project.getInternalVectorDatasourceById(geography.datasourceId);
+  // ToDo - accept array of geographies and union all their features, then intersect with sketch
+  const geogFeatures = await getFeatures<Feature<Polygon | MultiPolygon>>(
+    ds,
+    project.getDatasourceUrl(ds),
+    {
+      bbox: box,
+    }
   );
 
-  if (!subregion[0]) {
-    console.log(
-      "Sketch/SketchCollection",
-      sketch.properties.name,
-      "has no overlap with geography",
-      geography.geographyId
+  let finalsketches: Sketch<G>[] = [];
+  if (geogFeatures.length === 0 || !geogFeatures[0]) {
+    throw new Error(
+      `Geography ${geography.geographyId} has no features, check your datasource.`
     );
-
-    const sketches = toSketchArray(sketch);
-    const finalsketches: Sketch<Polygon>[] = [];
-    sketches.forEach((sketch) => {
-      sketch.geometry = {
-        type: "Polygon",
-        coordinates: [[[0.0, 0.0]], [[0.0, 0.0]], [[0.0, 0.0]]],
-      };
-      finalsketches.push(sketch);
-    });
-
-    //Sketch
-    if (finalsketches.length === 1) {
-      return finalsketches[0];
-    }
-    //Sketch Collection
-    else {
-      return {
-        properties: sketch.properties,
-        bbox: box,
-        type: "FeatureCollection",
-        features: finalsketches,
-      };
-    }
   } else {
     const sketches = toSketchArray(sketch);
-    const finalsketches: Sketch<Polygon>[] = [];
     sketches.forEach((sketch) => {
-      //const intersection = intersect(sketch.geometry, subregion[0].geometry);
       const intersection = clipMultiMerge(
         sketch,
-        featureCollection(subregion),
+        featureCollection(geogFeatures),
         "intersection"
-      );
-      if (!intersection) console.log("no intersection");
-      intersection
-        ? simplifyOptions
-          ? (sketch.geometry = simplify(
-              intersection.geometry as Polygon,
-              simplifyOptions
-            ))
-          : (sketch.geometry = intersection.geometry as Polygon)
-        : (sketch.geometry = {
-            type: "Polygon",
-            coordinates: [[[0.0, 0.0]], [[0.0, 0.0]], [[0.0, 0.0]]],
-          });
+      ) as Feature<G>;
+      if (!intersection)
+        console.log(
+          `Sketch ${sketch.id} does not intersect with geography ${geography.geographyId}`
+        );
+
+      if (intersection) {
+        if (simplifyOptions) {
+          sketch.geometry = simplify(intersection.geometry, simplifyOptions);
+        } else {
+          sketch.geometry = intersection.geometry;
+        }
+      }
+
       finalsketches.push(sketch);
     });
+  }
 
-    //Sketch
-    if (finalsketches.length === 1) {
-      return finalsketches[0];
-    }
-    //Sketch Collection
-    else {
-      return {
-        properties: sketch.properties,
-        bbox: box,
-        type: "FeatureCollection",
-        features: finalsketches,
-      };
-    }
+  if (isSketchCollection(sketch)) {
+    return {
+      properties: sketch.properties,
+      bbox: box,
+      type: "FeatureCollection",
+      features: finalsketches,
+    };
+  } else {
+    return finalsketches[0];
   }
 }

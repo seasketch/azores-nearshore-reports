@@ -15,7 +15,9 @@ describe("Basic smoke tests", () => {
   test("gfwValueOverlapSmoke - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await gfwValueOverlap(example);
+      const result = await gfwValueOverlap(example, {
+        geographyIds: ["nearshore"],
+      });
       expect(result).toBeTruthy();
       writeResultOutput(result, "gfwValueOverlap", example.properties.name);
     }

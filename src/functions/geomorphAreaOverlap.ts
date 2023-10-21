@@ -10,23 +10,27 @@ import {
   rekeyMetrics,
   getFlatGeobufFilename,
   isInternalVectorDatasource,
+  MultiPolygon,
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
 import { clipSketchToGeography } from "../util/clipSketchToGeography";
 import { overlapFeatures } from "../util/overlapFeatures";
-import { ExtraParams } from "../types";
-import { getParamStringArray } from "../util/extraParams";
+import { DefaultExtraParams } from "../types";
+import { getGeographyIdFromParam } from "../util/extraParams";
 
 export async function geomorphAreaOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams?: ExtraParams
+  sketch:
+    | Sketch<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>,
+  extraParams: DefaultExtraParams
 ): Promise<ReportResult> {
-  const geographyId = extraParams
-    ? getParamStringArray("geographyIds", extraParams)[0]
-    : undefined;
-  const clippedSketch = await clipSketchToGeography(sketch, geographyId);
+  const geographyId = getGeographyIdFromParam(extraParams);
+  const curGeography = project.getGeographyById(geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+  const clippedSketch = await clipSketchToGeography(sketch, curGeography);
   const box = clippedSketch.bbox || bbox(clippedSketch);
   const metricGroup = project.getMetricGroup("geomorphAreaOverlap");
 
@@ -85,6 +89,7 @@ export async function geomorphAreaOverlap(
           (metric): Metric => ({
             ...metric,
             classId: curClass.classId,
+            geographyId,
           })
         );
       })

@@ -6,6 +6,7 @@ import {
   Polygon,
   toSketchArray,
   getCogFilename,
+  MultiPolygon,
 } from "@seasketch/geoprocessing";
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
@@ -15,17 +16,21 @@ import project from "../../project";
 // @ts-ignore
 import geoblaze, { Georaster } from "geoblaze";
 import { clipSketchToGeography } from "../util/clipSketchToGeography";
-import { BathymetryResults, ExtraParams } from "../types";
-import { getParamStringArray } from "../util/extraParams";
+import { BathymetryResults, DefaultExtraParams } from "../types";
+import { getGeographyIdFromParam } from "../util/extraParams";
 
 export async function bathymetry(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams?: ExtraParams
+  sketch:
+    | Sketch<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>,
+  extraParams: DefaultExtraParams = {}
 ): Promise<BathymetryResults> {
-  const geographyId = extraParams
-    ? getParamStringArray("geographyIds", extraParams)[0]
-    : undefined;
-  const clippedSketch = await clipSketchToGeography(sketch, geographyId);
+  const geographyId = getGeographyIdFromParam(extraParams);
+  const curGeography = project.getGeographyById(geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+
+  const clippedSketch = await clipSketchToGeography(sketch, curGeography);
   const mg = project.getMetricGroup("bathymetry");
   const sketches = toSketchArray(clippedSketch);
   const box = clippedSketch.bbox || bbox(clippedSketch);
@@ -40,7 +45,7 @@ export async function bathymetry(
   const stats = await bathyStats(sketches, raster);
   if (!stats)
     throw new Error(
-      `No stats returned for ${sketch.properties.name} with ${geographyId} geography`
+      `No stats returned for ${sketch.properties.name} with ${curGeography.geographyId} geography`
     );
   return stats;
 }
@@ -50,7 +55,7 @@ export async function bathymetry(
  */
 export async function bathyStats(
   /** Polygons to filter for */
-  features: Feature<Polygon>[],
+  features: Feature<Polygon | MultiPolygon>[],
   /** bathymetry raster to search */
   raster: Georaster
 ): Promise<BathymetryResults> {

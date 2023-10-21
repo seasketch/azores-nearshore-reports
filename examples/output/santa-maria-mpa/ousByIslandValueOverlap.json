@@ -5,7 +5,7 @@
       "sketchId": "15881",
       "classId": "corvo_comm_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -16,7 +16,7 @@
       "sketchId": "15881",
       "classId": "corvo_rec_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -27,7 +27,7 @@
       "sketchId": "15881",
       "classId": "corvo_rec_sports_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -38,7 +38,7 @@
       "sketchId": "15881",
       "classId": "faial_aquaculture_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -49,7 +49,7 @@
       "sketchId": "15881",
       "classId": "faial_comm_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -60,7 +60,7 @@
       "sketchId": "15881",
       "classId": "faial_energy_dev_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -71,7 +71,7 @@
       "sketchId": "15881",
       "classId": "faial_rec_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -82,7 +82,7 @@
       "sketchId": "15881",
       "classId": "faial_rec_sports_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -93,7 +93,7 @@
       "sketchId": "15881",
       "classId": "faial_sci_tech_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000022,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -104,7 +104,7 @@
       "sketchId": "15881",
       "classId": "flores_comm_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -115,7 +115,7 @@
       "sketchId": "15881",
       "classId": "flores_cultural_heritage_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -126,7 +126,7 @@
       "sketchId": "15881",
       "classId": "flores_rec_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -137,7 +137,7 @@
       "sketchId": "15881",
       "classId": "flores_rec_sports_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -148,7 +148,7 @@
       "sketchId": "15881",
       "classId": "flores_sci_tech_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -159,7 +159,7 @@
       "sketchId": "15881",
       "classId": "flores_tour_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -170,7 +170,7 @@
       "sketchId": "15881",
       "classId": "graciosa_comm_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -181,7 +181,7 @@
       "sketchId": "15881",
       "classId": "graciosa_rec_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -192,7 +192,7 @@
       "sketchId": "15881",
       "classId": "graciosa_rec_sports_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -203,7 +203,7 @@
       "sketchId": "15881",
       "classId": "graciosa_sci_tech_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -214,7 +214,7 @@
       "sketchId": "15881",
       "classId": "graciosa_sec_def_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -225,7 +225,7 @@
       "sketchId": "15881",
       "classId": "graciosa_tour_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -236,7 +236,7 @@
       "sketchId": "15881",
       "classId": "pico_comm_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -247,7 +247,7 @@
       "sketchId": "15881",
       "classId": "pico_rec_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 8.734047312261572e-7,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -258,7 +258,7 @@
       "sketchId": "15881",
       "classId": "pico_rec_sports_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -269,7 +269,7 @@
       "sketchId": "15881",
       "classId": "pico_sci_tech_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 8.852104050327547e-7,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -280,7 +280,7 @@
       "sketchId": "15881",
       "classId": "pico_tour_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -291,7 +291,7 @@
       "sketchId": "15881",
       "classId": "santa-maria_comm_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.046707,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -302,7 +302,7 @@
       "sketchId": "15881",
       "classId": "santa-maria_cultural_heritage_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -313,7 +313,7 @@
       "sketchId": "15881",
       "classId": "santa-maria_rec_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.303791,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -324,7 +324,7 @@
       "sketchId": "15881",
       "classId": "santa-maria_rec_sports_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.291033,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -335,7 +335,7 @@
       "sketchId": "15881",
       "classId": "santa-maria_sci_tech_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000795,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -346,7 +346,7 @@
       "sketchId": "15881",
       "classId": "santa-maria_tour_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.209481,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -357,7 +357,7 @@
       "sketchId": "15881",
       "classId": "sao-jorge_comm_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -368,7 +368,7 @@
       "sketchId": "15881",
       "classId": "sao-jorge_cultural_heritage_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -379,7 +379,7 @@
       "sketchId": "15881",
       "classId": "sao-jorge_rec_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -390,7 +390,7 @@
       "sketchId": "15881",
       "classId": "sao-jorge_rec_sports_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -401,7 +401,7 @@
       "sketchId": "15881",
       "classId": "sao-jorge_sci_tech_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -412,7 +412,7 @@
       "sketchId": "15881",
       "classId": "sao-jorge_tour_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -423,7 +423,7 @@
       "sketchId": "15881",
       "classId": "sao-miguel_aquaculture_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -434,7 +434,7 @@
       "sketchId": "15881",
       "classId": "sao-miguel_comm_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000137,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -445,7 +445,7 @@
       "sketchId": "15881",
       "classId": "sao-miguel_rec_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000041,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -456,7 +456,7 @@
       "sketchId": "15881",
       "classId": "sao-miguel_rec_sports_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000524,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -467,7 +467,7 @@
       "sketchId": "15881",
       "classId": "sao-miguel_sci_tech_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 1.6976275121760587e-8,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -478,7 +478,7 @@
       "sketchId": "15881",
       "classId": "sao-miguel_sec_def_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -489,7 +489,7 @@
       "sketchId": "15881",
       "classId": "sao-miguel_tour_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000179,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -500,7 +500,7 @@
       "sketchId": "15881",
       "classId": "terceira_comm_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -511,7 +511,7 @@
       "sketchId": "15881",
       "classId": "terceira_cultural_heritage_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -522,7 +522,7 @@
       "sketchId": "15881",
       "classId": "terceira_rec_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -533,7 +533,7 @@
       "sketchId": "15881",
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -544,7 +544,7 @@
       "sketchId": "15881",
       "classId": "terceira_sci_tech_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -555,7 +555,7 @@
       "sketchId": "15881",
       "classId": "terceira_tour_fish_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"

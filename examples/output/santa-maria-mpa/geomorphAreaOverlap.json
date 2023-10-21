@@ -5,7 +5,7 @@
       "sketchId": "15881",
       "classId": "basins",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -16,7 +16,7 @@
       "sketchId": "15881",
       "classId": "canyons",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -27,7 +27,7 @@
       "sketchId": "15881",
       "classId": "escarpments",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 172088262.52744308,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -38,7 +38,7 @@
       "sketchId": "15881",
       "classId": "plateaus",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 206787541.51501244,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -49,7 +49,7 @@
       "sketchId": "15881",
       "classId": "ridges",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -60,7 +60,7 @@
       "sketchId": "15881",
       "classId": "high",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 6212716.026881896,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -71,7 +71,7 @@
       "sketchId": "15881",
       "classId": "medium",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -82,7 +82,7 @@
       "sketchId": "15881",
       "classId": "slope",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 185029490.55929545,
       "extra": {
         "sketchName": "santa-maria-mpa"

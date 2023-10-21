@@ -5,7 +5,7 @@
       "sketchId": "15881",
       "classId": "nearshore",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 206787541.7284503,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -16,7 +16,7 @@
       "sketchId": "15881",
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -27,7 +27,7 @@
       "sketchId": "15881",
       "classId": "nearshore",
       "groupId": "HIGHLY_PROTECTED",
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 206787541.7284503,
       "extra": {
         "sketchName": "santa-maria-mpa"

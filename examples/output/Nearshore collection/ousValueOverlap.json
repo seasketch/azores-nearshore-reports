@@ -5,7 +5,7 @@
       "sketchId": "15057",
       "classId": "all_aquaculture_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "Nearshore collection",
@@ -17,7 +17,7 @@
       "sketchId": "15058",
       "classId": "all_aquaculture_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "1"
@@ -28,7 +28,7 @@
       "sketchId": "15059",
       "classId": "all_aquaculture_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "2"
@@ -39,7 +39,7 @@
       "sketchId": "15063",
       "classId": "all_aquaculture_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "3"
@@ -50,7 +50,7 @@
       "sketchId": "15064",
       "classId": "all_aquaculture_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "4"
@@ -61,7 +61,7 @@
       "sketchId": "15065",
       "classId": "all_aquaculture_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "5"
@@ -72,8 +72,8 @@
       "sketchId": "15057",
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
-      "geographyId": null,
-      "value": 0.190373,
+      "geographyId": "nearshore",
+      "value": 0.190363,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -84,7 +84,7 @@
       "sketchId": "15058",
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.027186,
       "extra": {
         "sketchName": "1"
@@ -95,7 +95,7 @@
       "sketchId": "15059",
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.03627,
       "extra": {
         "sketchName": "2"
@@ -106,7 +106,7 @@
       "sketchId": "15063",
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.018823,
       "extra": {
         "sketchName": "3"
@@ -117,7 +117,7 @@
       "sketchId": "15064",
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.014246,
       "extra": {
         "sketchName": "4"
@@ -128,8 +128,8 @@
       "sketchId": "15065",
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
-      "geographyId": null,
-      "value": 0.095368,
+      "geographyId": "nearshore",
+      "value": 0.095357,
       "extra": {
         "sketchName": "5"
       }
@@ -139,7 +139,7 @@
       "sketchId": "15057",
       "classId": "all_energy_development_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000643,
       "extra": {
         "sketchName": "Nearshore collection",
@@ -151,7 +151,7 @@
       "sketchId": "15058",
       "classId": "all_energy_development_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000643,
       "extra": {
         "sketchName": "1"
@@ -162,7 +162,7 @@
       "sketchId": "15059",
       "classId": "all_energy_development_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "2"
@@ -173,7 +173,7 @@
       "sketchId": "15063",
       "classId": "all_energy_development_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "3"
@@ -184,7 +184,7 @@
       "sketchId": "15064",
       "classId": "all_energy_development_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "4"
@@ -195,7 +195,7 @@
       "sketchId": "15065",
       "classId": "all_energy_development_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "5"
@@ -206,8 +206,8 @@
       "sketchId": "15057",
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
-      "geographyId": null,
-      "value": 57.882328,
+      "geographyId": "nearshore",
+      "value": 57.882255,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -218,7 +218,7 @@
       "sketchId": "15058",
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 1.45755,
       "extra": {
         "sketchName": "1"
@@ -229,7 +229,7 @@
       "sketchId": "15059",
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 4.683032,
       "extra": {
         "sketchName": "2"
@@ -240,7 +240,7 @@
       "sketchId": "15063",
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 6.009517,
       "extra": {
         "sketchName": "3"
@@ -251,7 +251,7 @@
       "sketchId": "15064",
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 7.167142,
       "extra": {
         "sketchName": "4"
@@ -262,8 +262,8 @@
       "sketchId": "15065",
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
-      "geographyId": null,
-      "value": 38.582269,
+      "geographyId": "nearshore",
+      "value": 38.582196,
       "extra": {
         "sketchName": "5"
       }
@@ -273,8 +273,8 @@
       "sketchId": "15057",
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
-      "geographyId": null,
-      "value": 11.94864,
+      "geographyId": "nearshore",
+      "value": 11.948631,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -285,7 +285,7 @@
       "sketchId": "15058",
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.083922,
       "extra": {
         "sketchName": "1"
@@ -296,7 +296,7 @@
       "sketchId": "15059",
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 3.58927,
       "extra": {
         "sketchName": "2"
@@ -307,7 +307,7 @@
       "sketchId": "15063",
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.483163,
       "extra": {
         "sketchName": "3"
@@ -318,7 +318,7 @@
       "sketchId": "15064",
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 7.327791,
       "extra": {
         "sketchName": "4"
@@ -329,8 +329,8 @@
       "sketchId": "15065",
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
-      "geographyId": null,
-      "value": 0.89628,
+      "geographyId": "nearshore",
+      "value": 0.896272,
       "extra": {
         "sketchName": "5"
       }
@@ -340,8 +340,8 @@
       "sketchId": "15057",
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
-      "geographyId": null,
-      "value": 0.309869,
+      "geographyId": "nearshore",
+      "value": 0.309861,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -352,7 +352,7 @@
       "sketchId": "15058",
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000419,
       "extra": {
         "sketchName": "1"
@@ -363,7 +363,7 @@
       "sketchId": "15059",
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.169292,
       "extra": {
         "sketchName": "2"
@@ -374,7 +374,7 @@
       "sketchId": "15063",
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.094523,
       "extra": {
         "sketchName": "3"
@@ -385,7 +385,7 @@
       "sketchId": "15064",
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000518,
       "extra": {
         "sketchName": "4"
@@ -396,8 +396,8 @@
       "sketchId": "15065",
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
-      "geographyId": null,
-      "value": 0.045211,
+      "geographyId": "nearshore",
+      "value": 0.045202,
       "extra": {
         "sketchName": "5"
       }
@@ -407,7 +407,7 @@
       "sketchId": "15057",
       "classId": "all_security_and_defense_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "Nearshore collection",
@@ -419,7 +419,7 @@
       "sketchId": "15058",
       "classId": "all_security_and_defense_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "1"
@@ -430,7 +430,7 @@
       "sketchId": "15059",
       "classId": "all_security_and_defense_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "2"
@@ -441,7 +441,7 @@
       "sketchId": "15063",
       "classId": "all_security_and_defense_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "3"
@@ -452,7 +452,7 @@
       "sketchId": "15064",
       "classId": "all_security_and_defense_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "4"
@@ -463,7 +463,7 @@
       "sketchId": "15065",
       "classId": "all_security_and_defense_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "5"
@@ -474,7 +474,7 @@
       "sketchId": "15057",
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.06265,
       "extra": {
         "sketchName": "Nearshore collection",
@@ -486,7 +486,7 @@
       "sketchId": "15058",
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.03135,
       "extra": {
         "sketchName": "1"
@@ -497,7 +497,7 @@
       "sketchId": "15059",
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000008,
       "extra": {
         "sketchName": "2"
@@ -508,7 +508,7 @@
       "sketchId": "15063",
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.001815,
       "extra": {
         "sketchName": "3"
@@ -519,7 +519,7 @@
       "sketchId": "15064",
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.000005,
       "extra": {
         "sketchName": "4"
@@ -530,7 +530,7 @@
       "sketchId": "15065",
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.029473,
       "extra": {
         "sketchName": "5"
@@ -541,7 +541,7 @@
       "sketchId": "15057",
       "classId": "all_underwater_cultural_heritage_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.056353,
       "extra": {
         "sketchName": "Nearshore collection",
@@ -553,7 +553,7 @@
       "sketchId": "15058",
       "classId": "all_underwater_cultural_heritage_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "1"
@@ -564,7 +564,7 @@
       "sketchId": "15059",
       "classId": "all_underwater_cultural_heritage_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.051556,
       "extra": {
         "sketchName": "2"
@@ -575,7 +575,7 @@
       "sketchId": "15063",
       "classId": "all_underwater_cultural_heritage_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0.004797,
       "extra": {
         "sketchName": "3"
@@ -586,7 +586,7 @@
       "sketchId": "15064",
       "classId": "all_underwater_cultural_heritage_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "4"
@@ -597,7 +597,7 @@
       "sketchId": "15065",
       "classId": "all_underwater_cultural_heritage_ous",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "5"
@@ -605,7 +605,27 @@
     }
   ],
   "sketch": {
-    "id": 15057,
+    "properties": {
+      "2991": "Nearshore collection",
+      "id": "15057",
+      "name": "Nearshore collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-06-15T15:57:41.843214+00:00",
+      "updatedAt": "2023-06-15T18:09:46.970495+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    },
+    "bbox": [
+      -28.502361571,
+      38.282002383,
+      -26.915174722,
+      38.862496969
+    ],
     "type": "FeatureCollection",
     "features": [
       {
@@ -953,21 +973,6 @@
         },
         "geometry": null
       }
-    ],
-    "properties": {
-      "2991": "Nearshore collection",
-      "id": "15057",
-      "name": "Nearshore collection",
-      "postId": null,
-      "userId": "531",
-      "userSlug": "Abby",
-      "createdAt": "2023-06-15T15:57:41.843214+00:00",
-      "updatedAt": "2023-06-15T18:09:46.970495+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "213",
-      "userAttributes": null
-    }
+    ]
   }
 }

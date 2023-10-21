@@ -22,7 +22,7 @@ import {
   getUserAttribute,
 } from "@seasketch/geoprocessing/client-core";
 import { clipSketchToGeography } from "../util/clipSketchToGeography";
-import { ExtraParams } from "../types";
+import { DefaultExtraParams } from "../types";
 import { getParamStringArray } from "../util/extraParams";
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
@@ -38,12 +38,17 @@ const totalAreaMetric = firstMatchingMetric(
 
 export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams?: ExtraParams
+  extraParams: DefaultExtraParams
 ): Promise<ReportResult> {
-  const geographyId = extraParams
-    ? getParamStringArray("geographyIds", extraParams)[0]
-    : undefined;
-  const clippedSketch = await clipSketchToGeography(sketch, geographyId);
+  const geographyIds = getParamStringArray("geographyIds", extraParams);
+  if (!geographyIds || geographyIds.length === 0)
+    throw new Error("At least one geographyId required");
+  const geographyId = geographyIds[0];
+  const curGeography = project.getGeographyById(geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+
+  const clippedSketch = await clipSketchToGeography(sketch, curGeography);
 
   const areaMetrics = (
     await overlapArea(metricGroup.metricId, sketch, totalAreaMetric.value, {
@@ -53,6 +58,7 @@ export async function boundaryAreaOverlap(
     (metric): Metric => ({
       ...metric,
       classId: metricGroup.classes[0].classId,
+      geographyId,
     })
   );
 
@@ -63,15 +69,17 @@ export async function boundaryAreaOverlap(
     return sketchToMpaClass[sketchMetric.sketchId!];
   };
 
-  const levelMetrics = await overlapAreaGroupMetrics({
-    metricId: metricGroup.metricId,
-    groupIds: ["FULLY_PROTECTED", "HIGHLY_PROTECTED"],
-    sketch: clippedSketch,
-    metricToGroup: metricToLevel,
-    metrics: areaMetrics,
-    classId: metricGroup.classes[0].classId,
-    outerArea: totalAreaMetric.value,
-  });
+  const levelMetrics = (
+    await overlapAreaGroupMetrics({
+      metricId: metricGroup.metricId,
+      groupIds: ["FULLY_PROTECTED", "HIGHLY_PROTECTED"],
+      sketch: clippedSketch,
+      metricToGroup: metricToLevel,
+      metrics: areaMetrics,
+      classId: metricGroup.classes[0].classId,
+      outerArea: totalAreaMetric.value,
+    })
+  ).map((metric) => ({ ...metric, geographyId }));
 
   return {
     metrics: sortMetrics(rekeyMetrics([...areaMetrics, ...levelMetrics])),

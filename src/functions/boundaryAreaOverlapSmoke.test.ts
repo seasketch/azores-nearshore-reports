@@ -15,7 +15,9 @@ describe("Basic smoke tests", () => {
   test("boundaryAreaOverlapSmoke - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await boundaryAreaOverlap(example);
+      const result = await boundaryAreaOverlap(example, {
+        geographyIds: ["nearshore"],
+      });
       expect(result).toBeTruthy();
       writeResultOutput(result, "boundaryAreaOverlap", example.properties.name);
     }

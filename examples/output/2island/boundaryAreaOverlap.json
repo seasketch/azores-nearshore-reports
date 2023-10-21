@@ -5,7 +5,7 @@
       "sketchId": "17851",
       "classId": "nearshore",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 194340987.73634645,
       "extra": {
         "sketchName": "2island",
@@ -17,7 +17,7 @@
       "sketchId": "17851",
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 61152596.4852356,
       "extra": {
         "sketchName": "2island",
@@ -29,7 +29,7 @@
       "sketchId": "17851",
       "classId": "nearshore",
       "groupId": "HIGHLY_PROTECTED",
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 133188391.25111085,
       "extra": {
         "sketchName": "2island",
@@ -41,7 +41,7 @@
       "sketchId": "17852",
       "classId": "nearshore",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 61152596.4852356,
       "extra": {
         "sketchName": "saomiguel"
@@ -52,7 +52,7 @@
       "sketchId": "17852",
       "classId": "nearshore",
       "groupId": "FULLY_PROTECTED",
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 61152596.4852356,
       "extra": {
         "sketchName": "saomiguel"
@@ -63,7 +63,7 @@
       "sketchId": "17853",
       "classId": "nearshore",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 133188391.25111085,
       "extra": {
         "sketchName": "santamaria"
@@ -74,7 +74,7 @@
       "sketchId": "17853",
       "classId": "nearshore",
       "groupId": "HIGHLY_PROTECTED",
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 133188391.25111085,
       "extra": {
         "sketchName": "santamaria"
@@ -82,7 +82,27 @@
     }
   ],
   "sketch": {
-    "id": 17851,
+    "properties": {
+      "2991": "2island",
+      "id": "17851",
+      "name": "2island",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-08-03T23:23:31.444221+00:00",
+      "updatedAt": "2023-08-03T23:24:36.079995+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    },
+    "bbox": [
+      -25.370367244,
+      36.93442097,
+      -24.90137653,
+      37.932012737
+    ],
     "type": "FeatureCollection",
     "features": [
       {
@@ -221,21 +241,6 @@
           ]
         }
       }
-    ],
-    "properties": {
-      "2991": "2island",
-      "id": "17851",
-      "name": "2island",
-      "postId": null,
-      "userId": "531",
-      "userSlug": "Abby",
-      "createdAt": "2023-08-03T23:23:31.444221+00:00",
-      "updatedAt": "2023-08-03T23:24:36.079995+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "213",
-      "userAttributes": null
-    }
+    ]
   }
 }

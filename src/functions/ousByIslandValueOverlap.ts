@@ -10,24 +10,29 @@ import {
   sortMetrics,
   overlapRaster,
   getCogFilename,
+  MultiPolygon,
 } from "@seasketch/geoprocessing";
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
 import { clipSketchToGeography } from "../util/clipSketchToGeography";
-import { ExtraParams } from "../types";
-import { getParamStringArray } from "../util/extraParams";
+import { DefaultExtraParams } from "../types";
+import { getGeographyIdFromParam } from "../util/extraParams";
 
 const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
 
 export async function ousByIslandValueOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams?: ExtraParams
+  sketch:
+    | Sketch<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>,
+  extraParams: DefaultExtraParams
 ): Promise<ReportResult> {
-  const geographyId = extraParams
-    ? getParamStringArray("geographyIds", extraParams)[0]
-    : undefined;
-  const clippedSketch = await clipSketchToGeography(sketch, geographyId);
+  const geographyId = getGeographyIdFromParam(extraParams);
+  const curGeography = project.getGeographyById(geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+
+  const clippedSketch = await clipSketchToGeography(sketch, curGeography);
   const box = clippedSketch.bbox || bbox(clippedSketch);
   const metrics: Metric[] = (
     await Promise.all(
@@ -51,6 +56,7 @@ export async function ousByIslandValueOverlap(
           (metrics): Metric => ({
             ...metrics,
             classId: curClass.classId,
+            geographyId,
           })
         );
       })

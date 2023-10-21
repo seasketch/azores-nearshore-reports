@@ -1,4 +1,4 @@
-export interface ExtraParams {
+export interface DefaultExtraParams {
   /** Optional geographyIds to operate on. **/
   geographyIds?: string[];
 }

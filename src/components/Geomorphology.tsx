@@ -41,7 +41,6 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
     "area",
     curGeography.geographyId
   );
-  console.log("precalcMetrics", precalcMetrics);
 
   const mapLabel = t("Map");
   const benthicLabel = t("Habitat Type");

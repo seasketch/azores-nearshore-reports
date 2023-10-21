@@ -5,7 +5,7 @@
       "sketchId": "15881",
       "classId": "all-fishing",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 657.591667,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -16,7 +16,7 @@
       "sketchId": "15881",
       "classId": "country:ESP",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -27,7 +27,7 @@
       "sketchId": "15881",
       "classId": "country:PRT",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 657.591667,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -38,7 +38,7 @@
       "sketchId": "15881",
       "classId": "gear_type:drifting-longlines",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -49,7 +49,7 @@
       "sketchId": "15881",
       "classId": "gear_type:fixed-gear",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 122.378056,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -60,7 +60,7 @@
       "sketchId": "15881",
       "classId": "gear_type:pole-and-line",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 331.24139,
       "extra": {
         "sketchName": "santa-maria-mpa"
@@ -71,7 +71,7 @@
       "sketchId": "15881",
       "classId": "gear_type:set-longlines",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 29.184166,
       "extra": {
         "sketchName": "santa-maria-mpa"

@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
-    "@seasketch/geoprocessing": "3.0.1-experimental-subregional.66",
+    "@seasketch/geoprocessing": "3.0.1-experimental-subregional.67",
     "@turf/boolean-disjoint": "^6.5.0",
     "@turf/boolean-valid": "^6.5.0",
     "@types/request": "^2.48.8",
