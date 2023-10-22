@@ -5,8 +5,8 @@ import {
   useSketchProperties,
   KeySection,
   InfoStatus,
+  ClassTable,
 } from "@seasketch/geoprocessing/client-ui";
-import { ClassTable } from "../util/ClassTable";
 import {
   ReportResult,
   ReportResultBase,

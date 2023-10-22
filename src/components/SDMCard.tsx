@@ -17,9 +17,11 @@ import {
   MetricGroup,
   toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
+import {
+  ClassTable,
+  SketchClassTable,
+} from "@seasketch/geoprocessing/client-ui";
 import project from "../../project";
-import { ClassTable } from "../util/ClassTable";
-import { SketchClassTable } from "../util/SketchClassTable";
 import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
 

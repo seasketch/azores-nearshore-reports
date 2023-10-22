@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import {
   Collapse,
   ResultsCard,
+  ClassTable,
+  SketchClassTable,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
@@ -15,8 +17,6 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
-import { ClassTable } from "../util/ClassTable";
-import { SketchClassTable } from "../util/SketchClassTable";
 import { GeoProp } from "../types";
 
 export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {

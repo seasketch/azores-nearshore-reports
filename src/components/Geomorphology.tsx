@@ -17,13 +17,14 @@ import {
   MetricGroup,
   toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
-
+import {
+  ClassTable,
+  SketchClassTable,
+} from "@seasketch/geoprocessing/client-ui";
 import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
-import { ClassTable } from "../util/ClassTable";
-import { SketchClassTable } from "../util/SketchClassTable";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
