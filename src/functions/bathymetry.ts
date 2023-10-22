@@ -9,7 +9,8 @@ import {
   MultiPolygon,
   getFirstFromParam,
 } from "@seasketch/geoprocessing";
-import { loadCog } from "@seasketch/geoprocessing/dataproviders";
+import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
+import bbox from "@turf/bbox";
 import { min, max, mean } from "simple-statistics";
 import project from "../../project";
 
@@ -32,12 +33,15 @@ export async function bathymetry(
   const clippedSketch = await clipToGeography(sketch, curGeography);
   const mg = project.getMetricGroup("bathymetry");
   const sketches = toSketchArray(clippedSketch);
+  const box = clippedSketch.bbox || bbox(clippedSketch);
   if (!mg.classes[0].datasourceId)
     throw new Error(`Expected datasourceId for ${mg.classes[0]}`);
   const url = `${project.dataBucketUrl()}${getCogFilename(
     project.getInternalRasterDatasourceById(mg.classes[0].datasourceId)
   )}`;
-  const raster = await loadCog(url);
+  const raster = await loadCogWindow(url, {
+    windowBox: box,
+  });
   const stats = await bathyStats(sketches, raster);
   if (!stats)
     throw new Error(
