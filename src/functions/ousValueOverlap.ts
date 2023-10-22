@@ -11,12 +11,12 @@ import {
   overlapRaster,
   getCogFilename,
   MultiPolygon,
+  getFirstFromParam,
 } from "@seasketch/geoprocessing";
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import project from "../../project";
-import { clipSketchToGeography } from "../util/clipSketchToGeography";
+import { clipToGeography } from "../util/clipToGeography";
 import { DefaultExtraParams } from "../types";
-import { getGeographyIdFromParam } from "../util/extraParams";
 
 const metricGroup = project.getMetricGroup("ousValueOverlap");
 
@@ -26,12 +26,12 @@ export async function ousValueOverlap(
     | SketchCollection<Polygon | MultiPolygon>,
   extraParams: DefaultExtraParams
 ): Promise<ReportResult> {
-  const geographyId = getGeographyIdFromParam(extraParams);
+  const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
 
-  const clippedSketch = await clipSketchToGeography(sketch, curGeography);
+  const clippedSketch = await clipToGeography(sketch, curGeography);
   const metrics: Metric[] = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {

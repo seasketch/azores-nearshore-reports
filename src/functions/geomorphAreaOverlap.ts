@@ -11,14 +11,14 @@ import {
   getFlatGeobufFilename,
   isInternalVectorDatasource,
   MultiPolygon,
+  getFirstFromParam,
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import { clipSketchToGeography } from "../util/clipSketchToGeography";
+import { clipToGeography } from "../util/clipToGeography";
 import { overlapFeatures } from "../util/overlapFeatures";
 import { DefaultExtraParams } from "../types";
-import { getGeographyIdFromParam } from "../util/extraParams";
 
 export async function geomorphAreaOverlap(
   sketch:
@@ -26,11 +26,11 @@ export async function geomorphAreaOverlap(
     | SketchCollection<Polygon | MultiPolygon>,
   extraParams: DefaultExtraParams
 ): Promise<ReportResult> {
-  const geographyId = getGeographyIdFromParam(extraParams);
+  const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
-  const clippedSketch = await clipSketchToGeography(sketch, curGeography);
+  const clippedSketch = await clipToGeography(sketch, curGeography);
   const box = clippedSketch.bbox || bbox(clippedSketch);
   const metricGroup = project.getMetricGroup("geomorphAreaOverlap");
 

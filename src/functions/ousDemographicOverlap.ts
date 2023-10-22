@@ -7,6 +7,7 @@ import {
   SketchCollection,
   toNullSketch,
   rekeyMetrics,
+  getFirstFromParam,
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import {
@@ -15,9 +16,8 @@ import {
 } from "../util/overlapOusDemographic";
 import { featureCollection } from "@turf/helpers";
 import project from "../../project";
-import { clipSketchToGeography } from "../util/clipSketchToGeography";
+import { clipToGeography } from "../util/clipToGeography";
 import { DefaultExtraParams } from "../types";
-import { getGeographyIdFromParam } from "../util/extraParams";
 
 const METRIC = project.getMetricGroup("ousSectorDemographicOverlap");
 
@@ -28,11 +28,11 @@ export async function ousDemographicOverlap(
     | SketchCollection<Polygon | MultiPolygon>,
   extraParams: DefaultExtraParams
 ): Promise<ReportResult> {
-  const geographyId = getGeographyIdFromParam(extraParams);
+  const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
-  const clippedSketch = await clipSketchToGeography(sketch, curGeography, {
+  const clippedSketch = await clipToGeography(sketch, curGeography, {
     tolerance: 0.0001,
     highQuality: true,
   });

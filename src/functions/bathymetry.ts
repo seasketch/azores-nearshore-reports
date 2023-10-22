@@ -7,6 +7,7 @@ import {
   toSketchArray,
   getCogFilename,
   MultiPolygon,
+  getFirstFromParam,
 } from "@seasketch/geoprocessing";
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import { min, max, mean } from "simple-statistics";
@@ -14,9 +15,8 @@ import project from "../../project";
 
 // @ts-ignore
 import geoblaze, { Georaster } from "geoblaze";
-import { clipSketchToGeography } from "../util/clipSketchToGeography";
+import { clipToGeography } from "../util/clipToGeography";
 import { BathymetryResults, DefaultExtraParams } from "../types";
-import { getGeographyIdFromParam } from "../util/extraParams";
 
 export async function bathymetry(
   sketch:
@@ -24,12 +24,12 @@ export async function bathymetry(
     | SketchCollection<Polygon | MultiPolygon>,
   extraParams: DefaultExtraParams = {}
 ): Promise<BathymetryResults> {
-  const geographyId = getGeographyIdFromParam(extraParams);
+  const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
 
-  const clippedSketch = await clipSketchToGeography(sketch, curGeography);
+  const clippedSketch = await clipToGeography(sketch, curGeography);
   const mg = project.getMetricGroup("bathymetry");
   const sketches = toSketchArray(clippedSketch);
   if (!mg.classes[0].datasourceId)

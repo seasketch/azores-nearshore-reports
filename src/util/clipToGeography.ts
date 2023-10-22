@@ -25,7 +25,7 @@ import simplify from "@turf/simplify";
  * @returns Sketch | SketchCollection
  * @throws if geography has no features
  */
-export async function clipSketchToGeography<G extends Polygon | MultiPolygon>(
+export async function clipToGeography<G extends Polygon | MultiPolygon>(
   sketch: Sketch<G> | SketchCollection<G>,
   geography: Geography,
   simplifyOptions?: { tolerance?: number; highQuality?: boolean }
