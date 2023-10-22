@@ -28,7 +28,7 @@
       "classId": "escarpments",
       "groupId": null,
       "geographyId": "nearshore",
-      "value": 172088262.52744308,
+      "value": 172087896.729294,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -39,7 +39,7 @@
       "classId": "plateaus",
       "groupId": null,
       "geographyId": "nearshore",
-      "value": 206787541.51501244,
+      "value": 206786803.420438,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -61,7 +61,7 @@
       "classId": "high",
       "groupId": null,
       "geographyId": "nearshore",
-      "value": 6212716.026881896,
+      "value": 6212603.857957,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -83,7 +83,7 @@
       "classId": "slope",
       "groupId": null,
       "geographyId": "nearshore",
-      "value": 185029490.55929545,
+      "value": 185028868.530886,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }

@@ -12,12 +12,12 @@ import {
   isInternalVectorDatasource,
   MultiPolygon,
   getFirstFromParam,
+  overlapFeatures,
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
 import { clipToGeography } from "../util/clipToGeography";
-import { overlapFeatures } from "../util/overlapFeatures";
 import { DefaultExtraParams } from "../types";
 
 export async function geomorphAreaOverlap(

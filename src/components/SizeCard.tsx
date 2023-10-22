@@ -33,6 +33,7 @@ import {
   getUserAttribute,
   ObjectiveAnswer,
   toPercentMetric,
+  flattenByGroupAllClass,
 } from "@seasketch/geoprocessing/client-core";
 import {
   getMetricGroupObjectiveIds,
@@ -43,7 +44,6 @@ import { Trans, useTranslation } from "react-i18next";
 import styled from "styled-components";
 
 import project from "../../project";
-import { flattenByGroupAllClass } from "../util/flattenByGroupAllClass";
 import { GeoProp } from "../types";
 
 // Mapping groupIds to colors
