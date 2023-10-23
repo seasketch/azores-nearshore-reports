@@ -23,7 +23,7 @@ export async function bathymetry(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams: DefaultExtraParams = {}
+  extraParams?: DefaultExtraParams
 ): Promise<BathymetryResults> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {

@@ -38,7 +38,7 @@ const totalAreaMetric = firstMatchingMetric(
 
 export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams: DefaultExtraParams = {}
+  extraParams?: DefaultExtraParams
 ): Promise<ReportResult> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {

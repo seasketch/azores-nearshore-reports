@@ -26,7 +26,7 @@ export async function ousDemographicOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams: DefaultExtraParams = {}
+  extraParams?: DefaultExtraParams
 ): Promise<ReportResult> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {
@@ -43,7 +43,10 @@ export async function ousDemographicOverlap(
 
   const metrics = (
     await overlapOusDemographic(featureCollection(shapes), clippedSketch)
-  ).metrics.map((metric) => ({ ...metric, geographyId }));
+  ).metrics.map((metric) => ({
+    ...metric,
+    geographyId: curGeography.geographyId,
+  }));
 
   return {
     metrics: rekeyMetrics(metrics),
