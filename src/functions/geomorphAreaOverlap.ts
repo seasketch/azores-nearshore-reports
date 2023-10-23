@@ -6,6 +6,7 @@ import {
   Polygon,
   ReportResult,
   SketchCollection,
+  DefaultExtraParams,
   toNullSketch,
   rekeyMetrics,
   getFlatGeobufFilename,
@@ -18,13 +19,12 @@ import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
 import { clipToGeography } from "../util/clipToGeography";
-import { DefaultExtraParams } from "../types";
 
 export async function geomorphAreaOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams?: DefaultExtraParams
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   console.log("GEOGRAPHY_ID", geographyId);

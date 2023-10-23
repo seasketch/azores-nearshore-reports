@@ -3,6 +3,7 @@ import {
   SketchCollection,
   Feature,
   GeoprocessingHandler,
+  DefaultExtraParams,
   Polygon,
   toSketchArray,
   getCogFilename,
@@ -17,13 +18,13 @@ import project from "../../project";
 // @ts-ignore
 import geoblaze, { Georaster } from "geoblaze";
 import { clipToGeography } from "../util/clipToGeography";
-import { BathymetryResults, DefaultExtraParams } from "../types";
+import { BathymetryResults } from "../types";
 
 export async function bathymetry(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams?: DefaultExtraParams
+  extraParams: DefaultExtraParams = {}
 ): Promise<BathymetryResults> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {

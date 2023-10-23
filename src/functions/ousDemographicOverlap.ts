@@ -5,6 +5,7 @@ import {
   MultiPolygon,
   ReportResult,
   SketchCollection,
+  DefaultExtraParams,
   toNullSketch,
   rekeyMetrics,
   getFirstFromParam,
@@ -17,7 +18,6 @@ import {
 import { featureCollection } from "@turf/helpers";
 import project from "../../project";
 import { clipToGeography } from "../util/clipToGeography";
-import { DefaultExtraParams } from "../types";
 
 const METRIC = project.getMetricGroup("ousSectorDemographicOverlap");
 
@@ -26,7 +26,7 @@ export async function ousDemographicOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams?: DefaultExtraParams
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {

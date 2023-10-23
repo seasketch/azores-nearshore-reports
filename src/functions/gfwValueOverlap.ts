@@ -5,6 +5,7 @@ import {
   ReportResult,
   Sketch,
   SketchCollection,
+  DefaultExtraParams,
   toNullSketch,
   rekeyMetrics,
   sortMetrics,
@@ -14,12 +15,11 @@ import {
 } from "@seasketch/geoprocessing";
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import project from "../../project";
-import { DefaultExtraParams } from "../types";
 import { clipToGeography } from "../util/clipToGeography";
 
 export async function gfwValueOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams?: DefaultExtraParams
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {

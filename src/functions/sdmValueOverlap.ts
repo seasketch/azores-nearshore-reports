@@ -5,6 +5,7 @@ import {
   ReportResult,
   Sketch,
   SketchCollection,
+  DefaultExtraParams,
   toNullSketch,
   rekeyMetrics,
   sortMetrics,
@@ -16,7 +17,6 @@ import {
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import project from "../../project";
 import { clipToGeography } from "../util/clipToGeography";
-import { DefaultExtraParams } from "../types";
 
 const metricGroup = project.getMetricGroup("sdmValueOverlap");
 
@@ -24,7 +24,7 @@ export async function sdmValueOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams?: DefaultExtraParams
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {

@@ -1,17 +1,5 @@
-export interface DefaultExtraParams {
-  /** Optional geographyIds to operate on. **/
-  geographyIds?: string[];
-}
-
 export interface GeoProp {
   geographyId: string;
-}
-
-export interface Geography {
-  geographyId: string;
-  datasourceId: string;
-  display: string;
-  layerId?: string;
 }
 
 export interface BathymetryResults {
