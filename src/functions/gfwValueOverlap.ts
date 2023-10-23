@@ -19,7 +19,7 @@ import { clipToGeography } from "../util/clipToGeography";
 
 export async function gfwValueOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams: DefaultExtraParams
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {
@@ -50,7 +50,7 @@ export async function gfwValueOverlap(
           (metrics): Metric => ({
             ...metrics,
             classId: curClass.classId,
-            geographyId,
+            geographyId: curGeography.geographyId,
           })
         );
       })

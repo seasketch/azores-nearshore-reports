@@ -24,7 +24,7 @@ export async function ousByIslandValueOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams: DefaultExtraParams
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {
@@ -52,7 +52,7 @@ export async function ousByIslandValueOverlap(
           (metrics): Metric => ({
             ...metrics,
             classId: curClass.classId,
-            geographyId,
+            geographyId: curGeography.geographyId,
           })
         );
       })

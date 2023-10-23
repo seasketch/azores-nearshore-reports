@@ -15,9 +15,7 @@ describe("Basic smoke tests", () => {
   test("geomorphAreaOverlapSmoke - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await geomorphAreaOverlap(example, {
-        geographyIds: ["nearshore"],
-      });
+      const result = await geomorphAreaOverlap(example);
       expect(result).toBeTruthy();
       writeResultOutput(result, "geomorphAreaOverlap", example.properties.name);
     }

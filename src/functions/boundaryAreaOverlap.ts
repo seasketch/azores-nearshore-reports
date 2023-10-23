@@ -38,7 +38,7 @@ const totalAreaMetric = firstMatchingMetric(
 
 export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams: DefaultExtraParams
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {
@@ -55,7 +55,7 @@ export async function boundaryAreaOverlap(
     (metric): Metric => ({
       ...metric,
       classId: metricGroup.classes[0].classId,
-      geographyId,
+      geographyId: curGeography.geographyId,
     })
   );
 
@@ -76,7 +76,7 @@ export async function boundaryAreaOverlap(
       classId: metricGroup.classes[0].classId,
       outerArea: totalAreaMetric.value,
     })
-  ).map((metric) => ({ ...metric, geographyId }));
+  ).map((metric) => ({ ...metric, geographyId: curGeography.geographyId }));
 
   return {
     metrics: sortMetrics(rekeyMetrics([...areaMetrics, ...levelMetrics])),

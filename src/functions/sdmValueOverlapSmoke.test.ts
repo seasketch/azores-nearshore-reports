@@ -16,9 +16,7 @@ describe("Basic smoke tests", () => {
     // data fetch fails if run all sketches, too many requests?
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await sdmValueOverlap(example, {
-        geographyIds: ["nearshore"],
-      });
+      const result = await sdmValueOverlap(example);
       expect(result).toBeTruthy();
       writeResultOutput(result, "sdmValueOverlap", example.properties.name);
     }
