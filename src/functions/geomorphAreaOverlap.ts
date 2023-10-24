@@ -27,12 +27,11 @@ export async function geomorphAreaOverlap(
   extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
   const geographyId = getFirstFromParam("geographyIds", extraParams);
-  console.log("GEOGRAPHY_ID", geographyId);
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
-  console.log("CUR_GEOGRAPHY", curGeography);
   const clippedSketch = await clipToGeography(sketch, curGeography);
+
   const box = clippedSketch.bbox || bbox(clippedSketch);
   const metricGroup = project.getMetricGroup("geomorphAreaOverlap");
 
