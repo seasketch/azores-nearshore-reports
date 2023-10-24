@@ -12,7 +12,11 @@ import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
 import { featureCollection } from "@turf/helpers";
 import bbox from "@turf/bbox";
 import project from "../../project";
-import { clipMultiMerge } from "@seasketch/geoprocessing";
+import {
+  clipMultiMerge,
+  zeroSketchArray,
+  zeroPolygon,
+} from "@seasketch/geoprocessing";
 import simplify from "@turf/simplify";
 
 /**
@@ -47,7 +51,7 @@ export async function clipToGeography<G extends Polygon | MultiPolygon>(
     }
   );
 
-  let finalsketches: Sketch<G>[] = [];
+  let finalSketches: Sketch<G>[] = [];
 
   if (!geogFeatures[0]) {
     console.log(
@@ -56,24 +60,17 @@ export async function clipToGeography<G extends Polygon | MultiPolygon>(
       geography.geographyId
     );
 
-    const sketches = toSketchArray(sketch);
-    sketches.forEach((sketch: Sketch<G>) => {
-      sketch.geometry = {
-        type: "Polygon",
-        coordinates: [[[0.0, 0.0]], [[0.0, 0.0]], [[0.0, 0.0]]],
-      } as G;
-      finalsketches.push(sketch);
-    });
+    finalSketches = zeroSketchArray(toSketchArray(sketch));
 
     if (isSketchCollection(sketch)) {
       return {
         properties: sketch.properties,
         bbox: box,
         type: "FeatureCollection",
-        features: finalsketches,
+        features: finalSketches,
       };
     } else {
-      return finalsketches[0];
+      return finalSketches[0];
     }
   } else {
     const sketches = toSketchArray(sketch);
@@ -94,12 +91,9 @@ export async function clipToGeography<G extends Polygon | MultiPolygon>(
           sketch.geometry = intersection.geometry;
         }
       } else {
-        sketch.geometry = {
-          type: "Polygon",
-          coordinates: [[[0.0, 0.0]], [[0.0, 0.0]], [[0.0, 0.0]]],
-        } as G;
+        sketch.geometry = zeroPolygon() as G;
       }
-      finalsketches.push(sketch);
+      finalSketches.push(sketch);
     });
   }
 
@@ -108,9 +102,9 @@ export async function clipToGeography<G extends Polygon | MultiPolygon>(
       properties: sketch.properties,
       bbox: box,
       type: "FeatureCollection",
-      features: finalsketches,
+      features: finalSketches,
     };
   } else {
-    return finalsketches[0];
+    return finalSketches[0];
   }
 }
