@@ -15,26 +15,27 @@ import {
   sortMetrics,
   Metric,
   MetricGroup,
-} from "@seasketch/geoprocessing/client-core";
-import project from "../../project";
-import { ClassTable } from "../util/ClassTable";
-import { SketchClassTable } from "../util/SketchClassTable";
-import { Trans, useTranslation } from "react-i18next";
-import {
-  getPrecalcMetrics,
   toPercentMetric,
-} from "../../data/bin/getPrecalcMetrics";
+} from "@seasketch/geoprocessing/client-core";
+import {
+  ClassTable,
+  SketchClassTable,
+} from "@seasketch/geoprocessing/client-ui";
+import project from "../../project";
+import { Trans, useTranslation } from "react-i18next";
 import { GeoProp } from "../types";
-import { getGeographyById } from "../util/getGeographyById";
 
 export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
   const metricGroup = project.getMetricGroup("sdmValueOverlap", t);
-  const precalcMetrics: Metric[] = getPrecalcMetrics(
+  const curGeography = project.getGeographyById(props.geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+  const precalcMetrics: Metric[] = project.getPrecalcMetrics(
     metricGroup,
     "sum",
-    props.geographyId
+    curGeography.geographyId
   );
   const mapLabel = t("Map");
   const breedingBirdsLabel = t("Breeding Birds");
@@ -45,7 +46,7 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Valuable Species Habitat")}
         functionName="sdmValueOverlap"
-        extraParams={{ geographyIds: [props.geographyId] }}
+        extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
         {(data: ReportResult) => {
@@ -96,7 +97,7 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
                 <Trans i18nKey="SDM Card 1">
                   This report summarizes the key species habitat within the
                 </Trans>{" "}
-                {getGeographyById(props.geographyId).display}{" "}
+                {curGeography.display}{" "}
                 <Trans i18nKey="SDM Card 2">
                   nearshore planning area protected by this plan, based on
                   species distribution models. The higher the percentage, the

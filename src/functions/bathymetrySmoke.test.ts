@@ -19,5 +19,5 @@ describe("bathymetry smoke tests", () => {
       expect(result).toBeTruthy();
       writeResultOutput(result, "bathymetry", example.properties.name);
     }
-  });
+  }, 10000);
 });

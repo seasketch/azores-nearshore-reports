@@ -1,77 +1,77 @@
 {
   "metrics": [
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
       "classId": "all-fishing",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": null,
       "value": 657.591667,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
       "classId": "country:ESP",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
       "classId": "country:PRT",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": null,
       "value": 657.591667,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
       "classId": "gear_type:drifting-longlines",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
       "classId": "gear_type:fixed-gear",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": null,
       "value": 122.378056,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
       "classId": "gear_type:pole-and-line",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": null,
       "value": 331.24139,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "15881",
       "classId": "gear_type:set-longlines",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": null,
       "value": 29.184166,
       "extra": {
         "sketchName": "santa-maria-mpa"

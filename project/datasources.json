@@ -5,6 +5,7 @@
     "formats": [
       "subdivided"
     ],
+    "precalc": false,
     "classKeys": [],
     "url": "https://d3p1dsef9f0gjr.cloudfront.net/"
   },
@@ -14,1738 +15,1107 @@
     "formats": [
       "subdivided"
     ],
+    "precalc": false,
     "classKeys": [],
     "url": "https://d3muy0hbwp5qkl.cloudfront.net"
   },
   {
     "datasourceId": "PA_Bulweria_bulwerii_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 417,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:41:12.784Z",
-    "lastUpdated": "2023-07-10T20:48:08.619Z",
+    "lastUpdated": "2023-10-17T23:01:47.971Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Bulweria bulwerii_clipped.tif"
   },
   {
     "datasourceId": "PA_Calonectris_borealis_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 414,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:42:24.012Z",
-    "lastUpdated": "2023-07-10T20:48:08.833Z",
+    "lastUpdated": "2023-10-17T23:01:50.111Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Calonectris borealis_clipped.tif"
   },
   {
     "datasourceId": "PA_Larus_michahellis_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 418,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:43:45.531Z",
-    "lastUpdated": "2023-07-10T20:48:09.054Z",
+    "lastUpdated": "2023-10-17T23:01:52.451Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Larus michahellis_clipped.tif"
   },
   {
     "datasourceId": "PA_Oceanodroma_castro_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 401,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:44:17.404Z",
-    "lastUpdated": "2023-07-10T20:48:09.275Z",
+    "lastUpdated": "2023-10-17T23:01:54.647Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Oceanodroma castro_clipped.tif"
   },
   {
     "datasourceId": "PA_Onychoprion_fuscatus_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 360,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:44:50.767Z",
-    "lastUpdated": "2023-07-10T20:48:09.487Z",
+    "lastUpdated": "2023-10-17T23:01:57.074Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Onychoprion fuscatus_clipped.tif"
   },
   {
     "datasourceId": "PA_Puffinus_baroli_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 418,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:45:25.830Z",
-    "lastUpdated": "2023-07-10T23:09:34.578Z",
+    "lastUpdated": "2023-10-17T23:01:59.218Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Puffinus baroli_clipped.tif"
   },
   {
     "datasourceId": "PA_Puffinus_puffinus_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 307,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:45:50.391Z",
-    "lastUpdated": "2023-07-10T20:48:09.746Z",
+    "lastUpdated": "2023-10-17T23:02:01.161Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Puffinus puffinus_clipped.tif"
   },
   {
     "datasourceId": "PA_Sterna_dougallii_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 412,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:46:21.036Z",
-    "lastUpdated": "2023-07-10T20:48:09.953Z",
+    "lastUpdated": "2023-10-17T23:02:03.664Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Sterna dougallii_clipped.tif"
   },
   {
     "datasourceId": "PA_Sterna_hirundo_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 418,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:46:50.685Z",
-    "lastUpdated": "2023-07-10T20:48:10.154Z",
+    "lastUpdated": "2023-10-17T23:02:05.789Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Sterna hirundo_clipped.tif"
   },
   {
     "datasourceId": "corvo_comm_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.06460664409917172,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-13T19:50:12.624Z",
-    "lastUpdated": "2023-07-10T23:26:34.662Z",
+    "lastUpdated": "2023-10-17T23:02:07.678Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_comm_fish.tif"
   },
   {
     "datasourceId": "corvo_rec_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1.4845680317005048,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-13T19:50:39.296Z",
-    "lastUpdated": "2023-07-10T18:23:31.098Z",
+    "lastUpdated": "2023-10-17T23:02:09.124Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_rec_fish.tif"
   },
   {
     "datasourceId": "corvo_rec_sports_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 34.01174387659128,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-13T19:51:29.292Z",
-    "lastUpdated": "2023-07-10T18:23:31.490Z",
+    "lastUpdated": "2023-10-17T23:02:10.375Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_rec_sports.tif"
   },
   {
     "datasourceId": "all_aquaculture_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.11140940525183396,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T18:24:54.906Z",
-    "lastUpdated": "2023-07-10T18:23:37.115Z",
+    "lastUpdated": "2023-10-17T23:02:14.974Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/aquaculture.tif"
   },
   {
     "datasourceId": "all_commercial_fishing_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 6.947432509405058,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T18:46:31.683Z",
-    "lastUpdated": "2023-07-10T18:56:30.317Z",
+    "lastUpdated": "2023-10-17T23:06:44.653Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/commercial_fishing.tif"
   },
   {
     "datasourceId": "all_energy_development_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.19764782035434791,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T18:50:47.115Z",
-    "lastUpdated": "2023-07-10T18:57:12.633Z",
+    "lastUpdated": "2023-10-17T23:06:59.001Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/energy_development.tif"
   },
   {
     "datasourceId": "all_recreation_sports_and_tourism_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1131.9751247630065,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T18:51:59.269Z",
-    "lastUpdated": "2023-07-10T19:00:41.401Z",
+    "lastUpdated": "2023-10-17T23:07:31.377Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/recreation_sports_and_tourism.tif"
   },
   {
     "datasourceId": "all_recreational_fishing_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 118.19862676757977,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T19:02:44.100Z",
-    "lastUpdated": "2023-07-10T19:45:55.719Z",
+    "lastUpdated": "2023-10-17T23:10:02.418Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/recreational_fishing.tif"
   },
   {
     "datasourceId": "all_science_tech_monitoring_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 4.278154173549665,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T20:31:16.350Z",
-    "lastUpdated": "2023-06-14T20:31:16.350Z",
+    "lastUpdated": "2023-10-17T23:15:56.553Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/science_tech_monitoring.tif"
   },
   {
     "datasourceId": "all_security_and_defense_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.1219793262958433,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T20:32:03.939Z",
-    "lastUpdated": "2023-07-10T20:32:22.022Z",
+    "lastUpdated": "2023-10-17T23:16:02.552Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/security_and_defense.tif"
   },
   {
     "datasourceId": "all_touristic_fishing_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1.5795649960384137,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T20:34:15.500Z",
-    "lastUpdated": "2023-07-10T20:35:16.343Z",
+    "lastUpdated": "2023-10-17T23:16:29.957Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/touristic_fishing.tif"
   },
   {
     "datasourceId": "all_underwater_cultural_heritage_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.32810930010600714,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T20:35:43.473Z",
-    "lastUpdated": "2023-07-10T20:36:33.104Z",
+    "lastUpdated": "2023-10-17T23:16:49.058Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/underwater_cultural_heritage.tif"
   },
   {
     "datasourceId": "faial_aquaculture_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.06843573543301318,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:56:18.174Z",
-    "lastUpdated": "2023-07-10T20:36:41.060Z",
+    "lastUpdated": "2023-10-17T23:16:54.361Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_aquaculture.tif"
   },
   {
     "datasourceId": "faial_comm_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1.1420218144711667,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:57:11.533Z",
-    "lastUpdated": "2023-07-10T20:38:43.446Z",
+    "lastUpdated": "2023-10-17T23:17:15.082Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_comm_fish.tif"
   },
   {
     "datasourceId": "faial_energy_dev_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.007882729405537248,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:57:32.436Z",
-    "lastUpdated": "2023-07-10T20:38:43.868Z",
+    "lastUpdated": "2023-10-17T23:17:16.124Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_energy_dev.tif"
   },
   {
     "datasourceId": "faial_rec_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 2.7733393533983133,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:57:50.300Z",
-    "lastUpdated": "2023-07-10T20:38:44.806Z",
+    "lastUpdated": "2023-10-17T23:17:18.200Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_rec_fish.tif"
   },
   {
     "datasourceId": "faial_rec_sports_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 15.195407783741944,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:58:45.715Z",
-    "lastUpdated": "2023-07-10T20:39:02.873Z",
+    "lastUpdated": "2023-10-17T23:17:25.451Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_rec_sports.tif"
   },
   {
     "datasourceId": "faial_sci_tech_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.2584966285941803,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:59:49.864Z",
-    "lastUpdated": "2023-07-10T20:41:50.990Z",
+    "lastUpdated": "2023-10-17T23:17:53.107Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_sci_tech.tif"
   },
   {
     "datasourceId": "flores_comm_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1.134745271122334,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:10:17.095Z",
-    "lastUpdated": "2023-07-10T20:41:51.814Z",
+    "lastUpdated": "2023-10-17T23:17:54.712Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_comm_fish.tif"
   },
   {
     "datasourceId": "flores_cultural_heritage_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.08211523905265494,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:10:35.375Z",
-    "lastUpdated": "2023-07-10T20:41:52.130Z",
+    "lastUpdated": "2023-10-17T23:17:55.820Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_cultural_heritage.tif"
   },
   {
     "datasourceId": "flores_rec_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 9.397117124479948,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:11:28.580Z",
-    "lastUpdated": "2023-07-10T20:41:52.811Z",
+    "lastUpdated": "2023-10-17T23:17:57.240Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_rec_fish.tif"
   },
   {
     "datasourceId": "flores_rec_sports_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 102.30455158106507,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:12:10.818Z",
-    "lastUpdated": "2023-07-10T20:41:54.977Z",
+    "lastUpdated": "2023-10-17T23:17:59.110Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_rec_sports.tif"
   },
   {
     "datasourceId": "flores_sci_tech_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 2.0679842624304,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:12:29.077Z",
-    "lastUpdated": "2023-07-10T20:41:55.286Z",
+    "lastUpdated": "2023-10-17T23:18:00.587Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_sci_tech.tif"
   },
   {
     "datasourceId": "flores_tour_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.14254285422043722,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:12:46.585Z",
-    "lastUpdated": "2023-07-10T20:41:55.730Z",
+    "lastUpdated": "2023-10-17T23:18:01.706Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_tour_fish.tif"
   },
   {
     "datasourceId": "graciosa_comm_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1.4161248219200786,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:13:32.130Z",
-    "lastUpdated": "2023-07-10T20:41:56.088Z",
+    "lastUpdated": "2023-10-17T23:18:03.864Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_comm_fish.tif"
   },
   {
     "datasourceId": "graciosa_rec_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 9.519217746474624,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:13:53.286Z",
-    "lastUpdated": "2023-07-10T20:41:56.435Z",
+    "lastUpdated": "2023-10-17T23:18:05.169Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_rec_fish.tif"
   },
   {
     "datasourceId": "graciosa_rec_sports_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 39.33534294767367,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:15:24.193Z",
-    "lastUpdated": "2023-07-10T20:41:56.726Z",
+    "lastUpdated": "2023-10-17T23:18:06.228Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_rec_sports.tif"
   },
   {
     "datasourceId": "graciosa_sci_tech_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.011093529785284773,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:15:46.810Z",
-    "lastUpdated": "2023-07-10T20:41:57.000Z",
+    "lastUpdated": "2023-10-17T23:18:07.572Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_sci_tech.tif"
   },
   {
     "datasourceId": "graciosa_sec_def_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.010150076642219119,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:16:08.626Z",
-    "lastUpdated": "2023-07-10T20:41:57.287Z",
+    "lastUpdated": "2023-10-17T23:18:08.667Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_sec_def.tif"
   },
   {
     "datasourceId": "graciosa_tour_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.05903704320144243,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:16:25.849Z",
-    "lastUpdated": "2023-07-10T20:41:57.588Z",
+    "lastUpdated": "2023-10-17T23:18:10.120Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_tour_fish.tif"
   },
   {
     "datasourceId": "pico_comm_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.9016387649728248,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:18:10.334Z",
-    "lastUpdated": "2023-07-10T20:46:00.694Z",
+    "lastUpdated": "2023-10-17T23:18:38.116Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_comm_fish.tif"
   },
   {
     "datasourceId": "pico_rec_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 34.91683204110208,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:24:47.766Z",
-    "lastUpdated": "2023-07-10T21:12:03.269Z",
+    "lastUpdated": "2023-10-17T23:20:03.873Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_rec_fish.tif"
   },
   {
     "datasourceId": "pico_rec_sports_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 762.3909706396624,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:25:33.126Z",
-    "lastUpdated": "2023-07-10T21:12:08.499Z",
+    "lastUpdated": "2023-10-17T23:20:07.839Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_rec_sports.tif"
   },
   {
     "datasourceId": "pico_sci_tech_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.08116253595200557,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:32:16.899Z",
-    "lastUpdated": "2023-07-10T22:09:56.404Z",
+    "lastUpdated": "2023-10-17T23:22:25.589Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_sci_tech.tif"
   },
   {
     "datasourceId": "pico_tour_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.09194600084659399,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:33:09.996Z",
-    "lastUpdated": "2023-07-10T21:28:19.521Z",
+    "lastUpdated": "2023-10-17T23:22:29.897Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_tour_fish.tif"
   },
   {
     "datasourceId": "santamaria_comm_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.4599784547388879,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:33:52.013Z",
-    "lastUpdated": "2023-07-10T21:28:20.119Z",
+    "lastUpdated": "2023-10-17T23:22:31.981Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_comm_fish.tif"
   },
   {
     "datasourceId": "santamaria_cultural_heritage_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.14144256855070125,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:34:16.958Z",
-    "lastUpdated": "2023-07-10T21:28:20.671Z",
+    "lastUpdated": "2023-10-17T23:22:33.745Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_cultural_heritage.tif"
   },
   {
     "datasourceId": "santamaria_rec_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 45.98289808901411,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:34:37.306Z",
-    "lastUpdated": "2023-07-10T21:28:21.366Z",
+    "lastUpdated": "2023-10-17T23:22:35.430Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_rec_fish.tif"
   },
   {
     "datasourceId": "santamaria_rec_sports_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 52.02722112372869,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:35:16.062Z",
-    "lastUpdated": "2023-07-10T21:28:22.576Z",
+    "lastUpdated": "2023-10-17T23:22:37.515Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_rec_sports.tif"
   },
   {
     "datasourceId": "santamaria_sci_tech_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.037429045043325004,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:35:36.825Z",
-    "lastUpdated": "2023-07-10T21:28:23.336Z",
+    "lastUpdated": "2023-10-17T23:22:39.363Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_sci_tech.tif"
   },
   {
     "datasourceId": "santamaria_tour_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1.232182814718044,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:35:58.038Z",
-    "lastUpdated": "2023-07-10T21:28:23.779Z",
+    "lastUpdated": "2023-10-17T23:22:41.286Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_tour_fish.tif"
   },
   {
     "datasourceId": "saojorge_comm_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.6525359300978337,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:36:46.308Z",
-    "lastUpdated": "2023-07-10T21:28:24.890Z",
+    "lastUpdated": "2023-10-17T23:22:43.774Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_comm_fish.tif"
   },
   {
     "datasourceId": "saojorge_cultural_heritage_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.08212168976024259,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:37:03.698Z",
-    "lastUpdated": "2023-07-10T21:28:25.159Z",
+    "lastUpdated": "2023-10-17T23:22:45.293Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_cultural_heritage.tif"
   },
   {
     "datasourceId": "saojorge_rec_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 22.981313643202228,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:37:28.726Z",
-    "lastUpdated": "2023-07-10T21:28:26.071Z",
+    "lastUpdated": "2023-10-17T23:22:47.743Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_rec_fish.tif"
   },
   {
     "datasourceId": "saojorge_rec_sports_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 174.5740955682022,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:38:05.662Z",
-    "lastUpdated": "2023-07-10T21:28:28.290Z",
+    "lastUpdated": "2023-10-17T23:22:51.108Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_rec_sports.tif"
   },
   {
     "datasourceId": "saojorge_sci_tech_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1.0470552559709176,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:38:22.173Z",
-    "lastUpdated": "2023-07-10T21:28:28.621Z",
+    "lastUpdated": "2023-10-17T23:22:52.565Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_sci_tech.tif"
   },
   {
     "datasourceId": "saojorge_tour_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.08599097152197999,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:38:43.441Z",
-    "lastUpdated": "2023-07-10T21:28:29.345Z",
+    "lastUpdated": "2023-10-17T23:22:54.581Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_tour_fish.tif"
   },
   {
     "datasourceId": "saomiguel_aquaculture_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.0949262472886403,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:39:24.466Z",
-    "lastUpdated": "2023-07-10T21:28:29.627Z",
+    "lastUpdated": "2023-10-17T23:22:55.789Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_aquaculture.tif"
   },
   {
     "datasourceId": "saomiguel_comm_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1.3096777316838992,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:49:51.678Z",
-    "lastUpdated": "2023-06-14T22:49:51.678Z",
+    "lastUpdated": "2023-10-17T23:25:21.531Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_comm_fish.tif"
   },
   {
     "datasourceId": "saomiguel_rec_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 39.8159393803627,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:53:50.640Z",
-    "lastUpdated": "2023-07-10T22:08:02.450Z",
+    "lastUpdated": "2023-10-17T23:26:08.086Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_rec_fish.tif"
   },
   {
     "datasourceId": "saomiguel_rec_sports_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 135.741955452833,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:57:06.733Z",
-    "lastUpdated": "2023-07-10T22:14:37.370Z",
+    "lastUpdated": "2023-10-17T23:26:45.876Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_rec_sports.tif"
   },
   {
     "datasourceId": "saomiguel_sci_tech_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.4009279744149894,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:07:48.178Z",
-    "lastUpdated": "2023-06-14T23:07:48.178Z",
+    "lastUpdated": "2023-10-17T23:30:21.311Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_sci_tech.tif"
   },
   {
     "datasourceId": "saomiguel_sec_def_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.15207130622002296,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:08:34.386Z",
-    "lastUpdated": "2023-07-10T22:45:23.357Z",
+    "lastUpdated": "2023-10-17T23:30:22.484Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_sec_def.tif"
   },
   {
     "datasourceId": "saomiguel_tour_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.4057634234472278,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:09:54.692Z",
-    "lastUpdated": "2023-07-10T22:50:27.054Z",
+    "lastUpdated": "2023-10-17T23:30:50.115Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_tour_fish.tif"
   },
   {
     "datasourceId": "terceira_comm_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1.0037595007025306,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:15:14.875Z",
-    "lastUpdated": "2023-07-10T23:04:45.993Z",
+    "lastUpdated": "2023-10-17T23:31:45.677Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_comm_fish.tif"
   },
   {
     "datasourceId": "terceira_cultural_heritage_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.11761352395478752,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:16:48.359Z",
-    "lastUpdated": "2023-07-10T22:55:28.929Z",
+    "lastUpdated": "2023-10-17T23:31:46.736Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_cultural_heritage.tif"
   },
   {
     "datasourceId": "terceira_rec_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 6.151582095351728,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:17:13.902Z",
-    "lastUpdated": "2023-07-10T22:56:03.063Z",
+    "lastUpdated": "2023-10-17T23:31:58.342Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_rec_fish.tif"
   },
   {
     "datasourceId": "terceira_rec_sports_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 46.70486798030498,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:18:17.500Z",
-    "lastUpdated": "2023-06-14T23:18:17.500Z",
+    "lastUpdated": "2023-10-17T23:32:12.902Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_rec_sports.tif"
   },
   {
     "datasourceId": "terceira_sci_tech_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.009004083000897722,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:18:35.714Z",
-    "lastUpdated": "2023-06-14T23:18:35.714Z",
+    "lastUpdated": "2023-10-17T23:32:15.029Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_sci_tech.tif"
   },
   {
     "datasourceId": "terceira_tour_fish_ous",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0.12792511781026406,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:18:55.901Z",
-    "lastUpdated": "2023-06-14T23:18:55.901Z",
+    "lastUpdated": "2023-10-17T23:32:16.269Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_tour_fish.tif"
   },
   {
     "datasourceId": "PA_Caretta_caretta_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 418,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-21T17:36:09.219Z",
-    "lastUpdated": "2023-07-10T23:06:29.815Z",
+    "lastUpdated": "2023-10-17T23:32:17.424Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Caretta caretta_clipped.tif"
   },
   {
     "datasourceId": "PA_Chelonia_mydas_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 418,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-21T17:37:05.715Z",
-    "lastUpdated": "2023-07-10T23:06:30.039Z",
+    "lastUpdated": "2023-10-17T23:32:18.632Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Chelonia mydas_clipped.tif"
   },
   {
     "datasourceId": "PA_Dermochelys_coriacea_baseline",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 382,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-21T17:37:34.280Z",
-    "lastUpdated": "2023-07-10T23:06:30.254Z",
+    "lastUpdated": "2023-10-17T23:32:19.875Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Dermochelys coriacea_clipped.tif"
   },
   {
     "datasourceId": "basins",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 7,
-          "sum": null,
-          "area": 118168880.70153645
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "Basins",
     "classKeys": [],
     "created": "2023-06-22T18:15:00.857Z",
-    "lastUpdated": "2023-07-10T23:06:30.658Z",
+    "lastUpdated": "2023-10-17T23:38:21.304Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Basins.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "canyons",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 20,
-          "sum": null,
-          "area": 855922192.4018103
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "Canyons",
     "classKeys": [],
     "created": "2023-06-22T18:15:47.960Z",
-    "lastUpdated": "2023-07-10T23:06:30.859Z",
+    "lastUpdated": "2023-10-17T23:38:21.457Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Canyons.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "escarpments",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 11,
-          "sum": null,
-          "area": 6014912543.280988
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "Escarpments",
     "classKeys": [],
     "created": "2023-06-22T18:16:11.648Z",
-    "lastUpdated": "2023-07-10T23:06:31.121Z",
+    "lastUpdated": "2023-10-17T23:38:21.676Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Escarpments.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "plateaus",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 5,
-          "sum": null,
-          "area": 8660330724.053675
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "Plateaus",
     "classKeys": [],
     "created": "2023-06-22T18:16:30.807Z",
-    "lastUpdated": "2023-07-10T23:06:31.513Z",
+    "lastUpdated": "2023-10-17T23:38:22.052Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Plateaus.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "ridges",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 4,
-          "sum": null,
-          "area": 3965789241.3608074
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "Ridges",
     "classKeys": [],
     "created": "2023-06-22T18:16:47.083Z",
-    "lastUpdated": "2023-07-10T23:06:31.708Z",
+    "lastUpdated": "2023-10-17T23:38:22.201Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Ridges.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "shelf_class",
     "geo_type": "vector",
-    "keyStats": {
-      "Class": {
-        "high": {
-          "count": 8,
-          "area": 1303353964.5219061
-        },
-        "low": {
-          "count": 1,
-          "area": 12261983.993973361
-        },
-        "medium": {
-          "count": 8,
-          "area": 20770355.99933647
-        }
-      },
-      "total": {
-        "total": {
-          "count": 17,
-          "sum": null,
-          "area": 1336386304.515216
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "Shelf_Classification",
     "classKeys": [
       "Class"
     ],
     "created": "2023-06-22T18:18:34.976Z",
-    "lastUpdated": "2023-07-10T23:06:31.903Z",
+    "lastUpdated": "2023-10-17T23:38:22.320Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Shelf_Classification.shp",
     "propertiesToKeep": [
       "Class"
@@ -1754,551 +1124,362 @@
   {
     "datasourceId": "slope",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 7,
-          "sum": null,
-          "area": 6541553253.930085
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "Slope",
     "classKeys": [],
     "created": "2023-06-22T18:19:14.943Z",
-    "lastUpdated": "2023-07-10T23:06:32.179Z",
+    "lastUpdated": "2023-10-17T23:38:22.623Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Slope.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "santa-maria",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 1,
-          "sum": null,
-          "area": 877814480.8378626
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "santa_maria_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-07-13T20:08:15.926Z",
-    "lastUpdated": "2023-08-07T16:29:33.255Z",
+    "lastUpdated": "2023-10-17T23:38:22.846Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/santa_maria_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "bathymetry",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": -27325563104,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -32767,
     "created": "2023-08-01T21:34:06.693Z",
-    "lastUpdated": "2023-08-01T21:34:06.693Z",
+    "lastUpdated": "2023-10-17T23:32:59.940Z",
     "src": "data/src/Analytics/bathy/gebco_2021.tif"
   },
   {
     "datasourceId": "all-fishing",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 105243.27970947977,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:19:23.930Z",
-    "lastUpdated": "2023-08-02T18:19:23.930Z",
+    "lastUpdated": "2023-10-17T23:33:02.913Z",
     "src": "data/src/Analytics/gfw/all-fish-19-22.tif"
   },
   {
     "datasourceId": "drifting-longlines",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 48513.311874675564,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:20:16.668Z",
-    "lastUpdated": "2023-08-02T18:20:16.668Z",
+    "lastUpdated": "2023-10-17T23:33:06.000Z",
     "src": "data/src/Analytics/gfw/drifting_longlines.tif"
   },
   {
     "datasourceId": "ESP",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 33596.21929679252,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:20:38.176Z",
-    "lastUpdated": "2023-08-02T18:20:38.176Z",
+    "lastUpdated": "2023-10-17T23:33:08.706Z",
     "src": "data/src/Analytics/gfw/ESP.tif"
   },
   {
     "datasourceId": "pole-and-line",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 21067.85809814185,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:21:48.308Z",
-    "lastUpdated": "2023-08-02T18:21:48.308Z",
+    "lastUpdated": "2023-10-17T23:33:12.099Z",
     "src": "data/src/Analytics/gfw/pole_and_line.tif"
   },
   {
     "datasourceId": "set-longlines",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 9647.449667099863,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:22:15.037Z",
-    "lastUpdated": "2023-08-02T18:22:15.037Z",
+    "lastUpdated": "2023-10-17T23:33:15.345Z",
     "src": "data/src/Analytics/gfw/set_longlines.tif"
   },
   {
     "datasourceId": "fixed-gear",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 8269.586501637474,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:22:47.353Z",
-    "lastUpdated": "2023-08-02T18:22:47.353Z",
+    "lastUpdated": "2023-10-17T23:33:18.385Z",
     "src": "data/src/Analytics/gfw/fixed_gear.tif"
   },
   {
     "datasourceId": "purse-seines",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 198.52972282469273,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:23:18.229Z",
-    "lastUpdated": "2023-08-02T18:23:18.229Z",
+    "lastUpdated": "2023-10-17T23:33:21.576Z",
     "src": "data/src/Analytics/gfw/purse_seines.tif"
   },
   {
     "datasourceId": "other-purse-seines",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 128.65805564820766,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:23:44.108Z",
-    "lastUpdated": "2023-08-02T18:23:44.108Z",
+    "lastUpdated": "2023-10-17T23:33:24.671Z",
     "src": "data/src/Analytics/gfw/other_purse_seines.tif"
   },
   {
     "datasourceId": "set-gillnets",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 765.3888857271522,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:24:12.814Z",
-    "lastUpdated": "2023-08-02T18:24:12.814Z",
+    "lastUpdated": "2023-10-17T23:33:27.960Z",
     "src": "data/src/Analytics/gfw/set_gillnets.tif"
   },
   {
     "datasourceId": "trawlers",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 76.68111062981188,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:24:37.033Z",
-    "lastUpdated": "2023-08-02T18:24:37.033Z",
+    "lastUpdated": "2023-10-17T23:33:31.011Z",
     "src": "data/src/Analytics/gfw/trawlers.tif"
   },
   {
     "datasourceId": "trollers",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 552.8126491680741,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:24:58.908Z",
-    "lastUpdated": "2023-08-02T18:24:58.908Z",
+    "lastUpdated": "2023-10-17T23:33:34.100Z",
     "src": "data/src/Analytics/gfw/trollers.tif"
   },
   {
     "datasourceId": "PRT",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 71599.84101833822,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:25:27.379Z",
-    "lastUpdated": "2023-08-02T18:25:27.379Z",
+    "lastUpdated": "2023-10-17T23:33:36.822Z",
     "src": "data/src/Analytics/gfw/PRT.tif"
   },
   {
     "datasourceId": "RUS",
     "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 47.05249875038862,
-          "area": null
-        }
-      }
-    },
     "formats": [
       "tif"
     ],
+    "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:25:49.722Z",
-    "lastUpdated": "2023-08-02T18:25:49.722Z",
+    "lastUpdated": "2023-10-17T23:33:40.484Z",
     "src": "data/src/Analytics/gfw/RUS.tif"
   },
   {
     "datasourceId": "sao-miguel",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 1,
-          "sum": null,
-          "area": 2137075226.451054
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "san_miguel_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T21:33:47.604Z",
-    "lastUpdated": "2023-08-14T21:33:47.604Z",
+    "lastUpdated": "2023-10-17T23:38:23.230Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/san_miguel_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "corvo",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 1,
-          "sum": null,
-          "area": 575605732.7764677
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "corvo_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:06:52.214Z",
-    "lastUpdated": "2023-08-14T22:06:52.214Z",
+    "lastUpdated": "2023-10-17T23:38:23.353Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/corvo_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "graciosa",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 1,
-          "sum": null,
-          "area": 746350678.5030005
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "graciosa_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:07:44.485Z",
-    "lastUpdated": "2023-08-14T22:07:44.485Z",
+    "lastUpdated": "2023-10-17T23:38:23.559Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/graciosa_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "flores",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 1,
-          "sum": null,
-          "area": 926376704.26102
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "flores_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:41:55.818Z",
-    "lastUpdated": "2023-08-14T22:41:55.818Z",
+    "lastUpdated": "2023-10-17T23:38:23.748Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/flores_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "faial",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 1,
-          "sum": null,
-          "area": 990138030.0899957
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "faial_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:42:15.599Z",
-    "lastUpdated": "2023-08-14T22:42:15.599Z",
+    "lastUpdated": "2023-10-17T23:38:23.985Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/faial_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "pico",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 1,
-          "sum": null,
-          "area": 1549832742.7643557
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "pico_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:42:34.093Z",
-    "lastUpdated": "2023-08-14T22:42:34.093Z",
+    "lastUpdated": "2023-10-17T23:38:24.279Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/pico_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "sao-jorge",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 1,
-          "sum": null,
-          "area": 1656884789.0896845
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "san_jorge_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:43:03.652Z",
-    "lastUpdated": "2023-08-14T22:43:03.652Z",
+    "lastUpdated": "2023-10-17T23:38:24.490Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/san_jorge_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   },
   {
     "datasourceId": "terceira",
     "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 1,
-          "sum": null,
-          "area": 1292242320.0095162
-        }
-      }
-    },
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
     "layerName": "terceira_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:43:32.794Z",
-    "lastUpdated": "2023-08-14T22:43:32.794Z",
+    "lastUpdated": "2023-10-17T23:40:05.422Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/terceira_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   },
   {
-    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/azores_islands_dissolved_6nm_boundary_ws84.shp",
-    "layerName": "azores_islands_dissolved_6nm_boundary_ws84",
-    "geo_type": "vector",
     "datasourceId": "6nm_boundary",
+    "geo_type": "vector",
     "formats": [
-      "fgb"
+      "fgb",
+      "json"
     ],
+    "precalc": true,
+    "layerName": "azores_islands_dissolved_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-15T21:11:49.865Z",
-    "lastUpdated": "2023-08-15T21:11:49.865Z",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 6,
-          "sum": null,
-          "area": 10297388667.715572
-        }
-      }
-    },
+    "lastUpdated": "2023-10-17T23:38:25.543Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/azores_islands_dissolved_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
   }
 ]

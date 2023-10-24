@@ -1,33 +1,33 @@
 {
   "metrics": [
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17853",
       "classId": "basins",
+      "sketchId": "17853",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17852",
       "classId": "basins",
+      "sketchId": "17852",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17851",
       "classId": "basins",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "2island",
@@ -35,33 +35,33 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17853",
       "classId": "canyons",
+      "sketchId": "17853",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17852",
       "classId": "canyons",
+      "sketchId": "17852",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17851",
       "classId": "canyons",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "2island",
@@ -69,169 +69,169 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17853",
       "classId": "escarpments",
+      "sketchId": "17853",
       "groupId": null,
-      "geographyId": null,
-      "value": 110960538.94313982,
+      "value": 110960012.640865,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17852",
       "classId": "escarpments",
+      "sketchId": "17852",
       "groupId": null,
-      "geographyId": null,
-      "value": 57964209.8530397,
+      "value": 57965009.891797,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17851",
       "classId": "escarpments",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": null,
-      "value": 168924748.79617953,
+      "value": 168925022.532663,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17853",
       "classId": "plateaus",
+      "sketchId": "17853",
       "groupId": null,
-      "geographyId": null,
-      "value": 133188391.25111085,
+      "value": 133187482.824756,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17852",
       "classId": "plateaus",
+      "sketchId": "17852",
       "groupId": null,
-      "geographyId": null,
-      "value": 61152596.4852356,
+      "value": 61152895.985842,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17851",
       "classId": "plateaus",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": null,
-      "value": 194340987.73634645,
+      "value": 194340378.810598,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17853",
       "classId": "ridges",
+      "sketchId": "17853",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17852",
       "classId": "ridges",
+      "sketchId": "17852",
       "groupId": null,
-      "geographyId": null,
-      "value": 61152596.4852356,
+      "value": 61152895.985842,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17851",
       "classId": "ridges",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": null,
-      "value": 61152596.4852356,
+      "value": 61152895.985842,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17853",
       "classId": "high",
+      "sketchId": "17853",
       "groupId": null,
-      "geographyId": null,
-      "value": 21505400.50846428,
+      "value": 21505358.117729,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17852",
       "classId": "high",
+      "sketchId": "17852",
       "groupId": null,
-      "geographyId": null,
-      "value": 7152241.09823534,
+      "value": 7151957.308523,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17851",
       "classId": "high",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": null,
-      "value": 28657641.60669962,
+      "value": 28657315.426253,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17853",
       "classId": "medium",
+      "sketchId": "17853",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17852",
       "classId": "medium",
+      "sketchId": "17852",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17851",
       "classId": "medium",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "2island",
@@ -239,34 +239,34 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17853",
       "classId": "slope",
+      "sketchId": "17853",
       "groupId": null,
-      "geographyId": null,
-      "value": 110668772.193784,
+      "value": 110667944.664017,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17852",
       "classId": "slope",
+      "sketchId": "17852",
       "groupId": null,
-      "geographyId": null,
-      "value": 54000404.67024728,
+      "value": 54000946.630926,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "17851",
       "classId": "slope",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": null,
-      "value": 164669176.86403129,
+      "value": 164668891.294943,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -274,7 +274,27 @@
     }
   ],
   "sketch": {
-    "id": 17851,
+    "properties": {
+      "2991": "2island",
+      "id": "17851",
+      "name": "2island",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-08-03T23:23:31.444221+00:00",
+      "updatedAt": "2023-08-03T23:24:36.079995+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    },
+    "bbox": [
+      -25.370367244,
+      36.93442097,
+      -24.90137653,
+      37.932012737
+    ],
     "type": "FeatureCollection",
     "features": [
       {
@@ -415,21 +435,6 @@
         },
         "geometry": null
       }
-    ],
-    "properties": {
-      "2991": "2island",
-      "id": "17851",
-      "name": "2island",
-      "postId": null,
-      "userId": "531",
-      "userSlug": "Abby",
-      "createdAt": "2023-08-03T23:23:31.444221+00:00",
-      "updatedAt": "2023-08-03T23:24:36.079995+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "213",
-      "userAttributes": null
-    }
+    ]
   }
 }

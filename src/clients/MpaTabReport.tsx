@@ -11,8 +11,8 @@ import RepresentationPage from "../components/RepresentationPage";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync";
 import geographies from "../../project/geographies.json";
-import { getGeographyById } from "../util/getGeographyById";
 import { SegmentControl } from "../util/SegmentControl";
+import project from "../../project";
 
 const enableAllTabs = false;
 
@@ -44,7 +44,7 @@ const MpaTabReport = () => {
       </select>
       <LayerToggle
         label=" "
-        layerId={getGeographyById(geographyId).layerId}
+        layerId={project.getGeographyById(geographyId).layerId}
         simple
       />
     </>

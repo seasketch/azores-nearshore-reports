@@ -4,10 +4,11 @@ import {
   ResultsCard,
   ClassTableColumnConfig,
   useSketchProperties,
+  ClassTable,
+  SketchClassTable,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
-  ReportResultBase,
   toNullSketchArray,
   flattenBySketchAllClass,
   metricsWithSketchId,
@@ -15,27 +16,24 @@ import {
   NullSketchCollection,
   Metric,
   MetricGroup,
+  toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 import cloneDeep from "lodash/cloneDeep";
 import { Trans, useTranslation } from "react-i18next";
 import project from "../../project";
-import {
-  getPrecalcMetrics,
-  toPercentMetric,
-} from "../../data/bin/getPrecalcMetrics";
 import { GeoProp } from "../types";
-import { getGeographyById } from "../util/getGeographyById";
-import { ClassTable } from "../util/ClassTable";
-import { SketchClassTable } from "../util/SketchClassTable";
 
 export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
   const metricGroup = project.getMetricGroup("gfwValueOverlap", t);
-  const precalcTotals: Metric[] = getPrecalcMetrics(
+  const curGeography = project.getGeographyById(props.geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+  const precalcTotals: Metric[] = project.getPrecalcMetrics(
     metricGroup,
     "sum",
-    props.geographyId
+    curGeography.geographyId
   );
 
   const allFishingLabel = t("All Fishing");
@@ -51,14 +49,16 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Fishing Effort - 2019-2022")}
         functionName="gfwValueOverlap"
-        extraParams={{ geographyIds: [props.geographyId] }}
+        extraParams={{ geographyIds: [curGeography.geographyId] }}
       >
         {(data: ReportResult) => {
           const percMetricIdName = `${metricGroup.metricId}Perc`;
 
           const metricsValueAndPerc = [
             ...data.metrics,
-            ...toPercentMetric(data.metrics, precalcTotals, percMetricIdName),
+            ...toPercentMetric(data.metrics, precalcTotals, {
+              metricIdOverride: percMetricIdName,
+            }),
           ];
 
           const metricsAll = metricsValueAndPerc.filter((m) =>
@@ -145,7 +145,7 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
                   This report summarizes the proportion of 2019-2022 fishing
                   effort within the
                 </Trans>{" "}
-                {getGeographyById(props.geographyId).display}{" "}
+                {curGeography.display}{" "}
                 <Trans i18nKey="GFW Card 2">
                   nearshore planning area that that overlaps with this plan, as
                   reported by Global Fishing Watch. The higher the percentage,

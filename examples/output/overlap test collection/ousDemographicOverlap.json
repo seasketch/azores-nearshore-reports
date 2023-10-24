@@ -5,7 +5,7 @@
       "sketchId": "14453",
       "classId": "ousPeopleCount_all",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 392
     },
     {
@@ -13,7 +13,7 @@
       "sketchId": "14453",
       "classId": "ousRespondentCount_all",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 86
     },
     {
@@ -21,7 +21,7 @@
       "sketchId": "14453",
       "classId": "Recreational fishing",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 186
     },
     {
@@ -29,7 +29,7 @@
       "sketchId": "14453",
       "classId": "Recreational fishing",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 40
     },
     {
@@ -37,7 +37,7 @@
       "sketchId": "14453",
       "classId": "Recreation, sports and tourism",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 167
     },
     {
@@ -45,7 +45,7 @@
       "sketchId": "14453",
       "classId": "Recreation, sports and tourism",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 18
     },
     {
@@ -53,7 +53,7 @@
       "sketchId": "14453",
       "classId": "Touristic fishing",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 135
     },
     {
@@ -61,7 +61,7 @@
       "sketchId": "14453",
       "classId": "Touristic fishing",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 8
     },
     {
@@ -69,7 +69,7 @@
       "sketchId": "14453",
       "classId": "Commercial fishing",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 122
     },
     {
@@ -77,7 +77,7 @@
       "sketchId": "14453",
       "classId": "Commercial fishing",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 24
     },
     {
@@ -85,7 +85,7 @@
       "sketchId": "14453",
       "classId": "Scientific Research, Technological Development and Environmental Monitoring",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 6
     },
     {
@@ -93,7 +93,7 @@
       "sketchId": "14453",
       "classId": "Scientific Research, Technological Development and Environmental Monitoring",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 5
     },
     {
@@ -101,7 +101,7 @@
       "sketchId": "14453",
       "classId": "santa maria",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 269
     },
     {
@@ -109,7 +109,7 @@
       "sketchId": "14453",
       "classId": "santa maria",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 64
     },
     {
@@ -117,7 +117,7 @@
       "sketchId": "14453",
       "classId": "unknown-gear",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 271
     },
     {
@@ -125,7 +125,7 @@
       "sketchId": "14453",
       "classId": "unknown-gear",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 63
     },
     {
@@ -133,7 +133,7 @@
       "sketchId": "14453",
       "classId": "Pole and line",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 94
     },
     {
@@ -141,7 +141,7 @@
       "sketchId": "14453",
       "classId": "Pole and line",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 14
     },
     {
@@ -149,7 +149,7 @@
       "sketchId": "14453",
       "classId": "Hook and line - Handline",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 26
     },
     {
@@ -157,7 +157,7 @@
       "sketchId": "14453",
       "classId": "Hook and line - Handline",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 7
     },
     {
@@ -165,7 +165,7 @@
       "sketchId": "14453",
       "classId": "Hook and line - Shoreline",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 7
     },
     {
@@ -173,7 +173,7 @@
       "sketchId": "14453",
       "classId": "Hook and line - Shoreline",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 3
     },
     {
@@ -181,7 +181,7 @@
       "sketchId": "14453",
       "classId": "Harvesting",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 1
     },
     {
@@ -189,7 +189,7 @@
       "sketchId": "14453",
       "classId": "Harvesting",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 1
     },
     {
@@ -197,7 +197,7 @@
       "sketchId": "14453",
       "classId": "pico",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 1
     },
     {
@@ -205,7 +205,7 @@
       "sketchId": "14453",
       "classId": "pico",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 1
     },
     {
@@ -213,7 +213,7 @@
       "sketchId": "14453",
       "classId": "saomiguel",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 121
     },
     {
@@ -221,7 +221,7 @@
       "sketchId": "14453",
       "classId": "saomiguel",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 20
     },
     {
@@ -229,7 +229,7 @@
       "sketchId": "14453",
       "classId": "Hook and line - Bottom longline",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 1
     },
     {
@@ -237,7 +237,7 @@
       "sketchId": "14453",
       "classId": "Hook and line - Bottom longline",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 1
     },
     {
@@ -245,7 +245,7 @@
       "sketchId": "14453",
       "classId": "faial",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 1
     },
     {
@@ -253,13 +253,11 @@
       "sketchId": "14453",
       "classId": "faial",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "nearshore",
       "value": 1
     }
   ],
   "sketch": {
-    "type": "FeatureCollection",
-    "id": 14453,
     "properties": {
       "2991": "overlap test collection",
       "id": "14453",
@@ -275,9 +273,15 @@
       "sketchClassId": "213",
       "userAttributes": null
     },
+    "bbox": [
+      -25.241573446,
+      36.884046904,
+      -24.932545706,
+      37.098485794
+    ],
+    "type": "FeatureCollection",
     "features": [
       {
-        "type": "Feature",
         "id": 14456,
         "bbox": [
           -25.001762,
@@ -285,6 +289,7 @@
           -24.932547,
           37.05609
         ],
+        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "sketch3",
@@ -344,7 +349,6 @@
         "geometry": null
       },
       {
-        "type": "Feature",
         "id": 14455,
         "bbox": [
           -25.241573,
@@ -352,6 +356,7 @@
           -25.165365,
           37.07506
         ],
+        "type": "Feature",
         "properties": {
           "2987": "HIGHLY_PROTECTED",
           "2988": "sketch1",
@@ -411,7 +416,6 @@
         "geometry": null
       },
       {
-        "type": "Feature",
         "id": 14457,
         "bbox": [
           -25.188437,
@@ -419,6 +423,7 @@
           -25.114326,
           37.098484
         ],
+        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "sketch2",

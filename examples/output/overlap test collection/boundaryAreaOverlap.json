@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14453",
       "classId": "nearshore",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 123257284.1119115,
       "extra": {
         "sketchName": "overlap test collection",
@@ -13,11 +13,11 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14453",
       "classId": "nearshore",
+      "sketchId": "14453",
       "groupId": "FULLY_PROTECTED",
-      "geographyId": null,
       "value": 97694229.43176444,
       "extra": {
         "sketchName": "overlap test collection",
@@ -25,11 +25,11 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14453",
       "classId": "nearshore",
+      "sketchId": "14453",
       "groupId": "HIGHLY_PROTECTED",
-      "geographyId": null,
       "value": 25563346.614041854,
       "extra": {
         "sketchName": "overlap test collection",
@@ -37,74 +37,94 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14455",
       "classId": "nearshore",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 30364568.282603703,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14455",
       "classId": "nearshore",
+      "sketchId": "14455",
       "groupId": "HIGHLY_PROTECTED",
-      "geographyId": null,
       "value": 30364568.282603703,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14456",
       "classId": "nearshore",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
-      "value": 62706295.10724833,
+      "value": 62706295.10724613,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14456",
       "classId": "nearshore",
+      "sketchId": "14456",
       "groupId": "FULLY_PROTECTED",
-      "geographyId": null,
-      "value": 62706295.10724833,
+      "value": 62706295.10724613,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14457",
       "classId": "nearshore",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
-      "value": 34987934.32451495,
+      "value": 34987934.32451831,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14457",
       "classId": "nearshore",
+      "sketchId": "14457",
       "groupId": "FULLY_PROTECTED",
-      "geographyId": null,
-      "value": 34987934.32451495,
+      "value": 34987934.32451831,
       "extra": {
         "sketchName": "sketch2"
       }
     }
   ],
   "sketch": {
-    "id": 14453,
+    "properties": {
+      "2991": "overlap test collection",
+      "id": "14453",
+      "name": "overlap test collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-05-02T15:49:36.640108+00:00",
+      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    },
+    "bbox": [
+      -25.241573446,
+      36.884046904,
+      -24.932545706,
+      37.098485794
+    ],
     "type": "FeatureCollection",
     "features": [
       {
@@ -305,21 +325,6 @@
           ]
         }
       }
-    ],
-    "properties": {
-      "2991": "overlap test collection",
-      "id": "14453",
-      "name": "overlap test collection",
-      "postId": null,
-      "userId": "531",
-      "userSlug": "Abby",
-      "createdAt": "2023-05-02T15:49:36.640108+00:00",
-      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "213",
-      "userAttributes": null
-    }
+    ]
   }
 }

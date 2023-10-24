@@ -5,28 +5,28 @@ import {
   ReportResult,
   Sketch,
   SketchCollection,
+  DefaultExtraParams,
   toNullSketch,
   rekeyMetrics,
   sortMetrics,
   overlapRaster,
   getCogFilename,
+  getFirstFromParam,
 } from "@seasketch/geoprocessing";
-import { loadCog, loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
-import bbox from "@turf/bbox";
+import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import project from "../../project";
-import { ExtraParams } from "../types";
-import { getParamStringArray } from "../util/extraParams";
-import { clipSketchToGeography } from "../util/clipSketchToGeography";
+import { clipToGeography } from "../util/clipToGeography";
 
 export async function gfwValueOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams?: ExtraParams
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
-  const geographyId = extraParams
-    ? getParamStringArray("geographyIds", extraParams)[0]
-    : undefined;
-  const clippedSketch = await clipSketchToGeography(sketch, geographyId);
-  const box = clippedSketch.bbox || bbox(clippedSketch);
+  const geographyId = getFirstFromParam("geographyIds", extraParams);
+  const curGeography = project.getGeographyById(geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+
+  const clippedSketch = await clipToGeography(sketch, curGeography);
   const mg = project.getMetricGroup("gfwValueOverlap");
 
   const metrics: Metric[] = (
@@ -36,9 +36,9 @@ export async function gfwValueOverlap(
         if (!curClass.datasourceId)
           throw new Error(`Expected datasourceId for ${curClass}`);
         const url = `${project.dataBucketUrl()}${getCogFilename(
-          curClass.datasourceId
+          project.getInternalRasterDatasourceById(curClass.datasourceId)
         )}`;
-        const raster = await loadCogWindow(url, { windowBox: box });
+        const raster = await loadCog(url);
 
         const overlapResult = await overlapRaster(
           mg.metricId,
@@ -50,6 +50,7 @@ export async function gfwValueOverlap(
           (metrics): Metric => ({
             ...metrics,
             classId: curClass.classId,
+            geographyId: curGeography.geographyId,
           })
         );
       })

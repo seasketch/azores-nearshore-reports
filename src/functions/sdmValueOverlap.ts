@@ -5,42 +5,42 @@ import {
   ReportResult,
   Sketch,
   SketchCollection,
+  DefaultExtraParams,
   toNullSketch,
   rekeyMetrics,
   sortMetrics,
   overlapRaster,
   getCogFilename,
-  isSketchCollection,
+  MultiPolygon,
+  getFirstFromParam,
 } from "@seasketch/geoprocessing";
-import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
-import bbox from "@turf/bbox";
+import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import project from "../../project";
-import { clipSketchToGeography } from "../util/clipSketchToGeography";
-import { ExtraParams } from "../types";
-import { getParamStringArray } from "../util/extraParams";
+import { clipToGeography } from "../util/clipToGeography";
 
 const metricGroup = project.getMetricGroup("sdmValueOverlap");
 
 export async function sdmValueOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams?: ExtraParams
+  sketch:
+    | Sketch<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>,
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
-  const geographyId = extraParams
-    ? getParamStringArray("geographyIds", extraParams)[0]
-    : undefined;
-  const finalSketch = await clipSketchToGeography(sketch, geographyId);
-  const box = finalSketch.bbox || bbox(finalSketch);
+  const geographyId = getFirstFromParam("geographyIds", extraParams);
+  const curGeography = project.getGeographyById(geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+
+  const finalSketch = await clipToGeography(sketch, curGeography);
   const metrics: Metric[] = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
-        // start raster load and move on in loop while awaiting finish
         if (!curClass.datasourceId)
           throw new Error(`Expected datasourceId for ${curClass}`);
         const url = `${project.dataBucketUrl()}${getCogFilename(
-          curClass.datasourceId
+          project.getInternalRasterDatasourceById(curClass.datasourceId)
         )}`;
-        const raster = await loadCogWindow(url, {});
-        // start analysis as soon as source load done
+        const raster = await loadCog(url);
         const overlapResult = await overlapRaster(
           metricGroup.metricId,
           raster,
@@ -50,6 +50,7 @@ export async function sdmValueOverlap(
           (metrics): Metric => ({
             ...metrics,
             classId: curClass.classId,
+            geographyId: curGeography.geographyId,
           })
         );
       })

@@ -2,34 +2,37 @@ import {
   Sketch,
   GeoprocessingHandler,
   Polygon,
+  MultiPolygon,
   ReportResult,
   SketchCollection,
+  DefaultExtraParams,
   toNullSketch,
   rekeyMetrics,
+  getFirstFromParam,
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
-import bbox from "@turf/bbox";
 import {
   OusFeature,
   overlapOusDemographic,
 } from "../util/overlapOusDemographic";
 import { featureCollection } from "@turf/helpers";
 import project from "../../project";
-import { clipSketchToGeography } from "../util/clipSketchToGeography";
-import { ExtraParams } from "../types";
-import { getParamStringArray } from "../util/extraParams";
+import { clipToGeography } from "../util/clipToGeography";
 
 const METRIC = project.getMetricGroup("ousSectorDemographicOverlap");
 
 /** Calculate sketch area overlap inside and outside of multiple planning area boundaries */
 export async function ousDemographicOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams?: ExtraParams
+  sketch:
+    | Sketch<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>,
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
-  const geographyId = extraParams
-    ? getParamStringArray("geographyIds", extraParams)[0]
-    : undefined;
-  const clippedSketch = await clipSketchToGeography(sketch, geographyId, {
+  const geographyId = getFirstFromParam("geographyIds", extraParams);
+  const curGeography = project.getGeographyById(geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+  const clippedSketch = await clipToGeography(sketch, curGeography, {
     tolerance: 0.0001,
     highQuality: true,
   });
@@ -40,7 +43,10 @@ export async function ousDemographicOverlap(
 
   const metrics = (
     await overlapOusDemographic(featureCollection(shapes), clippedSketch)
-  ).metrics;
+  ).metrics.map((metric) => ({
+    ...metric,
+    geographyId: curGeography.geographyId,
+  }));
 
   return {
     metrics: rekeyMetrics(metrics),

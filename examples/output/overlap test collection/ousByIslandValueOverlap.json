@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "corvo_comm_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -13,44 +13,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "corvo_comm_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "corvo_comm_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "corvo_comm_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "corvo_rec_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -58,44 +58,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "corvo_rec_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "corvo_rec_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "corvo_rec_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "corvo_rec_sports_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -103,44 +103,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "corvo_rec_sports_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "corvo_rec_sports_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "corvo_rec_sports_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "faial_aquaculture_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -148,44 +148,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "faial_aquaculture_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "faial_aquaculture_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "faial_aquaculture_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "faial_comm_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -193,44 +193,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "faial_comm_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "faial_comm_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "faial_comm_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "faial_energy_dev_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -238,44 +238,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "faial_energy_dev_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "faial_energy_dev_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "faial_energy_dev_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "faial_rec_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -283,44 +283,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "faial_rec_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "faial_rec_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "faial_rec_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "faial_rec_sports_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -328,44 +328,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "faial_rec_sports_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "faial_rec_sports_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "faial_rec_sports_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "faial_sci_tech_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 9.379349705795903e-7,
       "extra": {
         "sketchName": "overlap test collection",
@@ -373,44 +373,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "faial_sci_tech_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "faial_sci_tech_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "faial_sci_tech_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 9.379349705795903e-7,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "flores_comm_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -418,44 +418,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "flores_comm_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "flores_comm_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "flores_comm_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "flores_cultural_heritage_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -463,44 +463,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "flores_cultural_heritage_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "flores_cultural_heritage_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "flores_cultural_heritage_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "flores_rec_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -508,44 +508,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "flores_rec_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "flores_rec_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "flores_rec_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "flores_rec_sports_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -553,44 +553,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "flores_rec_sports_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "flores_rec_sports_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "flores_rec_sports_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "flores_sci_tech_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -598,44 +598,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "flores_sci_tech_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "flores_sci_tech_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "flores_sci_tech_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "flores_tour_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -643,44 +643,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "flores_tour_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "flores_tour_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "flores_tour_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "graciosa_comm_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -688,44 +688,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "graciosa_comm_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "graciosa_comm_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "graciosa_comm_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "graciosa_rec_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -733,44 +733,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "graciosa_rec_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "graciosa_rec_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "graciosa_rec_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "graciosa_rec_sports_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -778,44 +778,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "graciosa_rec_sports_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "graciosa_rec_sports_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "graciosa_rec_sports_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "graciosa_sci_tech_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -823,44 +823,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "graciosa_sci_tech_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "graciosa_sci_tech_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "graciosa_sci_tech_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "graciosa_sec_def_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -868,44 +868,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "graciosa_sec_def_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "graciosa_sec_def_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "graciosa_sec_def_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "graciosa_tour_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -913,44 +913,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "graciosa_tour_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "graciosa_tour_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "graciosa_tour_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "pico_comm_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -958,44 +958,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "pico_comm_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "pico_comm_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "pico_comm_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "pico_rec_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 5.199771998601332e-7,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1003,44 +1003,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "pico_rec_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 1.2833780944215833e-7,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "pico_rec_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 2.643951863695593e-7,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "pico_rec_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 1.4770105788430854e-7,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "pico_rec_sports_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1048,44 +1048,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "pico_rec_sports_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "pico_rec_sports_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "pico_rec_sports_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "pico_sci_tech_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 5.285788749476161e-7,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1093,44 +1093,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "pico_sci_tech_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 1.3022769429493763e-7,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "pico_sci_tech_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 2.683834218752956e-7,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "pico_sci_tech_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 1.5082758406115282e-7,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "pico_tour_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1138,44 +1138,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "pico_tour_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "pico_tour_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "pico_tour_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "santa-maria_comm_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.049584,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1183,44 +1183,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "santa-maria_comm_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.017991,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "santa-maria_comm_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.011569,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "santa-maria_comm_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.023647,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "santa-maria_cultural_heritage_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1228,44 +1228,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "santa-maria_cultural_heritage_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "santa-maria_cultural_heritage_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "santa-maria_cultural_heritage_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "santa-maria_rec_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.260981,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1273,44 +1273,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "santa-maria_rec_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.058453,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "santa-maria_rec_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.141259,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "santa-maria_rec_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.067624,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "santa-maria_rec_sports_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.216399,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1318,44 +1318,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "santa-maria_rec_sports_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.05862,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "santa-maria_rec_sports_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.113797,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "santa-maria_rec_sports_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.055182,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "santa-maria_sci_tech_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.004433,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1363,44 +1363,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "santa-maria_sci_tech_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.003597,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "santa-maria_sci_tech_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000413,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "santa-maria_sci_tech_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000423,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "santa-maria_tour_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.175193,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1408,44 +1408,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "santa-maria_tour_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.065382,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "santa-maria_tour_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.057695,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "santa-maria_tour_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.062405,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-jorge_comm_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1453,44 +1453,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-jorge_comm_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-jorge_comm_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-jorge_comm_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-jorge_cultural_heritage_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1498,44 +1498,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-jorge_cultural_heritage_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-jorge_cultural_heritage_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-jorge_cultural_heritage_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-jorge_rec_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1543,44 +1543,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-jorge_rec_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-jorge_rec_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-jorge_rec_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-jorge_rec_sports_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1588,44 +1588,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-jorge_rec_sports_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-jorge_rec_sports_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-jorge_rec_sports_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-jorge_sci_tech_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1633,44 +1633,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-jorge_sci_tech_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-jorge_sci_tech_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-jorge_sci_tech_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-jorge_tour_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1678,44 +1678,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-jorge_tour_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-jorge_tour_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-jorge_tour_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-miguel_aquaculture_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1723,44 +1723,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-miguel_aquaculture_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-miguel_aquaculture_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-miguel_aquaculture_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-miguel_comm_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000088,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1768,44 +1768,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-miguel_comm_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000021,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-miguel_comm_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000044,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-miguel_comm_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000026,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-miguel_rec_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000025,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1813,44 +1813,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-miguel_rec_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000006,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-miguel_rec_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000013,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-miguel_rec_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000007,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-miguel_rec_sports_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.013903,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1858,44 +1858,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-miguel_rec_sports_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.012994,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-miguel_rec_sports_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000013,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-miguel_rec_sports_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.002774,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-miguel_sci_tech_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 6.488192820508498e-8,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1903,44 +1903,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-miguel_sci_tech_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 1.976689568972123e-9,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-miguel_sci_tech_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-miguel_sci_tech_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 6.290523863611286e-8,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-miguel_sec_def_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1948,44 +1948,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-miguel_sec_def_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-miguel_sec_def_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-miguel_sec_def_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "sao-miguel_tour_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.00012,
       "extra": {
         "sketchName": "overlap test collection",
@@ -1993,44 +1993,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "sao-miguel_tour_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000029,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "sao-miguel_tour_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000062,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "sao-miguel_tour_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000035,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "terceira_comm_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -2038,44 +2038,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "terceira_comm_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "terceira_comm_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "terceira_comm_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "terceira_cultural_heritage_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -2083,44 +2083,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "terceira_cultural_heritage_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "terceira_cultural_heritage_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "terceira_cultural_heritage_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "terceira_rec_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -2128,44 +2128,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "terceira_rec_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "terceira_rec_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "terceira_rec_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "terceira_rec_sports_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -2173,44 +2173,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "terceira_rec_sports_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "terceira_rec_sports_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "terceira_rec_sports_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "terceira_sci_tech_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -2218,44 +2218,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "terceira_sci_tech_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "terceira_sci_tech_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "terceira_sci_tech_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14453",
       "classId": "terceira_tour_fish_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -2263,33 +2263,33 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14455",
       "classId": "terceira_tour_fish_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14456",
       "classId": "terceira_tour_fish_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousByIslandValueOverlap",
-      "sketchId": "14457",
       "classId": "terceira_tour_fish_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
@@ -2297,7 +2297,27 @@
     }
   ],
   "sketch": {
-    "id": 14453,
+    "properties": {
+      "2991": "overlap test collection",
+      "id": "14453",
+      "name": "overlap test collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-05-02T15:49:36.640108+00:00",
+      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    },
+    "bbox": [
+      -25.241573446,
+      36.884046904,
+      -24.932545706,
+      37.098485794
+    ],
     "type": "FeatureCollection",
     "features": [
       {
@@ -2501,21 +2521,6 @@
         },
         "geometry": null
       }
-    ],
-    "properties": {
-      "2991": "overlap test collection",
-      "id": "14453",
-      "name": "overlap test collection",
-      "postId": null,
-      "userId": "531",
-      "userSlug": "Abby",
-      "createdAt": "2023-05-02T15:49:36.640108+00:00",
-      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "213",
-      "userAttributes": null
-    }
+    ]
   }
 }

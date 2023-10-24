@@ -38,16 +38,16 @@ async function overlapOusDemographicWorker(
   shapes: OusFeatureCollection,
   /** optionally calculate stats for OUS shapes that overlap with sketch  */
   sketch?:
-    | Sketch<Polygon>
-    | SketchCollection<Polygon>
-    | Sketch<MultiPolygon>
-    | SketchCollection<MultiPolygon>
+    | Sketch<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>
 ) {
   // combine into multipolygon
   const combinedSketch = (() => {
     if (sketch) {
       const sketches = toSketchArray(
-        sketch as Sketch<Polygon> | SketchCollection<Polygon>
+        sketch as
+          | Sketch<Polygon | MultiPolygon>
+          | SketchCollection<Polygon | MultiPolygon>
       );
       const sketchColl = featureCollection(sketches);
       return sketch ? clip(sketchColl, "union") : null;
@@ -229,10 +229,8 @@ function genOusClassMetrics<G extends Polygon | MultiPolygon>(
   classStats: ClassCountStats,
   /** optionally calculate stats for OUS shapes that overlap with sketch  */
   sketch?:
-    | Sketch<Polygon>
-    | SketchCollection<Polygon>
-    | Sketch<MultiPolygon>
-    | SketchCollection<MultiPolygon>
+    | Sketch<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>
 ): Metric[] {
   return Object.keys(classStats)
     .map((curClass) => [

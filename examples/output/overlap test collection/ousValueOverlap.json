@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14453",
       "classId": "all_aquaculture_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -13,44 +13,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14455",
       "classId": "all_aquaculture_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14456",
       "classId": "all_aquaculture_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14457",
       "classId": "all_aquaculture_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14453",
       "classId": "all_commercial_fishing_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.033598,
       "extra": {
         "sketchName": "overlap test collection",
@@ -58,44 +58,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14455",
       "classId": "all_commercial_fishing_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.011766,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14456",
       "classId": "all_commercial_fishing_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.007932,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14457",
       "classId": "all_commercial_fishing_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.016212,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14453",
       "classId": "all_energy_development_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -103,44 +103,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14455",
       "classId": "all_energy_development_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14456",
       "classId": "all_energy_development_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14457",
       "classId": "all_energy_development_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14453",
       "classId": "all_recreation_sports_and_tourism_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.155526,
       "extra": {
         "sketchName": "overlap test collection",
@@ -148,44 +148,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14455",
       "classId": "all_recreation_sports_and_tourism_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.04874,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14456",
       "classId": "all_recreation_sports_and_tourism_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.07651,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14457",
       "classId": "all_recreation_sports_and_tourism_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.039071,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14453",
       "classId": "all_recreational_fishing_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.184274,
       "extra": {
         "sketchName": "overlap test collection",
@@ -193,44 +193,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14455",
       "classId": "all_recreational_fishing_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.041766,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14456",
       "classId": "all_recreational_fishing_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.09928,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14457",
       "classId": "all_recreational_fishing_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.04775,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14453",
       "classId": "all_science_tech_monitoring_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.003955,
       "extra": {
         "sketchName": "overlap test collection",
@@ -238,44 +238,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14455",
       "classId": "all_science_tech_monitoring_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.003296,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14456",
       "classId": "all_science_tech_monitoring_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000325,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14457",
       "classId": "all_science_tech_monitoring_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.000335,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14453",
       "classId": "all_security_and_defense_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -283,44 +283,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14455",
       "classId": "all_security_and_defense_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14456",
       "classId": "all_security_and_defense_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14457",
       "classId": "all_security_and_defense_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14453",
       "classId": "all_touristic_fishing_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0.116258,
       "extra": {
         "sketchName": "overlap test collection",
@@ -328,44 +328,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14455",
       "classId": "all_touristic_fishing_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0.043388,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14456",
       "classId": "all_touristic_fishing_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0.038209,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14457",
       "classId": "all_touristic_fishing_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0.041421,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14453",
       "classId": "all_underwater_cultural_heritage_ous",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -373,33 +373,33 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14455",
       "classId": "all_underwater_cultural_heritage_ous",
+      "sketchId": "14455",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14456",
       "classId": "all_underwater_cultural_heritage_ous",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "ousValueOverlap",
-      "sketchId": "14457",
       "classId": "all_underwater_cultural_heritage_ous",
+      "sketchId": "14457",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
@@ -407,7 +407,27 @@
     }
   ],
   "sketch": {
-    "id": 14453,
+    "properties": {
+      "2991": "overlap test collection",
+      "id": "14453",
+      "name": "overlap test collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-05-02T15:49:36.640108+00:00",
+      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    },
+    "bbox": [
+      -25.241573446,
+      36.884046904,
+      -24.932545706,
+      37.098485794
+    ],
     "type": "FeatureCollection",
     "features": [
       {
@@ -611,21 +631,6 @@
         },
         "geometry": null
       }
-    ],
-    "properties": {
-      "2991": "overlap test collection",
-      "id": "14453",
-      "name": "overlap test collection",
-      "postId": null,
-      "userId": "531",
-      "userSlug": "Abby",
-      "createdAt": "2023-05-02T15:49:36.640108+00:00",
-      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "213",
-      "userAttributes": null
-    }
+    ]
   }
 }

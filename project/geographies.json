@@ -3,60 +3,72 @@
         "geographyId": "nearshore",
         "datasourceId": "6nm_boundary",
         "display": "Azores",
-        "layerId":"x6kSfK6Lb"
+        "layerId":"x6kSfK6Lb",
+        "groups": ["default-boundary"],
+        "precalc": true
     },
     {
         "geographyId": "corvo",
         "datasourceId": "corvo",
         "display": "Corvo",
-        "layerId":"8FCgjRWU0"
+        "layerId":"8FCgjRWU0",
+        "groups": ["default-island"],
+        "precalc": true
     },
     {
         "geographyId": "faial",
         "datasourceId": "faial",
         "display": "Faial",
-        "layerId":"wjYSaTZQH"
+        "layerId":"wjYSaTZQH",
+        "precalc": true
     },
     {
         "geographyId": "flores",
         "datasourceId": "flores",
         "display": "Flores",
-        "layerId":"lFdg3LY1s"
+        "layerId":"lFdg3LY1s",
+        "precalc": true
     },
     {
         "geographyId": "graciosa",
         "datasourceId": "graciosa",
         "display": "Graciosa",
-        "layerId":"PHFcvWw4G"
+        "layerId":"PHFcvWw4G",
+        "precalc": true
     },
     {
         "geographyId": "pico",
         "datasourceId": "pico",
         "display": "Pico",
-        "layerId":"zC5Z08VYd"
+        "layerId":"zC5Z08VYd",
+        "precalc": true
     },
     {
         "geographyId": "santa-maria",
         "datasourceId": "santa-maria",
         "display": "Santa Maria",
-        "layerId":"CymWQ6bdS"
+        "layerId":"CymWQ6bdS",
+        "precalc": true
     },
     {
         "geographyId": "sao-miguel",
         "datasourceId": "sao-miguel",
         "display": "São Miguel",
-        "layerId":"bO_QJJX9E"
+        "layerId":"bO_QJJX9E",
+        "precalc": true
     },
     {
         "geographyId": "sao-jorge",
         "datasourceId": "sao-jorge",
         "display": "São Jorge",
-        "layerId":"vAypmorBv"
+        "layerId":"vAypmorBv",
+        "precalc": true
     },
     {
         "geographyId": "terceira",
         "datasourceId": "terceira",
         "display": "Terceira",
-        "layerId":"3bBUAMahS"
+        "layerId":"3bBUAMahS",
+        "precalc": true
     }
 ]

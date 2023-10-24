@@ -5,8 +5,8 @@ import {
   useSketchProperties,
   KeySection,
   InfoStatus,
+  ClassTable,
 } from "@seasketch/geoprocessing/client-ui";
-import { ClassTable } from "../util/ClassTable";
 import {
   ReportResult,
   ReportResultBase,
@@ -35,12 +35,17 @@ const TOTAL_METRIC_ID = `${overallMetricGroup.metricId}Total`;
 
 export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
   const { t } = useTranslation();
+
+  const curGeography = project.getGeographyById(props.geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+
   return (
     <>
       <ResultsCard
         title={t("Ocean Use Demographics")}
         functionName="ousDemographicOverlap"
-        extraParams={{ geographyIds: [props.geographyId] }}
+        extraParams={{ geographyIds: [curGeography.geographyId] }}
       >
         {(data: ReportResult) => {
           // Filter down to people count metrics for top-level sketch
@@ -90,7 +95,7 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
             ...toPercentMetric(
               singlePeopleCountMetrics,
               singlePeopleTotalCountMetrics,
-              PERC_METRIC_ID
+              { metricIdOverride: PERC_METRIC_ID }
             ),
           ];
 

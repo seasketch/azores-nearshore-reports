@@ -5,14 +5,14 @@ import {
   Polygon,
   ReportResult,
   SketchCollection,
+  DefaultExtraParams,
   toNullSketch,
   rekeyMetrics,
   sortMetrics,
   NullSketchCollection,
   NullSketch,
   getSketchFeatures,
-  getFlatGeobufFilename,
-  clipMultiMerge,
+  getFirstFromParam,
 } from "@seasketch/geoprocessing";
 import project from "../../project";
 import {
@@ -23,13 +23,10 @@ import {
   firstMatchingMetric,
   getUserAttribute,
 } from "@seasketch/geoprocessing/client-core";
-import { getPrecalcMetrics } from "../../data/bin/getPrecalcMetrics";
-import { clipSketchToGeography } from "../util/clipSketchToGeography";
-import { ExtraParams } from "../types";
-import { getParamStringArray } from "../util/extraParams";
+import { clipToGeography } from "../util/clipToGeography";
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
-const boundaryTotalMetrics = getPrecalcMetrics(
+const boundaryTotalMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
   "nearshore"
@@ -41,12 +38,14 @@ const totalAreaMetric = firstMatchingMetric(
 
 export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams?: ExtraParams
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
-  const geographyId = extraParams
-    ? getParamStringArray("geographyIds", extraParams)[0]
-    : undefined;
-  const clippedSketch = await clipSketchToGeography(sketch, geographyId);
+  const geographyId = getFirstFromParam("geographyIds", extraParams);
+  const curGeography = project.getGeographyById(geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+
+  const clippedSketch = await clipToGeography(sketch, curGeography);
 
   const areaMetrics = (
     await overlapArea(metricGroup.metricId, sketch, totalAreaMetric.value, {
@@ -56,6 +55,7 @@ export async function boundaryAreaOverlap(
     (metric): Metric => ({
       ...metric,
       classId: metricGroup.classes[0].classId,
+      geographyId: curGeography.geographyId,
     })
   );
 
@@ -66,15 +66,17 @@ export async function boundaryAreaOverlap(
     return sketchToMpaClass[sketchMetric.sketchId!];
   };
 
-  const levelMetrics = await overlapAreaGroupMetrics({
-    metricId: metricGroup.metricId,
-    groupIds: ["FULLY_PROTECTED", "HIGHLY_PROTECTED"],
-    sketch: clippedSketch,
-    metricToGroup: metricToLevel,
-    metrics: areaMetrics,
-    classId: metricGroup.classes[0].classId,
-    outerArea: totalAreaMetric.value,
-  });
+  const levelMetrics = (
+    await overlapAreaGroupMetrics({
+      metricId: metricGroup.metricId,
+      groupIds: ["FULLY_PROTECTED", "HIGHLY_PROTECTED"],
+      sketch: clippedSketch,
+      metricToGroup: metricToLevel,
+      metrics: areaMetrics,
+      classId: metricGroup.classes[0].classId,
+      outerArea: totalAreaMetric.value,
+    })
+  ).map((metric) => ({ ...metric, geographyId: curGeography.geographyId }));
 
   return {
     metrics: sortMetrics(rekeyMetrics([...areaMetrics, ...levelMetrics])),

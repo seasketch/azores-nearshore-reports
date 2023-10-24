@@ -1,12 +1,7 @@
-import { featureCollection } from "@turf/helpers";
-import intersect from "@turf/intersect";
 const { performance } = require("perf_hooks");
 import { spawn, Thread, Worker, FunctionThread } from "threads";
 import { OverlapOusDemographicWorker } from "./overlapOusDemographicWorker";
-import simplify from "@turf/simplify";
 import {
-  clip,
-  createMetric,
   Feature,
   Polygon,
   FeatureCollection,
@@ -15,7 +10,6 @@ import {
   Nullable,
   Sketch,
   SketchCollection,
-  toSketchArray,
 } from "@seasketch/geoprocessing";
 
 export interface OusFeatureProperties {
@@ -69,7 +63,9 @@ export async function overlapOusDemographic(
   /** ous shape polygons */
   shapes: OusFeatureCollection,
   /** optionally calculate stats for OUS shapes that overlap with sketch  */
-  sketch?: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch?:
+    | Sketch<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>
 ) {
   // Performance testing
   let start = performance.now();
