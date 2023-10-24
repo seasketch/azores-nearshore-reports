@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14453",
-      "classId": "all-fishing",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "all-fishing",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 158.549438,
       "extra": {
         "sketchName": "overlap test collection",
@@ -13,44 +13,44 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14455",
-      "classId": "all-fishing",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "all-fishing",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14456",
-      "classId": "all-fishing",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "all-fishing",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14457",
-      "classId": "all-fishing",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "all-fishing",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 158.549438,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14453",
-      "classId": "country:ESP",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:ESP",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -58,44 +58,44 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14455",
-      "classId": "country:ESP",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:ESP",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14456",
-      "classId": "country:ESP",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:ESP",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14457",
-      "classId": "country:ESP",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:ESP",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14453",
-      "classId": "country:PRT",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:PRT",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 158.549438,
       "extra": {
         "sketchName": "overlap test collection",
@@ -103,44 +103,44 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14455",
-      "classId": "country:PRT",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:PRT",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14456",
-      "classId": "country:PRT",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:PRT",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14457",
-      "classId": "country:PRT",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:PRT",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 158.549438,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14453",
-      "classId": "gear_type:drifting-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:drifting-longlines",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -148,44 +148,44 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14455",
-      "classId": "gear_type:drifting-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:drifting-longlines",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14456",
-      "classId": "gear_type:drifting-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:drifting-longlines",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14457",
-      "classId": "gear_type:drifting-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:drifting-longlines",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "14453",
       "classId": "gear_type:fixed-gear",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8.7775,
       "extra": {
         "sketchName": "overlap test collection",
@@ -193,44 +193,44 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14455",
-      "classId": "gear_type:fixed-gear",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:fixed-gear",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14456",
-      "classId": "gear_type:fixed-gear",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:fixed-gear",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14457",
-      "classId": "gear_type:fixed-gear",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:fixed-gear",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 8.7775,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14453",
-      "classId": "gear_type:pole-and-line",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:pole-and-line",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 111.811386,
       "extra": {
         "sketchName": "overlap test collection",
@@ -238,44 +238,44 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14455",
-      "classId": "gear_type:pole-and-line",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:pole-and-line",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14456",
-      "classId": "gear_type:pole-and-line",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:pole-and-line",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14457",
-      "classId": "gear_type:pole-and-line",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:pole-and-line",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 111.811386,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "14453",
       "classId": "gear_type:set-longlines",
+      "sketchId": "14453",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 13.417223,
       "extra": {
         "sketchName": "overlap test collection",
@@ -283,33 +283,33 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14455",
-      "classId": "gear_type:set-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:set-longlines",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14456",
-      "classId": "gear_type:set-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:set-longlines",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "14457",
-      "classId": "gear_type:set-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:set-longlines",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 13.417223,
       "extra": {
         "sketchName": "sketch2"

@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "17851",
-      "classId": "nearshore",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "17851",
+      "groupId": null,
       "value": 194340987.73634645,
       "extra": {
         "sketchName": "2island",
@@ -13,11 +13,11 @@
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "17851",
-      "classId": "nearshore",
-      "groupId": "FULLY_PROTECTED",
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "17851",
+      "groupId": "FULLY_PROTECTED",
       "value": 61152596.4852356,
       "extra": {
         "sketchName": "2island",
@@ -25,11 +25,11 @@
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "17851",
-      "classId": "nearshore",
-      "groupId": "HIGHLY_PROTECTED",
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "17851",
+      "groupId": "HIGHLY_PROTECTED",
       "value": 133188391.25111085,
       "extra": {
         "sketchName": "2island",
@@ -37,44 +37,44 @@
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "17852",
-      "classId": "nearshore",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "17852",
+      "groupId": null,
       "value": 61152596.4852356,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "17852",
       "classId": "nearshore",
+      "sketchId": "17852",
       "groupId": "FULLY_PROTECTED",
-      "geographyId": "nearshore",
       "value": 61152596.4852356,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "17853",
-      "classId": "nearshore",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "17853",
+      "groupId": null,
       "value": 133188391.25111085,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "17853",
-      "classId": "nearshore",
-      "groupId": "HIGHLY_PROTECTED",
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "17853",
+      "groupId": "HIGHLY_PROTECTED",
       "value": 133188391.25111085,
       "extra": {
         "sketchName": "santamaria"

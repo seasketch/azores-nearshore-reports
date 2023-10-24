@@ -1,99 +1,99 @@
 {
   "metrics": [
     {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15881",
-      "classId": "all_aquaculture_ous",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "ousValueOverlap",
+      "classId": "all_aquaculture_ous",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15881",
-      "classId": "all_commercial_fishing_ous",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "ousValueOverlap",
+      "classId": "all_commercial_fishing_ous",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0.032033,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15881",
-      "classId": "all_energy_development_ous",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "ousValueOverlap",
+      "classId": "all_energy_development_ous",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15881",
-      "classId": "all_recreation_sports_and_tourism_ous",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "ousValueOverlap",
+      "classId": "all_recreation_sports_and_tourism_ous",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0.19635,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15881",
-      "classId": "all_recreational_fishing_ous",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "ousValueOverlap",
+      "classId": "all_recreational_fishing_ous",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0.213798,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15881",
-      "classId": "all_science_tech_monitoring_ous",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "ousValueOverlap",
+      "classId": "all_science_tech_monitoring_ous",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0.000648,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15881",
-      "classId": "all_security_and_defense_ous",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "ousValueOverlap",
+      "classId": "all_security_and_defense_ous",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15881",
-      "classId": "all_touristic_fishing_ous",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "ousValueOverlap",
+      "classId": "all_touristic_fishing_ous",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0.138404,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15881",
-      "classId": "all_underwater_cultural_heritage_ous",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "ousValueOverlap",
+      "classId": "all_underwater_cultural_heritage_ous",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"

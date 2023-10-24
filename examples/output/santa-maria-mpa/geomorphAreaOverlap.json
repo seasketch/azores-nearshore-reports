@@ -1,88 +1,88 @@
 {
   "metrics": [
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "15881",
       "classId": "basins",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "15881",
       "classId": "canyons",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "15881",
-      "classId": "escarpments",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "escarpments",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 172087896.729294,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "15881",
-      "classId": "plateaus",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "plateaus",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 206786803.420438,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "15881",
-      "classId": "ridges",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "ridges",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "15881",
-      "classId": "high",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "high",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 6212603.857957,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "15881",
-      "classId": "medium",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "medium",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "15881",
-      "classId": "slope",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "slope",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 185028868.530886,
       "extra": {
         "sketchName": "santa-maria-mpa"

@@ -1,44 +1,44 @@
 {
   "metrics": [
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14456",
-      "classId": "basins",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "basins",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14455",
-      "classId": "basins",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "basins",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14457",
-      "classId": "basins",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "basins",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14453",
-      "classId": "basins",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "basins",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -46,44 +46,44 @@
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14456",
-      "classId": "canyons",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "canyons",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14455",
-      "classId": "canyons",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "canyons",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14457",
-      "classId": "canyons",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "canyons",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14453",
-      "classId": "canyons",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "canyons",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -91,44 +91,44 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "geomorphAreaOverlap",
-      "sketchId": "14456",
       "classId": "escarpments",
+      "sketchId": "14456",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 62706035.563625,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14455",
-      "classId": "escarpments",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "escarpments",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 27189313.533844,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14457",
-      "classId": "escarpments",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "escarpments",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 19385650.880681,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14453",
-      "classId": "escarpments",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "escarpments",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 105391265.962346,
       "extra": {
         "sketchName": "overlap test collection",
@@ -136,44 +136,44 @@
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14456",
-      "classId": "plateaus",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "plateaus",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 62706035.563625,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14455",
-      "classId": "plateaus",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "plateaus",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 30364158.173052,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14457",
-      "classId": "plateaus",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "plateaus",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 34988210.730934,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14453",
-      "classId": "plateaus",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "plateaus",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 123256956.390412,
       "extra": {
         "sketchName": "overlap test collection",
@@ -181,44 +181,44 @@
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14456",
-      "classId": "ridges",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "ridges",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14455",
-      "classId": "ridges",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "ridges",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14457",
-      "classId": "ridges",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "ridges",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14453",
-      "classId": "ridges",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "ridges",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -226,44 +226,44 @@
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14456",
-      "classId": "high",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "high",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14455",
-      "classId": "high",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "high",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 4126734.49792,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14457",
-      "classId": "high",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "high",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 20359619.948892,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14453",
-      "classId": "high",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "high",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 21959142.18895,
       "extra": {
         "sketchName": "overlap test collection",
@@ -271,44 +271,44 @@
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14456",
-      "classId": "medium",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "medium",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14455",
-      "classId": "medium",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "medium",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14457",
-      "classId": "medium",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "medium",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14453",
-      "classId": "medium",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "medium",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "overlap test collection",
@@ -316,44 +316,44 @@
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14456",
-      "classId": "slope",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "slope",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 62706035.563625,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14455",
-      "classId": "slope",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "slope",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 26237355.297487,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14457",
-      "classId": "slope",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "slope",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 14629182.795184,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "geomorphAreaOverlap",
-      "sketchId": "14453",
-      "classId": "slope",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "geomorphAreaOverlap",
+      "classId": "slope",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 101298401.730676,
       "extra": {
         "sketchName": "overlap test collection",

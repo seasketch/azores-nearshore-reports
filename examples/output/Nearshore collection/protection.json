@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
-      "metricId": "protectionCountOverlap",
-      "sketchId": null,
-      "classId": "FULLY_PROTECTED",
-      "groupId": "FULLY_PROTECTED",
       "geographyId": null,
+      "metricId": "protectionCountOverlap",
+      "classId": "FULLY_PROTECTED",
+      "sketchId": null,
+      "groupId": "FULLY_PROTECTED",
       "value": 5
     }
   ],

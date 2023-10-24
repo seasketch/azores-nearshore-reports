@@ -1,34 +1,34 @@
 {
   "metrics": [
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "15881",
-      "classId": "nearshore",
-      "groupId": null,
       "geographyId": "nearshore",
-      "value": 206787541.72845474,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "15881",
+      "groupId": null,
+      "value": 206787541.7284503,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "15881",
-      "classId": "nearshore",
-      "groupId": "FULLY_PROTECTED",
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "15881",
+      "groupId": "FULLY_PROTECTED",
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "15881",
-      "classId": "nearshore",
-      "groupId": "HIGHLY_PROTECTED",
       "geographyId": "nearshore",
-      "value": 206787541.72845474,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "15881",
+      "groupId": "HIGHLY_PROTECTED",
+      "value": 206787541.7284503,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }

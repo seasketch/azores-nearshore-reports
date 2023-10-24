@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
       "classId": "all-fishing",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 344.712769,
       "extra": {
         "sketchName": "2island",
@@ -13,33 +13,33 @@
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
       "classId": "all-fishing",
+      "sketchId": "17852",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 0,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
       "classId": "all-fishing",
+      "sketchId": "17853",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 344.712769,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
-      "classId": "country:ESP",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:ESP",
+      "sketchId": "17851",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "2island",
@@ -47,33 +47,33 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "country:ESP",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:ESP",
+      "sketchId": "17852",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "country:ESP",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:ESP",
+      "sketchId": "17853",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
-      "classId": "country:PRT",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:PRT",
+      "sketchId": "17851",
+      "groupId": null,
       "value": 344.712769,
       "extra": {
         "sketchName": "2island",
@@ -81,33 +81,33 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "country:PRT",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:PRT",
+      "sketchId": "17852",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "country:PRT",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "country:PRT",
+      "sketchId": "17853",
+      "groupId": null,
       "value": 344.712769,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
-      "classId": "gear_type:drifting-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:drifting-longlines",
+      "sketchId": "17851",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "2island",
@@ -115,33 +115,33 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "gear_type:drifting-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:drifting-longlines",
+      "sketchId": "17852",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "gear_type:drifting-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:drifting-longlines",
+      "sketchId": "17853",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
       "classId": "gear_type:fixed-gear",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 75.218613,
       "extra": {
         "sketchName": "2island",
@@ -149,33 +149,33 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "gear_type:fixed-gear",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:fixed-gear",
+      "sketchId": "17852",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "gear_type:fixed-gear",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:fixed-gear",
+      "sketchId": "17853",
+      "groupId": null,
       "value": 75.218613,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
-      "classId": "gear_type:pole-and-line",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:pole-and-line",
+      "sketchId": "17851",
+      "groupId": null,
       "value": 145.0625,
       "extra": {
         "sketchName": "2island",
@@ -183,33 +183,33 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "gear_type:pole-and-line",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:pole-and-line",
+      "sketchId": "17852",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "gear_type:pole-and-line",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:pole-and-line",
+      "sketchId": "17853",
+      "groupId": null,
       "value": 145.0625,
       "extra": {
         "sketchName": "santamaria"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "gfwValueOverlap",
-      "sketchId": "17851",
       "classId": "gear_type:set-longlines",
+      "sketchId": "17851",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 19.248055,
       "extra": {
         "sketchName": "2island",
@@ -217,22 +217,22 @@
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17852",
-      "classId": "gear_type:set-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:set-longlines",
+      "sketchId": "17852",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "saomiguel"
       }
     },
     {
-      "metricId": "gfwValueOverlap",
-      "sketchId": "17853",
-      "classId": "gear_type:set-longlines",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "gfwValueOverlap",
+      "classId": "gear_type:set-longlines",
+      "sketchId": "17853",
+      "groupId": null,
       "value": 19.248055,
       "extra": {
         "sketchName": "santamaria"

@@ -1,132 +1,132 @@
 {
   "metrics": [
     {
+      "geographyId": "nearshore",
       "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
       "classId": "birds_PA_Bulweria_bulwerii_baseline",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
       "classId": "birds_PA_Calonectris_borealis_baseline",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
       "classId": "birds_PA_Larus_michahellis_baseline",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
       "classId": "birds_PA_Oceanodroma_castro_baseline",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
       "classId": "birds_PA_Onychoprion_fuscatus_baseline",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
       "classId": "birds_PA_Puffinus_baroli_baseline",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
-      "classId": "birds_PA_Puffinus_puffinus_baseline",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "sdmValueOverlap",
+      "classId": "birds_PA_Puffinus_puffinus_baseline",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 5,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
       "classId": "birds_PA_Sterna_dougallii_baseline",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
       "classId": "birds_PA_Sterna_hirundo_baseline",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
       "classId": "turtles_PA_Caretta_caretta_baseline",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
       "classId": "turtles_PA_Chelonia_mydas_baseline",
+      "sketchId": "15881",
       "groupId": null,
-      "geographyId": "nearshore",
       "value": 8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
     },
     {
-      "metricId": "sdmValueOverlap",
-      "sketchId": "15881",
-      "classId": "turtles_PA_Dermochelys_coriacea_baseline",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "sdmValueOverlap",
+      "classId": "turtles_PA_Dermochelys_coriacea_baseline",
+      "sketchId": "15881",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "santa-maria-mpa"

@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14453",
-      "classId": "nearshore",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "14453",
+      "groupId": null,
       "value": 123257284.1119115,
       "extra": {
         "sketchName": "overlap test collection",
@@ -13,11 +13,11 @@
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14453",
-      "classId": "nearshore",
-      "groupId": "FULLY_PROTECTED",
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "14453",
+      "groupId": "FULLY_PROTECTED",
       "value": 97694229.43176444,
       "extra": {
         "sketchName": "overlap test collection",
@@ -25,11 +25,11 @@
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14453",
-      "classId": "nearshore",
-      "groupId": "HIGHLY_PROTECTED",
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "14453",
+      "groupId": "HIGHLY_PROTECTED",
       "value": 25563346.614041854,
       "extra": {
         "sketchName": "overlap test collection",
@@ -37,66 +37,66 @@
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14455",
-      "classId": "nearshore",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "14455",
+      "groupId": null,
       "value": 30364568.282603703,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14455",
       "classId": "nearshore",
+      "sketchId": "14455",
       "groupId": "HIGHLY_PROTECTED",
-      "geographyId": "nearshore",
       "value": 30364568.282603703,
       "extra": {
         "sketchName": "sketch1"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14456",
-      "classId": "nearshore",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "14456",
+      "groupId": null,
       "value": 62706295.10724613,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
+      "geographyId": "nearshore",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "14456",
       "classId": "nearshore",
+      "sketchId": "14456",
       "groupId": "FULLY_PROTECTED",
-      "geographyId": "nearshore",
       "value": 62706295.10724613,
       "extra": {
         "sketchName": "sketch3"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14457",
-      "classId": "nearshore",
-      "groupId": null,
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "14457",
+      "groupId": null,
       "value": 34987934.32451831,
       "extra": {
         "sketchName": "sketch2"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "14457",
-      "classId": "nearshore",
-      "groupId": "FULLY_PROTECTED",
       "geographyId": "nearshore",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "14457",
+      "groupId": "FULLY_PROTECTED",
       "value": 34987934.32451831,
       "extra": {
         "sketchName": "sketch2"
