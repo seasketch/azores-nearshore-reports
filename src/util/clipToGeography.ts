@@ -48,10 +48,33 @@ export async function clipToGeography<G extends Polygon | MultiPolygon>(
   );
 
   let finalsketches: Sketch<G>[] = [];
-  if (geogFeatures.length === 0 || !geogFeatures[0]) {
-    throw new Error(
-      `Geography ${geography.geographyId} has no features, check your datasource.`
+
+  if (!geogFeatures[0]) {
+    console.log(
+      sketch.properties.name,
+      "has no overlap with geography",
+      geography.geographyId
     );
+
+    const sketches = toSketchArray(sketch);
+    sketches.forEach((sketch: Sketch<G>) => {
+      sketch.geometry = {
+        type: "Polygon",
+        coordinates: [[[0.0, 0.0]], [[0.0, 0.0]], [[0.0, 0.0]]],
+      } as G;
+      finalsketches.push(sketch);
+    });
+
+    if (isSketchCollection(sketch)) {
+      return {
+        properties: sketch.properties,
+        bbox: box,
+        type: "FeatureCollection",
+        features: finalsketches,
+      };
+    } else {
+      return finalsketches[0];
+    }
   } else {
     const sketches = toSketchArray(sketch);
     sketches.forEach((sketch) => {
@@ -64,15 +87,18 @@ export async function clipToGeography<G extends Polygon | MultiPolygon>(
         console.log(
           `Sketch ${sketch.id} does not intersect with geography ${geography.geographyId}`
         );
-
       if (intersection) {
         if (simplifyOptions) {
           sketch.geometry = simplify(intersection.geometry, simplifyOptions);
         } else {
           sketch.geometry = intersection.geometry;
         }
+      } else {
+        sketch.geometry = {
+          type: "Polygon",
+          coordinates: [[[0.0, 0.0]], [[0.0, 0.0]], [[0.0, 0.0]]],
+        } as G;
       }
-
       finalsketches.push(sketch);
     });
   }
