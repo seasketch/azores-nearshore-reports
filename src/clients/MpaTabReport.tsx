@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, ChangeEventHandler } from "react";
 import {
   ReportPage,
-  Card,
   ToolbarCard,
   LayerToggle,
-  VerticalSpacer,
+  GeographySwitcher,
 } from "@seasketch/geoprocessing/client-ui";
 import ViabilityPage from "../components/ViabilityPage";
 import RepresentationPage from "../components/RepresentationPage";
@@ -27,21 +26,17 @@ const MpaTabReport = () => {
   const [tab, setTab] = useState<string>(viabilityId);
   const [geographyId, setGeography] = useState("nearshore");
 
-  const geographySwitcher = (e: any) => {
+  const geographySwitcher: ChangeEventHandler<HTMLSelectElement> = (e: any) => {
     setGeography(e.target.value);
   };
 
   const switcherAndMap = (
     <>
-      <select onChange={geographySwitcher}>
-        {geographies.map((geography) => {
-          return (
-            <option key={geography.geographyId} value={geography.geographyId}>
-              {geography.display}
-            </option>
-          );
-        })}
-      </select>
+      <GeographySwitcher
+        geographies={geographies}
+        curGeographyId={geographyId}
+        changeGeography={geographySwitcher}
+      />
       <LayerToggle
         label=" "
         layerId={project.getGeographyById(geographyId).layerId}
