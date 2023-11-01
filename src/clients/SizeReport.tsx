@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Translator from "../components/TranslatorAsync";
 import { SizeCard } from "../components/SizeCard";
-import geographies from "../../project/geographies.json";
 import { Card } from "@seasketch/geoprocessing/client-ui";
+import project from "../../project";
 
 export const SizeReport = () => {
   const [geography, setGeography] = useState("nearshore");
@@ -16,7 +16,7 @@ export const SizeReport = () => {
         <p>
           Nearshore planning area:{" "}
           <select onChange={geographySwitcher}>
-            {geographies.map((geography) => {
+            {project.geographies.map((geography) => {
               return (
                 <option value={geography.geographyId}>
                   {geography.display}

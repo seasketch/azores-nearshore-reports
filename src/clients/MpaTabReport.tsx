@@ -9,7 +9,6 @@ import ViabilityPage from "../components/ViabilityPage";
 import RepresentationPage from "../components/RepresentationPage";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync";
-import geographies from "../../project/geographies.json";
 import { SegmentControl } from "../util/SegmentControl";
 import project from "../../project";
 
@@ -33,7 +32,7 @@ const MpaTabReport = () => {
   const switcherAndMap = (
     <>
       <GeographySwitcher
-        geographies={geographies}
+        geographies={project.geographies}
         curGeographyId={geographyId}
         changeGeography={geographySwitcher}
       />
