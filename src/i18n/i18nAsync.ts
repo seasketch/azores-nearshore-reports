@@ -78,9 +78,7 @@ export function createI18nAsyncInstance(
           //console.log("langResources", langResources);
 
           // Return merged translations
-          console.log("extra terms", extraTerms);
-          if (defaultLang) {
-            console.log("inserting extra terms");
+          if (isDefault) {
             // merge in extraTerms if english
             callback(null, {
               ...baseLangResources,
@@ -88,6 +86,7 @@ export function createI18nAsyncInstance(
               ...extraTerms,
             });
           } else {
+            // otherwise extra terms should already be translated in langResources
             callback(null, {
               ...baseLangResources,
               ...langResources,
