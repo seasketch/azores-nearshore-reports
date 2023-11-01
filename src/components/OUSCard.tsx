@@ -22,7 +22,7 @@ import { GeoProp } from "../types";
 export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
-  const metricGroup = project.getMetricGroup("ousValueOverlap");
+  const metricGroup = project.getMetricGroup("ousValueOverlap", t);
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });

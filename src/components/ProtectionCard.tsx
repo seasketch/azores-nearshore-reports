@@ -42,18 +42,18 @@ const groupColorMap: Record<string, string> = {
   HIGHLY_PROTECTED: "#FFE1A3",
 };
 
-// Mapping groupIds to display names
-const groupDisplayMap: Record<string, string> = {
-  FULLY_PROTECTED: "Fully Protected Area",
-  HIGHLY_PROTECTED: "Highly Protected Area",
-};
-
 /**
  * Top level Protection report - JSX.Element
  */
 export const ProtectionCard = () => {
   const { t, i18n } = useTranslation();
   const [{ isCollection }] = useSketchProperties();
+
+  // Mapping groupIds to display names
+  const groupDisplayMap: Record<string, string> = {
+    FULLY_PROTECTED: t("Fully Protected Area"),
+    HIGHLY_PROTECTED: t("Highly Protected Area"),
+  };
 
   const mg = project.getMetricGroup("protectionCountOverlap", t);
   return (
@@ -63,7 +63,7 @@ export const ProtectionCard = () => {
           <ReportError>
             {isCollection
               ? sketchCollectionReport(data.sketch, data.metrics, mg, t)
-              : sketchReport(data.metrics, mg, t)}
+              : sketchReport(data.metrics, mg, groupDisplayMap, t)}
           </ReportError>
         );
       }}
@@ -77,7 +77,12 @@ export const ProtectionCard = () => {
  * @param mg MetricGroup
  * @param t TFunction for translation
  */
-const sketchReport = (metrics: Metric[], mg: MetricGroup, t: any) => {
+const sketchReport = (
+  metrics: Metric[],
+  mg: MetricGroup,
+  groupDisplayMap: Record<string, string>,
+  t: any
+) => {
   // Should only have only a single metric
   if (metrics.length !== 1)
     throw new Error(
@@ -105,8 +110,9 @@ const sketchReport = (metrics: Metric[], mg: MetricGroup, t: any) => {
 
       <Collapse title={t("Learn More")}>
         <ProtectionLearnMore
-          objectives={project.getMetricGroupObjectives(mg, t) as Objective[]}
+          objectives={project.getMetricGroupObjectives(mg, t)}
           t={t}
+          groupDisplayMap={groupDisplayMap}
         />
       </Collapse>
     </>
@@ -157,12 +163,13 @@ const sketchCollectionReport = (
         </Trans>
       </p>
       <Collapse title={t("Show by MPA")}>
-        {genMpaSketchTable(sketches, t)}
+        {genMpaSketchTable(sketches, t, groupDisplayMap)}
       </Collapse>
       <Collapse title={t("Learn More")}>
         <ProtectionLearnMore
           objectives={project.getMetricGroupObjectives(mg, t) as Objective[]}
           t={t}
+          groupDisplayMap={groupDisplayMap}
         />
       </Collapse>
     </>
@@ -172,7 +179,11 @@ const sketchCollectionReport = (
 /**
  * Show by MPA sketch table for sketch collection
  */
-const genMpaSketchTable = (sketches: NullSketch[], t: any) => {
+const genMpaSketchTable = (
+  sketches: NullSketch[],
+  t: any,
+  groupDisplayMap: Record<string, string>
+) => {
   const columns: Column<NullSketch>[] = [
     {
       Header: t("MPA"),
@@ -211,6 +222,7 @@ const genMpaSketchTable = (sketches: NullSketch[], t: any) => {
 interface LearnMoreProps {
   objectives: Objective[];
   t: any;
+  groupDisplayMap: Record<string, string>;
 }
 
 /**
@@ -220,6 +232,7 @@ interface LearnMoreProps {
 export const ProtectionLearnMore: React.FunctionComponent<LearnMoreProps> = ({
   objectives,
   t,
+  groupDisplayMap,
 }) => {
   const objectiveMap = keyBy(objectives, (obj: Objective) => obj.objectiveId);
   const minYesCounts = getMinYesCountMap(objectives);

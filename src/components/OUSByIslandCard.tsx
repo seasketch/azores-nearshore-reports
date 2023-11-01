@@ -27,7 +27,7 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
 
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
-  const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
+  const metricGroup = project.getMetricGroup("ousByIslandValueOverlap", t);
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-island", // island-level only report so fallback to default island for testing
   });

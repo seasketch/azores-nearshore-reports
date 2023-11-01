@@ -22,19 +22,29 @@ const precalcTotals = totals as ReportResultBase;
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-const overallMetricGroup = project.getMetricGroup(
-  "ousOverallDemographicOverlap"
-);
-const sectorMetricGroup = project.getMetricGroup("ousSectorDemographicOverlap");
-const islandMetricGroup = project.getMetricGroup("ousIslandDemographicOverlap");
-const gearMetricGroup = project.getMetricGroup("ousGearDemographicOverlap");
-
-const METRIC_ID = "ousPeopleCount";
-const PERC_METRIC_ID = `${overallMetricGroup.metricId}Perc`;
-const TOTAL_METRIC_ID = `${overallMetricGroup.metricId}Total`;
-
 export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
   const { t } = useTranslation();
+
+  const overallMetricGroup = project.getMetricGroup(
+    "ousOverallDemographicOverlap",
+    t
+  );
+  const sectorMetricGroup = project.getMetricGroup(
+    "ousSectorDemographicOverlap",
+    t
+  );
+  const islandMetricGroup = project.getMetricGroup(
+    "ousIslandDemographicOverlap",
+    t
+  );
+  const gearMetricGroup = project.getMetricGroup(
+    "ousGearDemographicOverlap",
+    t
+  );
+
+  const METRIC_ID = "ousPeopleCount";
+  const PERC_METRIC_ID = `${overallMetricGroup.metricId}Perc`;
+  const TOTAL_METRIC_ID = `${overallMetricGroup.metricId}Total`;
 
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",

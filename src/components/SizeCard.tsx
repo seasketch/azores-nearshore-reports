@@ -75,7 +75,7 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const mg = project.getMetricGroup("boundaryAreaOverlap", t);
   const objectiveIds = getMetricGroupObjectiveIds(mg);
-  const objectives = objectiveIds.map((o) => project.getObjectiveById(o));
+  const objectives = project.getMetricGroupObjectives(mg, t);
 
   return (
     <ResultsCard
@@ -137,7 +137,7 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
                 : sketchReport(data, props.geographyId, t)}
 
               <Collapse title={t("Learn More")}>
-                {genLearnMore(objectives)}
+                {genLearnMore(objectives, t)}
               </Collapse>
             </>
           </ReportError>
@@ -657,20 +657,22 @@ const genGroupLevelTable = (
  * @param objectives Objective[]
  * @returns JSX.Element
  */
-const genLearnMore = (objectives: Objective[]) => {
+const genLearnMore = (objectives: Objective[], t: any) => {
   const objectiveMap = keyBy(objectives, (obj) => obj.objectiveId);
   const minYesCounts = getMinYesCountMap(objectives);
   return (
     <>
       <p>
-        An MPA counts toward an objective if it meets the minimum level of
-        protection for that objective.
+        <Trans i18nKey="Protection Card - Learn more">
+          An MPA counts toward an objective if it meets the minimum level of
+          protection for that objective.
+        </Trans>
       </p>
       <table>
         <thead>
           <tr>
-            <th>Objective</th>
-            <th>Minimum MPA Classification Required</th>
+            <th>{t("Objective")}</th>
+            <th>{t("Minimum MPA Classification Required")}</th>
           </tr>
         </thead>
         <tbody>
