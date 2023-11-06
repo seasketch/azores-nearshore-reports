@@ -48,9 +48,14 @@ export async function boundaryAreaOverlap(
   const clippedSketch = await clipToGeography(sketch, curGeography);
 
   const areaMetrics = (
-    await overlapArea(metricGroup.metricId, sketch, totalAreaMetric.value, {
-      includePercMetric: false,
-    })
+    await overlapArea(
+      metricGroup.metricId,
+      clippedSketch,
+      totalAreaMetric.value,
+      {
+        includePercMetric: false,
+      }
+    )
   ).map(
     (metric): Metric => ({
       ...metric,
