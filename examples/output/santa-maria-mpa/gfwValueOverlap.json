@@ -6,7 +6,7 @@
       "classId": "all-fishing",
       "sketchId": "15881",
       "groupId": null,
-      "value": 657.591667,
+      "value": 397.451103,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -28,7 +28,7 @@
       "classId": "country:PRT",
       "sketchId": "15881",
       "groupId": null,
-      "value": 657.591667,
+      "value": 397.451103,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -50,7 +50,7 @@
       "classId": "gear_type:fixed-gear",
       "sketchId": "15881",
       "groupId": null,
-      "value": 122.378056,
+      "value": 75.218613,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -61,7 +61,7 @@
       "classId": "gear_type:pole-and-line",
       "sketchId": "15881",
       "groupId": null,
-      "value": 331.24139,
+      "value": 149.804169,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -72,7 +72,7 @@
       "classId": "gear_type:set-longlines",
       "sketchId": "15881",
       "groupId": null,
-      "value": 29.184166,
+      "value": 19.248055,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }

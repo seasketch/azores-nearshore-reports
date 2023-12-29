@@ -40,7 +40,7 @@
       "classId": "all_commercial_fishing_ous",
       "sketchId": "17851",
       "groupId": null,
-      "value": 0.041029,
+      "value": 0.042816,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -52,7 +52,7 @@
       "classId": "all_commercial_fishing_ous",
       "sketchId": "17852",
       "groupId": null,
-      "value": 0.00217,
+      "value": 0.00222,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -63,7 +63,7 @@
       "classId": "all_commercial_fishing_ous",
       "sketchId": "17853",
       "groupId": null,
-      "value": 0.03886,
+      "value": 0.040597,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -74,7 +74,7 @@
       "classId": "all_energy_development_ous",
       "sketchId": "17851",
       "groupId": null,
-      "value": 0.0003,
+      "value": 0.000314,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -86,7 +86,7 @@
       "classId": "all_energy_development_ous",
       "sketchId": "17852",
       "groupId": null,
-      "value": 0.0003,
+      "value": 0.000314,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -108,7 +108,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "sketchId": "17851",
       "groupId": null,
-      "value": 0.150814,
+      "value": 0.157615,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -120,7 +120,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "sketchId": "17852",
       "groupId": null,
-      "value": 0.001035,
+      "value": 0.001068,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -131,7 +131,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "sketchId": "17853",
       "groupId": null,
-      "value": 0.149779,
+      "value": 0.156547,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -142,7 +142,7 @@
       "classId": "all_recreational_fishing_ous",
       "sketchId": "17851",
       "groupId": null,
-      "value": 0.188456,
+      "value": 0.195358,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -154,7 +154,7 @@
       "classId": "all_recreational_fishing_ous",
       "sketchId": "17852",
       "groupId": null,
-      "value": 0.001598,
+      "value": 0.001643,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -165,7 +165,7 @@
       "classId": "all_recreational_fishing_ous",
       "sketchId": "17853",
       "groupId": null,
-      "value": 0.186857,
+      "value": 0.193714,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -176,7 +176,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "sketchId": "17851",
       "groupId": null,
-      "value": 0.000463,
+      "value": 0.000484,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -188,7 +188,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "sketchId": "17852",
       "groupId": null,
-      "value": 4.709381739298468e-7,
+      "value": 4.842598692045286e-7,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -199,7 +199,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "sketchId": "17853",
       "groupId": null,
-      "value": 0.000463,
+      "value": 0.000483,
       "extra": {
         "sketchName": "santamaria"
       }
@@ -244,7 +244,7 @@
       "classId": "all_touristic_fishing_ous",
       "sketchId": "17851",
       "groupId": null,
-      "value": 0.123875,
+      "value": 0.129015,
       "extra": {
         "sketchName": "2island",
         "isCollection": true
@@ -256,7 +256,7 @@
       "classId": "all_touristic_fishing_ous",
       "sketchId": "17852",
       "groupId": null,
-      "value": 0.00631,
+      "value": 0.006534,
       "extra": {
         "sketchName": "saomiguel"
       }
@@ -267,7 +267,7 @@
       "classId": "all_touristic_fishing_ous",
       "sketchId": "17853",
       "groupId": null,
-      "value": 0.117565,
+      "value": 0.12248,
       "extra": {
         "sketchName": "santamaria"
       }

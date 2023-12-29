@@ -94,7 +94,7 @@
       "classId": "faial_sci_tech_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.000022,
+      "value": 0.000025,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -248,7 +248,7 @@
       "classId": "pico_rec_fish_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 8.734047312261572e-7,
+      "value": 9.046046498123461e-7,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -270,7 +270,7 @@
       "classId": "pico_sci_tech_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 8.852104050327547e-7,
+      "value": 9.157528283454397e-7,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -292,7 +292,7 @@
       "classId": "santa-maria_comm_fish_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.046707,
+      "value": 0.047985,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -314,7 +314,7 @@
       "classId": "santa-maria_rec_fish_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.303791,
+      "value": 0.310279,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -325,7 +325,7 @@
       "classId": "santa-maria_rec_sports_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.291033,
+      "value": 0.299695,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -336,7 +336,7 @@
       "classId": "santa-maria_sci_tech_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.000795,
+      "value": 0.000813,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -347,7 +347,7 @@
       "classId": "santa-maria_tour_fish_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.209481,
+      "value": 0.214413,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -435,7 +435,7 @@
       "classId": "sao-miguel_comm_fish_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.000137,
+      "value": 0.000142,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -446,7 +446,7 @@
       "classId": "sao-miguel_rec_fish_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.000041,
+      "value": 0.000043,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -457,7 +457,7 @@
       "classId": "sao-miguel_rec_sports_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.000524,
+      "value": 0.000547,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -468,7 +468,7 @@
       "classId": "sao-miguel_sci_tech_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 1.6976275121760587e-8,
+      "value": 1.5697240694778625e-8,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -490,7 +490,7 @@
       "classId": "sao-miguel_tour_fish_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.000179,
+      "value": 0.000185,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
