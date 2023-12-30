@@ -9,9 +9,9 @@ import {
   toNullSketch,
   rekeyMetrics,
   sortMetrics,
-  overlapRaster,
   getCogFilename,
   getFirstFromParam,
+  rasterMetrics,
 } from "@seasketch/geoprocessing";
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import project from "../../project";
@@ -40,11 +40,10 @@ export async function gfwValueOverlap(
         )}`;
         const raster = await loadCog(url);
 
-        const overlapResult = await overlapRaster(
-          mg.metricId,
-          raster,
-          clippedSketch
-        );
+        const overlapResult = await rasterMetrics(raster, {
+          metricId: mg.metricId,
+          feature: clippedSketch,
+        });
 
         return overlapResult.map(
           (metrics): Metric => ({

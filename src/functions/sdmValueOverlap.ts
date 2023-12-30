@@ -9,10 +9,10 @@ import {
   toNullSketch,
   rekeyMetrics,
   sortMetrics,
-  overlapRaster,
   getCogFilename,
   MultiPolygon,
   getFirstFromParam,
+  rasterMetrics,
 } from "@seasketch/geoprocessing";
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import project from "../../project";
@@ -41,11 +41,11 @@ export async function sdmValueOverlap(
           project.getInternalRasterDatasourceById(curClass.datasourceId)
         )}`;
         const raster = await loadCog(url);
-        const overlapResult = await overlapRaster(
-          metricGroup.metricId,
-          raster,
-          finalSketch
-        );
+
+        const overlapResult = await rasterMetrics(raster, {
+          metricId: metricGroup.metricId,
+          feature: finalSketch,
+        });
         return overlapResult.map(
           (metrics): Metric => ({
             ...metrics,
