@@ -40,7 +40,7 @@
       "classId": "birds_PA_Bulweria_bulwerii_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -85,7 +85,7 @@
       "classId": "birds_PA_Calonectris_borealis_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -130,7 +130,7 @@
       "classId": "birds_PA_Larus_michahellis_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -175,7 +175,7 @@
       "classId": "birds_PA_Oceanodroma_castro_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -220,7 +220,7 @@
       "classId": "birds_PA_Onychoprion_fuscatus_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -265,7 +265,7 @@
       "classId": "birds_PA_Puffinus_baroli_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -276,7 +276,7 @@
       "classId": "birds_PA_Puffinus_puffinus_baseline",
       "sketchId": "14453",
       "groupId": null,
-      "value": 3,
+      "value": 4,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -288,7 +288,7 @@
       "classId": "birds_PA_Puffinus_puffinus_baseline",
       "sketchId": "14455",
       "groupId": null,
-      "value": 0,
+      "value": 1,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -310,7 +310,7 @@
       "classId": "birds_PA_Puffinus_puffinus_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -355,7 +355,7 @@
       "classId": "birds_PA_Sterna_dougallii_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -400,7 +400,7 @@
       "classId": "birds_PA_Sterna_hirundo_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -445,7 +445,7 @@
       "classId": "turtles_PA_Caretta_caretta_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -490,7 +490,7 @@
       "classId": "turtles_PA_Chelonia_mydas_baseline",
       "sketchId": "14457",
       "groupId": null,
-      "value": 1,
+      "value": 2,
       "extra": {
         "sketchName": "sketch2"
       }

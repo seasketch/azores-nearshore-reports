@@ -9,10 +9,10 @@ import {
   toNullSketch,
   rekeyMetrics,
   sortMetrics,
-  overlapRaster,
   getCogFilename,
   MultiPolygon,
   getFirstFromParam,
+  rasterMetrics,
 } from "@seasketch/geoprocessing";
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import project from "../../project";
@@ -43,11 +43,10 @@ export async function ousByIslandValueOverlap(
         )}`;
         const raster = await loadCog(url);
         // start analysis as soon as source load done
-        const overlapResult = await overlapRaster(
-          metricGroup.metricId,
-          raster,
-          clippedSketch
-        );
+        const overlapResult = await rasterMetrics(raster, {
+          metricId: metricGroup.metricId,
+          feature: clippedSketch,
+        });
         return overlapResult.map(
           (metrics): Metric => ({
             ...metrics,

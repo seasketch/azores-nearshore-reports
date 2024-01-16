@@ -9,14 +9,15 @@ import {
   getCogFilename,
   MultiPolygon,
   getFirstFromParam,
+  rasterStats,
 } from "@seasketch/geoprocessing";
-import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
+import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import { min, max, mean } from "simple-statistics";
 import project from "../../project";
 
 // @ts-ignore
-import geoblaze, { Georaster } from "geoblaze";
+import { Georaster } from "geoblaze";
 import { clipToGeography } from "../util/clipToGeography";
 import { BathymetryResults } from "../types";
 
@@ -40,9 +41,7 @@ export async function bathymetry(
   const url = `${project.dataBucketUrl()}${getCogFilename(
     project.getInternalRasterDatasourceById(mg.classes[0].datasourceId)
   )}`;
-  const raster = await loadCogWindow(url, {
-    windowBox: box,
-  });
+  const raster = await loadCog(url);
   const stats = await bathyStats(sketches, raster);
   if (!stats)
     throw new Error(
@@ -60,34 +59,38 @@ export async function bathyStats(
   /** bathymetry raster to search */
   raster: Georaster
 ): Promise<BathymetryResults> {
-  const sketchStats = features.map((feature, index) => {
-    // If empty sketch (from subregional clipping)
-    if (!feature.geometry.coordinates.length)
-      return {
-        min: null,
-        mean: null,
-        max: null,
-      };
-    try {
-      // @ts-ignore
-      const stats = geoblaze.stats(raster, feature, {
-        calcMax: true,
-        calcMean: true,
-        calcMin: true,
-      })[0];
-      return { min: stats.min, max: stats.max, mean: stats.mean };
-    } catch (err) {
-      if (err === "No Values were found in the given geometry") {
+  const sketchStats = await Promise.all(
+    features.map(async (feature, index) => {
+      // If empty sketch (from subregional clipping)
+      if (!feature.geometry.coordinates.length)
         return {
           min: null,
           mean: null,
           max: null,
         };
-      } else {
-        throw err;
+      try {
+        // @ts-ignore
+        const statsByBand = await rasterStats(raster, {
+          feature,
+          stats: ["min", "max", "mean"],
+        });
+
+        const stats = statsByBand[0];
+
+        return { min: stats.min, max: stats.max, mean: stats.mean };
+      } catch (err) {
+        if (err === "No Values were found in the given geometry") {
+          return {
+            min: null,
+            mean: null,
+            max: null,
+          };
+        } else {
+          throw err;
+        }
       }
-    }
-  });
+    })
+  );
 
   if (!sketchStats.map((s) => s.min).filter(notNull).length) {
     // No sketch overlaps with planning area
@@ -107,7 +110,7 @@ export async function bathyStats(
   };
 }
 
-function notNull(value: number): value is number {
+function notNull(value: number | null | undefined): value is number {
   return value !== null && value !== undefined;
 }
 

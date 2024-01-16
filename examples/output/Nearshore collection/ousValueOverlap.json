@@ -73,7 +73,7 @@
       "classId": "all_commercial_fishing_ous",
       "sketchId": "15057",
       "groupId": null,
-      "value": 0.190363,
+      "value": 0.1937,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -85,7 +85,7 @@
       "classId": "all_commercial_fishing_ous",
       "sketchId": "15058",
       "groupId": null,
-      "value": 0.027186,
+      "value": 0.027458,
       "extra": {
         "sketchName": "1"
       }
@@ -96,7 +96,7 @@
       "classId": "all_commercial_fishing_ous",
       "sketchId": "15059",
       "groupId": null,
-      "value": 0.03627,
+      "value": 0.036715,
       "extra": {
         "sketchName": "2"
       }
@@ -107,7 +107,7 @@
       "classId": "all_commercial_fishing_ous",
       "sketchId": "15063",
       "groupId": null,
-      "value": 0.018823,
+      "value": 0.020227,
       "extra": {
         "sketchName": "3"
       }
@@ -118,7 +118,7 @@
       "classId": "all_commercial_fishing_ous",
       "sketchId": "15064",
       "groupId": null,
-      "value": 0.014246,
+      "value": 0.014338,
       "extra": {
         "sketchName": "4"
       }
@@ -129,7 +129,7 @@
       "classId": "all_commercial_fishing_ous",
       "sketchId": "15065",
       "groupId": null,
-      "value": 0.095357,
+      "value": 0.096496,
       "extra": {
         "sketchName": "5"
       }
@@ -140,7 +140,7 @@
       "classId": "all_energy_development_ous",
       "sketchId": "15057",
       "groupId": null,
-      "value": 0.000643,
+      "value": 0.001028,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -152,7 +152,7 @@
       "classId": "all_energy_development_ous",
       "sketchId": "15058",
       "groupId": null,
-      "value": 0.000643,
+      "value": 0.001028,
       "extra": {
         "sketchName": "1"
       }
@@ -207,7 +207,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "sketchId": "15057",
       "groupId": null,
-      "value": 57.882255,
+      "value": 63.067334,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -219,7 +219,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "sketchId": "15058",
       "groupId": null,
-      "value": 1.45755,
+      "value": 1.143171,
       "extra": {
         "sketchName": "1"
       }
@@ -230,7 +230,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "sketchId": "15059",
       "groupId": null,
-      "value": 4.683032,
+      "value": 5.750446,
       "extra": {
         "sketchName": "2"
       }
@@ -241,7 +241,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "sketchId": "15063",
       "groupId": null,
-      "value": 6.009517,
+      "value": 6.465584,
       "extra": {
         "sketchName": "3"
       }
@@ -252,7 +252,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "sketchId": "15064",
       "groupId": null,
-      "value": 7.167142,
+      "value": 5.014699,
       "extra": {
         "sketchName": "4"
       }
@@ -263,7 +263,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "sketchId": "15065",
       "groupId": null,
-      "value": 38.582196,
+      "value": 45.924649,
       "extra": {
         "sketchName": "5"
       }
@@ -274,7 +274,7 @@
       "classId": "all_recreational_fishing_ous",
       "sketchId": "15057",
       "groupId": null,
-      "value": 11.948631,
+      "value": 11.601775,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -286,7 +286,7 @@
       "classId": "all_recreational_fishing_ous",
       "sketchId": "15058",
       "groupId": null,
-      "value": 0.083922,
+      "value": 0.098809,
       "extra": {
         "sketchName": "1"
       }
@@ -297,7 +297,7 @@
       "classId": "all_recreational_fishing_ous",
       "sketchId": "15059",
       "groupId": null,
-      "value": 3.58927,
+      "value": 4.820562,
       "extra": {
         "sketchName": "2"
       }
@@ -308,7 +308,7 @@
       "classId": "all_recreational_fishing_ous",
       "sketchId": "15063",
       "groupId": null,
-      "value": 0.483163,
+      "value": 0.355398,
       "extra": {
         "sketchName": "3"
       }
@@ -319,7 +319,7 @@
       "classId": "all_recreational_fishing_ous",
       "sketchId": "15064",
       "groupId": null,
-      "value": 7.327791,
+      "value": 5.583846,
       "extra": {
         "sketchName": "4"
       }
@@ -330,7 +330,7 @@
       "classId": "all_recreational_fishing_ous",
       "sketchId": "15065",
       "groupId": null,
-      "value": 0.896272,
+      "value": 1.174955,
       "extra": {
         "sketchName": "5"
       }
@@ -341,7 +341,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "sketchId": "15057",
       "groupId": null,
-      "value": 0.309861,
+      "value": 0.41262,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -353,7 +353,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "sketchId": "15058",
       "groupId": null,
-      "value": 0.000419,
+      "value": 0.000426,
       "extra": {
         "sketchName": "1"
       }
@@ -364,7 +364,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "sketchId": "15059",
       "groupId": null,
-      "value": 0.169292,
+      "value": 0.164568,
       "extra": {
         "sketchName": "2"
       }
@@ -375,7 +375,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "sketchId": "15063",
       "groupId": null,
-      "value": 0.094523,
+      "value": 0.201005,
       "extra": {
         "sketchName": "3"
       }
@@ -386,7 +386,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "sketchId": "15064",
       "groupId": null,
-      "value": 0.000518,
+      "value": 0.000529,
       "extra": {
         "sketchName": "4"
       }
@@ -397,7 +397,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "sketchId": "15065",
       "groupId": null,
-      "value": 0.045202,
+      "value": 0.046188,
       "extra": {
         "sketchName": "5"
       }
@@ -475,7 +475,7 @@
       "classId": "all_touristic_fishing_ous",
       "sketchId": "15057",
       "groupId": null,
-      "value": 0.06265,
+      "value": 0.061514,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -487,7 +487,7 @@
       "classId": "all_touristic_fishing_ous",
       "sketchId": "15058",
       "groupId": null,
-      "value": 0.03135,
+      "value": 0.029564,
       "extra": {
         "sketchName": "1"
       }
@@ -509,7 +509,7 @@
       "classId": "all_touristic_fishing_ous",
       "sketchId": "15063",
       "groupId": null,
-      "value": 0.001815,
+      "value": 0.001847,
       "extra": {
         "sketchName": "3"
       }
@@ -531,7 +531,7 @@
       "classId": "all_touristic_fishing_ous",
       "sketchId": "15065",
       "groupId": null,
-      "value": 0.029473,
+      "value": 0.030091,
       "extra": {
         "sketchName": "5"
       }
@@ -542,7 +542,7 @@
       "classId": "all_underwater_cultural_heritage_ous",
       "sketchId": "15057",
       "groupId": null,
-      "value": 0.056353,
+      "value": 0.010973,
       "extra": {
         "sketchName": "Nearshore collection",
         "isCollection": true
@@ -565,7 +565,7 @@
       "classId": "all_underwater_cultural_heritage_ous",
       "sketchId": "15059",
       "groupId": null,
-      "value": 0.051556,
+      "value": 0.00553,
       "extra": {
         "sketchName": "2"
       }
@@ -576,7 +576,7 @@
       "classId": "all_underwater_cultural_heritage_ous",
       "sketchId": "15063",
       "groupId": null,
-      "value": 0.004797,
+      "value": 0.005443,
       "extra": {
         "sketchName": "3"
       }

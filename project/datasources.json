@@ -30,7 +30,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:41:12.784Z",
-    "lastUpdated": "2023-10-17T23:01:47.971Z",
+    "lastUpdated": "2024-01-03T17:30:50.554Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Bulweria bulwerii_clipped.tif"
   },
   {
@@ -44,7 +44,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:42:24.012Z",
-    "lastUpdated": "2023-10-17T23:01:50.111Z",
+    "lastUpdated": "2024-01-03T17:30:50.732Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Calonectris borealis_clipped.tif"
   },
   {
@@ -58,7 +58,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:43:45.531Z",
-    "lastUpdated": "2023-10-17T23:01:52.451Z",
+    "lastUpdated": "2024-01-03T17:30:50.900Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Larus michahellis_clipped.tif"
   },
   {
@@ -72,7 +72,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:44:17.404Z",
-    "lastUpdated": "2023-10-17T23:01:54.647Z",
+    "lastUpdated": "2024-01-03T17:30:51.072Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Oceanodroma castro_clipped.tif"
   },
   {
@@ -86,7 +86,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:44:50.767Z",
-    "lastUpdated": "2023-10-17T23:01:57.074Z",
+    "lastUpdated": "2024-01-03T17:30:51.243Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Onychoprion fuscatus_clipped.tif"
   },
   {
@@ -100,7 +100,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:45:25.830Z",
-    "lastUpdated": "2023-10-17T23:01:59.218Z",
+    "lastUpdated": "2024-01-03T17:30:51.426Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Puffinus baroli_clipped.tif"
   },
   {
@@ -114,7 +114,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:45:50.391Z",
-    "lastUpdated": "2023-10-17T23:02:01.161Z",
+    "lastUpdated": "2024-01-03T17:30:51.602Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Puffinus puffinus_clipped.tif"
   },
   {
@@ -128,7 +128,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:46:21.036Z",
-    "lastUpdated": "2023-10-17T23:02:03.664Z",
+    "lastUpdated": "2024-01-03T17:30:51.774Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Sterna dougallii_clipped.tif"
   },
   {
@@ -142,7 +142,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-02T21:46:50.685Z",
-    "lastUpdated": "2023-10-17T23:02:05.789Z",
+    "lastUpdated": "2024-01-03T17:30:51.941Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/breeding-birds/PA_Sterna hirundo_clipped.tif"
   },
   {
@@ -156,7 +156,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-13T19:50:12.624Z",
-    "lastUpdated": "2023-10-17T23:02:07.678Z",
+    "lastUpdated": "2024-01-03T17:30:52.118Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_comm_fish.tif"
   },
   {
@@ -170,7 +170,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-13T19:50:39.296Z",
-    "lastUpdated": "2023-10-17T23:02:09.124Z",
+    "lastUpdated": "2024-01-03T17:30:52.287Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_rec_fish.tif"
   },
   {
@@ -184,7 +184,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-13T19:51:29.292Z",
-    "lastUpdated": "2023-10-17T23:02:10.375Z",
+    "lastUpdated": "2024-01-03T17:30:52.463Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_rec_sports.tif"
   },
   {
@@ -198,7 +198,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T18:24:54.906Z",
-    "lastUpdated": "2023-10-17T23:02:14.974Z",
+    "lastUpdated": "2024-01-03T17:30:52.930Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/aquaculture.tif"
   },
   {
@@ -212,7 +212,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T18:46:31.683Z",
-    "lastUpdated": "2023-10-17T23:06:44.653Z",
+    "lastUpdated": "2024-01-03T17:31:13.116Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/commercial_fishing.tif"
   },
   {
@@ -226,7 +226,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T18:50:47.115Z",
-    "lastUpdated": "2023-10-17T23:06:59.001Z",
+    "lastUpdated": "2024-01-03T17:31:14.203Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/energy_development.tif"
   },
   {
@@ -240,7 +240,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T18:51:59.269Z",
-    "lastUpdated": "2023-10-17T23:07:31.377Z",
+    "lastUpdated": "2024-01-03T17:31:16.132Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/recreation_sports_and_tourism.tif"
   },
   {
@@ -254,7 +254,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T19:02:44.100Z",
-    "lastUpdated": "2023-10-17T23:10:02.418Z",
+    "lastUpdated": "2024-01-03T17:31:24.848Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/recreational_fishing.tif"
   },
   {
@@ -268,7 +268,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T20:31:16.350Z",
-    "lastUpdated": "2023-10-17T23:15:56.553Z",
+    "lastUpdated": "2024-01-03T17:32:11.509Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/science_tech_monitoring.tif"
   },
   {
@@ -282,7 +282,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T20:32:03.939Z",
-    "lastUpdated": "2023-10-17T23:16:02.552Z",
+    "lastUpdated": "2024-01-03T17:32:12.117Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/security_and_defense.tif"
   },
   {
@@ -296,7 +296,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T20:34:15.500Z",
-    "lastUpdated": "2023-10-17T23:16:29.957Z",
+    "lastUpdated": "2024-01-03T17:32:14.287Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/touristic_fishing.tif"
   },
   {
@@ -310,7 +310,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T20:35:43.473Z",
-    "lastUpdated": "2023-10-17T23:16:49.058Z",
+    "lastUpdated": "2024-01-03T17:32:15.631Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/underwater_cultural_heritage.tif"
   },
   {
@@ -324,7 +324,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:56:18.174Z",
-    "lastUpdated": "2023-10-17T23:16:54.361Z",
+    "lastUpdated": "2024-01-03T17:32:16.157Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_aquaculture.tif"
   },
   {
@@ -338,7 +338,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:57:11.533Z",
-    "lastUpdated": "2023-10-17T23:17:15.082Z",
+    "lastUpdated": "2024-01-03T17:32:17.821Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_comm_fish.tif"
   },
   {
@@ -352,7 +352,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:57:32.436Z",
-    "lastUpdated": "2023-10-17T23:17:16.124Z",
+    "lastUpdated": "2024-01-03T17:32:18.028Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_energy_dev.tif"
   },
   {
@@ -366,7 +366,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:57:50.300Z",
-    "lastUpdated": "2023-10-17T23:17:18.200Z",
+    "lastUpdated": "2024-01-03T17:32:18.415Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_rec_fish.tif"
   },
   {
@@ -380,7 +380,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:58:45.715Z",
-    "lastUpdated": "2023-10-17T23:17:25.451Z",
+    "lastUpdated": "2024-01-03T17:32:19.068Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_rec_sports.tif"
   },
   {
@@ -394,7 +394,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T21:59:49.864Z",
-    "lastUpdated": "2023-10-17T23:17:53.107Z",
+    "lastUpdated": "2024-01-03T17:32:21.173Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_sci_tech.tif"
   },
   {
@@ -408,7 +408,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:10:17.095Z",
-    "lastUpdated": "2023-10-17T23:17:54.712Z",
+    "lastUpdated": "2024-01-03T17:32:21.538Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_comm_fish.tif"
   },
   {
@@ -422,7 +422,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:10:35.375Z",
-    "lastUpdated": "2023-10-17T23:17:55.820Z",
+    "lastUpdated": "2024-01-03T17:32:21.716Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_cultural_heritage.tif"
   },
   {
@@ -436,7 +436,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:11:28.580Z",
-    "lastUpdated": "2023-10-17T23:17:57.240Z",
+    "lastUpdated": "2024-01-03T17:32:21.997Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_rec_fish.tif"
   },
   {
@@ -450,7 +450,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:12:10.818Z",
-    "lastUpdated": "2023-10-17T23:17:59.110Z",
+    "lastUpdated": "2024-01-03T17:32:22.417Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_rec_sports.tif"
   },
   {
@@ -464,7 +464,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:12:29.077Z",
-    "lastUpdated": "2023-10-17T23:18:00.587Z",
+    "lastUpdated": "2024-01-03T17:32:22.593Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_sci_tech.tif"
   },
   {
@@ -478,7 +478,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:12:46.585Z",
-    "lastUpdated": "2023-10-17T23:18:01.706Z",
+    "lastUpdated": "2024-01-03T17:32:22.798Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_tour_fish.tif"
   },
   {
@@ -492,7 +492,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:13:32.130Z",
-    "lastUpdated": "2023-10-17T23:18:03.864Z",
+    "lastUpdated": "2024-01-03T17:32:22.969Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_comm_fish.tif"
   },
   {
@@ -506,7 +506,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:13:53.286Z",
-    "lastUpdated": "2023-10-17T23:18:05.169Z",
+    "lastUpdated": "2024-01-03T17:32:23.139Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_rec_fish.tif"
   },
   {
@@ -520,7 +520,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:15:24.193Z",
-    "lastUpdated": "2023-10-17T23:18:06.228Z",
+    "lastUpdated": "2024-01-03T17:32:23.304Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_rec_sports.tif"
   },
   {
@@ -534,7 +534,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:15:46.810Z",
-    "lastUpdated": "2023-10-17T23:18:07.572Z",
+    "lastUpdated": "2024-01-03T17:32:23.469Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_sci_tech.tif"
   },
   {
@@ -548,7 +548,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:16:08.626Z",
-    "lastUpdated": "2023-10-17T23:18:08.667Z",
+    "lastUpdated": "2024-01-03T17:32:23.635Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_sec_def.tif"
   },
   {
@@ -562,7 +562,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:16:25.849Z",
-    "lastUpdated": "2023-10-17T23:18:10.120Z",
+    "lastUpdated": "2024-01-03T17:32:23.803Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_tour_fish.tif"
   },
   {
@@ -576,7 +576,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:18:10.334Z",
-    "lastUpdated": "2023-10-17T23:18:38.116Z",
+    "lastUpdated": "2024-01-03T17:32:25.660Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_comm_fish.tif"
   },
   {
@@ -590,7 +590,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:24:47.766Z",
-    "lastUpdated": "2023-10-17T23:20:03.873Z",
+    "lastUpdated": "2024-01-03T17:32:32.410Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_rec_fish.tif"
   },
   {
@@ -604,7 +604,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:25:33.126Z",
-    "lastUpdated": "2023-10-17T23:20:07.839Z",
+    "lastUpdated": "2024-01-03T17:32:32.974Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_rec_sports.tif"
   },
   {
@@ -618,7 +618,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:32:16.899Z",
-    "lastUpdated": "2023-10-17T23:22:25.589Z",
+    "lastUpdated": "2024-01-03T17:32:39.530Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_sci_tech.tif"
   },
   {
@@ -632,7 +632,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:33:09.996Z",
-    "lastUpdated": "2023-10-17T23:22:29.897Z",
+    "lastUpdated": "2024-01-03T17:32:39.961Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_tour_fish.tif"
   },
   {
@@ -646,7 +646,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:33:52.013Z",
-    "lastUpdated": "2023-10-17T23:22:31.981Z",
+    "lastUpdated": "2024-01-03T17:32:40.245Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_comm_fish.tif"
   },
   {
@@ -660,7 +660,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:34:16.958Z",
-    "lastUpdated": "2023-10-17T23:22:33.745Z",
+    "lastUpdated": "2024-01-03T17:32:40.496Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_cultural_heritage.tif"
   },
   {
@@ -674,7 +674,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:34:37.306Z",
-    "lastUpdated": "2023-10-17T23:22:35.430Z",
+    "lastUpdated": "2024-01-03T17:32:40.825Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_rec_fish.tif"
   },
   {
@@ -688,7 +688,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:35:16.062Z",
-    "lastUpdated": "2023-10-17T23:22:37.515Z",
+    "lastUpdated": "2024-01-03T17:32:41.170Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_rec_sports.tif"
   },
   {
@@ -702,7 +702,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:35:36.825Z",
-    "lastUpdated": "2023-10-17T23:22:39.363Z",
+    "lastUpdated": "2024-01-03T17:32:41.489Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_sci_tech.tif"
   },
   {
@@ -716,7 +716,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:35:58.038Z",
-    "lastUpdated": "2023-10-17T23:22:41.286Z",
+    "lastUpdated": "2024-01-03T17:32:41.713Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_tour_fish.tif"
   },
   {
@@ -730,7 +730,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:36:46.308Z",
-    "lastUpdated": "2023-10-17T23:22:43.774Z",
+    "lastUpdated": "2024-01-03T17:32:42.075Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_comm_fish.tif"
   },
   {
@@ -744,7 +744,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:37:03.698Z",
-    "lastUpdated": "2023-10-17T23:22:45.293Z",
+    "lastUpdated": "2024-01-03T17:32:42.240Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_cultural_heritage.tif"
   },
   {
@@ -758,7 +758,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:37:28.726Z",
-    "lastUpdated": "2023-10-17T23:22:47.743Z",
+    "lastUpdated": "2024-01-03T17:32:42.596Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_rec_fish.tif"
   },
   {
@@ -772,7 +772,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:38:05.662Z",
-    "lastUpdated": "2023-10-17T23:22:51.108Z",
+    "lastUpdated": "2024-01-03T17:32:42.982Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_rec_sports.tif"
   },
   {
@@ -786,7 +786,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:38:22.173Z",
-    "lastUpdated": "2023-10-17T23:22:52.565Z",
+    "lastUpdated": "2024-01-03T17:32:43.184Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_sci_tech.tif"
   },
   {
@@ -800,7 +800,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:38:43.441Z",
-    "lastUpdated": "2023-10-17T23:22:54.581Z",
+    "lastUpdated": "2024-01-03T17:32:43.485Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_tour_fish.tif"
   },
   {
@@ -814,7 +814,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:39:24.466Z",
-    "lastUpdated": "2023-10-17T23:22:55.789Z",
+    "lastUpdated": "2024-01-03T17:32:43.651Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_aquaculture.tif"
   },
   {
@@ -828,7 +828,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:49:51.678Z",
-    "lastUpdated": "2023-10-17T23:25:21.531Z",
+    "lastUpdated": "2024-01-03T17:32:55.918Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_comm_fish.tif"
   },
   {
@@ -842,7 +842,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:53:50.640Z",
-    "lastUpdated": "2023-10-17T23:26:08.086Z",
+    "lastUpdated": "2024-01-03T17:32:59.615Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_rec_fish.tif"
   },
   {
@@ -856,7 +856,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T22:57:06.733Z",
-    "lastUpdated": "2023-10-17T23:26:45.876Z",
+    "lastUpdated": "2024-01-03T17:33:02.468Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_rec_sports.tif"
   },
   {
@@ -870,7 +870,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:07:48.178Z",
-    "lastUpdated": "2023-10-17T23:30:21.311Z",
+    "lastUpdated": "2024-01-03T17:33:20.992Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_sci_tech.tif"
   },
   {
@@ -884,7 +884,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:08:34.386Z",
-    "lastUpdated": "2023-10-17T23:30:22.484Z",
+    "lastUpdated": "2024-01-03T17:33:21.172Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_sec_def.tif"
   },
   {
@@ -898,7 +898,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:09:54.692Z",
-    "lastUpdated": "2023-10-17T23:30:50.115Z",
+    "lastUpdated": "2024-01-03T17:33:23.543Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_tour_fish.tif"
   },
   {
@@ -912,7 +912,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:15:14.875Z",
-    "lastUpdated": "2023-10-17T23:31:45.677Z",
+    "lastUpdated": "2024-01-03T17:33:27.453Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_comm_fish.tif"
   },
   {
@@ -926,7 +926,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:16:48.359Z",
-    "lastUpdated": "2023-10-17T23:31:46.736Z",
+    "lastUpdated": "2024-01-03T17:33:27.613Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_cultural_heritage.tif"
   },
   {
@@ -940,7 +940,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:17:13.902Z",
-    "lastUpdated": "2023-10-17T23:31:58.342Z",
+    "lastUpdated": "2024-01-03T17:33:28.476Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_rec_fish.tif"
   },
   {
@@ -954,7 +954,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:18:17.500Z",
-    "lastUpdated": "2023-10-17T23:32:12.902Z",
+    "lastUpdated": "2024-01-03T17:33:29.702Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_rec_sports.tif"
   },
   {
@@ -968,7 +968,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:18:35.714Z",
-    "lastUpdated": "2023-10-17T23:32:15.029Z",
+    "lastUpdated": "2024-01-03T17:33:30.048Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_sci_tech.tif"
   },
   {
@@ -982,7 +982,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-06-14T23:18:55.901Z",
-    "lastUpdated": "2023-10-17T23:32:16.269Z",
+    "lastUpdated": "2024-01-03T17:33:30.269Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_tour_fish.tif"
   },
   {
@@ -996,7 +996,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-21T17:36:09.219Z",
-    "lastUpdated": "2023-10-17T23:32:17.424Z",
+    "lastUpdated": "2024-01-03T17:33:30.439Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Caretta caretta_clipped.tif"
   },
   {
@@ -1010,7 +1010,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-21T17:37:05.715Z",
-    "lastUpdated": "2023-10-17T23:32:18.632Z",
+    "lastUpdated": "2024-01-03T17:33:30.616Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Chelonia mydas_clipped.tif"
   },
   {
@@ -1024,7 +1024,7 @@
     "band": 1,
     "noDataValue": -9999,
     "created": "2023-06-21T17:37:34.280Z",
-    "lastUpdated": "2023-10-17T23:32:19.875Z",
+    "lastUpdated": "2024-01-03T17:33:30.780Z",
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Dermochelys coriacea_clipped.tif"
   },
   {
@@ -1038,9 +1038,10 @@
     "layerName": "Basins",
     "classKeys": [],
     "created": "2023-06-22T18:15:00.857Z",
-    "lastUpdated": "2023-10-17T23:38:21.304Z",
+    "lastUpdated": "2024-01-03T17:33:30.887Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Basins.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "canyons",
@@ -1053,9 +1054,10 @@
     "layerName": "Canyons",
     "classKeys": [],
     "created": "2023-06-22T18:15:47.960Z",
-    "lastUpdated": "2023-10-17T23:38:21.457Z",
+    "lastUpdated": "2024-01-03T17:33:31.002Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Canyons.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "escarpments",
@@ -1068,9 +1070,10 @@
     "layerName": "Escarpments",
     "classKeys": [],
     "created": "2023-06-22T18:16:11.648Z",
-    "lastUpdated": "2023-10-17T23:38:21.676Z",
+    "lastUpdated": "2024-01-03T17:33:31.187Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Escarpments.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "plateaus",
@@ -1083,9 +1086,10 @@
     "layerName": "Plateaus",
     "classKeys": [],
     "created": "2023-06-22T18:16:30.807Z",
-    "lastUpdated": "2023-10-17T23:38:22.052Z",
+    "lastUpdated": "2024-01-03T17:33:31.468Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Plateaus.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "ridges",
@@ -1098,9 +1102,10 @@
     "layerName": "Ridges",
     "classKeys": [],
     "created": "2023-06-22T18:16:47.083Z",
-    "lastUpdated": "2023-10-17T23:38:22.201Z",
+    "lastUpdated": "2024-01-03T17:33:31.582Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Ridges.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "shelf_class",
@@ -1115,11 +1120,12 @@
       "Class"
     ],
     "created": "2023-06-22T18:18:34.976Z",
-    "lastUpdated": "2023-10-17T23:38:22.320Z",
+    "lastUpdated": "2024-01-03T17:33:31.666Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Shelf_Classification.shp",
     "propertiesToKeep": [
       "Class"
-    ]
+    ],
+    "explodeMulti": true
   },
   {
     "datasourceId": "slope",
@@ -1132,9 +1138,10 @@
     "layerName": "Slope",
     "classKeys": [],
     "created": "2023-06-22T18:19:14.943Z",
-    "lastUpdated": "2023-10-17T23:38:22.623Z",
+    "lastUpdated": "2024-01-03T17:33:31.856Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Slope.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "santa-maria",
@@ -1147,9 +1154,10 @@
     "layerName": "santa_maria_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-07-13T20:08:15.926Z",
-    "lastUpdated": "2023-10-17T23:38:22.846Z",
+    "lastUpdated": "2024-01-03T17:33:31.995Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/santa_maria_6nm_boundary_ws84.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "bathymetry",
@@ -1162,7 +1170,7 @@
     "band": 1,
     "noDataValue": -32767,
     "created": "2023-08-01T21:34:06.693Z",
-    "lastUpdated": "2023-10-17T23:32:59.940Z",
+    "lastUpdated": "2024-01-03T17:33:32.982Z",
     "src": "data/src/Analytics/bathy/gebco_2021.tif"
   },
   {
@@ -1176,7 +1184,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:19:23.930Z",
-    "lastUpdated": "2023-10-17T23:33:02.913Z",
+    "lastUpdated": "2024-01-03T17:33:33.149Z",
     "src": "data/src/Analytics/gfw/all-fish-19-22.tif"
   },
   {
@@ -1190,7 +1198,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:20:16.668Z",
-    "lastUpdated": "2023-10-17T23:33:06.000Z",
+    "lastUpdated": "2024-01-03T17:33:33.308Z",
     "src": "data/src/Analytics/gfw/drifting_longlines.tif"
   },
   {
@@ -1204,7 +1212,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:20:38.176Z",
-    "lastUpdated": "2023-10-17T23:33:08.706Z",
+    "lastUpdated": "2024-01-03T17:33:33.472Z",
     "src": "data/src/Analytics/gfw/ESP.tif"
   },
   {
@@ -1218,7 +1226,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:21:48.308Z",
-    "lastUpdated": "2023-10-17T23:33:12.099Z",
+    "lastUpdated": "2024-01-03T17:33:33.631Z",
     "src": "data/src/Analytics/gfw/pole_and_line.tif"
   },
   {
@@ -1232,7 +1240,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:22:15.037Z",
-    "lastUpdated": "2023-10-17T23:33:15.345Z",
+    "lastUpdated": "2024-01-03T17:33:33.807Z",
     "src": "data/src/Analytics/gfw/set_longlines.tif"
   },
   {
@@ -1246,7 +1254,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:22:47.353Z",
-    "lastUpdated": "2023-10-17T23:33:18.385Z",
+    "lastUpdated": "2024-01-03T17:33:33.969Z",
     "src": "data/src/Analytics/gfw/fixed_gear.tif"
   },
   {
@@ -1260,7 +1268,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:23:18.229Z",
-    "lastUpdated": "2023-10-17T23:33:21.576Z",
+    "lastUpdated": "2024-01-03T17:33:34.126Z",
     "src": "data/src/Analytics/gfw/purse_seines.tif"
   },
   {
@@ -1274,7 +1282,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:23:44.108Z",
-    "lastUpdated": "2023-10-17T23:33:24.671Z",
+    "lastUpdated": "2024-01-03T17:33:34.283Z",
     "src": "data/src/Analytics/gfw/other_purse_seines.tif"
   },
   {
@@ -1288,7 +1296,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:24:12.814Z",
-    "lastUpdated": "2023-10-17T23:33:27.960Z",
+    "lastUpdated": "2024-01-03T17:33:34.445Z",
     "src": "data/src/Analytics/gfw/set_gillnets.tif"
   },
   {
@@ -1302,7 +1310,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:24:37.033Z",
-    "lastUpdated": "2023-10-17T23:33:31.011Z",
+    "lastUpdated": "2024-01-03T17:33:34.604Z",
     "src": "data/src/Analytics/gfw/trawlers.tif"
   },
   {
@@ -1316,7 +1324,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:24:58.908Z",
-    "lastUpdated": "2023-10-17T23:33:34.100Z",
+    "lastUpdated": "2024-01-03T17:33:34.762Z",
     "src": "data/src/Analytics/gfw/trollers.tif"
   },
   {
@@ -1330,7 +1338,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:25:27.379Z",
-    "lastUpdated": "2023-10-17T23:33:36.822Z",
+    "lastUpdated": "2024-01-03T17:33:34.921Z",
     "src": "data/src/Analytics/gfw/PRT.tif"
   },
   {
@@ -1344,7 +1352,7 @@
     "band": 1,
     "noDataValue": -3.4e+38,
     "created": "2023-08-02T18:25:49.722Z",
-    "lastUpdated": "2023-10-17T23:33:40.484Z",
+    "lastUpdated": "2024-01-03T17:33:35.083Z",
     "src": "data/src/Analytics/gfw/RUS.tif"
   },
   {
@@ -1358,9 +1366,10 @@
     "layerName": "san_miguel_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T21:33:47.604Z",
-    "lastUpdated": "2023-10-17T23:38:23.230Z",
+    "lastUpdated": "2024-01-03T17:33:35.417Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/san_miguel_6nm_boundary_ws84.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "corvo",
@@ -1373,9 +1382,10 @@
     "layerName": "corvo_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:06:52.214Z",
-    "lastUpdated": "2023-10-17T23:38:23.353Z",
+    "lastUpdated": "2024-01-03T17:33:35.512Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/corvo_6nm_boundary_ws84.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "graciosa",
@@ -1388,9 +1398,10 @@
     "layerName": "graciosa_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:07:44.485Z",
-    "lastUpdated": "2023-10-17T23:38:23.559Z",
+    "lastUpdated": "2024-01-03T17:33:35.626Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/graciosa_6nm_boundary_ws84.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "flores",
@@ -1403,9 +1414,10 @@
     "layerName": "flores_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:41:55.818Z",
-    "lastUpdated": "2023-10-17T23:38:23.748Z",
+    "lastUpdated": "2024-01-03T17:33:35.739Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/flores_6nm_boundary_ws84.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "faial",
@@ -1418,9 +1430,10 @@
     "layerName": "faial_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:42:15.599Z",
-    "lastUpdated": "2023-10-17T23:38:23.985Z",
+    "lastUpdated": "2024-01-03T17:33:35.884Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/faial_6nm_boundary_ws84.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "pico",
@@ -1433,9 +1446,10 @@
     "layerName": "pico_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:42:34.093Z",
-    "lastUpdated": "2023-10-17T23:38:24.279Z",
+    "lastUpdated": "2024-01-03T17:33:36.103Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/pico_6nm_boundary_ws84.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "sao-jorge",
@@ -1448,9 +1462,10 @@
     "layerName": "san_jorge_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:43:03.652Z",
-    "lastUpdated": "2023-10-17T23:38:24.490Z",
+    "lastUpdated": "2024-01-03T17:33:36.249Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/san_jorge_6nm_boundary_ws84.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "terceira",
@@ -1463,9 +1478,10 @@
     "layerName": "terceira_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-14T22:43:32.794Z",
-    "lastUpdated": "2023-10-17T23:40:05.422Z",
+    "lastUpdated": "2024-01-03T17:33:36.407Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/terceira_6nm_boundary_ws84.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   },
   {
     "datasourceId": "6nm_boundary",
@@ -1478,8 +1494,9 @@
     "layerName": "azores_islands_dissolved_6nm_boundary_ws84",
     "classKeys": [],
     "created": "2023-08-15T21:11:49.865Z",
-    "lastUpdated": "2023-10-17T23:38:25.543Z",
+    "lastUpdated": "2024-01-03T17:33:37.191Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/azores_islands_dissolved_6nm_boundary_ws84.shp",
-    "propertiesToKeep": []
+    "propertiesToKeep": [],
+    "explodeMulti": true
   }
 ]

@@ -17,7 +17,7 @@
       "classId": "all_commercial_fishing_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.032033,
+      "value": 0.033217,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -39,7 +39,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.19635,
+      "value": 0.204751,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -50,7 +50,7 @@
       "classId": "all_recreational_fishing_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.213798,
+      "value": 0.221482,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -61,7 +61,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.000648,
+      "value": 0.000674,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
@@ -83,7 +83,7 @@
       "classId": "all_touristic_fishing_ous",
       "sketchId": "15881",
       "groupId": null,
-      "value": 0.138404,
+      "value": 0.14419,
       "extra": {
         "sketchName": "santa-maria-mpa"
       }
