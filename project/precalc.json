@@ -5,7 +5,7 @@
     "classId": "6nm_boundary-total",
     "sketchId": null,
     "groupId": null,
-    "value": 575605423.5269397
+    "value": 575605423.5269396
   },
   {
     "geographyId": "corvo",
@@ -117,7 +117,7 @@
     "classId": "corvo_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 136967890.277054
+    "value": 136967890.277062
   },
   {
     "geographyId": "corvo",
@@ -141,7 +141,7 @@
     "classId": "corvo-total",
     "sketchId": null,
     "groupId": null,
-    "value": 575605432.7510982
+    "value": 575605432.751098
   },
   {
     "geographyId": "corvo",
@@ -157,7 +157,7 @@
     "classId": "escarpments-total",
     "sketchId": null,
     "groupId": null,
-    "value": 429572163.66594404
+    "value": 429572163.66594285
   },
   {
     "geographyId": "corvo",
@@ -181,7 +181,7 @@
     "classId": "faial_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 51704928.637648
+    "value": 51704928.637649
   },
   {
     "geographyId": "corvo",
@@ -253,7 +253,7 @@
     "classId": "flores_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 61431608.106153
+    "value": 61431608.106152
   },
   {
     "geographyId": "corvo",
@@ -261,7 +261,7 @@
     "classId": "flores_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 469922904.162192
+    "value": 469922904.162201
   },
   {
     "geographyId": "corvo",
@@ -477,7 +477,7 @@
     "classId": "pico_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 574518971.023432
+    "value": 574518971.023431
   },
   {
     "geographyId": "corvo",
@@ -693,7 +693,7 @@
     "classId": "saomiguel_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 574631036.81276
+    "value": 574631036.812759
   },
   {
     "geographyId": "corvo",
@@ -741,7 +741,7 @@
     "classId": "shelf_class-high",
     "sketchId": null,
     "groupId": null,
-    "value": 28139569.743506104
+    "value": 28139569.743504997
   },
   {
     "geographyId": "corvo",
@@ -765,7 +765,7 @@
     "classId": "shelf_class-total",
     "sketchId": null,
     "groupId": null,
-    "value": 28139569.743506104
+    "value": 28139569.743504997
   },
   {
     "geographyId": "corvo",
@@ -773,7 +773,7 @@
     "classId": "slope-total",
     "sketchId": null,
     "groupId": null,
-    "value": 469787562.4093769
+    "value": 469787562.409377
   },
   {
     "geographyId": "corvo",
@@ -3109,7 +3109,7 @@
     "classId": "all_recreation_sports_and_tourism_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 987762689.193312
+    "value": 987762689.193311
   },
   {
     "geographyId": "faial",
@@ -3253,7 +3253,7 @@
     "classId": "faial_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 973546944.049186
+    "value": 973546944.049188
   },
   {
     "geographyId": "faial",
@@ -3269,7 +3269,7 @@
     "classId": "faial_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 752254352.099158
+    "value": 752254352.099167
   },
   {
     "geographyId": "faial",
@@ -3525,7 +3525,7 @@
     "classId": "pico_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 731503662.640994
+    "value": 731503662.640993
   },
   {
     "geographyId": "faial",
@@ -3533,7 +3533,7 @@
     "classId": "pico_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 987352294.522134
+    "value": 987352294.522133
   },
   {
     "geographyId": "faial",
@@ -3549,7 +3549,7 @@
     "classId": "pico_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 987360655.45529
+    "value": 987360655.455288
   },
   {
     "geographyId": "faial",
@@ -3605,7 +3605,7 @@
     "classId": "ridges-total",
     "sketchId": null,
     "groupId": null,
-    "value": 495263557.3950909
+    "value": 495263557.3950908
   },
   {
     "geographyId": "faial",
@@ -3765,7 +3765,7 @@
     "classId": "saomiguel_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 987769642.204425
+    "value": 987769642.204424
   },
   {
     "geographyId": "faial",
@@ -6245,7 +6245,7 @@
     "classId": "bathymetry-total",
     "sketchId": null,
     "groupId": null,
-    "value": 924621726.915559
+    "value": 924621726.91556
   },
   {
     "geographyId": "flores",
@@ -6261,7 +6261,7 @@
     "classId": "corvo_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 35866869.766713
+    "value": 35866869.766715
   },
   {
     "geographyId": "flores",
@@ -6325,7 +6325,7 @@
     "classId": "faial_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 52921515.193828
+    "value": 52921515.193829
   },
   {
     "geographyId": "flores",
@@ -6397,7 +6397,7 @@
     "classId": "flores_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 723225579.862583
+    "value": 723225579.862565
   },
   {
     "geographyId": "flores",
@@ -6405,7 +6405,7 @@
     "classId": "flores_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 791390576.327126
+    "value": 791390576.32714
   },
   {
     "geographyId": "flores",
@@ -6421,7 +6421,7 @@
     "classId": "flores_tour_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 240675059.367541
+    "value": 240675059.367532
   },
   {
     "geographyId": "flores",
@@ -6621,7 +6621,7 @@
     "classId": "pico_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 924192421.279236
+    "value": 924192421.279235
   },
   {
     "geographyId": "flores",
@@ -6837,7 +6837,7 @@
     "classId": "saomiguel_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 924342924.622984
+    "value": 924342924.622983
   },
   {
     "geographyId": "flores",
@@ -9325,7 +9325,7 @@
     "classId": "canyons-total",
     "sketchId": null,
     "groupId": null,
-    "value": 120843408.21096754
+    "value": 120843408.21097195
   },
   {
     "geographyId": "graciosa",
@@ -9509,7 +9509,7 @@
     "classId": "graciosa_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 356033367.791451
+    "value": 356033367.791441
   },
   {
     "geographyId": "graciosa",
@@ -9677,7 +9677,7 @@
     "classId": "pico_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 744571571.743715
+    "value": 744571571.743714
   },
   {
     "geographyId": "graciosa",
@@ -9693,7 +9693,7 @@
     "classId": "pico_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 744910632.605674
+    "value": 744910632.605673
   },
   {
     "geographyId": "graciosa",
@@ -12293,7 +12293,7 @@
     "classId": "6nm_boundary-total",
     "sketchId": null,
     "groupId": null,
-    "value": 10297387316.162949
+    "value": 10297387316.162952
   },
   {
     "geographyId": "nearshore",
@@ -12325,7 +12325,7 @@
     "classId": "all_recreation_sports_and_tourism_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 10274774423.617151
+    "value": 10274774423.617144
   },
   {
     "geographyId": "nearshore",
@@ -12389,7 +12389,7 @@
     "classId": "bathymetry-total",
     "sketchId": null,
     "groupId": null,
-    "value": 10289295282.53319
+    "value": 10289295282.533192
   },
   {
     "geographyId": "nearshore",
@@ -12397,7 +12397,7 @@
     "classId": "canyons-total",
     "sketchId": null,
     "groupId": null,
-    "value": 849086149.5873705
+    "value": 849086149.5873764
   },
   {
     "geographyId": "nearshore",
@@ -12405,7 +12405,7 @@
     "classId": "corvo_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 142664034.587294
+    "value": 142664034.587302
   },
   {
     "geographyId": "nearshore",
@@ -12429,7 +12429,7 @@
     "classId": "corvo-total",
     "sketchId": null,
     "groupId": null,
-    "value": 575605423.5269397
+    "value": 575605423.5269396
   },
   {
     "geographyId": "nearshore",
@@ -12445,7 +12445,7 @@
     "classId": "escarpments-total",
     "sketchId": null,
     "groupId": null,
-    "value": 5977450046.816633
+    "value": 5977450046.8166
   },
   {
     "geographyId": "nearshore",
@@ -12469,7 +12469,7 @@
     "classId": "faial_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2015632672.018816
+    "value": 2015632672.018819
   },
   {
     "geographyId": "nearshore",
@@ -12485,7 +12485,7 @@
     "classId": "faial_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 917823549.582448
+    "value": 917823549.582459
   },
   {
     "geographyId": "nearshore",
@@ -12541,7 +12541,7 @@
     "classId": "flores_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 739817284.270749
+    "value": 739817284.27073
   },
   {
     "geographyId": "nearshore",
@@ -12549,7 +12549,7 @@
     "classId": "flores_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1216443315.997712
+    "value": 1216443315.997733
   },
   {
     "geographyId": "nearshore",
@@ -12565,7 +12565,7 @@
     "classId": "flores_tour_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 240675059.367541
+    "value": 240675059.367532
   },
   {
     "geographyId": "nearshore",
@@ -12581,7 +12581,7 @@
     "classId": "graciosa_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 356033367.791451
+    "value": 356033367.791441
   },
   {
     "geographyId": "nearshore",
@@ -12741,7 +12741,7 @@
     "classId": "pico_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 3544493087.394964
+    "value": 3544493087.394958
   },
   {
     "geographyId": "nearshore",
@@ -12749,7 +12749,7 @@
     "classId": "pico_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 10272229202.012655
+    "value": 10272229202.012651
   },
   {
     "geographyId": "nearshore",
@@ -12765,7 +12765,7 @@
     "classId": "pico_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 10269986125.557005
+    "value": 10269986125.55699
   },
   {
     "geographyId": "nearshore",
@@ -12837,7 +12837,7 @@
     "classId": "santa-maria-total",
     "sketchId": null,
     "groupId": null,
-    "value": 877814472.4793501
+    "value": 877814472.4793524
   },
   {
     "geographyId": "nearshore",
@@ -12925,7 +12925,7 @@
     "classId": "saojorge_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 684548113.757187
+    "value": 684548113.757192
   },
   {
     "geographyId": "nearshore",
@@ -12949,7 +12949,7 @@
     "classId": "saojorge_tour_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 475023826.813374
+    "value": 475023826.813378
   },
   {
     "geographyId": "nearshore",
@@ -12981,7 +12981,7 @@
     "classId": "saomiguel_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 10273901479.125843
+    "value": 10273901479.125835
   },
   {
     "geographyId": "nearshore",
@@ -13029,7 +13029,7 @@
     "classId": "shelf_class-high",
     "sketchId": null,
     "groupId": null,
-    "value": 1298557020.236699
+    "value": 1298557020.2366319
   },
   {
     "geographyId": "nearshore",
@@ -13037,7 +13037,7 @@
     "classId": "shelf_class-low",
     "sketchId": null,
     "groupId": null,
-    "value": 11968056.954733659
+    "value": 11968056.954735864
   },
   {
     "geographyId": "nearshore",
@@ -13045,7 +13045,7 @@
     "classId": "shelf_class-medium",
     "sketchId": null,
     "groupId": null,
-    "value": 19473097.28520278
+    "value": 19473097.285197265
   },
   {
     "geographyId": "nearshore",
@@ -13053,7 +13053,7 @@
     "classId": "shelf_class-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1329998174.4766355
+    "value": 1329998174.4765651
   },
   {
     "geographyId": "nearshore",
@@ -13061,7 +13061,7 @@
     "classId": "slope-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6524689759.842539
+    "value": 6524689759.842678
   },
   {
     "geographyId": "nearshore",
@@ -13101,7 +13101,7 @@
     "classId": "terceira_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1289188811.289683
+    "value": 1289188811.289671
   },
   {
     "geographyId": "nearshore",
@@ -15397,7 +15397,7 @@
     "classId": "all_recreation_sports_and_tourism_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1545974450.872106
+    "value": 1545974450.872104
   },
   {
     "geographyId": "pico",
@@ -15461,7 +15461,7 @@
     "classId": "bathymetry-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1548381053.530338
+    "value": 1548381053.530339
   },
   {
     "geographyId": "pico",
@@ -15469,7 +15469,7 @@
     "classId": "canyons-total",
     "sketchId": null,
     "groupId": null,
-    "value": 100782477.24650137
+    "value": 100782477.24650192
   },
   {
     "geographyId": "pico",
@@ -15517,7 +15517,7 @@
     "classId": "escarpments-total",
     "sketchId": null,
     "groupId": null,
-    "value": 613666334.1679184
+    "value": 613666334.1679163
   },
   {
     "geographyId": "pico",
@@ -15541,7 +15541,7 @@
     "classId": "faial_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 896769753.340699
+    "value": 896769753.3407
   },
   {
     "geographyId": "pico",
@@ -15557,7 +15557,7 @@
     "classId": "faial_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 413253633.744067
+    "value": 413253633.744072
   },
   {
     "geographyId": "pico",
@@ -15813,7 +15813,7 @@
     "classId": "pico_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1229872166.430292
+    "value": 1229872166.430289
   },
   {
     "geographyId": "pico",
@@ -15837,7 +15837,7 @@
     "classId": "pico_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1545446805.067747
+    "value": 1545446805.067745
   },
   {
     "geographyId": "pico",
@@ -15986,6 +15986,14 @@
   {
     "geographyId": "pico",
     "metricId": "area",
+    "classId": "saojorge_cultural_heritage_ous-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pico",
+    "metricId": "area",
     "classId": "saojorge_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
@@ -16045,7 +16053,7 @@
     "classId": "saomiguel_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1545770376.993495
+    "value": 1545770376.993494
   },
   {
     "geographyId": "pico",
@@ -16109,7 +16117,7 @@
     "classId": "shelf_class-medium",
     "sketchId": null,
     "groupId": null,
-    "value": 15371775.565889
+    "value": 15371775.565884039
   },
   {
     "geographyId": "pico",
@@ -16117,7 +16125,7 @@
     "classId": "shelf_class-total",
     "sketchId": null,
     "groupId": null,
-    "value": 121661535.64007272
+    "value": 121661535.64006776
   },
   {
     "geographyId": "pico",
@@ -16822,6 +16830,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 89106
+  },
+  {
+    "geographyId": "pico",
+    "metricId": "count",
+    "classId": "saojorge_cultural_heritage_ous-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
   },
   {
     "geographyId": "pico",
@@ -17554,6 +17570,14 @@
   {
     "geographyId": "pico",
     "metricId": "sum",
+    "classId": "saojorge_cultural_heritage_ous-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pico",
+    "metricId": "sum",
     "classId": "saojorge_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
@@ -18234,6 +18258,14 @@
   {
     "geographyId": "pico",
     "metricId": "valid",
+    "classId": "saojorge_cultural_heritage_ous-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pico",
+    "metricId": "valid",
     "classId": "saojorge_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
@@ -18405,7 +18437,7 @@
     "classId": "6nm_boundary-total",
     "sketchId": null,
     "groupId": null,
-    "value": 877814472.4793501
+    "value": 877814472.4793524
   },
   {
     "geographyId": "santa-maria",
@@ -18437,7 +18469,7 @@
     "classId": "all_recreation_sports_and_tourism_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 875884134.462219
+    "value": 875884134.462218
   },
   {
     "geographyId": "santa-maria",
@@ -18501,7 +18533,7 @@
     "classId": "bathymetry-total",
     "sketchId": null,
     "groupId": null,
-    "value": 875913827.307393
+    "value": 875913827.307394
   },
   {
     "geographyId": "santa-maria",
@@ -18877,7 +18909,7 @@
     "classId": "pico_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 875391921.331494
+    "value": 875391921.331493
   },
   {
     "geographyId": "santa-maria",
@@ -18938,10 +18970,18 @@
   {
     "geographyId": "santa-maria",
     "metricId": "area",
+    "classId": "RUS-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "santa-maria",
+    "metricId": "area",
     "classId": "santa-maria-total",
     "sketchId": null,
     "groupId": null,
-    "value": 877814472.4793501
+    "value": 877814472.4793524
   },
   {
     "geographyId": "santa-maria",
@@ -19141,7 +19181,7 @@
     "classId": "shelf_class-low",
     "sketchId": null,
     "groupId": null,
-    "value": 11968056.954733659
+    "value": 11968056.954735864
   },
   {
     "geographyId": "santa-maria",
@@ -19157,7 +19197,7 @@
     "classId": "shelf_class-total",
     "sketchId": null,
     "groupId": null,
-    "value": 80300374.96056126
+    "value": 80300374.96056347
   },
   {
     "geographyId": "santa-maria",
@@ -19771,6 +19811,14 @@
     "geographyId": "santa-maria",
     "metricId": "count",
     "classId": "ridges-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "santa-maria",
+    "metricId": "count",
+    "classId": "RUS-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -20530,6 +20578,14 @@
   {
     "geographyId": "santa-maria",
     "metricId": "sum",
+    "classId": "RUS-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "santa-maria",
+    "metricId": "sum",
     "classId": "santamaria_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
@@ -21210,6 +21266,14 @@
   {
     "geographyId": "santa-maria",
     "metricId": "valid",
+    "classId": "RUS-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "santa-maria",
+    "metricId": "valid",
     "classId": "santamaria_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
@@ -21477,7 +21541,7 @@
     "classId": "all_recreation_sports_and_tourism_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1653466389.689853
+    "value": 1653466389.689852
   },
   {
     "geographyId": "sao-jorge",
@@ -21621,7 +21685,7 @@
     "classId": "faial_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 332868660.78437
+    "value": 332868660.784371
   },
   {
     "geographyId": "sao-jorge",
@@ -21893,7 +21957,7 @@
     "classId": "pico_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1045480282.354636
+    "value": 1045480282.354634
   },
   {
     "geographyId": "sao-jorge",
@@ -21901,7 +21965,7 @@
     "classId": "pico_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1652567072.746012
+    "value": 1652567072.746011
   },
   {
     "geographyId": "sao-jorge",
@@ -21917,7 +21981,7 @@
     "classId": "pico_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1652421250.331345
+    "value": 1652421250.331342
   },
   {
     "geographyId": "sao-jorge",
@@ -21941,7 +22005,7 @@
     "classId": "plateaus-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1601384402.4821334
+    "value": 1601384402.4821339
   },
   {
     "geographyId": "sao-jorge",
@@ -21973,7 +22037,7 @@
     "classId": "ridges-total",
     "sketchId": null,
     "groupId": null,
-    "value": 594117276.3629074
+    "value": 594117276.3629079
   },
   {
     "geographyId": "sao-jorge",
@@ -22077,7 +22141,7 @@
     "classId": "saojorge_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 684548113.757187
+    "value": 684548113.757192
   },
   {
     "geographyId": "sao-jorge",
@@ -22101,7 +22165,7 @@
     "classId": "saojorge_tour_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 475023826.813374
+    "value": 475023826.813378
   },
   {
     "geographyId": "sao-jorge",
@@ -22133,7 +22197,7 @@
     "classId": "saomiguel_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1653236725.711023
+    "value": 1653236725.711022
   },
   {
     "geographyId": "sao-jorge",
@@ -22181,7 +22245,7 @@
     "classId": "shelf_class-high",
     "sketchId": null,
     "groupId": null,
-    "value": 124665315.79050277
+    "value": 124665315.79049838
   },
   {
     "geographyId": "sao-jorge",
@@ -22197,7 +22261,7 @@
     "classId": "shelf_class-medium",
     "sketchId": null,
     "groupId": null,
-    "value": 587680.3681370462
+    "value": 587680.3681364949
   },
   {
     "geographyId": "sao-jorge",
@@ -22205,7 +22269,7 @@
     "classId": "shelf_class-total",
     "sketchId": null,
     "groupId": null,
-    "value": 125252996.15863982
+    "value": 125252996.15863487
   },
   {
     "geographyId": "sao-jorge",
@@ -22213,7 +22277,7 @@
     "classId": "slope-total",
     "sketchId": null,
     "groupId": null,
-    "value": 761759750.3233037
+    "value": 761759750.323374
   },
   {
     "geographyId": "sao-jorge",
@@ -24549,7 +24613,7 @@
     "classId": "all_recreation_sports_and_tourism_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2131736542.359603
+    "value": 2131736542.359601
   },
   {
     "geographyId": "sao-miguel",
@@ -24613,7 +24677,7 @@
     "classId": "bathymetry-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2137846042.665898
+    "value": 2137846042.665899
   },
   {
     "geographyId": "sao-miguel",
@@ -24621,7 +24685,7 @@
     "classId": "canyons-total",
     "sketchId": null,
     "groupId": null,
-    "value": 332435455.37590945
+    "value": 332435455.3759092
   },
   {
     "geographyId": "sao-miguel",
@@ -24973,7 +25037,7 @@
     "classId": "pico_rec_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2131334473.295512
+    "value": 2131334473.295511
   },
   {
     "geographyId": "sao-miguel",
@@ -24989,7 +25053,7 @@
     "classId": "pico_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2130393734.063205
+    "value": 2130393734.063202
   },
   {
     "geographyId": "sao-miguel",
@@ -25205,7 +25269,7 @@
     "classId": "saomiguel_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2132069503.870948
+    "value": 2132069503.870947
   },
   {
     "geographyId": "sao-miguel",
@@ -25253,7 +25317,7 @@
     "classId": "shelf_class-high",
     "sketchId": null,
     "groupId": null,
-    "value": 319730362.63836306
+    "value": 319730362.6383013
   },
   {
     "geographyId": "sao-miguel",
@@ -25277,7 +25341,7 @@
     "classId": "shelf_class-total",
     "sketchId": null,
     "groupId": null,
-    "value": 319730362.63836306
+    "value": 319730362.6383013
   },
   {
     "geographyId": "sao-miguel",
@@ -25285,7 +25349,7 @@
     "classId": "slope-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1589218671.3185003
+    "value": 1589218671.3185697
   },
   {
     "geographyId": "sao-miguel",
@@ -27621,7 +27685,7 @@
     "classId": "all_recreation_sports_and_tourism_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1289248250.767084
+    "value": 1289248250.767083
   },
   {
     "geographyId": "terceira",
@@ -27693,7 +27757,7 @@
     "classId": "canyons-total",
     "sketchId": null,
     "groupId": null,
-    "value": 172031502.07015306
+    "value": 172031502.07015413
   },
   {
     "geographyId": "terceira",
@@ -27741,7 +27805,7 @@
     "classId": "escarpments-total",
     "sketchId": null,
     "groupId": null,
-    "value": 567433315.7385398
+    "value": 567433315.7385046
   },
   {
     "geographyId": "terceira",
@@ -28037,7 +28101,7 @@
     "classId": "pico_comm_fish_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 351949183.409248
+    "value": 351949183.409247
   },
   {
     "geographyId": "terceira",
@@ -28061,7 +28125,7 @@
     "classId": "pico_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1289068428.24145
+    "value": 1289068428.241448
   },
   {
     "geographyId": "terceira",
@@ -28117,7 +28181,7 @@
     "classId": "ridges-total",
     "sketchId": null,
     "groupId": null,
-    "value": 840797687.8488648
+    "value": 840797687.8488643
   },
   {
     "geographyId": "terceira",
@@ -28277,7 +28341,7 @@
     "classId": "saomiguel_rec_sports_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1289175774.986037
+    "value": 1289175774.986036
   },
   {
     "geographyId": "terceira",
@@ -28397,7 +28461,7 @@
     "classId": "terceira_sci_tech_ous-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1289188811.289683
+    "value": 1289188811.289671
   },
   {
     "geographyId": "terceira",
