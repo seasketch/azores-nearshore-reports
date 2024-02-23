@@ -2,7 +2,6 @@ import React from "react";
 import {
   Collapse,
   ResultsCard,
-  useSketchProperties,
   KeySection,
   InfoStatus,
   ClassTable,
@@ -13,16 +12,17 @@ import {
   toPercentMetric,
   percentWithEdge,
 } from "@seasketch/geoprocessing/client-core";
-
 import totals from "../../data/bin/ousDemographicPrecalcTotals.json";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
-import { GeoProp } from "../types";
+import { ReportProps } from "../util/ReportProp";
 const precalcTotals = totals as ReportResultBase;
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
+export const OusDemographics: React.FunctionComponent<ReportProps> = (
+  props
+) => {
   const { t } = useTranslation();
 
   const overallMetricGroup = project.getMetricGroup(
@@ -51,7 +51,7 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
   });
 
   return (
-    <>
+    <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={t("Ocean Use Demographics")}
         functionName="ousDemographicOverlap"
@@ -259,7 +259,11 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
                 ]}
               />
 
-              <Collapse title={t("Show by Gear Type (Commercial Fishing)")}>
+              <Collapse
+                title={t("Show by Gear Type (Commercial Fishing)")}
+                collapsed={!props.printing}
+                key={String(props.printing) + "gear"}
+              >
                 <Trans i18nKey="OUS Demographics - breakdown by gear type">
                   <p>
                     The following is a breakdown of gear types used by
@@ -320,7 +324,11 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
                 />
               </Collapse>
 
-              <Collapse title={t("Show by Island (All Sectors)")}>
+              <Collapse
+                title={t("Show by Island (All Sectors)")}
+                collapsed={!props.printing}
+                key={String(props.printing) + "island"}
+              >
                 <p>
                   <Trans i18nKey="OUS Demographics - breakdown by island">
                     The following is a breakdown of the number of people
@@ -374,43 +382,47 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
                 />
               </Collapse>
 
-              <Collapse title={t("Learn more")}>
-                <Trans i18nKey="OUS Demographics - learn more">
-                  <p>
-                    ℹ️ Overview: an Ocean Use Survey was conducted that
-                    identified who is using the ocean, and where they are using
-                    it.
-                  </p>
-                  <p>
-                    This report provides a breakdown of the people that use the
-                    ocean within this plan, by sector, gear type, and island.
-                  </p>
-                  <p>
-                    Note, this report is only representative of the individuals
-                    that were surveyed and the number of people they were said
-                    to represent.
-                  </p>
-                  <p>
-                    🎯 Planning Objective: there is no specific objective/target
-                    for limiting the potential impact to groups of people.
-                  </p>
-                  <p>
-                    📈 Report: Percentages are calculated by summing the number
-                    of people that use the ocean within the boundaries of this
-                    plan for each sector and dividing it by the total number of
-                    people that use the ocean within the sector.
-                  </p>
-                  <p>
-                    Due to the complex nature of this report and to ensure the
-                    timely return of reports, sketch shorelines have been
-                    simplified with a 0.0001 degree tolerance.{" "}
-                  </p>
-                </Trans>
-              </Collapse>
+              {!props.printing && (
+                <Collapse title={t("Learn more")}>
+                  <Trans i18nKey="OUS Demographics - learn more">
+                    <p>
+                      ℹ️ Overview: an Ocean Use Survey was conducted that
+                      identified who is using the ocean, and where they are
+                      using it.
+                    </p>
+                    <p>
+                      This report provides a breakdown of the people that use
+                      the ocean within this plan, by sector, gear type, and
+                      island.
+                    </p>
+                    <p>
+                      Note, this report is only representative of the
+                      individuals that were surveyed and the number of people
+                      they were said to represent.
+                    </p>
+                    <p>
+                      🎯 Planning Objective: there is no specific
+                      objective/target for limiting the potential impact to
+                      groups of people.
+                    </p>
+                    <p>
+                      📈 Report: Percentages are calculated by summing the
+                      number of people that use the ocean within the boundaries
+                      of this plan for each sector and dividing it by the total
+                      number of people that use the ocean within the sector.
+                    </p>
+                    <p>
+                      Due to the complex nature of this report and to ensure the
+                      timely return of reports, sketch shorelines have been
+                      simplified with a 0.0001 degree tolerance.{" "}
+                    </p>
+                  </Trans>
+                </Collapse>
+              )}
             </>
           );
         }}
       </ResultsCard>
-    </>
+    </div>
   );
 };

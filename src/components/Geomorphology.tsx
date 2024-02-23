@@ -24,11 +24,11 @@ import {
 import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
-import { GeoProp } from "../types";
+import { ReportProps } from "../util/ReportProp";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
+export const Geomorphology: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
@@ -50,7 +50,7 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
   const sqKmLabel = t("km²");
 
   return (
-    <>
+    <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={t("Benthic Habitat")}
         functionName="geomorphAreaOverlap"
@@ -156,52 +156,58 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
               </Translator>
 
               {isCollection && (
-                <Collapse title={t("Show by MPA")}>
+                <Collapse
+                  title={t("Show by MPA")}
+                  collapsed={!props.printing}
+                  key={String(props.printing) + "mpa"}
+                >
                   {genSketchTable(data, precalcMetrics, metricGroup)}
                 </Collapse>
               )}
 
-              <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Geomorphology Card - learn more">
-                  <p>
-                    ℹ️ Overview: seafloor features were identified based on
-                    geomorphology, which classifies features using depth, seabed
-                    slope, and other environmental characteristics. Plans should
-                    ensure the representative coverage of each seafloor feature
-                    type. This report summarizes the percentage of each habitat
-                    that overlaps with this plan.
-                  </p>
-                  <p>
-                    🎯 Planning Objective: No identified planning objectives for
-                    benthic habitats.
-                  </p>
-                  <p>
-                    🗺️ Source Data: Seafloor Geomorphic Features Map.{" "}
-                    <a href="https://doi.org/10.1016/j.margeo.2014.01.011">
-                      Harris, P.T., Macmillan-Lawler, M., Rupp, J. and Baker,
-                      E.K. 2014. Geomorphology of the oceans. Marine Geology,
-                      352: 4-24.
-                    </a>{" "}
-                    <a href="https://bluehabitats.org/">
-                      https://bluehabitats.org/
-                    </a>
-                  </p>
-                  <p>
-                    📈 Report: The percentage of each feature type within this
-                    plan is calculated by finding the overlap of each feature
-                    type with the plan, summing its area, then dividing it by
-                    the total area of each feature type found within the
-                    selected nearshore planning area. If the plan includes
-                    multiple areas that overlap, the overlap is only counted
-                    once.
-                  </p>
-                </Trans>
-              </Collapse>
+              {!props.printing && (
+                <Collapse title={t("Learn more")}>
+                  <Trans i18nKey="Geomorphology Card - learn more">
+                    <p>
+                      ℹ️ Overview: seafloor features were identified based on
+                      geomorphology, which classifies features using depth,
+                      seabed slope, and other environmental characteristics.
+                      Plans should ensure the representative coverage of each
+                      seafloor feature type. This report summarizes the
+                      percentage of each habitat that overlaps with this plan.
+                    </p>
+                    <p>
+                      🎯 Planning Objective: No identified planning objectives
+                      for benthic habitats.
+                    </p>
+                    <p>
+                      🗺️ Source Data: Seafloor Geomorphic Features Map.{" "}
+                      <a href="https://doi.org/10.1016/j.margeo.2014.01.011">
+                        Harris, P.T., Macmillan-Lawler, M., Rupp, J. and Baker,
+                        E.K. 2014. Geomorphology of the oceans. Marine Geology,
+                        352: 4-24.
+                      </a>{" "}
+                      <a href="https://bluehabitats.org/">
+                        https://bluehabitats.org/
+                      </a>
+                    </p>
+                    <p>
+                      📈 Report: The percentage of each feature type within this
+                      plan is calculated by finding the overlap of each feature
+                      type with the plan, summing its area, then dividing it by
+                      the total area of each feature type found within the
+                      selected nearshore planning area. If the plan includes
+                      multiple areas that overlap, the overlap is only counted
+                      once.
+                    </p>
+                  </Trans>
+                </Collapse>
+              )}
             </ToolbarCard>
           );
         }}
       </ResultsCard>
-    </>
+    </div>
   );
 };
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Collapse,
   ResultsCard,
@@ -13,9 +13,9 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
-import { GeoProp } from "../types";
+import { ReportProps } from "../util/ReportProp";
 
-interface ByIslandProp extends GeoProp {
+interface ByIslandProp extends ReportProps {
   hidden: boolean;
 }
 
@@ -42,7 +42,7 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
   const percValueLabel = t("% Value Found Within Plan");
 
   return (
-    <>
+    <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={
           t("Ocean Use By") +
@@ -128,67 +128,72 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
                   },
                 ]}
               />
-              <Collapse title={t("Learn more")}>
-                <Trans i18nKey="OUS By Island Card - learn more">
-                  <p>
-                    ℹ️ Overview: to capture the value each sector places on
-                    different areas of the nearshore, an Ocean Use Survey was
-                    conducted. Individuals identified the sectors they
-                    participate in, and were asked to draw the areas they use
-                    relative to that sector and assign a value of importance.
-                    Individual responses were then combined to produce aggregate
-                    heatmaps by sector. This allows the value of areas to be
-                    quantified, summed, and compared to one another as more or
-                    less valuable.
-                  </p>
-                  <p>
-                    Value is then used as a proxy for measuring the potential
-                    economic loss to sectors caused by the creation of protected
-                    areas. This report can be used to minimize the potential
-                    impact of a plan on a sector, as well as identify and reduce
-                    conflict between conservation objectives and sector
-                    activities. The higher the proportion of value within the
-                    plan, the greater the potential impact to the fishery if
-                    access or activities are restricted.
-                  </p>
-                  <p>
-                    Note, the resulting heatmaps are only representative of the
-                    individuals that were surveyed.
-                  </p>
-                  <p>
-                    🎯 Planning Objective: there is no specific objective/target
-                    for limiting the potential impact to fishing activities.
-                  </p>
-                  <p>🗺️ Methods:</p>
-                  <ul>
-                    <li>
-                      <a
-                        href="https://seasketch.github.io/python-sap-map/index.html"
-                        target="_blank"
-                      >
-                        Spatial Access Priority Mapping Overview
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    📈 Report: Percentages are calculated by summing the areas
-                    of value within the MPAs in this plan, and dividing it by
-                    all sector value. If the plan includes multiple areas that
-                    overlap, the overlap is only counted once.
-                  </p>
-                  <p>
-                    This report shows the percentage of EEZ-wide value of this
-                    island's fishers which is contained by the nearshore plan.
-                    For example, "By island: Corvo" will display % value of
-                    Corvo fishers contained within the plan. Toggle the
-                    corresponding maps to see the data layers used in analysis.
-                  </p>
-                </Trans>
-              </Collapse>
+              {!props.printing && (
+                <Collapse title={t("Learn more")}>
+                  <Trans i18nKey="OUS By Island Card - learn more">
+                    <p>
+                      ℹ️ Overview: to capture the value each sector places on
+                      different areas of the nearshore, an Ocean Use Survey was
+                      conducted. Individuals identified the sectors they
+                      participate in, and were asked to draw the areas they use
+                      relative to that sector and assign a value of importance.
+                      Individual responses were then combined to produce
+                      aggregate heatmaps by sector. This allows the value of
+                      areas to be quantified, summed, and compared to one
+                      another as more or less valuable.
+                    </p>
+                    <p>
+                      Value is then used as a proxy for measuring the potential
+                      economic loss to sectors caused by the creation of
+                      protected areas. This report can be used to minimize the
+                      potential impact of a plan on a sector, as well as
+                      identify and reduce conflict between conservation
+                      objectives and sector activities. The higher the
+                      proportion of value within the plan, the greater the
+                      potential impact to the fishery if access or activities
+                      are restricted.
+                    </p>
+                    <p>
+                      Note, the resulting heatmaps are only representative of
+                      the individuals that were surveyed.
+                    </p>
+                    <p>
+                      🎯 Planning Objective: there is no specific
+                      objective/target for limiting the potential impact to
+                      fishing activities.
+                    </p>
+                    <p>🗺️ Methods:</p>
+                    <ul>
+                      <li>
+                        <a
+                          href="https://seasketch.github.io/python-sap-map/index.html"
+                          target="_blank"
+                        >
+                          Spatial Access Priority Mapping Overview
+                        </a>
+                      </li>
+                    </ul>
+                    <p>
+                      📈 Report: Percentages are calculated by summing the areas
+                      of value within the MPAs in this plan, and dividing it by
+                      all sector value. If the plan includes multiple areas that
+                      overlap, the overlap is only counted once.
+                    </p>
+                    <p>
+                      This report shows the percentage of EEZ-wide value of this
+                      island's fishers which is contained by the nearshore plan.
+                      For example, "By island: Corvo" will display % value of
+                      Corvo fishers contained within the plan. Toggle the
+                      corresponding maps to see the data layers used in
+                      analysis.
+                    </p>
+                  </Trans>
+                </Collapse>
+              )}
             </>
           );
         }}
       </ResultsCard>
-    </>
+    </div>
   );
 };

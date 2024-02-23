@@ -23,9 +23,10 @@ import {
 } from "@seasketch/geoprocessing/client-ui";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
-import { GeoProp } from "../types";
+import { ReportProps } from "../util/ReportProp";
+import { genSketchTable } from "../util/genSketchTable";
 
-export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
+export const SDMCard: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
   const metricGroup = project.getMetricGroup("sdmValueOverlap", t);
@@ -42,7 +43,7 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
   const turtlesLabel = t("Turtles");
   const percAreaWithin = t("% Area Within Plan");
   return (
-    <>
+    <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={t("Valuable Species Habitat")}
         functionName="sdmValueOverlap"
@@ -202,67 +203,57 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
               />
 
               {isCollection && (
-                <Collapse title={t("Show by MPA")}>
-                  {genSketchTable(data, precalcMetrics, metricGroup)}
+                <Collapse
+                  title={t("Show by MPA")}
+                  collapsed={!props.printing}
+                  key={String(props.printing) + "mpa"}
+                >
+                  {genSketchTable(
+                    data,
+                    precalcMetrics,
+                    metricGroup,
+                    props.printing
+                  )}
                 </Collapse>
               )}
 
-              <Collapse title={t("Learn more")}>
-                <Trans i18nKey="SDM Card - learn more">
-                  <p>
-                    ℹ️ Maintaining populations of key species requires
-                    protecting habitats which support those species. This report
-                    can be used to inform which key species' habitats would be
-                    protected by this plan. The higher the percentage, the
-                    greater the protection of these species.
-                  </p>
-                  <p>
-                    🎯 Planning Objective: there is no specific objective/target
-                    for key species habitat.
-                  </p>
-                  <p>
-                    🗺️ Source Data: The species distribution models (SDMs) used
-                    in this report are from the Araújo Lab. SDMs model
-                    probability of presence of individual species in a given
-                    area. While these SDMs are based partly on collected
-                    observational data, they are models and thus have baked-in
-                    uncertainty.
-                  </p>
-                  <p>
-                    📈 Report: Percentages are calculated by taking the total
-                    area of the species' distribution within the MPAs in this
-                    plan, and dividing it by the total area of the species'
-                    distribution in the nearshore. If the plan includes multiple
-                    areas that overlap, the overlap is only counted once.
-                  </p>
-                </Trans>
-              </Collapse>
+              {!props.printing && (
+                <Collapse title={t("Learn more")}>
+                  <Trans i18nKey="SDM Card - learn more">
+                    <p>
+                      ℹ️ Maintaining populations of key species requires
+                      protecting habitats which support those species. This
+                      report can be used to inform which key species' habitats
+                      would be protected by this plan. The higher the
+                      percentage, the greater the protection of these species.
+                    </p>
+                    <p>
+                      🎯 Planning Objective: there is no specific
+                      objective/target for key species habitat.
+                    </p>
+                    <p>
+                      🗺️ Source Data: The species distribution models (SDMs)
+                      used in this report are from the Araújo Lab. SDMs model
+                      probability of presence of individual species in a given
+                      area. While these SDMs are based partly on collected
+                      observational data, they are models and thus have baked-in
+                      uncertainty.
+                    </p>
+                    <p>
+                      📈 Report: Percentages are calculated by taking the total
+                      area of the species' distribution within the MPAs in this
+                      plan, and dividing it by the total area of the species'
+                      distribution in the nearshore. If the plan includes
+                      multiple areas that overlap, the overlap is only counted
+                      once.
+                    </p>
+                  </Trans>
+                </Collapse>
+              )}
             </ToolbarCard>
           );
         }}
       </ResultsCard>
-    </>
-  );
-};
-
-const genSketchTable = (
-  data: ReportResult,
-  precalcMetrics: Metric[],
-  metricGroup: MetricGroup
-) => {
-  const childSketches = toNullSketchArray(data.sketch);
-  const childSketchIds = childSketches.map((sk) => sk.properties.id);
-  const childSketchMetrics = toPercentMetric(
-    metricsWithSketchId(data.metrics, childSketchIds),
-    precalcMetrics
-  );
-  const sketchRows = flattenBySketchAllClass(
-    childSketchMetrics,
-    metricGroup.classes,
-    childSketches
-  );
-
-  return (
-    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
+    </div>
   );
 };

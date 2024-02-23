@@ -28,6 +28,7 @@ import project from "../../project";
 import { getMinYesCountMap } from "@seasketch/geoprocessing/src";
 import { Trans, useTranslation } from "react-i18next";
 import { MetricGroup } from "@seasketch/geoprocessing";
+import { ReportProps } from "../util/ReportProp";
 
 // Table styling for Show by MPA table
 export const SmallReportTableStyled = styled(ReportTableStyled)`
@@ -45,7 +46,7 @@ const groupColorMap: Record<string, string> = {
 /**
  * Top level Protection report - JSX.Element
  */
-export const ProtectionCard = () => {
+export const ProtectionCard: React.FunctionComponent<ReportProps> = (props) => {
   const { t, i18n } = useTranslation();
   const [{ isCollection }] = useSketchProperties();
 
@@ -57,17 +58,31 @@ export const ProtectionCard = () => {
 
   const mg = project.getMetricGroup("protectionCountOverlap", t);
   return (
-    <ResultsCard title={t("Protection Level")} functionName="protection">
-      {(data: ReportResult) => {
-        return (
-          <ReportError>
-            {isCollection
-              ? sketchCollectionReport(data.sketch, data.metrics, mg, t)
-              : sketchReport(data.metrics, mg, groupDisplayMap, t)}
-          </ReportError>
-        );
-      }}
-    </ResultsCard>
+    <div style={{ breakInside: "avoid" }}>
+      <ResultsCard title={t("Protection Level")} functionName="protection">
+        {(data: ReportResult) => {
+          return (
+            <ReportError>
+              {isCollection
+                ? sketchCollectionReport(
+                    data.sketch,
+                    data.metrics,
+                    mg,
+                    t,
+                    props.printing
+                  )
+                : sketchReport(
+                    data.metrics,
+                    mg,
+                    groupDisplayMap,
+                    t,
+                    props.printing
+                  )}
+            </ReportError>
+          );
+        }}
+      </ResultsCard>
+    </div>
   );
 };
 
@@ -81,7 +96,8 @@ const sketchReport = (
   metrics: Metric[],
   mg: MetricGroup,
   groupDisplayMap: Record<string, string>,
-  t: any
+  t: any,
+  printing: boolean = false
 ) => {
   // Should only have only a single metric
   if (metrics.length !== 1)
@@ -108,13 +124,15 @@ const sketchReport = (
         />
       </div>
 
-      <Collapse title={t("Learn More")}>
-        <ProtectionLearnMore
-          objectives={project.getMetricGroupObjectives(mg, t)}
-          t={t}
-          groupDisplayMap={groupDisplayMap}
-        />
-      </Collapse>
+      {!printing && (
+        <Collapse title={t("Learn More")}>
+          <ProtectionLearnMore
+            objectives={project.getMetricGroupObjectives(mg, t)}
+            t={t}
+            groupDisplayMap={groupDisplayMap}
+          />
+        </Collapse>
+      )}
     </>
   );
 };
@@ -130,7 +148,8 @@ const sketchCollectionReport = (
   sketch: NullSketchCollection | NullSketch,
   metrics: Metric[],
   mg: MetricGroup,
-  t: any
+  t: any,
+  printing: boolean = false
 ) => {
   const groupDisplayMap: Record<string, string> = {
     FULLY_PROTECTED: t("Fully Protected Area(s)"),
@@ -162,16 +181,23 @@ const sketchCollectionReport = (
           objectives, so take note of the requirements for each.
         </Trans>
       </p>
-      <Collapse title={t("Show by MPA")}>
+      <Collapse
+        title={t("Show by MPA")}
+        collapsed={!printing}
+        key={String(printing) + "MPA"}
+      >
         {genMpaSketchTable(sketches, t, groupDisplayMap)}
       </Collapse>
-      <Collapse title={t("Learn More")}>
-        <ProtectionLearnMore
-          objectives={project.getMetricGroupObjectives(mg, t) as Objective[]}
-          t={t}
-          groupDisplayMap={groupDisplayMap}
-        />
-      </Collapse>
+
+      {!printing && (
+        <Collapse title={t("Learn More")}>
+          <ProtectionLearnMore
+            objectives={project.getMetricGroupObjectives(mg, t) as Objective[]}
+            t={t}
+            groupDisplayMap={groupDisplayMap}
+          />
+        </Collapse>
+      )}
     </>
   );
 };

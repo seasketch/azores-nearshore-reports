@@ -44,7 +44,7 @@ import { Trans, useTranslation } from "react-i18next";
 import styled from "styled-components";
 
 import project from "../../project";
-import { GeoProp } from "../types";
+import { ReportProps } from "../util/ReportProp";
 
 // Mapping groupIds to colors
 const groupColorMap: Record<string, string> = {
@@ -70,80 +70,89 @@ export const SmallReportTableStyled = styled(ReportTableStyled)`
  * @param props GeoProp object to pass geography through, {geography:string}
  * @returns React.FunctionComponent
  */
-export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
+export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
   const { t, i18n } = useTranslation();
   const [{ isCollection }] = useSketchProperties();
+  const curGeography = project.getGeographyById(props.geographyId, {
+    fallbackGroup: "default-boundary",
+  });
   const mg = project.getMetricGroup("boundaryAreaOverlap", t);
   const objectiveIds = getMetricGroupObjectiveIds(mg);
   const objectives = project.getMetricGroupObjectives(mg, t);
 
   return (
-    <ResultsCard
-      title={t("Size")}
-      functionName="boundaryAreaOverlap"
-      extraParams={{ geographyIds: [props.geographyId] }}
-    >
-      {(data: ReportResult) => {
-        // Get overall area of sketch metric
-        const areaMetric = firstMatchingMetric(
-          data.metrics,
-          (m) => m.sketchId === data.sketch.properties.id && m.groupId === null
-        );
+    <div style={{ breakInside: "avoid" }}>
+      <ResultsCard
+        title={t("Size")}
+        functionName="boundaryAreaOverlap"
+        extraParams={{ geographyIds: [curGeography.geographyId] }}
+      >
+        {(data: ReportResult) => {
+          // Get overall area of sketch metric
+          const areaMetric = firstMatchingMetric(
+            data.metrics,
+            (m) =>
+              m.sketchId === data.sketch.properties.id && m.groupId === null
+          );
 
-        // Get precalcalulated total metrics from precalc.json
-        const boundaryTotalMetrics = project.getPrecalcMetrics(
-          mg,
-          "area",
-          props.geographyId
-        );
+          // Get precalcalulated total metrics from precalc.json
+          const boundaryTotalMetrics = project.getPrecalcMetrics(
+            mg,
+            "area",
+            curGeography.geographyId
+          );
 
-        // Grab overall size precalc metric
-        const totalAreaMetric = firstMatchingMetric(
-          boundaryTotalMetrics,
-          (m) => m.groupId === null
-        );
+          // Grab overall size precalc metric
+          const totalAreaMetric = firstMatchingMetric(
+            boundaryTotalMetrics,
+            (m) => m.groupId === null
+          );
 
-        // Format area metrics for key section display
-        const areaDisplay = roundLower(
-          squareMeterToKilometer(areaMetric.value)
-        );
-        const percDisplay = percentWithEdge(
-          areaMetric.value / totalAreaMetric.value
-        );
-        const areaUnitDisplay = t("sq. km");
+          // Format area metrics for key section display
+          const areaDisplay = roundLower(
+            squareMeterToKilometer(areaMetric.value)
+          );
+          const percDisplay = percentWithEdge(
+            areaMetric.value / totalAreaMetric.value
+          );
+          const areaUnitDisplay = t("sq. km");
 
-        return (
-          <ReportError>
-            <>
-              {!areaMetric.value ? genWarning() : null}
-              <KeySection>
-                {t("This plan is")}{" "}
-                <b>
-                  {areaDisplay} {areaUnitDisplay}
-                </b>
-                {", "}
-                {t("which is")} <b>{percDisplay}</b> {t("of")}{" "}
-                {project.getGeographyById(props.geographyId).display}{" "}
-                {t("nearshore waters")}.
-              </KeySection>
-              {isCollection
-                ? collectionReport(
-                    data,
-                    boundaryTotalMetrics,
-                    props.geographyId,
-                    objectiveIds,
-                    t
-                  )
-                : sketchReport(data, props.geographyId, t)}
+          return (
+            <ReportError>
+              <>
+                {!areaMetric.value ? genWarning() : null}
+                <KeySection>
+                  {t("This plan is")}{" "}
+                  <b>
+                    {areaDisplay} {areaUnitDisplay}
+                  </b>
+                  {", "}
+                  {t("which is")} <b>{percDisplay}</b> {t("of")}{" "}
+                  {project.getGeographyById(curGeography.geographyId).display}{" "}
+                  {t("nearshore waters")}.
+                </KeySection>
+                {isCollection
+                  ? collectionReport(
+                      data,
+                      boundaryTotalMetrics,
+                      curGeography.geographyId,
+                      objectiveIds,
+                      t,
+                      props.printing
+                    )
+                  : sketchReport(data, curGeography.geographyId, t)}
 
-              <Collapse title={t("Learn More")}>
-                {genLearnMore(objectives, t)}
-              </Collapse>
-            </>
-          </ReportError>
-        );
-      }}
-    </ResultsCard>
+                {!props.printing && (
+                  <Collapse title={t("Learn More")}>
+                    {genLearnMore(objectives, t)}
+                  </Collapse>
+                )}
+              </>
+            </ReportError>
+          );
+        }}
+      </ResultsCard>
+    </div>
   );
 };
 
@@ -215,7 +224,8 @@ const collectionReport = (
   precalcMetrics: Metric[],
   geography: string,
   objectiveIds: string[],
-  t: any
+  t: any,
+  printing: boolean = false
 ) => {
   if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
   const sketches = toNullSketchArray(data.sketch);
@@ -327,11 +337,19 @@ const collectionReport = (
         );
       })}
 
-      <Collapse title={t("Show by Protection Level")}>
+      <Collapse
+        title={t("Show by Protection Level")}
+        collapsed={!printing}
+        key={String(printing) + "level"}
+      >
         {genGroupLevelTable(groupLevelAggs, geography, t)}
       </Collapse>
 
-      <Collapse title={t("Show by MPA")}>
+      <Collapse
+        title={t("Show by MPA")}
+        collapsed={!printing}
+        key={String(printing) + "mpa"}
+      >
         {genMpaSketchTable(sketchesById, childAreaPercMetrics, geography, t)}
       </Collapse>
     </>
